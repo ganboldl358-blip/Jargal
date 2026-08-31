@@ -1,0 +1,102 @@
+﻿hole_id_raw,hole_id_norm,changed,seen_in
+BS001,BS001,0,BayanSair_Drilling Sample Petrography_12 Sample.docx; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+CRS01,CRS01,0,Collar_all_combined; Survey_all_YMB
+CRS01A,CRS01A,0,Collar_all_combined; English 41 Petrographic and Mineragraphic description.docx; English Petrographic and Mineragraphic Descriptions. 6.docx; English Petrographic and Mineragraphic description. 15.docx (Innova Mineral); Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Samples_to_Japan.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+CRS02,CRS02,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+CRS03,CRS03,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+CRS04,CRS04,0,Collar_all_combined; Survey_all_YMB
+CRSO1A,CRS01A,1,
+MU2501,MU2501,0,Collar_all_combined; Survey_all_YMB
+MU2502,MU2502,0,Collar_all_combined; Survey_all_YMB
+OVD-001,OVD001,1,Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Petrograph_MIRESL20230816_summary__Summary Table.csv; Suggested_Petro_for_the_Oval_2024__Sheet1.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD-002,OVD002,1,Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Petrograph_MIRESL20230816_summary__Summary Table.csv; Suggested_Petro_for_the_Oval_2024__Sheet1.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD-003,OVD003,1,Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Petrograph_MIRESL20230816_summary__Summary Table.csv; Suggested_Petro_for_the_Oval_2024__Sheet1.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD-004,OVD004,1,Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Petrograph_MIRESL20230816_summary__Summary Table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD-005,OVD005,1,Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Petrograph_MIRESL20230816_summary__Summary Table.csv; Suggested_Petro_for_the_Oval_2024__Sheet1.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD-007,OVD007,1,Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Petrograph_MIRESL20230816_summary__Summary Table.csv; Suggested_Petro_for_the_Oval_2024__Sheet1.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD-008,OVD008,1,Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Suggested_Petro_for_the_Oval_2024__Sheet1.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD-009,OVD009,1,"15ш пет-мин бичиглэл. 09.02. (2 петрографи, 13 пет-мин бичиглэл) (1).docx; Drillhole Petrograph_2023__Sheet1.csv; Petrograph_2023__Sheet1.csv; Petrograph_MIRESL20230816_summary__Summary Table.csv; Suggested_Petro_for_the_Oval_2024__Sheet1.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv"
+OVD-11,OVD011,1,
+OVD-21,OVD021,1,
+OVD001,OVD001,0,2023-06-20-3 thin sections.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD002,OVD002,0,Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD003,OVD003,0,Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Петрограф008.docx
+OVD004,OVD004,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD005,OVD005,0,Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Петрограф008.docx
+OVD006,OVD006,0,Collar_all_combined; Survey_all_YMB
+OVD007,OVD007,0,Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Петрограф008.docx
+OVD008,OVD008,0,2023-06-20-3 thin sections.pdf; Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Петрограф008.docx
+OVD008A,OVD008A,0,Survey_all_YMB
+OVD008a,OVD008A,1,Collar_all_combined
+OVD009,OVD009,0,"15ш пет-мин бичиглэл. 09.02. (2 петрографи, 13 пет-мин бичиглэл) (1).docx; Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv"
+OVD010,OVD010,0,Collar_all_combined; English 41 Petrographic and Mineragraphic description.docx; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+OVD011,OVD011,0,Collar_all_combined; English 41 Petrographic and Mineragraphic description.docx; English Petrographic and Mineragraphic description. 15.docx (Innova Mineral); Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+OVD011E,OVD011E,0,Collar_all_combined; Survey_all_YMB
+OVD012,OVD012,0,Collar_all_combined; Survey_all_YMB
+OVD013,OVD013,0,Collar_all_combined; Survey_all_YMB
+OVD013A,OVD013A,0,Collar_all_combined; Survey_all_YMB
+OVD013E,OVD013E,0,Collar_all_combined; Survey_all_YMB
+OVD014,OVD014,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+OVD015,OVD015,0,Collar_all_combined; English 41 Petrographic and Mineragraphic description.docx; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+OVD016,OVD016,0,Collar_all_combined; Survey_all_YMB
+OVD017,OVD017,0,Collar_all_combined; Survey_all_YMB
+OVD018,OVD018,0,Collar_all_combined; Survey_all_YMB
+OVD019,OVD019,0,Collar_all_combined; Survey_all_YMB
+OVD020,OVD020,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+OVD021,OVD021,0,Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD022,OVD022,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__2024_Phase_2_Drilling.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD023,OVD023,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__2024_Phase_2_Drilling.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD024,OVD024,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__2024_Phase_2_Drilling.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD025,OVD025,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__2024_Phase_2_Drilling.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD026,OVD026,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__2024_Phase_2_Drilling.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD027,OVD027,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__2024_Phase_2_Drilling.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD028,OVD028,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__2024_Phase_2_Drilling.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD029,OVD029,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv
+OVD030,OVD030,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD030A,OVD030A,0,Collar_all_combined; Survey_all_YMB
+OVD031,OVD031,0,Collar_all_combined; Survey_all_YMB
+OVD032,OVD032,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD033,OVD033,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD034,OVD034,0,Collar_all_combined; Survey_all_YMB
+OVD035,OVD035,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD036,OVD036,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD037,OVD037,0,Collar_all_combined; Survey_all_YMB
+OVD038,OVD038,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD039,OVD039,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD040,OVD040,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD041,OVD041,0,Collar_all_combined; Survey_all_YMB
+OVD042,OVD042,0,Collar_all_combined; Survey_all_YMB
+OVD043,OVD043,0,Collar_all_combined; Survey_all_YMB
+OVD044,OVD044,0,Collar_all_combined; Survey_all_YMB
+OVD045,OVD045,0,Collar_all_combined; Survey_all_YMB
+OVD046,OVD046,0,Collar_all_combined; Survey_all_YMB
+OVD047,OVD047,0,Collar_all_combined; Survey_all_YMB
+OVD048,OVD048,0,Collar_all_combined; Survey_all_YMB
+OVD049,OVD049,0,Collar_all_combined; Survey_all_YMB
+OVD050,OVD050,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+OVD051,OVD051,0,Collar_all_combined; Survey_all_YMB
+OVD052,OVD052,0,Collar_all_combined; Survey_all_YMB
+OVD11,OVD011,1,
+OVD14,OVD014,1,English 41 Petrographic and Mineragraphic description.docx
+OVD15,OVD015,1,
+OVD20,OVD020,1,English 41 Petrographic and Mineragraphic description.docx; English Petrographic and Mineragraphic Descriptions. 6.docx
+OVD21,OVD021,1,English Petrographic and Mineragraphic description. 15.docx (Innova Mineral); Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Samples_to_Japan.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+OVD22,OVD022,1,"22 р цооног зассан 14ш.docx (hole OVD22, 14 samples)"
+OVD23,OVD023,1,"23 р цооног дууссан 9ш.docx (hole OVD23, 9 samples)"
+OVD24,OVD024,1,"24 р цооног зассан 13ш.docx (hole OVD24, 13 samples)"
+OVD25,OVD025,1,"25 цооног 10ш.docx (hole OVD25, 10 samples)"
+OVD26,OVD026,1,"26 р цооног 16 ш зассан.docx (hole OVD26, 16 samples)"
+OVD27,OVD027,1,"27 р цооног 12ш.docx (hole OVD27, 12 samples)"
+OVD28,OVD028,1,"28 ба 29 р цооног 9ш.docx (holes OVD28 + OVD29, 9 samples)"
+OVD29,OVD029,1,"28 ба 29 р цооног 9ш.docx (holes OVD28 + OVD29, 9 samples)"
+SC01,SC01,0,Collar_all_combined; Survey_all_YMB
+SC02,SC02,0,Collar_all_combined; Survey_all_YMB
+SC03,SC03,0,Collar_all_combined; Survey_all_YMB
+SC04,SC04,0,Asian Battery Metals March 2025 The Oval Summary Report.pdf; Collar_all_combined; English Petrographic and Mineragraphic description. 15.docx (Innova Mineral); Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv; Yambat_Petrographic_Master_Data__All.csv (interval label); Yambat_petrography_samples_2022-2024_from_Core___grab__Petrography_bichiglel_table.csv; Yambat_petrography_samples_2022-2024_from_Core___grab__Sheet3.csv
+SC05,SC05,0,Collar_all_combined; Survey_all_YMB
+SC06,SC06,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+SC07,SC07,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
+SC08,SC08,0,Collar_all_combined; Survey_all_YMB
+SC09,SC09,0,Collar_all_combined; Survey_all_YMB
+SC10,SC10,0,Collar_all_combined; Survey_all_YMB
+SC11,SC11,0,Collar_all_combined; Survey_all_YMB; Yambat_Petrographic_Master_Data__All.csv
