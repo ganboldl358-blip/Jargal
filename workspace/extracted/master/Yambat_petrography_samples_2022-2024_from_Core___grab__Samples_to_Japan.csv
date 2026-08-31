@@ -1,0 +1,24 @@
+﻿#,Sample Number ,Drillhole,Sample interval,Field Lithology description,,,,Petrography description,Petrography description,Petrography description
+#,Sample Number ,Drillhole,Sample interval,Field Lithology description,Fluid inclusion,Sulphur analysis,EPMA,Micro - description,Texture,Rock forming minerals
+1,CRS01A-41.4,CRS01A,CRS01A-41.4,Metasedimentary with intense phyllic alteration ,x,,,Mineralized Amph-Pl gneiss (from diorite),,
+2,CRS01A-53.4,CRS01A,CRS01A-53.4,Metasedimentary with intense phyllic alteration ,x,,,Mineralized qtz-actinolite-albite gneiss (after gabbrodiorite),,
+3,CRS01A-61.3,CRS01A,CRS01A-61.3,Meta sediment with strong phyllic alteration as a vein like texture. There is Q+Py veinlets with chlorite halo. The phyllic alteration has a sericite halo. Py rich and with magnetitization,x,,,"Mineralized, cordierite-actinolite metasomatite",,
+4,CRS01A-104.4,CRS01A,CRS01A-104.4,Meta sedimentary. Primary magnetite pyrrhotite alteration replaced by late phyllic alteration,x,,,"Mineralized, quartz vein with carbonate",,
+5,CRS01A-114.8,CRS01A,CRS01A-114.8,"Metasediment with strong altered to APHY, ASER, APYR. cut by multiple PY veinlets",x,,,"Mineralized, silicified cordierite-serpentine-actinolite metasomatite",,
+6,CRS01A-187.8,CRS01A,CRS01A-187.8,"Intensely APHY altered MMS with A type veins on the 188.35m, 2 veins with 3mm thickness. also with PY  vein and veinlets.",x,,,"Mineralized, silicified cordierite-serpentine-chlorite metasomatite",,
+7,OVD21-42.3,OVD21,OVD21-42.3,"Mineralaized gabbro with high ACHL, ASIL alterations. There are 1 cm thick micro breccia vein. vein containing Cal, PY, SER and CHL. Some minerals that can not be identified cemented within the vein.  PYH near the vein has been altered to hematite. The breccia vein between 28.95-29.15m. 
+Color mineral content of the gabbro more than 70%",,x,,"Mineralized, metasomatized medium grained Amph-peridotite 
+(melanocratic Gabbro?)","Hypidiomorph, poikilitic","Px-15-20%, Hb-20-25%, Alt Ol-15-20%"
+8,OVD21-107,OVD21,OVD21-107,Contact of massif sulphide and strong mineralized gabbro,,x,,"Mineralized, altered, fine to medium grained Px-Bt-Amph gabbro","Relict, Hypidiomorph, Poikilitic","Alt Pl-40-45%, Hb-20-25%, Alt Cpx-5%, Serp aft Ol-5-8%, Bt-5-10%"
+9,OVD21-121,OVD21,OVD21-121,Strong mineralized gabbro,,x,,,,
+10,47146,OVD025,OVD025-45.3,Gabbro Mineralized S,,x,,,,
+11,47153,OVD025,OVD025-51.3,Massive Sulphide,,x,,,,
+12,47183,OVD026,OVD026-61.8,Gabbro mineralized,,x,,,,
+13,47189,OVD026,OVD026-96.2,Net textured,,x,,,,
+14,47192,OVD026,OVD026-101,Net textured,,x,,,,
+15,47191,OVD026,OVD026-105.5,Massive sulphide,,x,,,,
+16,47190,OVD026,OVD026-106.8,Massive sulphide bottom contact,,x,,,,
+17,47199,OVD027,OVD027-94.4,Gabbro mineralized,,x,,,,
+18,47091,OVD027,OVD027-99,Massive sulphide,,x,,,,
+19,43113,Rock chip,,Hematite and limonite altered quartz vein,x,,,,,
+20,43123,Rock chip,,Intense Limonited Metasediment rock. Cut by Quartz.,x,,,,,

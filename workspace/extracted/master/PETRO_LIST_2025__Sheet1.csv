@@ -1,0 +1,40 @@
+﻿No,Sample id,holeid,interval m ,Package id,Lithology,Year,Drilling phase
+1,43523,CRS02,11.4,Batch 1,Peridotite,2025,Phase 3 
+2,43542,CRS02,28,Batch 1,Peridotite,2025,Phase 3 
+3,43554,CRS02,38.2,Batch 1,Rhyolite,2025,Phase 3
+4,43570,CRS02,55,Batch 1,Rhyolite,2025,Phase 3
+5,43598,CRS02,89.9,Batch 1,Listvenite,2025,Phase 3
+6,43632,CRS03,17.7,Batch 1,Metasediment,2025,Phase 3
+7,43664,CRS03,51.8,Batch 1,Breccia ,2025,Phase 3
+8,43689,CRS03,89.4,Batch 1,Metasediment ,2025,Phase 3
+9,46363,OVD036,29.4,Batch 1,Gabbrodiorite,2025,Phase 3
+10,46369,OVD036,89.2,Batch 1,Gabbrodiorite,2025,Phase 3
+11,46381,OVD036,108.8,Batch 1,Hb Peridotite,2025,Phase 3
+12,46393,OVD036,121.5,Batch 1,Olivine Gabbro,2025,Phase 3
+13,46440,OVD038,22.5,Batch 1,Altereted Gabbrodiorite,2025,Phase 3
+14,46459,OVD038,53.4,Batch 1,Olivine Gabbro,2025,Phase 3
+15,46462,OVD038,58.9,Batch 1,Altereted Gabbrodiorite,2025,Phase 3
+16,41504,OVD030,30.4,Batch 2,Diorite,2025,Phase 3
+17,41508,OVD030,69.9,Batch 2,Unmineralized Gabbro,2025,Phase 3
+18,41524,OVD030,124.3,Batch 2,Weakly mineralized gabbro,2025,Phase 3
+19,41546,OVD030,161.7,Batch 2,Poorly mineralized gabbro,2025,Phase 3
+20,41799,OVD032,336.9,Batch 2,Gabbrodiorite,2025,Phase 3
+21,46336,OVD035,47.4,Batch 2,Epidote vein,2025,Phase 3
+22,46342,OVD035,58.5,Batch 2,Metasediment,2025,Phase 3
+23,41565,,NO INTERVAL,Batch 2 ,Poorly mineralized gabbro,2025,Phase 3
+24,41582,OVD030,268.8,Batch 2 ,Diorite,2025,Phase 3
+25,43333,SC06,16.7,Batch 3,Gabbrodiorite,2025,Phase 3
+26,43353,SC06,39.3,Batch 3,Gabbrodiorite,2025,Phase 3
+27,43460,SC07,154.3,Batch 3,Gabbro,2025,Phase 3
+28,43471,SC07,172.5,Batch 3,Sandstone,2025,Phase 3
+29,43477,SC07,180,Batch 3,Gabbro ,2025,Phase 3
+30,43494,SC07,211.6,Batch 3,Pyroxenite?-Poorly mineralized,2025,Phase 3
+31,43515,SC07,246.4,Batch 3,Dunite,2025,Phase 3
+32,46451,OVD038,40.3,Batch 3,Px Hb Gabbro,2025,Phase 3
+33,46470,OVD038,137.57,Batch 3,Diorite,2025,Phase 3
+34,46489,OVD039,35,Batch 3,Poorly mineralised gabbro,2025,Phase 3
+35,46496,OVD039,46.1,Batch 3,Poorly mineralised gabbro,2025,Phase 3
+36,46511,OVD039,106.8,Batch 3,Dolerite?,2025,Phase 3
+37,46545,OVD040,44.4,Batch 3,Weak mineralized Hornblende Peridotite ,2025,Phase 3
+38,46564,OVD040,77.5,Batch 3,Weak mineralized Hornblende Peridotite ,2025,Phase 3
+39,46592,OVD040,116.4,Batch 3,Poorly mineralized Olivine Gabbro ,2025,Phase 3

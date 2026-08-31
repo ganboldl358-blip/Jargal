@@ -1,0 +1,67 @@
+﻿#,Sample ID,Lab type,X,Y,Rock name,#,Sample_number,Description,Sample analysis,Sample analysis,Sample analysis,Sample analysis,Description
+#,Sample ID,Lab type,X,Y,Rock name,#,Sample_number,Description,Polished thin section,Thin section,ASD,Fluid inclusion,Description
+1,YT-08,petro/xrd,722350.4,5143990.61,Rhyodacite,,,,x,,,x," Strong porisity sulfide,  sercite alteration zone. sferoid texture in contact part. alteration zone wide 1m. length 25m"
+2,YT-20,petrography,722303.65,5144031.73,Basalt - Andesite basalt,,,,x,,,x,Altered basalt. Wide 2M. STRIKE NW300.
+3,YM-27,petrography,722121.37,5144721.31,Andesite porphyry,,,,x,,,x, pillow lava. ser mod. mod weath. stuff awaw.
+4,YM-29,petrography,722156.87,5144590.09,Subvolcanic Rock,,,,x,,,x, SE139. Metasandstone?? 5m orchim zuzaan. high weath. zanar ni q eer herchigdsen. stuff awaw
+5,YT-21,petrography,722117.6,5144039,Basalt - Andesite basalt,,,,x,,,x,basalt-andesibasalt
+6,YT-38,petro/xrd,722620.01,5143619.98,Andesite porphyry,,,,x,,,x,"Weak-moderate limonite, hematite, weakly pyrite rhyolite dyke  "
+7,YT-40,petrography,799827,5146528,Tuffsandstone,,,,x,,,x, tuff
+8,2021-01,petrography,721977,5144570,,,,,,,,,Gossan
+9,OV202202,petrography,,,Altered andesite,,,,,,,,
+10,OV202203,petrography,,,Schist or Mudstone,,,,,,,,
+11,OVF-1,petrography,721957,5144521,Quartz vein,,,,,,,,Gossan
+12,OVF-2,petrography,721955,5144520,Quartzite,,,,,,,,quartzite hematite ?
+13,20,petrography,,,Dacite Porphyry,,,,,,,,dacite porphyry
+14,OV-40,petrography,721758.24,5144762.44,Intrusive Rock?,,,,,,,," Yelowish brown,  porphyry,  weak limonite,  pyrite rock"
+15,OV-41,petrography,721752.95,5144759.69,mafic intrusive,,,,,,,," Light yellowish,  moderate Py,  weak hematite,  moderate limonite altered rock"
+16,OV-51,petrography,722721.77,5143535.38,altered dolerite,,,,,,,, Dark grey fine grained altered rhyolite dyke. andesite ?
+17,sh-14,petrography,721955,5144520,Gossan,,,,,,,,Gossan
+18,sh-18,petrography,721956,5144520,Diorite,,,,,,,,Gossan
+19,sh-14-1,petrography,721948,5144538,Diorite,,,,,,,,Gossan
+20,sh-16,petrography,721964.37,5144632.72,Gossan,,,,,,,,Gossan
+21,2107,petrography,721940,5144536,Gabbro amphybolite,,,,,,,,Gabbro
+22,2104-1,petrography,721963,5144519,Габбродиорит порфироор үүссэн амфиболит,,,,,,,,Gossan
+23,A,petrography,721934.27,5144523.75,Gabbro pyroxenite,,,,,,,,Gossan
+24,2102,petrography,721923,5144521,Gabbrodiorite porphyry and Amphybolite,,,,,,,,Basalt
+25,TS1,petrography,723196.31,5144020.8,Gabbro dyke,,,,x,,,x,
+26,TS2,petrography,723253.82,5144074,Diabase dyke,,,,x,,,,
+27,TS3,petrography,722509.53,5142753.8,Gabbro dyke,,,,,x,,,
+28,TS4,petrography,722367,5143973.8,Gabbro dyke,,,,x,,,,
+29,TS5,petrography,722635.85,5142772.3,Basalt dyke,,,,x,,,,
+30,TS6,petrography,720981.03,5144171,Rhyolite dyke,,,,x,,,,
+31,TS7,petrography,722866.86,5142947.2,Gabbro dyke,,,,x,,,,
+32,RC5,petrography,723050,5144094,Gabbro dyke,,,,x,,,,
+33,RC6,petrography,722535.5,5142813,Gabbro dyke,,,,x,,,,
+34,43113,petrography,726177,5149661,,,,,x,,,,Hematite and limonite altered quartz vein
+35,43122,petrography,726211,5149539,,,,,x,,,,Intense Limonited Metasediment rock. Cut by Quartz.
+36,43123,petrography,726166,5149674,,,,,x,,,,Intense Limonited Metasediment rock. Cut by Quartz.
+37,43125,petrography,726157,5149688,,,,,x,,,,"Py boxwork in Quartz Veins, moderate to Strong jarosite in Py in Rock."
+38,43141,petrography,726462,5149400,,,,,,x,,,"Mendee's CR82 point. Strong silcified hydrothermal brecciated metasedimentary. XRF reading high sulfur S-4000ppm, Phosphorus-1%. Hydrothermal cement material has magnetite."
+39,43144,petrography,726030,5149777,,,,,x,,,,"Qtz sheeted veinlets. 21 veins per meter. XRF reading Cu-3500ppm. The rock is strong silcified limonite hematite altered metasedimentary cut by veinlets. Strong limonite altered part's XRF reading is 270ppm Cu, but the less limonite altered, strong silicic altered and cut by sheeted veins part contains 3500ppm Cu by XRF reading. Sample CR86. dip azi 315, dip 63. "
+40,43146,petrography,725425,5150183,,,,,,x,,,Strong  hematite altered gneissous rock
+41,41154,petrography,722447,5142772,,,,,x,,,,"Hydrotermal breccia. Strongly brecciated rock. Quartz, carbonate breccia. Light yellowish, moderately limonite, strongly carbonate alteration"
+42,41155,petrography,723353,5143066,,,,,x,,,,"Greenish gray, porphyritic diorite, disseminated py, limonite, malachite replaced sulfide blebs with some residual chalcopyrite"
+43,41160,petrography,724968,5150749,,,,,,x,,,"Dark green, moderately magnetic, strongly chlorytic mafic rock (Andesite?)"
+44,41161,petrography,725190,5150596,,,,,x,,,,Andesitic rock with hematitic alteration along the fractures
+45,41162,petrography,725173,5150718,,,,,,x,,,Felsic rock with jarositic alteration
+46,41163,petrography,725248,5150574,,,,,,x,,,Andesite with some malachite within the fractures
+47,41167,petrography,725244,5150611,,,,,,x,,,"Meta sediment with strongly laminated texture, with strong limonitic, hematitic, sericitic alterations "
+48,41168,petrography,725262,5150608,,,,,x,,,,"Meta sediment with strongly argillic, limonitic, sercitic alterations"
+49,41169,petrography,725268,5150609,,,,,x,,,,Altered rock with strong silicification and hematitic alterations
+50,41172,petrography,725288,5150618,,,,,,,,,"Rhyolite with strong goetic, hematitic, limonitic and argillic aletrations"
+51,41178,petrography,725289,5150689,,,,,,,,,Light yellowish altered porphyritic rhyolite with strong limonitic alterations
+52,41179,petrography,725305,5150714,,,,,,,,,Alkaline rock with strong hematitic alterations
+53,41180,petrography,725467,5150628,,,,,,,,,"Light greenish altered rhyolite with strong silicification, located on the north side of the fault, maybe related to the fault zone the rock may be altered. "
+54,41183,petrography,724944,5150584,,,,,,,,,Andesite
+55,47077,petrography,725458,5150977,,,,,,,,,Strong metasomatized ultramafic
+56,47084,petrography,725282,5151043,,,,,,,,,Ultramafic?
+57,47076,petrography,725509,5150944,,,,,,,,,Strong metasomatized ultramafic
+58,47071,petrography,725531,5150387,,,,,,,,,Monzodiorite
+59,47072,petrography,725556,5150383,,,,,,,,,Monzodiorite
+60,47073,petrography,725568,5150379,,,,,,,,,Monzodiorite
+61,CR66,petrography,,,,,,,,,,,Fuchsite 
+62,CR99,petrography,,,,,,,,,,,Mafic rock
+63,CR71,petrography,725970,5150777,,,,,,,,,Basalt
+64,CR1,petrography,,,,,,,,,,,Andesite
+65,CRE,petrography,,,,,,,,,,,"Strong sericite, jarosite altered metasomatite"
