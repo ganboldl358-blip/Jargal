@@ -1,0 +1,24 @@
+Tag,depth,hole id,Mineralization,Rock type,Code,Lithofacies,Alteration,Alteration minerals,EDS-SEM,Ore mineral,Unknow mineral,Another opaque and mineralization related minerals
+40579,36m,OVD-004,,spotted???,OVD001,Amphibole micro-gabbro,Weak,"Sericite, chlorite",,"Pyrite, Chalcopyrite",,Hematite
+40605,91m,OVD-004,,spotted,OVD002,Amphibole-Orthopyroxene micro-gabbro,Weak,Chlorite,,Chalcopyrite,,
+40574,28m,OVD-004,weakly mineralized ,oxidazed gabbro,OVD003,Oxidized Amphibole Gabbro,Middle,"Sericite, chlorite",O,Ni and Cu-bearing Goethite,,Hematite
+40635,53m,OVD-005,disseminate,gabbro,OVD004,Amphibole micro-gabbro,Weak,Illite-smectite alteration,,"chalcopyrite, Ni-bearing pyrrhotite, Heideite (?)",,Ilmenite
+40645,71m,OVD-005,weakly mineralized ,gabbro,OVD005,Amphibole gabbro,Weak,"sericite, calcite, chlorite",O,"chalcopyrite, Ni-bearing pyrite, pentlandite",,Ilmenite
+40715,98.2,OVD-007,,schist,OVD006,Shale (weak schistosity),Not alt.,,,Pyrite (Sedimentary Origine?),,
+40628,40.5m,OVD-005,disseminate,gabbro,OVD007,Amphibole gabbro,Weak,"Sericite, chlorite",O,"Chalcopyrite, pyrite, Ni-bearing pyrite, pentlandite, Cr-bearing magnetite","Ag-Te mineral, Ni-bearing anglesite (?)",
+40530,157.5m,OVD-003,disseminate,gabbro,OVD008,Amphibole micro-gabbro,Partly strong,"Sericite, chlorite",O,"Chalcopyrite, pyrite, Ni-bearing pyrite, pentlandite, Cd-bearing sphalerite","Ag-Te-Bi mineral, Ag-Au mineral",Magnetite
+40899,15.5m,OVD-001,,spotted/Schist ,OVD009,Pelitic rock (weak schistosity),Not alt.,,,,,Quartz and Goethite-quartz veinlets
+40901,20.4m,OVD-002,,oxidazed gabbro,OVD010,Oxidized Amphibole Gabbro,Partly strong,Sericite,,Chalcopyrite,,
+40902,87.4m,OVD-002,,schist,OVD011,Pelitic rock ,Not alt.,,,"Pyrite, pyrrhotite",,
+40903,7.15m,OVD-001,gossan,gossan,OVD012,Gossan (Iron oxide-calcite-quartz),Strong,"Goethite, calcite",O,,Ag-I mineral,Goethite
+40904,44.2m,OVD-002,disseminate,gabbro,OVD013,Amphibole micro-Gabbro,Middle,"Sericite, chlorite",O,"Chalcopyrite, Pyrite, Ni-bearing pyrite, Pentlandite",As-Ag-Te Sulfide mineral,
+40905,35.8m,OVD-001,,spotted,OVD014,Strong altered diabase ,Strong,"sericitization, oxidized",,,,"Gothite, calcite"
+40906,126.4m,OVD-002,pyrite,schist,OVD015,Black Schist,Not alt.,,,Pyrite,,Hematite
+40907,62.4m,OVD-001,pyrite,schist,OVD016,Strong altered diabase ,Strong,"Sericite, Calcite",,Pyrite,,"Gothite, calcite"
+40908,8.6m,OVD-001,"cu enchired, malachite",,OVD017,Gossan (Copper-iron-oxide ),Strong,,O,Malachite,Cu and Ni-bearing Fe-Si hydroxide minerals,Goethite
+40909,51.6m,OVD-002,,schist?,OVD018,Amphibole micro-gabbro,Weak,"Sericite, chlorite",,Chalcopyrite,,
+40910,37m,OVD-002,disseminate,gabbro,OVD019,Amphibole gabbro,Partly strong,Sericite,O,"Chalcopyrite, Ni-bearing pyrrhotite, pyrite","Ag-Te mineral, Ag-Te-Bi mineral, ",
+40911,75.5m,OVD-002,,spotted,OVD020,Strong altered diabase ,Strong,sericite-calcite,,Pyrite (Sedimentary Origine?),,
+40912,137.6m,OVD-002,,schist?,OVD021,Black Schist (weak schistosity),Not alt.,,,Pyrite (Sedimentary Origine?),,
+40914,9.4m,OVD-001,"cu enchired, bornite",gossan,OVD022,Gossan (Iron-copper oxide. Altered Gabbro?),Strong,Gossan,O,"Cu hydroxide mineral (malachite, Atacamite), Native copper",,
+40915,72m,OVD-009,disseminate,gabbro,OVD023,Altered Amphibole-Orthopyroxene micro-gabbro,Strong,Sericite-Chlorite-Epidote,O,"Cr-bearing magnetite, pentlandite, chalcopyrite, pyrrhotite, pyrite (often Ni-bearing), galena",,

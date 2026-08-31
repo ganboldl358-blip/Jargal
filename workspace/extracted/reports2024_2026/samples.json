@@ -1,0 +1,3494 @@
+[
+ {
+  "source_file": "English Petrographic and Mineragraphic Descriptions. 6.docx",
+  "source_fileId": "1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc",
+  "sample_id": "OVD20-60.6",
+  "drillhole_id": "OVD20",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 60.6,
+  "sample_type": "double polished thin section",
+  "rock_name": "Weakly mineralised, altered melanocratic gabbro porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyraceous; groundmass poikiloophitic, prismatic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Plagioclase",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Altered olivine",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Serpentine, saussurite, talc, actinolite, carbonate; plagioclase altered to sericite-chlorite-epidote-carbonate; olivine to talc-serpentine pseudomorphs",
+  "opaque_minerals": "Ilmenite-chromite-magnetite-pyrrhotite-chalcopyrite paragenesis; pyrrhotite as irregular grains and micro-lenses replacing chromite and ilmenite",
+  "description_summary": "Hornblende and altered-olivine phenocrysts (60-65%) in a poikiloophitic groundmass of zoned plagioclase and mafic minerals. Olivine is pseudomorphed by talc-serpentine; quartz-carbonate amygdales and lenses 0.5-3.0 mm occur. Ore minerals (ilmenite, chromite, magnetite, pyrrhotite, chalcopyrite) occur in minor amounts, pyrrhotite associated with talc-serpentine pseudomorphs.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic Descriptions. 6.docx",
+  "source_fileId": "1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc",
+  "sample_id": "CRSO1A-61.3",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 61.3,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised cordierite-actinolite metasomatite",
+  "rock_name_original": null,
+  "texture": "Lepidogranonematoblastic; structure weakly parallel, lens- and veinlet-like",
+  "minerals": [
+   {
+    "mineral": "Actinolite",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Cordierite",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Serpentine",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Sphalerite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Sericite; serpentine micro-lenses",
+  "opaque_minerals": "Ilmenite-pyrite-magnetite-pyrrhotite-chalcopyrite-sphalerite paragenesis; pyrrhotite dominant as irregular grains, lenses and streaks replacing magnetite/ilmenite and replaced by chalcopyrite",
+  "description_summary": "Strongly mineralised metasomatite of unevenly distributed cordierite and actinolite similar to samples 41.4 and 53.4. Coarse tabular cordierite (0.5-3.0 mm) with undulatory extinction hosts actinolite inclusions; fibrous actinolite forms nematoblastic radial aggregates. Ore minerals intergrown with cordierite, actinolite and probable serpentine; sphalerite carries micro-inclusions of chalcopyrite and pyrrhotite.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic Descriptions. 6.docx",
+  "source_fileId": "1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc",
+  "sample_id": "CRSO1A-81.1",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 81.1,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised spinel-cordierite-actinolite metasomatite (micro-gneiss)",
+  "rock_name_original": null,
+  "texture": "Heterolepidogranonematoblastic; structure weakly parallel, lens- and veinlet-like",
+  "minerals": [
+   {
+    "mineral": "Actinolite",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Cordierite",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Monoclinic pyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Muscovite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Serpentine",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Garnet",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Spinel",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "1-3"
+   }
+  ],
+  "alteration": "Hornblende partially altered to actinolite; serpentine micro-lenses",
+  "opaque_minerals": "Ilmenite-pyrite-magnetite-pyrrhotite-chalcopyrite paragenesis; chalcopyrite in lens-like and banded clusters 0.5-8.0 mm wide; euhedral green spinel intergrown with magnetite",
+  "description_summary": "Banded metasomatite (similar to samples 41.4, 53.4, 61.3) of cordierite, pyroxene, actinolite, biotite, garnet, muscovite and spinel; hornblende-actinolite-quartz bands with coarse pyrite and chalcopyrite 1-8 mm wide. Intensely mineralised; ore minerals grow in association with all silicates including euhedral square spinel grains.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic Descriptions. 6.docx",
+  "source_fileId": "1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc",
+  "sample_id": "CRSO1A-90.5",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 90.5,
+  "sample_type": "double polished thin section",
+  "rock_name": "Silicified and mineralised serpentinite with biotite-chlorite",
+  "rock_name_original": null,
+  "texture": "Lepidoblastic; structure lens- and vein-like",
+  "minerals": [
+   {
+    "mineral": "Serpentine",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Silicification (quartz veins/lenses 0.5-2.0 mm), chloritization, carbonate",
+  "opaque_minerals": "Pyrite-chalcopyrite paragenesis; pyrite as euhedral to irregular grains 0.1-2.0 mm in lens-shaped aggregates within serpentine, rimmed/replaced by chalcopyrite; chalcopyrite micro-lenses in quartz veins",
+  "description_summary": "Serpentine-dominated rock (relict six/eight-sided olivine shapes) with abundant biotite flakes and chlorite lenses, crosscut by quartz veins from silicification. Field description: meta-sediment. XRD-identified minerals include quartz, muscovite, pyrite, clinochlore and lizardite. Mineralisation forms micro-lenses and veinlets of pyrite and chalcopyrite with serpentine, chlorite, carbonate and quartz.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic Descriptions. 6.docx",
+  "source_fileId": "1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc",
+  "sample_id": "CRSO1A-104.4",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 104.4,
+  "sample_type": "double polished thin section",
+  "rock_name": "Carbonated and mineralised quartz vein",
+  "rock_name_original": null,
+  "texture": "Granoblastic; structure lens- and vein-like",
+  "minerals": [
+   {
+    "mineral": "Quartz",
+    "pct": "70-75"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Goethite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5-1.0"
+   }
+  ],
+  "alteration": "Carbonatization (carbonate veins 0.01-1.0 mm cutting quartz)",
+  "opaque_minerals": "Pyrite-goethite-chalcopyrite paragenesis; euhedral pyrite 0.1-1.5 mm in lens/vein aggregates along carbonate veins, overgrown by goethite; chalcopyrite micro-grain lenses",
+  "description_summary": "Quartz vein of granoblastic isometric quartz (0.1-1.5 mm, undulatory extinction) cut by minor carbonate veins and lenses along which ore formation occurred. Pyrite dominates, associated with carbonate veins and rimmed by goethite; minor chalcopyrite overgrows pyrite edges.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic Descriptions. 6.docx",
+  "source_fileId": "1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc",
+  "sample_id": "CRSO1A-111.8",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 111.8,
+  "sample_type": "double polished thin section",
+  "rock_name": "Altered plagio-rhyolite (plagio-granite porphyry)",
+  "rock_name_original": null,
+  "texture": "Porphyroblastic; groundmass felsitic, locally micro-aplitic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Quartz",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "K-feldspar",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Zircon",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Plagioclase strongly altered to sericite, pelite, carbonate, muscovite; biotite locally to chlorite and rutile; epigenetic carbonate veins 0.02-0.1 mm",
+  "opaque_minerals": "Pyrite-magnetite paragenesis; euhedral magnetite 0.05-0.1 mm occasionally replacing pyrite; sparse cubic pyrite 0.01-0.1 mm",
+  "description_summary": "Porphyritic felsic rock with plagioclase (oligoclase An28-29, 0.8-8.5 mm) and rounded quartz phenocrysts (30-35%) in a felsitic quartz-albite-biotite groundmass with minor K-feldspar. Phenocrysts strongly sericitized/carbonatized with fresh zoned rims; rock cut by thin carbonate veins. Accessories: sphene, zircon, apatite; ore minerals magnetite and pyrite in trace amounts. Sample labelled \"111.8\" in the doc; hole CRS01A inferred from report context.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "CRSO1A-41.4",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 41.4,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised amphibole-plagioclase gneiss (formed from gabbro-diorite)",
+  "rock_name_original": null,
+  "texture": "Nematogranoblastic, relict porphyroblastic, relict hypidiomorphic; structure gneissic, lens-like",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (albite)",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Actinolite",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Plagioclase completely albitized; actinolite after amphibole",
+  "opaque_minerals": "Magnetite-pyrrhotite-chalcopyrite paragenesis, evenly disseminated; magnetite replaced by pyrrhotite, pyrrhotite by chalcopyrite; euhedral pyrite in quartz aggregates; magnetite-pyrrhotite-millerite crystal noted in microphoto",
+  "description_summary": "Gneiss of albite, actinolite and quartz aligned in one direction (nematogranoblastic) with relict poikilitic/hypidiomorphic textures indicating a gabbro-diorite protolith. Significantly mineralized, ore minerals associated with both albite and actinolite growth; lenticular quartz granoblastic clusters host euhedral pyrite.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD21-42.3",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 42.3,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised and altered fine to medium grained peridotite with hornblende (melanocratic gabbro?)",
+  "rock_name_original": null,
+  "texture": "Hypidiomorphic, poikilitic; structure vein-, net-like",
+  "minerals": [
+   {
+    "mineral": "Pyroxene",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Altered olivine",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Silver, PGE?",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Serpentine+saussurite+talc+actinolite (secondary)",
+    "pct": "10-15"
+   }
+  ],
+  "alteration": "Serpentinization (veins along pyroxene cleavage), saussurite, talc, actinolite",
+  "opaque_minerals": "Chromite-magnetite-pentlandite-pyrrhotite-chalcopyrite paragenesis; ore lenses 0.8-7.0 mm; pyrrhotite dominant, replaced by chalcopyrite; pentlandite replaced by pyrrhotite and millerite; possible PGE/white-gold group micrograins 0.005-0.01 mm",
+  "description_summary": "Hornblende peridotite / melanocratic gabbro dominated by monoclinic pyroxene with serpentinized olivine, brown hornblende and biotite; interstitial basic plagioclase slightly saussuritized. Strong Ni-Cu style mineralization as evenly distributed sulfide lenses linked to serpentinization of the ultramafic-mafic intrusive; high-reflectance white micrograins may be precious-metal phases requiring analysis.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "CRSO1A-53.4",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 53.4,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised gneiss with quartz-actinolite-albite (metasomatite formed from gabbro-diorite)",
+  "rock_name_original": null,
+  "texture": "Lepidonematogranoblastic, relict porphyroblastic, relict hypidiomorphic; structure gneissic, lens-vein like",
+  "minerals": [
+   {
+    "mineral": "Albite",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Actinolite",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Sphalerite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Plagioclase albitized; deformed granoblastic recrystallization",
+  "opaque_minerals": "Pyrite-magnetite-pyrrhotite-chalcopyrite-sphalerite paragenesis evenly distributed; chalcopyrite lens-like microaggregates replacing pyrrhotite and magnetite; sphalerite with chalcopyrite inclusions",
+  "description_summary": "Similar to sample 41.4: albite-actinolite-biotite-quartz gneiss with relict porphyroblastic/hypidiomorphic textures after gabbro-diorite. Quartz granoblastic lens/vein zones 5-7 mm wide contain actinolite needles and ore minerals. Strongly mineralized with chalcopyrite notably abundant (8-10%).",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD21-76.6",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 76.6,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralized, serpentinized, fine- to medium-grained hornblende-bearing peridotite",
+  "rock_name_original": null,
+  "texture": "Relict hypidiomorphic, poikilitic, occasionally sideronitic; structure massive, net",
+  "minerals": [
+   {
+    "mineral": "Serpentine pseudomorphs (after olivine and pyroxene)",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Serpentine+saussurite+talc+actinolite (secondary)",
+    "pct": "10-15"
+   }
+  ],
+  "alteration": "Intense serpentinization (pseudomorphs with relict 6-8-sided olivine outlines), talc, actinolite, saussurite",
+  "opaque_minerals": "Magnetite-pyrite-pentlandite-pyrrhotite-chalcopyrite paragenesis; ore lenses 1.0-8.0 mm; pyrrhotite dominant (0.8-6.0 mm) rimmed by chalcopyrite; fine magnetite veinlets in serpentine; minor euhedral pyrite and chromite",
+  "description_summary": "Similar to sample 42.3: serpentine pseudomorphs after olivine (with relict olivine remnants) and pyroxene, strongly replaced marginally by brown hornblende; minor biotite and saussuritized plagioclase. Intense sulfide mineralization as evenly distributed lenses tied to serpentinization of the ultramafic-mafic intrusive.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-21-94.4",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 94.4,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised, serpentinized, fine to medium grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Relict hypidiomorphic, poikilitic, occasionally sideronitic; structure massive, net",
+  "minerals": [
+   {
+    "mineral": "Serpentine pseudomorphs (after olivine and pyroxene)",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite-fuchsite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Serpentinization, saussurite, talc, actinolite, iddingsite; fuchsite after hornblende margins",
+  "opaque_minerals": "Magnetite-pentlandite-pyrrhotite-chalcopyrite paragenesis; pyrrhotite 80-85% of ore minerals in lenses 0.5-7.0 mm; magnetite fine-grained intersecting veinlets in serpentine; pentlandite replaced by pyrrhotite and millerite",
+  "description_summary": "Similar to samples 42.5 and 76.6: magnetite-bearing serpentine pseudomorphs after olivine/pyroxene with hornblende, biotite-fuchsite and minor saussuritized plagioclase. Intense mineralization as magnetite veinlets along serpentine fractures plus evenly distributed sulfide lenses related to serpentinization.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-11-101.5",
+  "drillhole_id": "OVD11",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 101.5,
+  "sample_type": "double polished thin section",
+  "rock_name": "Altered quartzose microdiorite",
+  "rock_name_original": null,
+  "texture": "Relict prismatic, poikilo-ophitic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "50-55"
+   },
+   {
+    "mineral": "Altered hornblende",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Leucoxenized titanite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Sericite, pelite, saussurite, actinolite, chlorite; epigenetic carbonate veinlets 0.1-0.5 mm",
+  "opaque_minerals": "Titanite-pyrite paragenesis only; leucoxenized titanite 0.03-0.2 mm associated with hornblende; sparse fine pyrite 0.01-0.05 mm",
+  "description_summary": "Strongly altered microdiorite: plagioclase almost completely sericitized/saussuritized retaining relict prismatic form; hornblende heavily altered to actinolite and carbonate; sparse interstitial quartz with poikilitic inclusions. Essentially unmineralized; crosscut by carbonate(-actinolite) veinlets.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-21-107",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 107.0,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised, altered, fine to medium grained pyroxene-biotite-hornblende gabbro",
+  "rock_name_original": null,
+  "texture": "Relict hypidiomorphic, poikilitic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "5"
+   },
+   {
+    "mineral": "Serpentine pseudomorph",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "10"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "1.0-2"
+   },
+   {
+    "mineral": "Sphene",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Silver, PGE?",
+    "pct": "2-3 phenocrysts"
+   }
+  ],
+  "alteration": "Serpentine, epidote, actinolite, chlorite; plagioclase cores altered to sericite-actinolite-epidote",
+  "opaque_minerals": "Magnetite-pentlandite-pyrrhotite-chalcopyrite paragenesis; chalcopyrite and magnetite dominant, lens-like accumulations 0.5-5.0 mm; possible platinum-group micrograins 0.005-0.01 mm",
+  "description_summary": "Gabbro of zoned mafic plagioclase, brown hornblende (with monoclinic pyroxene relicts), biotite and serpentinized olivine pseudomorphs. Intense mineralization forms relatively large evenly distributed ore lenses texturally associated with plagioclase and mafic minerals; chalcopyrite is notably abundant. Tiny high-luster white grains possibly PGM.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-21-116.1",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 116.1,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised and serpentinized, fine to medium grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Relict hypidiomorphic, poikilitic, occasionally sideronitic; structure massive, net",
+  "minerals": [
+   {
+    "mineral": "Serpentinized olivine and pyroxene",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite-fuchsite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Sphalerite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "PGM phenocrysts?",
+    "pct": "5-6 phenocrysts"
+   }
+  ],
+  "alteration": "Partial serpentinization (olivine/pyroxene not fully pseudomorphed), saussurite, talc, actinolite, iddingsite; fuchsite",
+  "opaque_minerals": "Magnetite-pentlandite-pyrrhotite-chalcopyrite-sphalerite paragenesis; ore lenses 0.5-6.0 mm, pyrrhotite ~80% of lenses; millerite noted; white-gold group micrograins 0.005-0.01 mm",
+  "description_summary": "First of two slides labelled OVD-21-116.1. Identical macro/microscopically to samples 42.5 and 76.6 but olivine and pyroxene only partially serpentinized. Intense mineralization: magnetite veinlets in serpentine plus evenly distributed pyrrhotite-dominated sulfide lenses related to serpentinization of the ultramafic-mafic intrusive.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-21-116.1 (2)",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 116.1,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised, serpentinized, fine to medium grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Relict hypidiomorphic, poikilitic, in parts sideronitic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Serpentine pseudomorph (after pyroxene and olivine)",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "5"
+   },
+   {
+    "mineral": "Biotite-fuchsite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Sphalerite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "PGM",
+    "pct": "3-5 phenocrysts"
+   }
+  ],
+  "alteration": "Serpentinization, saussurite, talc, actinolite; fuchsite and iddingsite",
+  "opaque_minerals": "Magnetite-pentlandite-pyrrhotite-chalcopyrite-sphalerite paragenesis; ore lenses 0.5-7.0 mm; pyrrhotite up to 7.0 mm rimmed/replaced by chalcopyrite (itself a dominant ore mineral, 0.1-2.5 mm); grey sphalerite 0.1-0.2 mm with chalcopyrite-pyrrhotite inclusions; white-gold group grains 0.004-0.01 mm",
+  "description_summary": "Second slide of sample OVD-21-116.1 (\"There was 2\"). Generally identical to samples 42.5 and 76.6: serpentine pseudomorphs after pyroxene/olivine with hornblende, biotite-fuchsite and minor plagioclase. Intense sulfide mineralization tied to serpentinization; chalcopyrite and pyrrhotite dominant.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-21-146.9",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 146.9,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised, serpentinized, fine to medium grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Relict hypidiomorphic, poikilitic, in parts sideronitic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Serpentine pseudomorph (after olivine and pyroxene)",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Biotite-fuchsite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Serpentinization, saussurite, talc, actinolite, iddingsite; fuchsite associated with olivine/serpentine",
+  "opaque_minerals": "Magnetite-pentlandite-pyrrhotite-chalcopyrite paragenesis; ore lenses 0.5-6.0 mm evenly distributed; fine magnetite veinlets along serpentine cleavage; chalcopyrite 0.1-2.0 mm replacing/rimming pyrrhotite",
+  "description_summary": "Generally identical to sample 116.1: serpentine pseudomorphs (with talc, actinolite, biotite, fuchsite, iddingsite) after olivine/pyroxene plus dark hornblende and minor strongly saussuritized plagioclase. Intense mineralization as evenly distributed sulfide lenses related to serpentinization of the ultramafic-mafic intrusive.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-21-148.8",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 148.8,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised, serpentinized, fine to medium grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Relict hypidiomorphic, poikilitic, in parts sideronitic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Serpentine pseudomorph (after olivine and pyroxene)",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Biotite-fuchsite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Serpentinization, saussurite, talc, actinolite, iddingsite; fuchsite",
+  "opaque_minerals": "Magnetite-pentlandite-pyrrhotite-chalcopyrite paragenesis; ore lenses 0.5-6.0 mm; pyrrhotite 0.2-6.0 mm rimmed/replaced by chalcopyrite (0.1-2.5 mm); pentlandite 0.1-0.3 mm",
+  "description_summary": "Generally identical to sample 146.9: serpentine pseudomorphs after olivine/pyroxene, dark hornblende, biotite-fuchsite and minor saussuritized plagioclase. Intense sulfide mineralization as evenly distributed lenses related to serpentinization; magnetite fine veinlets along serpentine cleavage.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "OVD-21-165.2",
+  "drillhole_id": "OVD21",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 165.2,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised, altered gabbro-porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass ophitic, poikilo-ophitic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "5"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Sericite, epidote, serpentine, saussurite, actinolite, carbonate, talc; pseudomorphs of actinolite-carbonate-talc after pyroxene; carbonate veins",
+  "opaque_minerals": "Magnetite-pentlandite-pyrrhotite-chalcopyrite paragenesis; magnetite euhedral 0.05-0.3 mm with mafic minerals; pyrrhotite-hornblende lens aggregates 0.5-1.8 mm; pentlandite micro-lenses rimmed by pyrrhotite and chalcopyrite",
+  "description_summary": "Gabbro porphyry with hornblende and altered plagioclase phenocrysts in a subophitic groundmass of plagioclase, hornblende, minor monoclinic pyroxene and biotite. Hosts xenoliths of medium-fine hornblende gabbro (1-15 mm) carrying identical ore minerals. Mineralization mostly disseminated with sulfide micro-lenses; chalcopyrite intergrown with actinolite-carbonate-talc pseudomorphs.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "SC04-168.3",
+  "drillhole_id": "SC04",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 168.3,
+  "sample_type": "double polished thin section",
+  "rock_name": "Mineralised chlorite-sericite bearing micro-schist",
+  "rock_name_original": null,
+  "texture": "Microgranolepidoblastic, porphyritic; structure schistose, lenticular, spotted, veinlet-like",
+  "minerals": [
+   {
+    "mineral": "Sericite",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "5-7"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Silver",
+    "pct": "2-3 phenocrysts"
+   }
+  ],
+  "alteration": "Sericite pseudomorphs after cordierite (sectored-extinction lenses); secondary quartz and carbonate",
+  "opaque_minerals": "Titanite-pyrite-chalcopyrite paragenesis; pyrite as cubic disseminations 0.05-0.3 mm and clustered veins 0.5-1.0 mm cutting foliation; sparse chalcopyrite micrograins; 2-3 bright-white grains possibly silver",
+  "description_summary": "Micro-schist of unidirectionally aligned chlorite-sericite; sericite lens aggregates with single-centered sectored extinction interpreted as pseudomorphs after cordierite. Mineralized with disseminated pyrite and pyrite veins along foliation; crosscut by minor carbonate-quartz veins carrying ore minerals. Microphotos labelled 168.8 (minor caption inconsistency vs sample 168.3).",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "SC04-171",
+  "drillhole_id": "SC04",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 171.0,
+  "sample_type": "double polished thin section",
+  "rock_name": "Carbonatized and silicified altered andesite",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass microlitic; structure amygdaloidal",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Altered mafic mineral",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Titanite (sphene)",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Silver?",
+    "pct": "2 grains"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Sericite+chlorite+actinolite (secondary)",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Carbonate+quartz (secondary)",
+    "pct": "5-10"
+   }
+  ],
+  "alteration": "Carbonatization and silicification; phenocrysts fully pseudomorphed by quartz-carbonate-chlorite; quartz-carbonate amygdales 0.6-2.5 mm (15-20%)",
+  "opaque_minerals": "Pyrite-pyrrhotite-chalcopyrite paragenesis (plus ilmenite), mostly within quartz-carbonate-chlorite amygdales; euhedral pyrite 0.1-2.0 mm; 2-3 bright white grains possibly silver/PGM",
+  "description_summary": "Amygdaloidal andesite with phenocrysts completely replaced by quartz-carbonate-chlorite pseudomorphs (after plagioclase and probable hornblende) in a relict microlitic groundmass with glass-derived chlorite. Abundant quartz-carbonate amygdales host the ore minerals; chalcopyrite micrograins locally resemble gold in appearance.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English Petrographic and Mineragraphic description. 15.docx (Innova Mineral)",
+  "source_fileId": "1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga",
+  "sample_id": "SC04-280.7",
+  "drillhole_id": "SC04",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 280.7,
+  "sample_type": "double polished thin section",
+  "rock_name": "Altered alkali, quartzose diorite porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass micro-hypidiomorphic, prismatic; structure massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Altered mafic mineral",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "K-feldspar",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Silver",
+    "pct": "1-2 grains"
+   }
+  ],
+  "alteration": "Sericite, epidote, chlorite, rutile, actinolite, carbonate; epigenetic carbonate and epidote lenses/veinlets 0.05-0.8 mm; mafic phenocrysts fully pseudomorphed by epidote-chlorite with rutile exsolution",
+  "opaque_minerals": "Ilmenite-pyrite-pyrrhotite-chalcopyrite paragenesis associated with altered mafic minerals; ilmenite prismatic/skeletal, slightly leucoxenized; sparse pyrite and chalcopyrite micrograins partly in epidote lenses; 2-3 bright white grains likely silver",
+  "description_summary": "Diorite porphyry with strongly sericitized/epidotized plagioclase phenocrysts (some K-feldspar rimmed) and epidote-chlorite pseudomorphs after biotite/hornblende in a plagioclase-quartz-K-feldspar groundmass with micrographic intergrowths. Weakly mineralized: mainly ilmenite plus trace sulfides and probable silver micrograins.",
+  "analyst_or_lab": "Innova Mineral LLC",
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD20-60.6",
+  "drillhole_id": "OVD20",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 60.6,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised, altered melanocratic gabbro porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass poikilo-ophitic, hypidiomorphic; massive",
+  "minerals": [
+   {
+    "mineral": "Plagioclase",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Altered olivine",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Serpentine, saussurite, talc, actinolite, carbonate; plagioclase to sericite-chlorite-epidote-carbonate; olivine to talc-serpentine pseudomorphs",
+  "opaque_minerals": "Ilmenite-chromite-magnetite-pyrrhotite-chalcopyrite paragenesis in minor amounts; pyrrhotite micro-lenses with talc-serpentine pseudomorphs, displacing chromite and ilmenite",
+  "description_summary": "Hornblende and altered-olivine phenocrysts (60-65%) in a poikilo-ophitic groundmass of zoned plagioclase and mafic minerals; olivine pseudomorphed by talc-serpentine; quartz-carbonate amygdules 0.5-3.0 mm. Weakly mineralised. Same sample as in the 6-sample report.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRS01A-61.3",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 61.3,
+  "sample_type": "polished thin section",
+  "rock_name": "Mineralised cordierite-actinolite metasomatite",
+  "rock_name_original": null,
+  "texture": "Lepidogranonematoblastic; weakly parallel, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Actinolite",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Cordierite",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Serpentine",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Sphalerite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Sericite; probable serpentine as brownish isotropic micro-lenses",
+  "opaque_minerals": "Ilmenite-pyrite-magnetite-pyrrhotite-chalcopyrite-sphalerite paragenesis; pyrrhotite dominant as anhedral grains and lenses/veins 0.2-1.0 mm, displaced by chalcopyrite; sphalerite with chalcopyrite-pyrrhotite micro-inclusions",
+  "description_summary": "Similar to samples 41.4 and 53.4 (Innova 15-sample report): unevenly distributed cordierite and actinolite in lepidogranonematoblastic texture; coarse cordierite hosts acicular actinolite; significant mineralisation intergrown with cordierite, actinolite and probable serpentine.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-81.1",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 81.1,
+  "sample_type": "polished thin section",
+  "rock_name": "Mineralised spinel-cordierite-actinolite metasomatite (micro-gneiss)",
+  "rock_name_original": null,
+  "texture": "Heterolepidogranonematoblastic; weakly parallel, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Actinolite",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Cordierite",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Pyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Muscovite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Serpentine-iddingsite?",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Spinel",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Pyroxene margins to actinolite; serpentine-iddingsite micro-lenses",
+  "opaque_minerals": "Ilmenite-magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; chalcopyrite in lenticular/banded aggregates with veins 0.5-8.0 mm; euhedral green spinel intergrown with magnetite; coarse pyrite up to 2.5 mm",
+  "description_summary": "Banded metasomatite (similar to 41.4, 53.4, 61.3) of cordierite, hornblende, actinolite, biotite, serpentine-iddingsite, muscovite and spinel; coarse pyroxene-quartz-sulfide lenses/bands 1-8 mm wide, possibly relicts of a basic/ultrabasic protolith. Strongly mineralised.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-90.5",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 90.5,
+  "sample_type": "polished thin section",
+  "rock_name": "Silicified, mineralised biotite-chlorite serpentinite",
+  "rock_name_original": null,
+  "texture": "Lepidoblastic; lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Serpentine (lizardite by XRD)",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Pyrrhotite?",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Silicification (quartz lenses/veins 0.5-2.0 mm), chloritization with carbonate",
+  "opaque_minerals": "Pyrite-chalcopyrite paragenesis; pyrite 0.1-2.0 mm in lenticular aggregates mostly in serpentine, displaced marginally by chalcopyrite; chalcopyrite micro-lenses in quartz veins",
+  "description_summary": "Serpentine (relict olivine shapes; XRD lizardite) with abundant biotite and chlorite lenses, crosscut by silicification quartz veins. Field description: meta-sediment. XRD-identified: quartz, muscovite, pyrite, clinochlore, lizardite. Numerous ore micro-lenses/veinlets with serpentine, chlorite, carbonate and quartz. Includes XRD note.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-104.4",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 104.4,
+  "sample_type": "polished thin section",
+  "rock_name": "Carbonatised, mineralised quartz vein",
+  "rock_name_original": null,
+  "texture": "Granoblastic; lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Quartz",
+    "pct": "70-75"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Goethite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5-1.0"
+   }
+  ],
+  "alteration": "Carbonatisation: carbonate veins 0.01-1.0 mm crosscutting quartz",
+  "opaque_minerals": "Pyrite-goethite-chalcopyrite paragenesis; euhedral pyrite 0.1-1.5 mm in lenses/veins 0.2-2.5 mm along carbonate veins, rimmed by goethite; chalcopyrite micro-grains displacing pyrite margins",
+  "description_summary": "Granoblastic quartz vein (grains 0.1-1.5 mm, undulose extinction) cut by minor carbonate veins/lenses along which mineralisation occurred; pyrite dominant, goethite-rimmed.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-111.8",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 111.8,
+  "sample_type": "polished thin section",
+  "rock_name": "Plagiorhyolite (plagiogranite porphyry)",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass felsitic, locally micro-aplitic; massive, lenticular",
+  "minerals": [
+   {
+    "mineral": "Quartz",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "K-feldspar",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Zircon",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Plagioclase strongly sericitized/carbonatized/muscovitized with fresh zoned rims; biotite locally to chlorite+rutile; epigenetic carbonate veins 0.02-0.1 mm",
+  "opaque_minerals": "Magnetite-pyrite paragenesis, accessory only; euhedral magnetite 0.05-0.1 mm occasionally displaced by pyrite; rare cubic pyrite 0.01-0.1 mm",
+  "description_summary": "Felsic porphyry: oligoclase (An28-29) and rounded quartz phenocrysts (30-35%) in felsitic quartz-albite-biotite groundmass with minor K-feldspar; accessory sphene, zircon, apatite. Essentially barren.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-114.8",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 114.8,
+  "sample_type": "polished thin section",
+  "rock_name": "Silicified, mineralised cordierite-serpentine-actinolite metasomatite",
+  "rock_name_original": null,
+  "texture": "Heterolepidogranonematoblastic; weakly parallel, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Actinolite (anthophyllite?)",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Cordierite",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Serpentine-iddingsite?",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Pyroxene?",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Carbonate (epigenetic)",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Quartz (epigenetic)",
+    "pct": "10-15"
+   }
+  ],
+  "alteration": "Silicification; late quartz-carbonate veins 0.5-5.0 mm; iddingsite after possible olivine relicts",
+  "opaque_minerals": "Magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; ore lenses/veins 0.1-10.0 mm along late quartz-carbonate veins; chalcopyrite dominant, forms veins 0.5-2.0 mm displacing pyrite",
+  "description_summary": "Similar to 61.3 and 81: serpentine-cordierite-actinolite metasomatite crosscut by late ore-quartz-carbonate veins 0.5-5.0 mm. Strong mineralisation both intergrown with silicates and as veins along the late quartz-carbonate stage.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-124.1",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 124.1,
+  "sample_type": "polished thin section",
+  "rock_name": "Silicified, mineralised serpentine-actinolite-cordierite metasomatite",
+  "rock_name_original": null,
+  "texture": "Heterolepidonematogranoblastic; weakly parallel, banded, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Cordierite",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Actinolite (anthophyllite?)",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Serpentine-iddingsite?",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "5-8"
+   }
+  ],
+  "alteration": "Silicification; late idiomorphic quartz lenses/bands 1.0-10.0 mm (nearly barren); iddingsite after olivine relicts",
+  "opaque_minerals": "Magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis, evenly distributed; magnetite displaced by pyrite/pyrrhotite/chalcopyrite; pyrite micro-lenticular aggregates",
+  "description_summary": "Similar to 61.3, 81 and 114.8: banded cordierite (1.0-5.0 mm prisms), actinolite and serpentine aggregates aligned in one direction; ore minerals intergrown with all three silicates, evenly distributed; late quartz bands nearly unmineralised.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-184.32",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 184.32,
+  "sample_type": "polished thin section",
+  "rock_name": "Silicified, mineralised serpentine-chlorite-cordierite metasomatite",
+  "rock_name_original": null,
+  "texture": "Heteronematogranolepidoblastic; weakly parallel, banded, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Cordierite",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Serpentine",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Actinolite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "5-8"
+   }
+  ],
+  "alteration": "Silicification; late quartz-carbonate veins 1.0-10.0 mm; carbonate-chlorite-serpentine in cordierite fracture zones",
+  "opaque_minerals": "Magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; chalcopyrite dominant (0.02-0.6 mm), displacing pyrrhotite; pyrite-chalcopyrite lenses/veins 1.0-8.0 mm along late veins",
+  "description_summary": "Serpentine-chlorite-cordierite metasomatite with lenticular/banded fabric, strongly mineralised; ore intergrown with silicates and as 0.5-8.0 mm lenses/veins along late quartz-carbonate veins.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-187.8",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 187.8,
+  "sample_type": "polished thin section",
+  "rock_name": "Silicified, mineralised cordierite-serpentine-chlorite metasomatite",
+  "rock_name_original": null,
+  "texture": "Heteronematogranolepidoblastic; weakly parallel, banded, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Chlorite",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Serpentine",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Cordierite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Talc",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "8-10"
+   }
+  ],
+  "alteration": "Silicification; late quartz-carbonate veins 1.0-10.0 mm; serpentine(-talc) pseudomorphs with hexagonal-octagonal relicts; iddingsite micro-aggregates",
+  "opaque_minerals": "Magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; pyrite lenses/veins 0.5-10.0 mm with chalcopyrite displacing/rimming it; chalcopyrite also intergrown with serpentine and chlorite",
+  "description_summary": "Generally identical to sample 184.32; chlorite-serpentine dominated with coarse cordierite lenses; strong mineralisation intergrown with silicates and along late quartz-carbonate veins as 0.2-6.0 mm ore lenses/veins.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "CRSO1A-188.4",
+  "drillhole_id": "CRS01A",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 188.4,
+  "sample_type": "polished thin section",
+  "rock_name": "Strongly brecciated, silicified, carbonatised, mineralised chlorite-serpentine metasomatite (chloritic serpentinite)",
+  "rock_name_original": null,
+  "texture": "Heterogranolepidoblastic; breccia-like, banded, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Serpentine",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Pyroxene",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "10-15"
+   }
+  ],
+  "alteration": "Intense silicification and carbonatisation; numerous quartz-carbonate-ore veins 0.1-10.0 mm giving breccia-like structure",
+  "opaque_minerals": "Magnetite-pyrite-chalcopyrite paragenesis; pyrite veins predominate (0.5-15.0 mm wide, grains 0.2-3.0 mm), displaced by chalcopyrite; rare chromite micro-grains; chalcopyrite also intergrown with chlorite-serpentine",
+  "description_summary": "Brecciated serpentinite: lenticular chlorite and serpentine aggregates (rare rhombic pyroxene relicts) crosscut by abundant quartz, carbonate and coarse ore veins; mineralisation accompanies the late carbonate-quartz stage.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD010-97.7",
+  "drillhole_id": "OVD010",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 97.7,
+  "sample_type": "polished thin section",
+  "rock_name": "Highly altered gabbrodiorite porphyry (albite-chlorite-carbonate metasomatite)",
+  "rock_name_original": null,
+  "texture": "Relict porphyritic; groundmass relict prismatic granular, relict subophitic; weakly parallel",
+  "minerals": [
+   {
+    "mineral": "Chlorite-carbonate pseudomorphs after plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Chlorite pseudomorph",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Titanite (sphene)",
+    "pct": "0.5"
+   }
+  ],
+  "alteration": "Near-total replacement by carbonate, chlorite, albite, sericite, quartz, leucoxene; carbonate(-quartz) veinlets 0.2-0.3 mm",
+  "opaque_minerals": "Pyrite-chalcopyrite paragenesis; sparse euhedral pyrite 0.02-0.2 mm (some resembling pyrrhotite) and isolated chalcopyrite 0.01-0.05 mm with chlorite-carbonate",
+  "description_summary": "Gabbrodiorite porphyry with plagioclase and mafic phenocrysts (20-25%) fully pseudomorphed by albite-carbonate and chlorite; abundant titanite micro-grains in chlorite pseudomorphs. Weakly mineralised.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD010-226.3",
+  "drillhole_id": "OVD010",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 226.3,
+  "sample_type": "polished thin section",
+  "rock_name": "Serpentine-carbonate-actinolite-chlorite metasomatite (derived from gabbro or ultramafic rock)",
+  "rock_name_original": null,
+  "texture": "Granonematolepidoblastic, relict micro-panidiomorphic; weakly parallel",
+  "minerals": [
+   {
+    "mineral": "Carbonate-serpentine-actinolite pseudomorph",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Chlorite pseudomorph",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Titanite (sphene)",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Zircon",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Complete pseudomorphic replacement; epigenetic quartz and carbonate veinlets 0.5-2.0 mm",
+  "opaque_minerals": "Titanite-pyrite paragenesis; euhedral pyrite 0.02-0.4 mm evenly distributed, locally micro-lenticular aggregates",
+  "description_summary": "Fully metasomatised fine-grained melanocratic gabbro or ultramafic rock: idiomorphic hexagonal pseudomorphs (0.2-0.8 mm) of quartz-carbonate-chlorite-serpentine-actinolite after mafic minerals (pyroxene), plus chlorite pseudomorphs after hornblende with abundant titanite inclusions.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD010-305.6",
+  "drillhole_id": "OVD010",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 305.6,
+  "sample_type": "polished thin section",
+  "rock_name": "Fine-grained hornblende gabbrodiorite",
+  "rock_name_original": null,
+  "texture": "Gabbroic, subophitic, prismatic granular; massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "65-70"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "0.2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Titanite (sphene)",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Zircon",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Plagioclase to sericite-carbonate-pelite (zoned, fresh rims); minor chlorite; late quartz-carbonate micro-lenses",
+  "opaque_minerals": "Titanite-pyrite-chalcopyrite paragenesis from late weak mineralisation; sparse euhedral pyrite 0.03-0.2 mm and chalcopyrite micro-aggregates in quartz and chlorite",
+  "description_summary": "Fresh-looking fine hornblende gabbrodiorite: intermediate zoned plagioclase with interstitial green-brown hornblende; rare chlorite pseudomorphs after biotite with rutile-titanite. Weak, late mineralisation only.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD011-107.4",
+  "drillhole_id": "OVD011",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 107.4,
+  "sample_type": "polished thin section",
+  "rock_name": "Silicified, carbonatised and mineralised silty argillite",
+  "rock_name_original": null,
+  "texture": "Blastoaleuropelitic, matrix microlepidoblastic; massive, weakly breccia-like",
+  "minerals": [
+   {
+    "mineral": "Micaceous-clayey aggregate",
+    "pct": "75-80"
+   },
+   {
+    "mineral": "Relict siltstone fragments",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Quartz (epigenetic)",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Carbonate (epigenetic)",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Silicification and carbonatisation; carbonate-quartz lenses/veinlets 0.1-2.0 mm",
+  "opaque_minerals": "Pyrrhotite-chalcopyrite; pyrrhotite lenses/veins 0.1-2.5 mm wide in carbonate-quartz veins, chalcopyrite micro-aggregates displacing its margins",
+  "description_summary": "Cryptolepidoblastic clayey-sericite-chlorite argillite with rare relict silt quartz fragments; weak mineralisation associated with late quartz-carbonate veinlets (pyrrhotite dominant). XRD suggested for precise identification of the clay-mica aggregate.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD011-109.1",
+  "drillhole_id": "OVD011",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 109.1,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised chlorite-sericite micro-schist (phyllite) derived from siltstone",
+  "rock_name_original": null,
+  "texture": "Microlepidoblastic, blastoaleuritic; schistose, lenticular, spotted",
+  "minerals": [
+   {
+    "mineral": "Sericite",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Silt-sized relict fragments",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "5-7"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Quartz (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Carbonate (secondary)",
+    "pct": null
+   }
+  ],
+  "alteration": "Sericite-chlorite schistosity; spotted sericite lenses possibly after cordierite; leucoxene-altered titanite",
+  "opaque_minerals": "Ilmenite-pyrite-chalcopyrite paragenesis; euhedral pyrite grains, micro-lenses and thin veinlets concentrated in a 10x25 mm aleuroargillite lens; dust-like pyrite in main mass; rare chalcopyrite 0.01-0.1 mm",
+  "description_summary": "Phyllite of aligned sericite-chlorite with blastoaleuritic quartz relicts and meta-siltstone lenticles; a dark aleuroargillite lens is mineralised with abundant pyrite micro-lenses and veinlets.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD11-109.6",
+  "drillhole_id": "OVD011",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 109.6,
+  "sample_type": "polished thin section",
+  "rock_name": "Carbonatised fine-grained feldspar-quartz sandy metasiltstone",
+  "rock_name_original": null,
+  "texture": "Blastopsammoaleuritic, matrix microlepidoblastic; schistose, folded",
+  "minerals": [
+   {
+    "mineral": "Quartz (fragments)",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Feldspar (fragments)",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Clayey-sericite-chlorite matrix",
+    "pct": "70-75"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "0.1-0.3"
+   },
+   {
+    "mineral": "Quartz (epigenetic)",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Carbonate (epigenetic)",
+    "pct": "5-8"
+   }
+  ],
+  "alteration": "Carbonatisation: carbonate micro-lenses 0.2-3.0 mm along schistosity; rare quartz micro-lenses",
+  "opaque_minerals": "Titanite-pyrite paragenesis; micro-phenocrystic pyrite 0.01-0.1 mm evenly distributed, thin veinlets rimming carbonate lenses",
+  "description_summary": "Folded metasiltstone: aligned quartz and albitised feldspar fragments (25-30%) in microlepidoblastic clayey-sericite-chlorite matrix; carbonate lenses along schistosity; weak pyrite mineralisation.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD11-126.5",
+  "drillhole_id": "OVD011",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 126.5,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly carbonatised and mineralised silty argillite (siltstone)",
+  "rock_name_original": null,
+  "texture": "Blastoaleuritic, cryptolepidoblastic; massive",
+  "minerals": [
+   {
+    "mineral": "Quartz (fragments)",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Feldspar (fragments)",
+    "pct": "5"
+   },
+   {
+    "mineral": "Micaceous-clayey matrix",
+    "pct": "75-80"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Quartz (epigenetic)",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Carbonate (epigenetic)",
+    "pct": "1-3"
+   }
+  ],
+  "alteration": "Weak carbonatisation; quartz-carbonate veinlets 0.1-0.5 mm",
+  "opaque_minerals": "Titanite-pyrite-chalcopyrite paragenesis; sparse micro-phenocrystic pyrite and chalcopyrite 0.01-0.1 mm; chalcopyrite micro-lenses in quartz-carbonate veins",
+  "description_summary": "Siltstone of quartz(-feldspar) fragments in semi-isotropic pelitomorphic micaceous-clayey cement, weakly carbonatised and only sparsely mineralised.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD11-132.8",
+  "drillhole_id": "OVD011",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 132.8,
+  "sample_type": "polished thin section",
+  "rock_name": "Mineralised and altered fine-grained melanocratic (olivine-hornblende) gabbro",
+  "rock_name_original": null,
+  "texture": "Poikilo-ophitic, ophitic; massive",
+  "minerals": [
+   {
+    "mineral": "Hornblende",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Serpentine-talc pseudomorph",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Serpentine, saussurite, talc, actinolite, carbonate; olivine to talc-serpentine pseudomorphs; plagioclase to sericite-chlorite-epidote-carbonate",
+  "opaque_minerals": "Chromite-magnetite-pyrrhotite-chalcopyrite paragenesis; pyrrhotite-chalcopyrite lens up to 8x20 mm associated with talc-serpentine pseudomorphs; chalcopyrite micro-grains in pseudomorphs",
+  "description_summary": "Melanocratic gabbro of brownish-green hornblende, talc-serpentine pseudomorphs after olivine (0.3-1.8 mm) and zoned basic plagioclase; notable sulfide mineralisation as large pyrrhotite-chalcopyrite lenses tied to the pseudomorphs.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD11-189.2",
+  "drillhole_id": "OVD011",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 189.2,
+  "sample_type": "polished thin section",
+  "rock_name": "Strongly altered medium-grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Panidiomorphic; massive",
+  "minerals": [
+   {
+    "mineral": "Hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Serpentine pseudomorph",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Altered pyroxene",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Talc+actinolite+carbonate (secondary)",
+    "pct": "5-10"
+   }
+  ],
+  "alteration": "Intense amphibolitisation (hornblende replacing pyroxene and olivine); serpentinization with talc-carbonate; coarse carbonate lenses 0.2-1.0 mm",
+  "opaque_minerals": "Chromite-magnetite-pyrite paragenesis; only sparse micro-phenocrystic magnetite, chromite, pyrite (0.01-0.2 mm) and rare chalcopyrite with carbonate-serpentine",
+  "description_summary": "Amphibolitised peridotite: dominant brownish-green hornblende displacing rhombic pyroxene relicts and serpentine(-talc-carbonate) pseudomorphs after olivine. Minimal mineralisation.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD14-35.9-36.1",
+  "drillhole_id": "OVD14",
+  "depth_from_m": 35.9,
+  "depth_to_m": 36.1,
+  "depth_m": null,
+  "sample_type": "polished thin section",
+  "rock_name": "Garnet-carbonate metasomatite (skarn)",
+  "rock_name_original": null,
+  "texture": "Porphyroblastic, granoblastic; weakly parallel",
+  "minerals": [
+   {
+    "mineral": "Carbonate (calcite)",
+    "pct": "50-55"
+   },
+   {
+    "mineral": "Garnet",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Late carbonate veinlets 0.1-0.5 mm with rare pyrite veinlets",
+  "opaque_minerals": "Pyrite-chalcopyrite paragenesis; sparse chalcopyrite 0.02-0.2 mm and pyrite in the quartz-carbonate mass; pyrite veinlets 0.1-0.2 mm in late carbonate veins",
+  "description_summary": "Skarn of granoblastic calcite (strong HCl effervescence) with minor quartz and evenly distributed euhedral garnet porphyroblasts (0.3-1.5 mm). Sparse sulfides.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD14-88.3",
+  "drillhole_id": "OVD14",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 88.3,
+  "sample_type": "polished thin section",
+  "rock_name": "Metasomatically strongly altered diorite porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass micro prismatic granular, microhypidiomorphic; massive",
+  "minerals": [
+   {
+    "mineral": "Plagioclase",
+    "pct": "70-75"
+   },
+   {
+    "mineral": "Altered mafic minerals",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Sericite, pelite, chlorite, muscovite; epigenetic carbonate veinlets 0.1-0.3 mm; mafic phenocrysts fully to chlorite pseudomorphs with rutile",
+  "opaque_minerals": "Chromite-pyrrhotite-chalcopyrite paragenesis; sparse chalcopyrite and pyrrhotite micro-grains with altered mafics; rare chromite in chlorite pseudomorphs; micro-prismatic pyrrhotite in carbonate veinlets",
+  "description_summary": "Diorite porphyry with sericitized zoned plagioclase phenocrysts and chlorite pseudomorphs after biotite/hornblende in a plagioclase-mafic-quartz groundmass; weakly mineralised.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD14-89.8A",
+  "drillhole_id": "OVD14",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 89.8,
+  "sample_type": "polished thin section",
+  "rock_name": "Altered fine- to medium-grained pyroxene-hornblende gabbro",
+  "rock_name_original": null,
+  "texture": "Ophitic, poikilo-ophitic; massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase (table prints \"altered pyroxene\")",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Chlorite-serpentine pseudomorph",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Sphene",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Sericite, pelite, serpentine, epidote, chlorite; plagioclase cores to sericite-epidote; olivine to chlorite-serpentine pseudomorphs",
+  "opaque_minerals": "Magnetite-titanite-pyrite-chalcopyrite paragenesis; sparse micro-phenocrysts with mafics; skeletal leucoxenised titanite with chalcopyrite inclusions; euhedral pyrite 0.1-0.5 mm with pseudomorphs",
+  "description_summary": "Slide A of sample 89.8: gabbro of zoned mafic plagioclase, brown hornblende with monoclinic pyroxene relicts, and chlorite-serpentine pseudomorphs after olivine. Weakly mineralised. (Mineral table first entry reads \"altered pyroxene\" but narrative describes plagioclase.)",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD14-95.8-95.9",
+  "drillhole_id": "OVD14",
+  "depth_from_m": 95.8,
+  "depth_to_m": 95.9,
+  "depth_m": null,
+  "sample_type": "polished thin section",
+  "rock_name": "Mineralised and altered variably grained pyroxene-hornblende melanocratic gabbro",
+  "rock_name_original": null,
+  "texture": "Hypidiomorphic, poikilo-ophitic, ophitic; massive, lenticular",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Talc-serpentine pseudomorph",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "0.5-1.0"
+   }
+  ],
+  "alteration": "Sericite, pelite, epidote, chlorite, carbonate, quartz; olivine to talc-serpentine pseudomorphs",
+  "opaque_minerals": "Magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; ore lenses 0.5-10.0 mm mainly with carbonate, some intergrown with talc-serpentine; pyrrhotite dominant (0.5-8.0 mm) rimmed by chalcopyrite",
+  "description_summary": "Poikilo-ophitic gabbro dominated by coarse brown hornblende enclosing altered plagioclase and olivine; talc-serpentine pseudomorphs 0.6-2.0 mm. Mineralised with carbonate-associated sulfide lenses.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD14-89.8B",
+  "drillhole_id": "OVD14",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 89.8,
+  "sample_type": "polished thin section",
+  "rock_name": "Carbonatised and albitised epidote-pyroxene-garnet-carbonate skarn",
+  "rock_name_original": null,
+  "texture": "Granoblastic; lenticular, banded",
+  "minerals": [
+   {
+    "mineral": "Garnet",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Monoclinic pyroxene",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Epidote",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Amphibole",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Serpentine",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "0.1"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "few"
+   }
+  ],
+  "alteration": "Carbonatisation and albitisation; late coarse carbonate-albite veins/lenses 0.5-2.5 mm",
+  "opaque_minerals": "Pyrrhotite-pyrite paragenesis, sparse; pyrrhotite 0.02-0.2 mm micro-lenses with serpentine and altered hornblende; rare pyrite in late carbonate veins",
+  "description_summary": "Slide B of sample 89.8 (Cyrillic Б in source): complex skarn interpreted as gabbro-carbonate contact; garnet, calcite, pyroxene, epidote granoblastic aggregate with relict gabbro fragments; weakly mineralised.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD14-102.3",
+  "drillhole_id": "OVD14",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 102.3,
+  "sample_type": "polished thin section",
+  "rock_name": "Mineralised and metasomatically strongly altered fine- to medium-grained peridotite",
+  "rock_name_original": null,
+  "texture": "Relict panidiomorphic, granolepidoblastic; lenticular",
+  "minerals": [
+   {
+    "mineral": "Talc-chlorite-serpentine pseudomorph",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Altered hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Altered pyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Carbonate (secondary)",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Quartz (secondary)",
+    "pct": "1-3"
+   }
+  ],
+  "alteration": "Pervasive talc-chlorite-serpentine after olivine and pyroxene; hornblende to actinolite-carbonate-chlorite pseudomorphs; late quartz-carbonate veins/lenses",
+  "opaque_minerals": "Chromite-magnetite-pyrite-pentlandite-pyrrhotite-chalcopyrite paragenesis; ore lenses 0.8-30.0 mm occupying ~15-20% of section; pyrrhotite dominant (0.5-10.0 mm) rimmed by chalcopyrite, displacing pentlandite",
+  "description_summary": "Strongly altered peridotite, significantly mineralised: large evenly distributed Ni-Cu sulfide lenses (with pentlandite) mostly bounded by late quartz-carbonate, some intergrown with talc-serpentine.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD14-109.6",
+  "drillhole_id": "OVD14",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 109.6,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised carbonate-actinolite-chlorite metasomatite derived from gabbrodiorite",
+  "rock_name_original": null,
+  "texture": "Micronematogranoblastic, relict micro-prismatic, hypidiomorphic; massive",
+  "minerals": [
+   {
+    "mineral": "Actinolite",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Carbonate",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Leucoxene (secondary)",
+    "pct": null
+   }
+  ],
+  "alteration": "Complete metasomatic replacement by actinolite and chlorite pseudomorphs; carbonatisation (0.01-0.2 mm grains)",
+  "opaque_minerals": "Chromite-ilmenite-pyrite paragenesis; evenly distributed pyrite 0.01-0.2 mm dominant; weakly leucoxenised prismatic ilmenite; rare chromite",
+  "description_summary": "Gabbrodiorite fully replaced by actinolite-chlorite pseudomorphs with even fine carbonate; weak oxide-pyrite mineralisation only.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD015-94.82",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 94.82,
+  "sample_type": "polished thin section",
+  "rock_name": "Chlorite-sericite micro-schist (phyllite)",
+  "rock_name_original": null,
+  "texture": "Microlepidoblastic; schistose, lenticular, spotted",
+  "minerals": [
+   {
+    "mineral": "Sericite",
+    "pct": "60-65"
+   },
+   {
+    "mineral": "Chlorite",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Leucoxene-altered titanite micro-grains, occasionally rimming spotted lenses",
+  "opaque_minerals": "Titanite-chalcopyrite paragenesis; dust-like pyrite singles and rare chalcopyrite 0.01-0.1 mm",
+  "description_summary": "Phyllite of aligned chlorite-sericite with spotted sericite lens aggregates (65-70 vol%); essentially barren apart from leucoxenised titanite and trace sulfides.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-102.4",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 102.4,
+  "sample_type": "polished thin section",
+  "rock_name": "Fine-grained hornblende gabbrodiorite",
+  "rock_name_original": null,
+  "texture": "Poikilo-ophitic, subophitic; massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Zircon",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Sericite, carbonate, pelite; carbonatisation with carbonate lenses/veins 0.1-1.0 mm; biotite to chlorite",
+  "opaque_minerals": "Chromite-titanite-pyrite-chalcopyrite paragenesis; euhedral pyrite in carbonate lenses; chromite with hornblende; skeletal leucoxenised titanite with biotite",
+  "description_summary": "Gabbrodiorite of zoned intermediate plagioclase and interstitial brown hornblende with poikilitic quartz; weak late mineralisation tied to chlorite and carbonate.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-105.1-105.2",
+  "drillhole_id": "OVD015",
+  "depth_from_m": 105.1,
+  "depth_to_m": 105.2,
+  "depth_m": null,
+  "sample_type": "polished thin section",
+  "rock_name": "Fine-grained biotite-quartz diorite (microdiorite)",
+  "rock_name_original": null,
+  "texture": "Hypidiomorphic, subophitic; massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Sericite, pelite, chlorite, pelitomorphic carbonate; hydrogoethite coatings along fissures; biotite partly to chlorite pseudomorphs with rutile-titanite",
+  "opaque_minerals": "Titanite-pyrite paragenesis; leucoxenised titanite micro-aggregates with biotite; rare pyrite and chalcopyrite micro-grains",
+  "description_summary": "Microdiorite of altered tabular plagioclase and reddish-brown biotite with interstitial poikilitic quartz; essentially barren.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-116.1",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 116.1,
+  "sample_type": "polished thin section",
+  "rock_name": "Strongly carbonatised and altered gabbrodiorite porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass poikilo-ophitic, prismatic grained; massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Carbonate-serpentine-chlorite pseudomorph (after hornblende)",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Zircon",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chlorite+sericite+carbonate+quartz+leucoxene+rutile (secondary)",
+    "pct": "10-15"
+   }
+  ],
+  "alteration": "Intense carbonatisation: pseudomorphs after hornblende/olivine, fine secondary carbonate plus carbonate lenses/veins 0.2-2.5 mm; sericite",
+  "opaque_minerals": "Ilmenite-chromite-pyrite-pyrrhotite-chalcopyrite paragenesis, sparse; pyrrhotite micro-lenses in late carbonate veins; chalcopyrite micro-aggregates in late quartz-carbonate veins",
+  "description_summary": "Gabbrodiorite porphyry with 40-45% phenocrysts: carbonate-chlorite pseudomorphs after hornblende (relict cleavage preserved) and sericitized plagioclase; abundant apatite; weakly mineralised. NOTE: distinct from OVD-21-116.1 of the Innova report.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-140.6",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 140.6,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised and altered melanocratic gabbro porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyritic; groundmass poikilo-ophitic, prismatic granular; massive",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Altered olivine (talc-serpentine pseudomorphs)",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "1-2"
+   }
+  ],
+  "alteration": "Serpentine, saussurite, talc, actinolite, carbonate, quartz; olivine to talc-serpentine pseudomorphs 2.0-5.0 mm",
+  "opaque_minerals": "Ilmenite-chromite-magnetite-pyrrhotite-chalcopyrite paragenesis; pyrite-pyrrhotite-chalcopyrite lens 1x3 mm in carbonate lens; chalcopyrite micro-grains in talc-serpentine pseudomorphs",
+  "description_summary": "Porphyritic melanocratic gabbro (60-65% hornblende and altered-olivine phenocrysts) similar to OVD20-60.6; weak mineralisation with sulfide lens in carbonate.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-158.7",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 158.7,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised and altered fine- to medium-grained melanocratic gabbro (hornblende peridotite)",
+  "rock_name_original": null,
+  "texture": "Poikilo-ophitic, ophitic, relict panidiomorphic; weakly parallel",
+  "minerals": [
+   {
+    "mineral": "Hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Serpentine-talc pseudomorphs",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "0.5"
+   }
+  ],
+  "alteration": "Serpentine, saussurite, talc, chlorite, actinolite, rare carbonate",
+  "opaque_minerals": "Chromite-ilmenite-magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; pyrite-chalcopyrite lens 0.5-1.0 mm rimmed by carbonate; thin pyrite veinlets rimming altered plagioclase",
+  "description_summary": "Weakly aligned melanocratic gabbro/peridotite: brown hornblende and talc-serpentine pseudomorphs after olivine (0.7-4.5 mm) with minor zoned plagioclase; weak mineralisation.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-165.5",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 165.5,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised and altered fine- to medium-grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Poikilo-ophitic, relict panidiomorphic; weakly parallel",
+  "minerals": [
+   {
+    "mineral": "Talc-serpentine pseudomorphs",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Altered olivine",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyroxene",
+    "pct": "few"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "few"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "few"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "few"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "few"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "0.5"
+   }
+  ],
+  "alteration": "Serpentinization: pseudomorphs plus weakly serpentinised olivine with serpentine-magnetite mesh veinlets along cleavage; saussurite, talc, chlorite, actinolite",
+  "opaque_minerals": "Chromite-ilmenite-magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; magnetite veinlets in olivine; chalcopyrite-pyrrhotite lenses 0.4-1.0 mm (pyrrhotite dominant)",
+  "description_summary": "Similar to OVD15-158.7 but with preserved partly-serpentinised olivine (0.5-3.0 mm) showing mesh-textured serpentine-magnetite veinlets; weak sulfide mineralisation.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-175.5a",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 175.5,
+  "sample_type": "polished thin section",
+  "rock_name": "Strongly mineralised and altered fine- to medium-grained hornblende peridotite (with lenses of weakly mineralised pyroxene-hornblende gabbrodiorite)",
+  "rock_name_original": null,
+  "texture": "Porphyry-like, hypidiomorphic, poikilo-ophitic, ophitic; massive, lenticular",
+  "minerals": [
+   {
+    "mineral": "Talc-serpentine pseudomorphs",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Altered mon. pyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Sericite, pelite, actinolite, chlorite; talc-serpentine pseudomorphs after olivine",
+  "opaque_minerals": "Magnetite-chromite-pyrite-pyrrhotite-chalcopyrite paragenesis; chalcopyrite-pyrrhotite-pyrite lenses 1.0-4.0 mm in amphibole-serpentine-talc sections and along the gabbrodiorite contact; pyrite dominant in lenses, chalcopyrite veinlets crosscut them",
+  "description_summary": "Composite sample of three rock sections: main altered hornblende peridotite flanked by pyroxene-hornblende gabbrodiorite and strongly altered microgabbrodiorite as veins/lenses/xenoliths. Mineralisation concentrated in the peridotite and at contacts.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-175.5B",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 175.5,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised and altered fine- to medium-grained pyroxene-hornblende gabbrodiorite",
+  "rock_name_original": null,
+  "texture": "Hypidiomorphic, subophitic; massive, lenticular, veined",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "60-65"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Altered monoclinic pyroxene",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Altered biotite",
+    "pct": "5"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "0.1"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Sphene",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Sericite+pelite+actinolite+chlorite+carbonate (secondary)",
+    "pct": "5-10"
+   }
+  ],
+  "alteration": "Sericite, pelite, minor epidote-chlorite; large carbonate lenses 1-4 mm; second section almost fully muscovite-sericite pseudomorphed",
+  "opaque_minerals": "Ilmenite-pyrite-pyrrhotite-chalcopyrite paragenesis; ilmenite phenocrysts dominant; sulfide micro-grains and micro-lenses with mafics; chalcopyrite in carbonate lenses",
+  "description_summary": "Two-part rock: medium-grained pyroxene-hornblende gabbrodiorite (65-70%, hosts nearly all mineralisation) cemented by metasomatically strongly altered microgabbrodiorite (35-40%, only fine ilmenite). Abundant apatite needles.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-175.4",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 175.4,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised and altered fine- to medium-grained pyroxene-hornblende gabbrodiorite",
+  "rock_name_original": null,
+  "texture": "Hypidiomorphic, subophitic; massive, lenticular",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase",
+    "pct": "60-65"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Altered monoclinic pyroxene",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Altered biotite",
+    "pct": "5"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Sphene",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Sericite+pelite+actinolite+chlorite+epidote+carbonate (secondary)",
+    "pct": "5-10"
+   }
+  ],
+  "alteration": "Sericite, saussurite, pelite; carbonate lenses 1-4 mm",
+  "opaque_minerals": "Ilmenite-pyrite-pyrrhotite-chalcopyrite paragenesis; skeletal ilmenite with carbonate-filled interstices hosting chalcopyrite, prisms up to 10-15 mm long; pyrite-pyrrhotite-chalcopyrite lenses 1.0-8.0 mm (pyrite dominant, 0.5-3.5 mm)",
+  "description_summary": "Identical to OVD15-175.5B: altered plagioclase-hornblende-pyroxene gabbrodiorite with fine strongly-altered sections in lower abundance; sulfide-oxide lenses intergrown with rock-forming minerals and late carbonate.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD15-177.4",
+  "drillhole_id": "OVD015",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 177.4,
+  "sample_type": "polished thin section",
+  "rock_name": "Strongly mineralised and altered fine- to medium-grained hornblende peridotite",
+  "rock_name_original": null,
+  "texture": "Poikilo-ophitic, relict panidiomorphic; massive",
+  "minerals": [
+   {
+    "mineral": "Talc-serpentine pseudomorphs",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyroxene",
+    "pct": "5"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "2-3"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "0.5"
+   }
+  ],
+  "alteration": "Serpentine, saussurite, talc, chlorite, actinolite; acicular pyrrhotite and chromite along relict cleavage in pseudomorphs",
+  "opaque_minerals": "Chromite-magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; chalcopyrite-pyrrhotite lenses 0.8-15 mm occupying ~20-25% of section; pyrrhotite dominant, chalcopyrite veinlets 0.1-0.5 mm crosscutting",
+  "description_summary": "Similar to OVD15-158.7/165.5 but strongly mineralised: main ore is evenly distributed chalcopyrite-pyrrhotite lenses up to 15 mm across (~20-25% of slide area).",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD20-101.4",
+  "drillhole_id": "OVD20",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 101.4,
+  "sample_type": "polished thin section",
+  "rock_name": "Weakly mineralised and altered melanocratic gabbro porphyry (porphyry-like fine-grained melanocratic gabbro)",
+  "rock_name_original": null,
+  "texture": "Porphyry-like; groundmass poikilo-ophitic, hypidiomorphic; massive",
+  "minerals": [
+   {
+    "mineral": "Plagioclase",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Serpentine-talc pseudomorph",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Serpentine+saussurite+talc+actinolite+carbonate (secondary)",
+    "pct": "5-8"
+   }
+  ],
+  "alteration": "Serpentine, saussurite, talc, actinolite, carbonate; plagioclase to sericite-epidote-carbonate",
+  "opaque_minerals": "Ilmenite-chromite-magnetite-pyrite-pyrrhotite-chalcopyrite paragenesis; chalcopyrite-pyrrhotite-pyrite lenses 1-3 mm with serpentine-talc pseudomorphs and late quartz-carbonate lenses; chromite segregated in pseudomorphs",
+  "description_summary": "Porphyry-like melanocratic gabbro: hornblende and talc-serpentine-pseudomorph segregations (50-55%) in plagioclase-dominated groundmass; weak mineralisation, pyrite-dominant lenses.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD20-124.2",
+  "drillhole_id": "OVD20",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 124.2,
+  "sample_type": "polished thin section",
+  "rock_name": "Garnet-quartz-carbonate rock",
+  "rock_name_original": null,
+  "texture": "Micro-granoblastic; weakly parallel, banded, lenticular",
+  "minerals": [
+   {
+    "mineral": "Carbonate (calcite)",
+    "pct": "60-65"
+   },
+   {
+    "mineral": "Garnet",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Cordierite?",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Titanite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Zircon",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "5-10"
+   }
+  ],
+  "alteration": null,
+  "opaque_minerals": "Titanite-pyrite paragenesis; sparse leucoxenised titanite and white-yellow pyrite micro-grains, mostly with garnet and carbonate",
+  "description_summary": "Calcite-dominated granoblastic rock with aligned fabric, polyhedral garnet porphyroblasts (0.1-0.4 mm, titanite-zircon inclusions) in lenticular/banded clusters and possible cordierite porphyroblasts. Essentially barren.",
+  "analyst_or_lab": null,
+  "report_date": null
+ },
+ {
+  "source_file": "English 41 Petrographic and Mineragraphic description.docx",
+  "source_fileId": "1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV",
+  "sample_id": "OVD20-121",
+  "drillhole_id": "OVD20",
+  "depth_from_m": null,
+  "depth_to_m": null,
+  "depth_m": 121.0,
+  "sample_type": "polished thin section",
+  "rock_name": "Strongly mineralised and altered fine- to medium-grained peridotite",
+  "rock_name_original": null,
+  "texture": "Poikilo-ophitic, ophitic, panidiomorphic; massive",
+  "minerals": [
+   {
+    "mineral": "Altered olivine (iddingsite-serpentine pseudomorphs)",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Monoclinic pyroxene",
+    "pct": "10"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Chromite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Sphalerite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Partial serpentinisation of olivine/pyroxene with abundant iddingsite; saussurite, talc, carbonate, chlorite",
+  "opaque_minerals": "Chromite-magnetite-pyrrhotite-chalcopyrite paragenesis; ore lenses 0.5-6.0 mm, pyrrhotite 75-80% of lenses (0.3-8.0 mm) rimmed by chalcopyrite; pentlandite displaced by pyrrhotite/chalcopyrite; magnetite veinlet mesh in serpentine; single sphalerite grains",
+  "description_summary": "Described as identical to OVD21-116.1 (Innova report): partially serpentinised olivine-pyroxene-hornblende peridotite with strong Ni-Cu sulfide lens mineralisation tied to serpentinisation. Header reads OVD20-121 but microphoto caption reads 21-121 - hole attribution slightly ambiguous.",
+  "analyst_or_lab": null,
+  "report_date": null
+ }
+]
