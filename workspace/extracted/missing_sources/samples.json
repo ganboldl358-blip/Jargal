@@ -1,0 +1,3401 @@
+[
+ {
+  "source_file": "Petrographic descriptions 06.23.pdf",
+  "source_fileId": "16r0N4TEldedRvrGcPM_hEvIeCsZfMA7v",
+  "sample_id": "OV202202",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "thin section (section no. 3011); sawn rock slice hand specimen",
+  "rock_name": "Altered andesite (field name given as 'Gabbro basalt' - rejected by analyst)",
+  "rock_name_original": null,
+  "texture": "Porphyritic: medium- to fine-grained relict phenocrysts (10-20%, 0.5-2 mm) set in a fine-grained altered groundmass; no deformation",
+  "minerals": [
+   {
+    "mineral": "Plagioclase",
+    "pct": "60-65"
+   },
+   {
+    "mineral": "K-feldspar",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Altered amphibole",
+    "pct": "10-20"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "~5"
+   },
+   {
+    "mineral": "Clay minerals (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Epidote (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Carbonate (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Apatite (accessory)",
+    "pct": null
+   }
+  ],
+  "alteration": "Strong alteration, no deformation. Amphibole completely altered to chlorite + epidote + magnetite (pseudomorphs). Plagioclase cores completely replaced by clay minerals (illite, smectite). K-feldspar strongly altered to clay. Chlorite abundant as pale-green pleochroic flakes; sparse microcrystalline carbonate disseminated.",
+  "opaque_minerals": "Opaque minerals (magnetite) after amphibole",
+  "description_summary": "Porphyritic intermediate volcanic rock, dark grey, with 10-20% phenocrysts 0.5-2 mm. Relict plagioclase and amphibole phenocrysts sit in a fine-grained altered groundmass; amphibole is entirely pseudomorphed by chlorite-epidote-magnetite and plagioclase cores are replaced by illite/smectite. Minor quartz occurs as intergranular anhedral grains and as rare granophyric intergrowths with altered plagioclase. Analyst renames the rock altered andesite and notes the field name 'gabbro basalt' is not a valid rock name.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa Batsaikhan); Report #004 / Order No 004; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-06-23"
+ },
+ {
+  "source_file": "Petrographic descriptions 06.23.pdf",
+  "source_fileId": "16r0N4TEldedRvrGcPM_hEvIeCsZfMA7v",
+  "sample_id": "OV202203",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "thin section (section no. 3011); sawn rock slice hand specimen",
+  "rock_name": "Mudstone (?) - oxidised, weathered",
+  "rock_name_original": null,
+  "texture": "Weakly oriented matrix; dark oval clay-mineral aggregates 1-2 mm in a fine matrix",
+  "minerals": [
+   {
+    "mineral": "Clay minerals",
+    "pct": "80-90"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "10-20"
+   },
+   {
+    "mineral": "Opaque (pyrite?)",
+    "pct": null
+   }
+  ],
+  "alteration": "Strongly altered to clay minerals throughout; oxidised and weathered dark brown",
+  "opaque_minerals": "Opaque minerals, possibly pyrite",
+  "description_summary": "Oxidised, weathered dark brown mudstone identified mainly by texture and mineral assemblage because it is too strongly clay-altered to resolve optically. Dark oval bodies visible in hand specimen are colourless, low-relief clay aggregates 1-2 mm across under PPL. The matrix is clay-rich with subordinate fine quartz and shows a weak preferred orientation; the analyst recommends XRD for further identification. Field name was 'metamorphic schist'.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa Batsaikhan); Report #004 / Order No 004; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-06-23"
+ },
+ {
+  "source_file": "Petrographic descriptions 11.04.pdf",
+  "source_fileId": "1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq",
+  "sample_id": "OVF-1",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (section no. OVF-1)",
+  "rock_name": "Quartz vein (?) - quartz-carbonate vein",
+  "rock_name_original": null,
+  "texture": "Radial (spherulitic) quartz aggregates between carbonate aggregates; very fine to coarse carbonate",
+  "minerals": [
+   {
+    "mineral": "Quartz",
+    "pct": "55-65"
+   },
+   {
+    "mineral": "Carbonate minerals",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Hematite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Carbonate partly replaced by Fe-oxide",
+  "opaque_minerals": "Hematite - anhedral crowded aggregates between quartz and carbonate",
+  "description_summary": "Pale white and green quartz-carbonate vein composed mainly of quartz and carbonate with minor hematite. Quartz forms radial (spherulitic) aggregates in the spaces between carbonate aggregates. Carbonate is partly replaced by Fe-oxide and ranges from very fine to coarse grained. Hematite occurs as anhedral crowded aggregates between quartz and carbonate.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa); Report #005 / Order No 005; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-11-07"
+ },
+ {
+  "source_file": "Petrographic descriptions 11.04.pdf",
+  "source_fileId": "1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq",
+  "sample_id": "OVF-2",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (section no. OVF-2)",
+  "rock_name": "Red-brown quartzite hematite (hematitic quartzite)",
+  "rock_name_original": null,
+  "texture": "Massive; fine-grained (0.01-0.5 mm) anhedral quartz with sugar-like euhedral hematite",
+  "minerals": [
+   {
+    "mineral": "Quartz",
+    "pct": "35-45"
+   },
+   {
+    "mineral": "Hematite",
+    "pct": "50-55"
+   }
+  ],
+  "alteration": null,
+  "opaque_minerals": "Hematite - bluish grey, euhedral 'sugar-like' crystals in crowded aggregates",
+  "description_summary": "Reddish brown, massive hematitic quartzite made of quartz and hematite. Quartz is fine grained (0.01-0.5 mm), anhedral, and intergrown with euhedral sugar-textured hematite. Under reflected light hematite is bluish grey and forms crowded aggregates.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa); Report #005 / Order No 005; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-11-07"
+ },
+ {
+  "source_file": "Petrographic descriptions 11.04.pdf",
+  "source_fileId": "1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq",
+  "sample_id": "020",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (section no. 020)",
+  "rock_name": "Dacite porphyry",
+  "rock_name_original": null,
+  "texture": "Porphyritic - 15-20% phenocrysts (tabular K-feldspar, isometric embayed quartz, prismatic plagioclase) in a felsic groundmass of 0.01-0.05 mm feldspar and quartz",
+  "minerals": [
+   {
+    "mineral": "Quartz",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "K-feldspar",
+    "pct": "20-30"
+   },
+   {
+    "mineral": "Plagioclase",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Mafic minerals",
+    "pct": "5"
+   },
+   {
+    "mineral": "Sericite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Clay minerals (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Hematite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Slight phyllic alteration - sericite + chlorite replacement with rare pyrite and hematite; incipient weathering produced clay minerals and Fe-oxide from feldspar breakdown; K-feldspar partly replaced by clay, Fe-oxide, sericite; biotite completely replaced by chlorite",
+  "opaque_minerals": "Pyrite completely altered to hematite (bluish grey, cubic euhedral relict outlines)",
+  "description_summary": "Pale reddish pink porphyritic dacite with 15-20% phenocrysts of tabular perthitic K-feldspar (2-3 mm), embayed isometric quartz (1-2 mm) and prismatic polysynthetically twinned plagioclase (0.5-2 mm) in a felsic groundmass. The rock has undergone weak phyllic alteration with sericite and chlorite, and incipient weathering has generated clay minerals and Fe-oxide. Biotite is entirely chloritised and pyrite is completely pseudomorphed by bluish-grey hematite that preserves cubic outlines.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa); Report #005 / Order No 005; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-11-07"
+ },
+ {
+  "source_file": "Petrographic descriptions 11.04.pdf",
+  "source_fileId": "1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq",
+  "sample_id": "OV-40",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (section no. OV-40)",
+  "rock_name": "Intermediate (?) intrusive rock - entirely altered, name not determinable",
+  "rock_name_original": null,
+  "texture": "Medium grained; yellow-grey; relict feldspar outlines with oriented crowded chlorite aggregates",
+  "minerals": [
+   {
+    "mineral": "Feldspar",
+    "pct": "45-55"
+   },
+   {
+    "mineral": "Sericite (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Clay minerals (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Hematite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Goethite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Intense - feldspars variously strongly altered to clay minerals and fine sericite flakes; chlorite as acicular crowded oriented aggregates with fine hematite along cleavage",
+  "opaque_minerals": "Pyrite (yellow in reflected light, encloses euhedral quartz, partly replaced by hematite with cubic relict outline); hematite bluish grey subhedral, rimmed by goethite",
+  "description_summary": "Yellow-grey medium-grained intrusive rock so strongly altered that the protolith name cannot be established. It consists of intensely altered feldspar, chlorite flakes and minor hematite and pyrite. Pyrite is variously replaced by hematite preserving cubic outlines, and hematite is in turn partly replaced by goethite at grain margins.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa); Report #005 / Order No 005; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-11-07"
+ },
+ {
+  "source_file": "Petrographic descriptions 11.04.pdf",
+  "source_fileId": "1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq",
+  "sample_id": "OV-41",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (section no. OV-41)",
+  "rock_name": "Mafic intrusive rock",
+  "rock_name_original": null,
+  "texture": "Medium grained; prismatic plagioclase 1-2 mm with euhedral pyroxene relicts 1-2.5 mm",
+  "minerals": [
+   {
+    "mineral": "Plagioclase",
+    "pct": "45-55"
+   },
+   {
+    "mineral": "Mafic minerals (pyroxene)",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Sericite (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Clay minerals (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Carbonate (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Hematite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Intense; strongly weathered and impregnated by iron oxide. Plagioclase moderately altered to sericite and clay; pyroxene entirely replaced by chlorite, fine carbonate and elongate specularite",
+  "opaque_minerals": "Magnetite (brownish grey, fine disseminated, in fractures of altered pyroxene); hematite (bluish grey, completely replaces primary magnetite, plus elongate specularite 0.02-0.05 mm in pyroxene cleavage); pyrite (white-yellow subhedral, <=0.1 mm, locally altered to goethite)",
+  "description_summary": "Yellow-grey medium-grained mafic intrusive rock composed of intensely altered plagioclase and mafic minerals, strongly weathered and impregnated with iron oxide. Euhedral pyroxene relicts (1-2.5 mm) are completely replaced by chlorite, fine carbonate and elongate hematite (specularite). Disseminated brownish-grey magnetite is replaced by bluish-grey hematite, and subhedral pyrite is locally altered to goethite. Apatite occurs as narrow elongate prisms 0.1-0.2 mm.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa); Report #005 / Order No 005; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-11-07"
+ },
+ {
+  "source_file": "Petrographic descriptions 11.04.pdf",
+  "source_fileId": "1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq",
+  "sample_id": "OV-51",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (section no. OV-51)",
+  "rock_name": "Moderately altered dolerite",
+  "rock_name_original": null,
+  "texture": "Intergranular; un-oriented prismatic euhedral plagioclase 0.5-1 mm with 0.1-0.5 mm altered mafic minerals between",
+  "minerals": [
+   {
+    "mineral": "Plagioclase",
+    "pct": "35-45"
+   },
+   {
+    "mineral": "Mafic minerals",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Quartz",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Sericite (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Clay minerals (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Carbonate (alteration)",
+    "pct": null
+   },
+   {
+    "mineral": "Apatite",
+    "pct": "a few"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": "a few"
+   },
+   {
+    "mineral": "Hematite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "rare"
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Moderate phyllic - sericite (0.01-0.05 mm flakes/needles) in plagioclase, chlorite radial and crowded flakes plus carbonate replacing mafic minerals",
+  "opaque_minerals": "Pyrite (cubic, disseminated, partly replaced by hematite); hematite (white-grey fine flakes in narrow fractures); magnetite (euhedral cubic 0.025-0.01 mm crowded aggregates enclosing pyrite and quartz, locally replaced by hematite); ilmenite (brownish grey, euhedral, very fine, irregular)",
+  "description_summary": "Brown-yellow-grey fine-grained dolerite with intergranular texture, composed of prismatic plagioclase (0.5-1 mm, polysynthetically twinned) and completely altered mafic minerals, with apatite and pyrite as accessories. Alteration is moderate phyllic: sericite and clay in plagioclase, radial chlorite plus carbonate replacing the mafic phases, which are inferred to have been pyroxene from their association with fine magnetite. Opaques include cubic pyrite partly replaced by hematite, crowded euhedral magnetite locally martitised, and trace euhedral ilmenite.",
+  "analyst_or_lab": "Mireslab Mongol LLC (reported by Undarmaa); Report #005 / Order No 005; contact Batkhurel (Innova Mineral)",
+  "report_date": "2022-11-07"
+ },
+ {
+  "source_file": "Report_0715_Ni.pdf",
+  "source_fileId": "1jIT5VpacpQcvW1KbUty6C1EmT2PPr1Fu",
+  "sample_id": "2111",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (2 per sample) + powder for XRD + SEM-EDS",
+  "rock_name": "Hematite ore",
+  "rock_name_original": null,
+  "texture": "Two generations of hematite: well-crystallised, highly cataclased grains, and rounded residual crystals in goethite; colloform banding, spherulitic texture and specularite",
+  "minerals": [
+   {
+    "mineral": "Hematite (Fe2O3, XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite (FeO(OH), XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Trevorite? Ni(Fe2O4) (XRD)",
+    "pct": null
+   }
+  ],
+  "alteration": "Supergene oxidation - hematite replaced/rimmed by goethite",
+  "opaque_minerals": "Hematite (grey-white with faint bluish tint, distinct anisotropy), goethite (blackish grey, <50 um, anhedral, weak pleochroism, moderate reflectance)",
+  "description_summary": "Hematite ore in which hematite occurs in two generations: a first generation of well-crystallised, highly cataclased grains with sharp contacts against goethite, and a second generation of rounded residual crystals enclosed in goethite mineralisation. Colloform banding, spherulitic texture and specularite are developed. XRD identified hematite, goethite and possible trevorite (NiFe2O4); SEM-EDS gave a goethite analysis (Fe 77.8 wt%) and two Ni-Cu-bearing Fe-oxide spots (Ni 2.84 and 2.25 wt%, Cu 1.19 and 1.22 wt%) interpreted as possible trevorite.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Jamsran Erdenebayar; Report #004 / Order No 002; report to Innova Mineral, contact Batkhurel. Sections prepared at Dept. of Geology & Hydrogeology, MUST; XRD at MiReS Lab Japan; SEM-EDS (JEOL JSM 5400 + Oxford EDS) at Akita University",
+  "report_date": "2022-07-15"
+ },
+ {
+  "source_file": "Report_0715_Ni.pdf",
+  "source_fileId": "1jIT5VpacpQcvW1KbUty6C1EmT2PPr1Fu",
+  "sample_id": "2107",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (2 per sample) + powder for XRD + SEM-EDS",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": "Anhedral pyrite as dense assemblage of fine-grained particles occurring as micro-cracked inlays",
+  "minerals": [
+   {
+    "mineral": "Nimite-1MIIb (Ni,Mg,Al)6(Si,Al)4O10 (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Ferriwinchite (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Poitevinite Cu(SO4)(H2O) (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Chromite Cr2O3.NiO (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Azurite (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite-serpentine (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Talc (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Hematite (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite (XRD)",
+    "pct": null
+   }
+  ],
+  "alteration": "Oxidation - pyrite corroded by goethite; hematite the main ore phase with goethite secondary",
+  "opaque_minerals": "Hematite (grey to silver-grey with red internal reflection, main ore mineral), goethite (secondary), pyrite (whitish-yellow, isometric/polygonal, anhedral, corroded by goethite)",
+  "description_summary": "Polished sections examined under ore microscope show hematite as the dominant ore mineral with goethite as the secondary phase; hematite is grey to silver-grey with red internal reflection and is partly eroded by non-ore minerals. Anhedral pyrite forms dense fine-grained assemblages as micro-cracked inlays and is corroded by goethite. XRD of this sample returned a Ni-bearing assemblage including nimite, chromite (Cr2O3.NiO), chlorite-serpentine, talc, azurite, poitevinite, pyrite, hematite and goethite; SEM-EDS spots gave Ni 11.97 wt% / Cu 7.90 wt% in a Mg-Si-Ca silicate and Ni 1.20 wt% / Cu 1.05 wt% in chromite.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Jamsran Erdenebayar; Report #004 / Order No 002; report to Innova Mineral, contact Batkhurel. Sections prepared at Dept. of Geology & Hydrogeology, MUST; XRD at MiReS Lab Japan; SEM-EDS (JEOL JSM 5400 + Oxford EDS) at Akita University",
+  "report_date": "2022-07-15"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "YM-29",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (davhar ongolson shlif) - petrography",
+  "rock_name": "Intermediate subvolcanic rock (intermediate subvolcanic / dyke-type intrusive)",
+  "rock_name_original": "Дундлаг найрлагатай субвулкан",
+  "texture": "Структур: порфир маягийн (porphyritic); crystal size 0.5-3 mm",
+  "minerals": [
+   {
+    "mineral": "Плагиоклаз / plagioclase",
+    "pct": "50-70"
+   },
+   {
+    "mineral": "Хлорит / chlorite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Актинолит / actinolite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Эпидот / epidote (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Мусковит / muscovite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Карбонат / carbonate (secondary)",
+    "pct": null
+   }
+  ],
+  "alteration": "Intense: mafic minerals strongly replaced by chlorite, feldspars replaced by sericite (locally coarsened to muscovite); epidote-chlorite +/- carbonate aggregates; weakly cut by fractures",
+  "opaque_minerals": null,
+  "description_summary": "Эрчимтэй хувирсан, үндсэн хэсгийн дийлэнхийг плагиоклаз эзэлдэг чулуулаг. Плагиоклаз нь призмлэг идиоморф, урт тэнхлэгийн дагуу 0.5-3 мм, полисинтет ихэрлэлттэй боловч шаврын эрдэс, серицитэд түрэгдсэнээр ихэрлэлт нь сул ажиглагдана; зарим талстад серицит томорч мусковит болжээ. Хоёрдогч эрдсүүд нь актинолит (урт нарийхан, өнгөгүй, тод спайност) ба эпидот-хлоритын цацраг агрегат, заримдаа карбонаттай эвшсэн. Анхдагч чулуулаг нь дундлаг найрлагатай субвулкан буюу дайкийн төрлийн интрузив байсан бололтой.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "YM-27",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section - petrography",
+  "rock_name": "Andesite porphyry (fine-grained diorite)",
+  "rock_name_original": "андезит порфир (жижиг мөхлөгтэй диорит)",
+  "texture": "Crystal size 0.2-4 mm; long narrow prismatic plagioclase with simple twinning",
+  "minerals": [
+   {
+    "mineral": "Плагиоклаз / plagioclase (andesine No.32-35)",
+    "pct": "45-60"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Эпидот / epidote (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Карбонат / carbonate (secondary)",
+    "pct": null
+   }
+  ],
+  "alteration": "Weak - epidote and locally carbonate aggregates partly replace plagioclase; rock essentially unaffected by fracturing",
+  "opaque_minerals": "Ore minerals scarce (хүдрийн эрдэс багатай)",
+  "description_summary": "Сулхан хувирсан, дан плагиоклазаас бүрдэлтэй чулуулаг. Анхдагч голлох эрдэс нь 4 мм хүртэл урт нарийхан призмлэг плагиоклаз (андезин №32-35) бөгөөд зарим мөхлөгт энгийн ихэрлэлт тод илэрнэ. Хоёрдогч эрдэс болох хурц шаргал эпидотын үүсвэр, заримдаа карбонатын агрегат плагиоклазыг хэсэгчлэн түрсэн байна. Плагиоклазын мөхлөгүүдийн завсраар кварцын ксеноморф мөхлөгүүд тааралдах ба анхдагч үүсвэр биш бололтой. Чулуулаг нь хувирал болон хагарал ан цавд бараг өртөөгүй.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "YT-20",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section - petrography (printed as ҮТ-20 in Cyrillic; listed as YT-20 in the sample table)",
+  "rock_name": "Amygdaloidal basalt / andesite-basalt",
+  "rock_name_original": "Миндалекаменный базальт-андезитбазальт",
+  "texture": "Структур: порфир, миндалекаменный (porphyritic, amygdaloidal); crystal size 0.05-2 mm",
+  "minerals": [
+   {
+    "mineral": "Плагиоклаз / plagioclase",
+    "pct": "35-45"
+   },
+   {
+    "mineral": "Миндал / amygdules",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Шаврын эрдэс / clay minerals",
+    "pct": null
+   },
+   {
+    "mineral": "Мусковит-серицит / muscovite-sericite",
+    "pct": null
+   },
+   {
+    "mineral": "Хлорит / chlorite",
+    "pct": null
+   },
+   {
+    "mineral": "Карбонат / carbonate",
+    "pct": null
+   },
+   {
+    "mineral": "Эпидот / epidote",
+    "pct": null
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": null
+   },
+   {
+    "mineral": "Хүдрийн эрдэс / ore minerals",
+    "pct": null
+   }
+  ],
+  "alteration": "Intense: coloured minerals strongly replaced by chlorite, feldspars by sericite; amygdules completely filled by carbonate aggregate and fine crystalline quartz; weakly fracture-cut",
+  "opaque_minerals": "Гематит, гётит (hematite, goethite); square/tabular fine ore-mineral grains and clots in the groundmass; local fully oxidised red iron-oxide clots",
+  "description_summary": "Эрчимтэй хувирсан вулканоген чулуулаг. Анхдагч шигтгээ (плагиоклаз ба өнгөт эрдсийн реликт хэлбэрүүд) ба миндалууд нь харилцан адилгүй найрлагатай эрдсээр дүүргэгдсэн бөгөөд ихэвчлэн кварцын хавтгай ксеноморф талстууд үүссэн. Хөвөө хэсгээр хээрийн жоншны ксеноморф талст, төв хэсгээр кварц, эпидот, төмрөөр баялаг хлорит үүссэн ба миндалин нь бор саарал карбонатын агрегат ба жижиг талстлаг кварцаар бүрэн түрэгдсэн. Үндсэн хэсэг нь маш жижиг микролит плагиоклаз, хүдрийн эрдсийн жижиг ширхэг ба карбонатлаг агрегатаас бүрдэнэ; хүдрийн эрдсээс гематит, гётит тохиолдоно.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "YT-21",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section - petrography (printed as ҮТ-21)",
+  "rock_name": "Basalt / andesite-basalt (altered volcanic)",
+  "rock_name_original": "базальт- андезитбазальт",
+  "texture": "Структур: гипидиоморф мөхлөгт (hypidiomorphic granular); crystal size 2-10 mm",
+  "minerals": [
+   {
+    "mineral": "Плагиоклаз / plagioclase",
+    "pct": "40-55"
+   },
+   {
+    "mineral": "Амфибол / amphibole (relict)",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Кварц / quartz (secondary)",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Хлорит+карбонат / chlorite+carbonate",
+    "pct": null
+   },
+   {
+    "mineral": "Магнетит / magnetite (ore minerals)",
+    "pct": ">10"
+   }
+  ],
+  "alteration": "Plagioclase partly sericitised and carbonatised; amphibole relicts (0.5-1 mm prisms) completely replaced by chlorite-carbonate aggregate and iron oxide; groundmass intensely carbonatised",
+  "opaque_minerals": "Магнетит (magnetite) - square and irregular grains, ore minerals about 10%+",
+  "description_summary": "Хувирсан вулканит. Анхдагч эрдэс нь 3 мм хүртэл урт нарийхан шигтгээ плагиоклаз (дундлаг-суурилаг эгнээ), хэсэгчлэн серицитжиж карбонатжсан, мөн хлорит+карбонатлаг агрегатаар бүрэн түрэгдсэн 0.5-1 мм-ийн призмлэг амфиболын реликт мөхлөгүүд (чулуулгийн 20-25%). Үндсэн хэсэг нь эрчимтэй карбонатжсан плагиоклазын харьцангуй жижиг мөхлөг, бүрэн түрэгдсэн өнгөт эрдсийн реликт, хоёрдогч кварц, карбонат ба магнетитын квадрат хэлбэрийн ширхэгүүдээс бүрдэнэ. Хүдрийн эрдэс ойролцоогоор 10 гаруй хувийг эзэлнэ.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "YT-40",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section - petrography (printed as ҮТ-40)",
+  "rock_name": "Tuffite / tuffaceous sandstone; andesitic tuff with 2-8 mm rhyolite and andesite lithic clasts",
+  "rock_name_original": "туффит, туфоэлсжин",
+  "texture": "Структур: порфир (porphyritic); clast/crystal size 0.03-8 mm; poorly rounded, unsorted",
+  "minerals": [
+   {
+    "mineral": "Чулуулгийн хэмхтэс / lithic clasts",
+    "pct": "30-45"
+   },
+   {
+    "mineral": "Плагиоклаз / plagioclase",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Мусковит / muscovite",
+    "pct": null
+   },
+   {
+    "mineral": "Серицит / sericite",
+    "pct": null
+   },
+   {
+    "mineral": "Карбонат / carbonate",
+    "pct": null
+   },
+   {
+    "mineral": "Эпидот / epidote",
+    "pct": null
+   }
+  ],
+  "alteration": "Carbonate and epidote widely distributed in the dark ore-rich cement",
+  "opaque_minerals": "Dark ore-rich (хүдэрлэг) cement matrix with weak preferred orientation",
+  "description_summary": "Тунамал, жижиг ширхэгтэй хэмхдэслэг чулуулаг. Хэмхлэс материал нь голдуу дундлаг вулканит, плагиоклаз ба кварцын бутархай, 2.2 мм хүртэл кварцит маягийн фельзитлэг агрегатлаг кварц зэрэг вулканоген тунамал чулуулаг, эрдсийн холимог бөгөөд мөлгөршилт сул, сортлолт байхгүй. Барьцалдуулагч материал нь хар бараан хүдэрлэг масс, бүдэг чиглэлтэй тархалттай, карбонат, эпидот их тархалттай. Риолит болон андезитын 2-8 мм хэмжээтэй хэмхдэс агуулсан андезит туф нь порфир структуртай ба үндсэн хэсэг нь бараан галт уулын шил, амфибол, багаар хээрийн жоншны ксеноморф талстаас бүрдэнэ.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "YT-38",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section - petrography + mineragraphy + XRD",
+  "rock_name": "Andesite porphyry; ore: hematite-goethite-limonite low-grade ore",
+  "rock_name_original": "андезит порфир; Хүдэр: Гематит-гётит-лимонит ядуу хүдэр",
+  "texture": "Структур: плагиопорфир; crystal size 0.2-4 mm. Ore texture: parallel, corrosion; ore grain size 0.01-4.8 mm",
+  "minerals": [
+   {
+    "mineral": "Плагиоклаз / plagioclase (andesine No.32-35, oligoclase-andesine)",
+    "pct": "45-60"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Серицит / sericite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Карбонат / carbonate (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Гематит / hematite",
+    "pct": "5"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "2"
+   }
+  ],
+  "alteration": "Uniform sericitisation of plagioclase; oxidation of iron minerals reddens the rock; XRD: quartz, illite-2M2, calcite, goethite, labradorite, albite",
+  "opaque_minerals": "Гематит 5% (white, tabular, anisotropic, brown-blue extinction, 0.01x0.1 to 0.04x0.2 mm; probably after pyrite); гётит 2% + лимонит as goethite-limonite pseudomorphs preserving tabular, rectangular, hexagonal and rhombohedral outlines of a precursor (probably pyrite), 0.005x0.005 to 0.11x0.65 mm",
+  "description_summary": "Дундлаг вулканит. Чулуулгийг суб-параллель байршилтай, серицитжиж хувирсан дундлаг эгнээний плагиоклазын жигдхэн 0.1-0.2 мм урттай мөхлөгүүд бүрдүүлнэ; плагиоклазын завсраар кварцын жижиг ксеноморф мөхлөг (хоёрдогч гаралтай ч байж болох) үүссэн. Төмөрлөг эрдсийн талст ба агрегат үүсвэр, тэдгээрийн исэлдлээс чулуулаг улаан өнгөтэй болсон. Минераграфийн хувьд гематит (5%) давамгайлж, гётит (2%) ба лимонит бага хэмжээтэй; гётит-лимонитийн псевдоморфоз нь анхдагч эрдсийн (магадгүй пирит) хавтанлаг, гексагон, ромбоэдр хэлбэрийг сайн хадгалж, хүдрийн бус эрдсээр хэсэгчлэн коррозилогдсон. XRD-ээр кварц, иллит-2M2, кальцит, гётит, лабрадорит, альбит тогтоогдов.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "YT-08",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section - petrography + mineragraphy + XRD (printed as ҮТ-08 / YT08)",
+  "rock_name": "Rhyodacite (acid volcanic); ore: hematite-pyrite disseminated ore",
+  "rock_name_original": "Риодацит; Хүдэр: гематит-пиритийн шигтгээлэг хүдэр",
+  "texture": "Структур: порфир; crystal size 0.5-3 mm. Ore texture: corrosion, disseminated; ore grain size 0.001-2.0 mm",
+  "minerals": [
+   {
+    "mineral": "Плагиоклаз / plagioclase (acid)",
+    "pct": "5-10 (phenocrysts); 70-80 as microlites"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Хувирсан биотит / altered biotite",
+    "pct": "~5"
+   },
+   {
+    "mineral": "Хлорит / chlorite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Серицит / sericite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Циркон / zircon (accessory)",
+    "pct": null
+   },
+   {
+    "mineral": "Гематит / hematite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "5"
+   }
+  ],
+  "alteration": "Weak-moderate sericitisation of plagioclase; chlorite after biotite; red iron hydroxide accumulated in former phenocryst sites; XRD: quartz, labradorite, chlorite IIb-4, biotite, actinolite, hematite, pyrite",
+  "opaque_minerals": "Гематит 10-15% (silvery grey, isotropic, rare; mostly slightly replaced by grey-white goethite, preserving tabular/rectangular/hexagonal/rhombohedral outlines; 0.01x0.01 to 0.46x0.56 mm; locally formed after pyrite); Пирит 5% (pale yellow, sharp wavy boundaries, corroded and rimmed by secondary ore minerals; 0.01x0.02 up to 4.1x5.6 mm blotchy aggregates)",
+  "description_summary": "Хүчиллэг вулканит. Чулуулгийн 70-80%-ийг хүчиллэг плагиоклазын нарийхан зүүлэг микролит, 20-30%-ийг кварцын жижиг агрегатлаг болон шигтгээ үүсвэрүүд эзэлнэ. Фенокристаллаар идиоморф призмлэг, полисинтет ихэрлэлттэй плагиоклазын 1-3 мм талстууд тохиолдох ба серицитэд жигд дунд зэрэг хувирсан. Кварц юм уу плагиоклазын томхон шигтгээ байсан зайд улаан төмрийн усан исэл хуримтлагдаж толболог ялгарал үүсгэжээ. Минераграфаар гематит (10-15%) давамгайлж, пирит (5%) хүдрийн хоёрдогч эрдсээр коррозилогдож 4.1х5.6 мм хүртэл толболог агрегат үүсгэнэ.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "Report_microscope_20221012.pdf",
+  "source_fileId": "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+  "sample_id": "2022-01",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished section (аншлиф) - mineragraphy + XRD only",
+  "rock_name": "Hematite-goethite-hydrogoethite ore",
+  "rock_name_original": "Гематит-гётит-гидрогётитийн хүдэр",
+  "texture": "Структур/текстур: коррози, шигтгээлэг, судлархаг (corrosion, disseminated, veined); ore grain size 0.005-1.1 mm",
+  "minerals": [
+   {
+    "mineral": "Гематит / hematite",
+    "pct": "60-70"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "20-30"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "minor"
+   }
+  ],
+  "alteration": "Supergene oxidation; XRD (sample 2022-01): goethite + hematite only",
+  "opaque_minerals": "Гематит (white, tabular, anisotropic, brown-blue extinction, forming radial aggregates in fractures, 0.01x0.1 to 0.04x0.2 mm); гётит-лимонитийн псевдоморфоз (grey-white with red internal reflection, partly corroded by gangue, clotted aggregates, 0.005x0.005 to 0.11x0.65 mm)",
+  "description_summary": "Гематит-гётит-гидрогётитийн хүдэр. Хүдрийн эрдсүүдэд гематит (60-70%) болон гётит (20-30%) давамгайлж, бага хэмжээгээр гидрогётит тохиолдоно. Гематит нь цагаан өнгөтэй, хавтанлаг, анизотроп, борхүрэн хөхөвтөр унтралттай ба голдуу ан цавуудад цацраг маягийн агрегат үүсгэжээ. Гётит-лимонитийн псевдоморфоз нь улаан дотоод рефлекстэй, хүдрийн бус эрдсээр хэсэгчлэн коррозилогдож бөөгнөрсөн агрегат үүсгэнэ. XRD-ээр зөвхөн гётит ба гематит тогтоогдсон.",
+  "analyst_or_lab": "Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",
+  "report_date": "2022-10-12"
+ },
+ {
+  "source_file": "MINERALOGICAL-DESCRIPTIONS_2023.03.25.pdf",
+  "source_fileId": "1PqskoIsimAuRzmS2h6uQeKGz1cv2ZHoq",
+  "sample_id": "2023Nisample",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section + powder (XRD) + SEM-EDS",
+  "rock_name": "Supergene Ni ore - garnierite / nickeliferous goethite-limonite in fractures",
+  "rock_name_original": null,
+  "texture": "Colloform garnierite fracture fillings; amorphous green fillings with vertical gradation from whitish todorokite at base to grass-green garnierite upward; garnierite phenocryst-like bodies surrounded by chalcedony",
+  "minerals": [
+   {
+    "mineral": "Quartz, syn (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Garnierite (Ni,Mg)3Si2O5(OH)4 (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite Fe2O3.H2O (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Montmorillonite-chlorite (XRD)",
+    "pct": null
+   },
+   {
+    "mineral": "Todorokite Ca0.8(Mn4O8)(H2O)2 (XRD)",
+    "pct": null
+   }
+  ],
+  "alteration": "Supergene/lateritic weathering of serpentinised ultramafic rock; secondary Ni enrichment of pre-existing fracture fills by circulating Ni-bearing solutions",
+  "opaque_minerals": "Goethite (blackish grey, <50 um, anhedral, weak pleochroism, anisotropic, moderate reflectance) with goethite exsolutions in garnierite",
+  "description_summary": "Greenish supergene Ni sample in which most fractures are filled by colloform garnierite of homogeneous green colour, interpreted as a single mineralising episode. Other fractures filled by amorphous material show a vertical gradation over a few decimetres from whitish, nearly Ni-free todorokite at the base to grass-green garnierite above, attributed to secondary enrichment by circulating Ni-bearing solutions. XRD gave quartz, garnierite, goethite, montmorillonite-chlorite and todorokite; SEM-EDS spots returned up to 17.8 wt% Ni with 10.0 wt% Co and 9.9 wt% Cu in Mn-rich phases and 4.0 wt% Ni in a Si-Mn phase. Nickeliferous limonite/goethite makes up the major portion of the ore.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Jamsran Erdenebayar; Report #001 / Order No 001; contact Batkhurel. Sections prepared at MiReSLab Japan; XRD Rigaku SmartLab (MiReSLab Japan); SEM-EDS JEOL JSM 5400 + Oxford, Akita University",
+  "report_date": "2023-03-15"
+ },
+ {
+  "source_file": "Thin and polish-1.docx",
+  "source_fileId": "1DfMbUNC3_4pIxEMFYjDPUb3TQZ5WHzM2",
+  "sample_id": "SH-14",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Malachite-bearing iron oxide ore",
+  "rock_name_original": "Малахиттай төмрийн ислийн хүдэр",
+  "texture": "Структур: гранобласт, бүслүүрлэг. Текстур: судлархаг, линзлэг. Mineral grain size 0.003-0.5 mm",
+  "minerals": [
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "65-70"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Малахит / malachite",
+    "pct": "3-5"
+   }
+  ],
+  "alteration": "Oxidation; goethite replaced from margins by hydrogoethite along 0.01-0.3 mm discontinuous seams",
+  "opaque_minerals": "Goethite-hydrogoethite (ore mineral paragenesis: goethite-hydrogoethite, malachite)",
+  "description_summary": "Төмрийн ислийн эрдсээс зонхилон бүрдэх хүдэр. Нэвтэрсэн гэрэлд төмрийн ислүүд изотроп, хар өнгөтэй, зарим хэсэгтээ улаан хүрэн, 0.01-0.3 мм өргөнтэй судланцруудаар зүсэгдсэн. Ойсон гэрэлд гётит (бүдэг саарал, сулавтар бүслүүрлэг, цул масс) захаасаа гидрогётитоор түрэгдэн исэлдсэн; гидрогётит улбар шар-хүрэн дотоод рефлекстэй. Төмрийн ислийн масс нүх сүвэрхэг ба нүх сүвийн зах хэсгээр малахитын маш жижиг ширхэгт агрегат, 0.003-0.05 мм өргөнтэй линз, судланцар үүссэн. Микроскопоор никелийн эрдэс ажиглагдаагүй - никель нь төмрийн исэл дотор хольц байдлаар агуулагдсан байх магадлалтай (SEM-ээр нарийвчлах шаардлагатай).",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "Thin and polish-1sh.docx",
+  "source_fileId": "1UiyI5UX26_xmf4BTJIIUTL2yWWZ-FGEa",
+  "sample_id": "SH-18",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Chlorite-albite metasomatite after diorite",
+  "rock_name_original": "Диоритоор үүссэн хлорит-альбитат метасоматит",
+  "texture": "Структур: микролепидогранобласт, реликт призмлэг мөхлөгт. Текстур: сулавтар занарлаг. Grain size 0.01-0.3 mm",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase (albite)",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Хлоритын псевдоморфоз / chlorite pseudomorphs",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пирротин / pyrrhotite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Альбит (эпигенет) / epigenetic albite",
+    "pct": null
+   },
+   {
+    "mineral": "Кварц (эпигенет) / epigenetic quartz",
+    "pct": null
+   },
+   {
+    "mineral": "Карбонат (эпигенет) / epigenetic carbonate",
+    "pct": null
+   }
+  ],
+  "alteration": "Very strong metasomatic alteration - protolith diorite texture only poorly preserved; plagioclase recrystallised to fine granoblastic albite; biotite/hornblende replaced by chlorite +/- muscovite pseudomorphs; late albite-quartz-carbonate veinlets 0.1-0.3 mm",
+  "opaque_minerals": "Ore paragenesis magnetite - titanite - leucoxene - pyrrhotite - hydrogoethite. Magnetite isometric euhedral 0.01-0.08 mm, locally martitised; leucoxenised titanite (sphene) 0.05-0.1 mm; pyrrhotite pale yellow-grey 0.01-0.05 mm",
+  "description_summary": "Сулавтар нэг зүг чиглэлтэй, хлорит-альбитаас тогтсон лепидогранобласт агрегатаас бүрдэх метасоматит. Анхдагч чулуу нь метасоматоз хувиралд маш хүчтэй хувирч реликт призмлэг мөхлөгт, бичил гипидиоморфлог бүтцээ муухан хадгалсан. Зонхилох хувийг 0.01-0.1 мм альбитын мөхлөгөөс тогтсон бичил гранобласт агрегат эзлэх ба реликт хавтгай призмлэг хэлбэр нь анхдагч плагиоклазын дахин талсжилтыг илтгэнэ. Тэдгээрийн завсраар 0.1-0.4 мм хэмжээтэй, бага зэрэг мусковиттай хлоритын псевдоморфозууд (анхдагч биотит/эвэрхуурмагаар үүссэн бололтой) жигд тархсан. Ойсон гэрэлд титанит, магнетит, пирротины бичил шигтгээ хлориттой ассоциациар үүссэн.",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "Thin and polish-2sh.docx",
+  "source_fileId": "15hjIW8slda5_7rpK_Hkbvake7Qq7J0pW",
+  "sample_id": "SH-14-1",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Silicified actinolite-chlorite-clinozoisite-sericite metasomatite (after quartz diorite)",
+  "rock_name_original": "Цахиуржсан актинолит-хлорит-циозит-серицитэт метасоматит (кварцат диоритоор үүссэн)",
+  "texture": "Структур: микролепидогранобласт, реликт призмлэг мөхлөгт. Текстур: цул нягт. Grain size 0.01-0.3 mm",
+  "minerals": [
+   {
+    "mineral": "Эпидот-циозит-серицитэт агрегат (after plagioclase)",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Хлорит / chlorite",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Амфибол / amphibole",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "10"
+   },
+   {
+    "mineral": "Биотит / biotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Актинолит / actinolite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Гематит / hematite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Сфен / sphene",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Кварц (эпигенет) / epigenetic quartz",
+    "pct": "5"
+   }
+  ],
+  "alteration": "Very strong metasomatism - relict texture poorly preserved; plagioclase replaced by near-isotropic epidote-clinozoisite-sericite aggregate; hornblende pseudomorphed by chlorite-actinolite; cut by late quartz veinlets 0.1-0.5 mm",
+  "opaque_minerals": "Ore paragenesis magnetite - hematite - goethite - hydrogoethite. Hematite isometric to prismatic 0.03-0.2 mm with relict magnetite inclusions; coarser zoned disseminated hematite/goethite grains 0.1-1.2 mm, some inside quartz veinlets; sphene 0.1-0.2 mm",
+  "description_summary": "Эпидот-циозит-серицитэт агрегат ба тэдгээрийн завсраар үүссэн хлорит, актинолитоос тогтсон лепидогранобласт агрегатаас зонхилон бүрдэх метасоматит. Зонхилох хувийг эзлэх хагас изотроп эпидот-циозит-серицитэт агрегатын реликт хавтгай призмлэг хэлбэрээс үзвэл анхдагч плагиоклазаар үүссэн; завсар хооронд хлорит-актинолитоос тогтсон, эвэр хуурмагаар үүссэн бололтой псевдоморфозууд (0.1-0.3 мм) жигд тархсан. Изометрлэг кварцын мөхлөгүүд (0.1-0.2 мм) пойкилитоор хлорит, актинолит, эпидот агуулна. Ойсон гэрэлд гематит, гётит бичил шигтгээ байдлаар хлорит-актинолиттай ассоциациар үүссэн ба зарим гематит дотор магнетитын реликт ажиглагдана.",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "Thin and polish-2sh.docx",
+  "source_fileId": "15hjIW8slda5_7rpK_Hkbvake7Qq7J0pW",
+  "sample_id": "SH-16",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Weakly carbonatised iron oxide ore",
+  "rock_name_original": "Сулавтар карбонатчлагдсан төмрийн ислийн хүдэр",
+  "texture": "Структур: микролепидогранобласт, реликт призмлэг мөхлөгт. Текстур: цул нягт. Grain size 0.01-0.3 mm",
+  "minerals": [
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "70-75"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Карбонат / carbonate",
+    "pct": "5-10"
+   }
+  ],
+  "alteration": "Oxidation (goethite -> hydrogoethite) plus weak carbonatisation; cut by fine carbonate lenses and veinlets 0.01-0.2 mm",
+  "opaque_minerals": "Goethite-hydrogoethite (paragenesis goethite-hydrogoethite); goethite dull grey with weak zoning forming massive aggregate, hydrogoethite with orange-brown internal reflection",
+  "description_summary": "Төмрийн ислийн эрдсээс зонхилон бүрдэх хүдэр. Нэвтэрсэн гэрэлд төмрийн ислүүд изотроп, хар, зарим хэсэгтээ улаан өнгөтэй, 0.01-0.2 мм өргөнтэй судланцруудаар зүсэгдсэн. Ойсон гэрэлд гётит нь бүдэг саарал, сулавтар бүслүүрлэг бүтэцтэй цул масс үүсгэх ба захаасаа 0.01-0.2 мм өргөнтэй гидрогётитоор түрэгдэн исэлдсэн. Төмрийн ислийн масс нь бичил ширхэгт карбонатаас тогтсон 0.01-0.2 мм өргөнтэй линз, судланцруудаар зүсэгдсэн байна.",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "Thin and polish-4.docx",
+  "source_fileId": "1ip2bAQRB303SZq0R5zbY0CBuhQnA02cs",
+  "sample_id": "2107",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Amphibolite after gabbro (medium-grained)",
+  "rock_name_original": "Габброгоор үүссэн амфиболит",
+  "texture": "Структур: нематобластлаг, реликт гипидиоморфлог. Текстур: цул нягт. Grain size 1.0-5.0 mm",
+  "minerals": [
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "80-85"
+   },
+   {
+    "mineral": "Хлорит / chlorite (secondary)",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Актинолит / actinolite (secondary)",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Hornblende replaced from margins by actinolite and chlorite; locally strongly replaced by actinolite-chlorite micronematolepidoblastic aggregate leaving hornblende relicts; goethite micro-lenses and veinlets along cleavage colour the surroundings orange-brown",
+  "opaque_minerals": "Ore paragenesis ilmenite - hematite. Ilmenite brownish-grey, tabular-prismatic 0.05-0.2 mm, anisotropic, disseminated, slightly replaced at margins by leucoxene and hydrogoethite",
+  "description_summary": "Харьцангуй том ширхэгтэй, бараг дан ганц эвэр хуурмагаас бүрдэх амфиболит. Эвэр хуурмаг нь цайвар бор хүрэн өнгөтэй, хавтгай призмлэг, 1.0-5.0 мм, унтралын өнцөг 16-22 градус, захаасаа актинолит, хлоритод хувирсан. Реликт гипидиоморфлог бүтцээс үзвэл амфиболит нь габброгоор үүссэн байх магадлалтай. Хувирсан эвэр хуурмагийн мөхлөг дотор ильменит, гётит, гематит, гидрогётит цөөнөөр ялгарч, ильменит захаасаа лейкоксен, гидрогётитоор бага зэрэг түрэгдсэн байна.",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "Thin and polish-4.docx",
+  "source_fileId": "1ip2bAQRB303SZq0R5zbY0CBuhQnA02cs",
+  "sample_id": "2104-1",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Amphibolite after gabbrodiorite porphyry (amphibolitised gabbrodiorite porphyry)",
+  "rock_name_original": "Габбродиорит порфироор үүссэн амфиболит /амфиболжсон габбродиорит порфир/",
+  "texture": "Структур: реликт шигтгээлэг, үндсэн хэсэг реликт призмлэг мөхлөгт, лепидонематобласт. Текстур: цул нягт. Phenocrysts 0.5-2.0 mm, groundmass 0.1-0.3 mm",
+  "minerals": [
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "65-70"
+   },
+   {
+    "mineral": "Серицит-актинолит-хлоритын псевдоморфоз (after plagioclase)",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Актинолит / actinolite (secondary)",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Лейкоксен / leucoxene",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Strong amphibolitisation - most of the rock converted to actinolite-hornblende nematoblastic aggregate; original plagioclase completely replaced by sericite-actinolite-chlorite pseudomorphs",
+  "opaque_minerals": "Ore paragenesis ilmenite - pyrite - goethite - hydrogoethite - leucoxene. Ilmenite brownish grey, tabular-prismatic 0.03-0.2 mm, evenly disseminated, slightly replaced by leucoxene; pyrite white-yellow euhedral 0.02-0.2 mm in lenses, rimmed and replaced by goethite/hydrogoethite",
+  "description_summary": "Эвэр хуурмагийн реликт шигтгээнүүд (30-35%) болон эвэр хуурмаг, серицит-актинолит-хлоритын псевдоморфозоос тогтсон үндсэн хэсгээс бүрдэнэ. Реликт бүтцээс үзвэл анхдагч чулуу нь габбродиорит порфир байсан бөгөөд хүчтэй амфиболжих хувирлын үр дүнд дийлэнх хэсэг нь актинолит-эвэр хуурмагаас тогтсон нематобласт агрегатад шилжсэн. Эвэр хуурмагийн реликт шигтгээ нь 0.5-2.0 мм, унтралын өнцөг 17-20 градус, захаасаа актинолит, хлоритод хувирсан. Ойсон гэрэлд ильменит, гётит, пирит, гидрогётит тодорхойлогдсон.",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "Thin and polish-4.docx",
+  "source_fileId": "1ip2bAQRB303SZq0R5zbY0CBuhQnA02cs",
+  "sample_id": "A",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Fine- to medium-grained pyroxene-hornblende gabbro",
+  "rock_name_original": "Жижиг-дунд ширхэгтэй пироксен эвэр хуурмагт габбро",
+  "texture": "Структур: субофитлог. Текстур: цул нягт. Grain size 0.6-2.5 mm",
+  "minerals": [
+   {
+    "mineral": "Плагиоклаз + эвэр хуурмаг / plagioclase + hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Мон. пироксен / monoclinic pyroxene",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Хувирсан биотит / altered biotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Weak - plagioclase slightly altered to sericite, chlorite, actinolite; biotite completely converted to chlorite with rutile; hornblende and clinopyroxene unaltered",
+  "opaque_minerals": "Ilmenite (brownish grey, tabular-prismatic 0.05-0.2 mm, anisotropic, disseminated, slightly replaced at margins by leucoxene and hydrogoethite); few goethite micro-grains 0.01-0.1 mm locally replacing ilmenite",
+  "description_summary": "Субофитлог бүтэцтэй габбро. Плагиоклаз нь хавтгай призмлэг, бүслүүрлэг, андезины найрлагатай, 0.6-1.8 мм, серицит, хлорит, актинолитод бага зэрэг хувирсан ба захаасаа эвэр хуурмагаар түрэгдсэн. Плагиоклазын призмүүдийн завсрыг эвэр хуурмаг, мон. пироксен, хувирсан биотит дүүргэн субофитлог бүтэц үүсгэнэ. Эвэр хуурмаг (0.5-2.0 мм) хувираагүй, мон. пироксен (0.7-1.8 мм, унтралын өнцөг 36-38 градус) хувираагүй, хувирсан биотит (0.3-1.1 мм) рутилтэй хлоритод бүрэн хувирсан. Ойсон гэрэлд ильменит, гётит, гидрогётит тодорхойлогдов.",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "Thin and polish-4.docx",
+  "source_fileId": "1ip2bAQRB303SZq0R5zbY0CBuhQnA02cs",
+  "sample_id": "2102",
+  "drillhole_id": null,
+  "depth": null,
+  "sample_type": "polished thin section (ӨТШлиф)",
+  "rock_name": "Chlorite-albite metasomatite after gabbrodiorite porphyry",
+  "rock_name_original": "Габбродиорит порфироор үүссэн хлорит-альбитат метасоматит",
+  "texture": "Структур: микролепидогранобласт, реликт шигтгээлэг, реликт призмлэг мөхлөгт. Текстур: сулавтар занарлаг. Grain size 0.01-0.4 mm",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз (альбит) / altered plagioclase (albite)",
+    "pct": "45-50"
+   },
+   {
+    "mineral": "Хлоритын псевдоморфоз / chlorite pseudomorphs",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Актинолит / actinolite (secondary)",
+    "pct": null
+   }
+  ],
+  "alteration": "Very strong metasomatism; plagioclase recrystallised to fine albite granoblastic aggregate; primary biotite replaced by chlorite pseudomorphs with weak ferruginisation",
+  "opaque_minerals": "Ore paragenesis ilmenite - titanite - leucoxene - pyrite - goethite - hydrogoethite. Ilmenite isometric euhedral 0.01-0.05 mm strongly replaced by titanite and hydrogoethite; leucoxenised titanite (sphene) 0.05-0.1 mm evenly disseminated; rare pyrite 0.01-0.05 mm",
+  "description_summary": "Хлорит-альбитаас тогтсон лепидогранобласт агрегатаас бүрдэх метасоматит; анхдагч чулуу нь метасоматоз хувиралд маш хүчтэй хувирч реликт шигтгээлэг, призмлэг мөхлөгт бүтцээ муухан хадгалсан. Зонхилох хувийг 0.01-0.1 мм альбитын мөхлөгөөс тогтсон бичил гранобласт агрегат эзэлнэ. Реликт плагиоклазаар үүссэн псевдоморфозын завсраар 0.1-0.4 мм хэмжээтэй, бага зэрэг мусковиттай хлоритын псевдоморфозууд (анхдагч габбродиоритын биотитоор үүссэн, дотор нь сулавтар төмөржсөн биотитын реликттэй) жигд тархсан бөгөөд эдгээр нь реликт шигтгээлэг бүтцийг үүсгэнэ. Ойсон гэрэлд титанит, ильменит, пирит тодорхойлогдов.",
+  "analyst_or_lab": "not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",
+  "report_date": null
+ },
+ {
+  "source_file": "BE-3 samples in English.pdf (Results of Ore Petrology - Ragnarock Investment, 3 block samples)",
+  "source_fileId": "1JCorsOW4v8Vepb9HJlzYNDtzabENxU25",
+  "sample_id": "40763",
+  "drillhole_id": "OVD008 (per ABM 'Suggested Petro for the Oval 2024' list)",
+  "depth": "84.5 m (per ABM list; not stated in this report)",
+  "sample_type": "polished block sample (ore petrology / reflected light)",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": "Structure and texture: disseminated, veinlets. Opaque grain size 11-5155 um; ore vein width 6-38 um. Rock = 20-25% ore minerals, 75-80% gangue",
+  "minerals": [
+   {
+    "mineral": "Pyrrhotite (tabulated as 'Pyrite')",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "5"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "2"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "3"
+   }
+  ],
+  "alteration": "Pyrrhotite partially altered to magnetite; pyrrhotite surfaces porous",
+  "opaque_minerals": "Paragenetic sequence pyrrhotite -> chalcopyrite -> pentlandite -> magnetite. Pyrrhotite anhedral, whitish yellow, impure surface, 26-5155 um; chalcopyrite greenish-yellow anhedral 39-1810 um; pentlandite anhedral 35-388 um; magnetite grey anhedral 11-410 um micro-disseminated, plus vein-like accumulations 6-38 um along gangue cracks",
+  "description_summary": "Polished block containing 20-25% ore minerals: anhedral disseminated pyrrhotite (whitish yellow, porous, up to 5155 um) rimmed by greenish-yellow chalcopyrite and partially altered to magnetite. Chalcopyrite (39-1810 um) is associated with pyrrhotite, pentlandite and magnetite; pentlandite (35-388 um) accompanies pyrrhotite and chalcopyrite. Grey magnetite is minor, micro-disseminated, and also forms vein-like accumulations 6-38 um wide along cracks in the gangue.",
+  "analyst_or_lab": "L. Oyunjargal Ph.D (NUM); client Ragnarock Investment LLC; 9-page report. Mongolian-language twin: 'BE-3 samples in Mongolian.pdf' fileId 1POBc4Or0a4L_m33xSjb5WwJSULy7bb0X",
+  "report_date": "2023-06-22"
+ },
+ {
+  "source_file": "BE-3 samples in English.pdf (Results of Ore Petrology - Ragnarock Investment, 3 block samples)",
+  "source_fileId": "1JCorsOW4v8Vepb9HJlzYNDtzabENxU25",
+  "sample_id": "40900",
+  "drillhole_id": "OVD001 (per ABM 'Suggested Petro for the Oval 2024' list)",
+  "depth": "56.8 m (per ABM list; not stated in this report)",
+  "sample_type": "polished block sample (ore petrology / reflected light)",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": "Structure and texture: disseminated, colloform. Opaque grain size 25-2300 um. Ore minerals about 5% of rock volume",
+  "minerals": [
+   {
+    "mineral": "Pyrite",
+    "pct": "<1"
+   },
+   {
+    "mineral": "Native copper",
+    "pct": "<1"
+   },
+   {
+    "mineral": "Goethite",
+    "pct": "5"
+   },
+   {
+    "mineral": "Limonite",
+    "pct": "<1"
+   }
+  ],
+  "alteration": "Supergene - goethite altered to limonite; limonite as very fine earthy aggregates",
+  "opaque_minerals": "Paragenetic sequence pyrite -> copper -> goethite -> limonite. Creamy yellow anhedral pyrite 34-304 um associated with gangue; two anhedral pink native-copper grains 92x210 and 83x110 um; goethite altering to limonite",
+  "description_summary": "Polished block with about 5% ore minerals forming disseminated and colloform accumulations. Creamy yellow anhedral pyrite (34-304 um) sits with gangue minerals. Two grains of pink native copper (92x210 and 83x110 um) were found, anhedral under the ore microscope. Goethite alters to limonite, which is distributed through the rock as very fine earthy aggregates.",
+  "analyst_or_lab": "L. Oyunjargal Ph.D (NUM); client Ragnarock Investment LLC; 9-page report. Mongolian-language twin: 'BE-3 samples in Mongolian.pdf' fileId 1POBc4Or0a4L_m33xSjb5WwJSULy7bb0X",
+  "report_date": "2023-06-22"
+ },
+ {
+  "source_file": "BE-3 samples in English.pdf (Results of Ore Petrology - Ragnarock Investment, 3 block samples)",
+  "source_fileId": "1JCorsOW4v8Vepb9HJlzYNDtzabENxU25",
+  "sample_id": "40913",
+  "drillhole_id": "OVD001 (per ABM 'Suggested Petro for the Oval 2024' list)",
+  "depth": "68.0 m (per ABM list; not stated in this report)",
+  "sample_type": "polished block sample (ore petrology / reflected light)",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": "Structure and texture: disseminated, massive, veinlets. Opaque grain size 30-8649 um; ore vein width 17-221 um. Rock = 55% ore minerals, 45% non-ore",
+  "minerals": [
+   {
+    "mineral": "Pyrrhotite (tabulated as 'Pyrite')",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Cubanite (?)",
+    "pct": "5"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": "2"
+   },
+   {
+    "mineral": "Pentlandite (?)",
+    "pct": "3"
+   }
+  ],
+  "alteration": null,
+  "opaque_minerals": "Paragenetic sequence pyrrhotite -> chalcopyrite -> cubanite. Creamy yellow anhedral pyrrhotite 30-2710 um plus 17-221 um veinlets; greenish yellow anhedral chalcopyrite 108-8649 um; cubanite anhedral 56-400 um with pyrrhotite; pinkish-creamy pentlandite anhedral 21-265 um; magnetite as veinlets in gangue cracks",
+  "description_summary": "Semi-massive sulphide block in which ore minerals make up 55% of the rock. Creamy yellow anhedral pyrrhotite (30-2710 um) dominates and also forms veinlets 17-221 um wide. Greenish yellow anhedral chalcopyrite reaches 8649 um. Cubanite (56-400 um) is associated with pyrrhotite grains, and pinkish-creamy pentlandite (21-265 um) accompanies pyrrhotite; magnetite occurs as veinlets in cracks in the gangue.",
+  "analyst_or_lab": "L. Oyunjargal Ph.D (NUM); client Ragnarock Investment LLC; 9-page report. Mongolian-language twin: 'BE-3 samples in Mongolian.pdf' fileId 1POBc4Or0a4L_m33xSjb5WwJSULy7bb0X",
+  "report_date": "2023-06-22"
+ },
+ {
+  "source_file": "Report20231124.docx",
+  "source_fileId": "106T7bR2o5_Pw1pFPEcfzml6Q9DhdnFUT",
+  "sample_id": "40763",
+  "drillhole_id": "OVD-008",
+  "depth": "84.5 m",
+  "sample_type": "polished thin section (x2) + SEM-EDS",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": "Type-1 magmatic assemblage: interstitial inclusions and globular/ellipsoidal pentlandite-chalcopyrite-pyrrhotite intergrowths; flame-like pentlandite exsolution lamellae in pyrrhotite; angular interstitial sulphides",
+  "minerals": [
+   {
+    "mineral": "Nickel pyrrhotite",
+    "pct": "74-86 (of sulphide)"
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "9-20 (of sulphide)"
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": "0.5-6 (of sulphide)"
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite",
+    "pct": null
+   },
+   {
+    "mineral": "Titanomagnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Chromium-alumina spinel",
+    "pct": null
+   },
+   {
+    "mineral": "Ilmenite (Cr-bearing)",
+    "pct": null
+   },
+   {
+    "mineral": "Galena",
+    "pct": "small amount"
+   },
+   {
+    "mineral": "Zn-bearing mineral",
+    "pct": "small amount"
+   },
+   {
+    "mineral": "Ag-Te mineral",
+    "pct": "unknown/trace"
+   },
+   {
+    "mineral": "Ni-bearing anglesite",
+    "pct": "unknown/trace"
+   }
+  ],
+  "alteration": "Where the rocks have undergone significant metasomatism pyrite and chalcopyrite become dominant, but total sulphide is then small (generally <3-10%)",
+  "opaque_minerals": "Sulphides: pyrrhotite (Ni-bearing), chalcopyrite, pentlandite, pyrite (Ni-bearing), goethite. Pentlandite carries about 1.2 wt% Co and 30.9-36.3% Ni; lamellar pentlandite (pn2) has lower Ni (20.9-28.3%) and very low Co (~0.3 wt%). Oxides: titanomagnetite, magnetite, Cr-Al spinel, Cr-bearing ilmenite",
+  "description_summary": "Sample dominated by sulphides (pyrrhotite, chalcopyrite, pentlandite, pyrite, goethite) together with spinel-group minerals (titanomagnetite, magnetite, chromium-alumina spinel) and ilmenite. Nickel pyrrhotite makes up 74-86% of the sulphide assemblage, chalcopyrite 9-20% and pentlandite 0.5-6%. Early pentlandite (pn1) contains 30.9-36.3% Ni with about 1.2 wt% Co, whereas lamellar pentlandite (pn2) is poorer in Ni (20.9-28.3%) and nearly Co-free. SEM-EDS additionally detected minor galena, Zn-bearing minerals, Cr-bearing ilmenite and unknown Ag-Te and Ni-bearing anglesite phases.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2303 / Order No 008 for Innova Mineral LLC (contact Batkhurel). 2 polished thin sections per sample prepared at MiReSLab Japan; Nikon Eclipse LV100NPOL; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-11-24"
+ },
+ {
+  "source_file": "Report20231124.docx",
+  "source_fileId": "106T7bR2o5_Pw1pFPEcfzml6Q9DhdnFUT",
+  "sample_id": "40913",
+  "drillhole_id": "OVD-001",
+  "depth": "68 m",
+  "sample_type": "polished thin section (x2) + SEM-EDS",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": "Anhedral crystals of laminated pyrrhotite intergrown with chalcopyrite and pentlandite; magnetite segregations always at intergrowth margins; pyrite pseudomorphs after pyrrhotite and violarite after pentlandite; independent pyrite aggregates with residual marginal chalcopyrite",
+  "minerals": [
+   {
+    "mineral": "Pyrrhotite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": null
+   },
+   {
+    "mineral": "Sphalerite",
+    "pct": "small amount"
+   },
+   {
+    "mineral": "Cubanite",
+    "pct": "small amount"
+   },
+   {
+    "mineral": "Argentopentlandite",
+    "pct": "small amount"
+   },
+   {
+    "mineral": "Galena",
+    "pct": "small amount"
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Violarite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Sb-michenerite (PGM)",
+    "pct": "submicron"
+   },
+   {
+    "mineral": "Ag-Te mineral",
+    "pct": "submicron"
+   },
+   {
+    "mineral": "Ni-bearing anglesite",
+    "pct": "submicron"
+   }
+  ],
+  "alteration": "Relatively low degree of alteration for the primary Po-Ccp-Pn assemblage; hydrothermal replacement of pyrrhotite by pyrite and of pentlandite by violarite in the metasomatised parts",
+  "opaque_minerals": "Po-Ccp-Pn intergrowths with marginal magnetite; secondary chalcopyrite-violarite-pyrite pseudomorphs with residual pentlandite and pyrrhotite; late vein-like and finely dispersed pyrite-chalcopyrite. Submicron platinum and palladium minerals detected within the sulphides",
+  "description_summary": "Pyrrhotite-chalcopyrite-pentlandite assemblages occur in relatively weakly altered rock, with only small amounts of sphalerite, cubanite, argentopentlandite and galena; the intergrowths are always accompanied by small magnetite segregations at their margins. SEM-EDS detected submicron platinum and palladium mineral inclusions inside the sulphide phases, together with an Ag-Te mineral and Ni-bearing anglesite. The report distinguishes three sulphide assemblage types across the deposit: (1) primary magmatic Pn-Ccp-Po intergrowths with spinel-group minerals and ilmenite, (2) secondary chalcopyrite-violarite-pyrite pseudomorphs with residual pentlandite and pyrrhotite (releasing Sb-Pd michenerite), and (3) newly formed vein-like and finely dispersed pyrite-chalcopyrite aggregates without PGM.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2303 / Order No 008 for Innova Mineral LLC (contact Batkhurel). 2 polished thin sections per sample prepared at MiReSLab Japan; Nikon Eclipse LV100NPOL; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-11-24"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40579",
+  "drillhole_id": "OVD-004",
+  "depth": "36 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD001 ; hand specimen: Dark gray to dark green; grayish-white wavy banded striations apparently agglomerated plagioclase ; Table 1 note: spotted???",
+  "rock_name": "Amphibole micro-gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline, slightly fine-grained plagioclase + amphibole; ophitic texture",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (100-500 um, euhedral-subhedral)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole (100-500 um, subhedral, intergrown with plagioclase)",
+    "pct": null
+   },
+   {
+    "mineral": "Hematite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Weak sericite-chlorite alteration; plagioclase weakly sericitised",
+  "opaque_minerals": "Hematite 20-50 um anhedral, minor, in amphibole; pyrite 20-50 um anhedral, minor, in amphibole; chalcopyrite 10-80 um anhedral, rare, with amphibole",
+  "description_summary": "Holocrystalline amphibole micro-gabbro of slightly fine-grained plagioclase and amphibole showing ophitic texture. Alteration is weak sericite-chlorite; plagioclase is weakly sericitised and amphibole is colourless in PPL with highest-order interference colours. Opaques are sparse: hematite and pyrite (20-50 um, anhedral) in amphibole and rare anhedral chalcopyrite 10-80 um. No SEM-EDS was performed.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40605",
+  "drillhole_id": "OVD-004",
+  "depth": "91 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD002 ; hand specimen: Dark green, somewhat fine-grained equigranular ; Table 1 note: spotted",
+  "rock_name": "Amphibole-Orthopyroxene micro-gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline, slightly fine-grained plagioclase + amphibole; euhedral plagioclase poikilitic with orthopyroxene inclusions; anhedral plagioclase fills space between amphibole and euhedral plagioclase",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (50-1000 um, euhedral-subhedral, poikilitic)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole / hornblende (100-500 um, dark brown to yellow in PPL)",
+    "pct": null
+   },
+   {
+    "mineral": "Orthopyroxene (10-80 um, euhedral, enclosed in plagioclase)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (secondary, rare)",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Weak sericite-chlorite alteration; weak sericitisation at the boundary between euhedral and anhedral plagioclase; chlorite rare after amphibole and plagioclase",
+  "opaque_minerals": "Chalcopyrite - anhedral, rare, occurring in fracture-filling veins",
+  "description_summary": "Dark green fine-grained equigranular holocrystalline micro-gabbro of plagioclase, hornblende and orthopyroxene. Euhedral plagioclase encloses orthopyroxene poikilitically, and anhedral plagioclase fills the interstices between amphibole and euhedral plagioclase, with weak sericitisation at their boundaries. Alteration is weak sericite-chlorite. The only sulphide seen is rare anhedral chalcopyrite filling fractures. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40574",
+  "drillhole_id": "OVD-004",
+  "depth": "28 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD003 ; hand specimen: Dark green to grayish-white; the grayish-white colour forms irregular patches 3-4 cm across ; Table 1 note: weakly mineralized / oxidized gabbro",
+  "rock_name": "Oxidized Amphibole Gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline plagioclase + amphibole; recently altered with secondary goethite",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (100-500 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole (200-1000 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Hematite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite (Cu-, Ni-, Co-bearing)",
+    "pct": null
+   }
+  ],
+  "alteration": "Middle sericite-chlorite alteration; plagioclase strongly clay(sericite)-altered; amphibole strongly clay-altered but identified by columnar habit and 120-degree cleavage",
+  "opaque_minerals": "Hematite 20-80 um subhedral, rare, in amphibole; chalcopyrite 100-200 um anhedral with goethite; goethite up to 2000 um anhedral, secondary, replacing amphibole and carrying Cu",
+  "description_summary": "Oxidised amphibole gabbro, dark green with irregular 3-4 cm grayish-white patches, holocrystalline and moderately sericite-chlorite altered. Both plagioclase and amphibole are strongly clay-altered; amphibole is recognised only from its columnar habit and 120-degree cleavage. Coarse secondary goethite (up to 2000 um) is interpreted to replace amphibole, and SEM-EDS shows that this goethite contains Ni and Co while the amphibole itself carries Cu (and Ni). Chalcopyrite (100-200 um) occurs with the goethite and rare subhedral hematite sits in amphibole.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40635",
+  "drillhole_id": "OVD-005",
+  "depth": "53 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD004 ; hand specimen: Black to dark green, often surrounded by grayish white; mafic minerals heterogeneous in size ; Table 1 note: disseminate gabbro",
+  "rock_name": "Amphibole micro-gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline, slightly fine-grained plagioclase + amphibole; amphibole with ophitic texture",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (100-500 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole / hornblende (50-500 um, light brown in PPL)",
+    "pct": null
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Ni-bearing pyrrhotite",
+    "pct": null
+   },
+   {
+    "mineral": "Heideite (?) Fe-Ti-Cr sulphide",
+    "pct": null
+   },
+   {
+    "mineral": "Illite-smectite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite + calcite (secondary)",
+    "pct": null
+   }
+  ],
+  "alteration": "Illite-smectite alteration; abundant illite-smectite in plagioclase; chlorite and calcite common in amphibole; sericitisation of plagioclase",
+  "opaque_minerals": "Ilmenite 50-100 um anhedral intergranular to plagioclase and amphibole (SEM-EDS shows Mn-rich pyrophanite and Mn-free ilmenite components); chalcopyrite 10-200 um anhedral, 10 um refined grains inside ilmenite, often with Ni-bearing pyrrhotite; Ni-bearing pyrrhotite 50-800 um anhedral; Heideite(?) (Fe,Cr)1.15(Ti,Fe)2S4, 10 um, irregular with chalcopyrite in ilmenite",
+  "description_summary": "Holocrystalline amphibole micro-gabbro with ophitic amphibole, altered to an illite-smectite assemblage with chlorite and calcite in the amphibole. Ilmenite (50-100 um) is intergranular between plagioclase and amphibole and SEM-EDS resolves two components in it: a Mn-rich pyrophanite part and a Mn-free ilmenite part. Chalcopyrite (10-200 um, and 10 um refined grains inside ilmenite) occurs with Ni-bearing pyrrhotite (50-800 um). A 10 um Fe-Ti-Cr sulphide interpreted as possible heideite occurs irregularly with chalcopyrite inside ilmenite.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40645",
+  "drillhole_id": "OVD-005",
+  "depth": "71 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD005 ; hand specimen: Dark green with heterogeneous light green streak-patches ; Table 1 note: weakly mineralized gabbro",
+  "rock_name": "Amphibole gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline, slightly fine-grained plagioclase + amphibole, amphibole often ophitic",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (50-400 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole / hornblende (50-800 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Ilmenite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Ni-bearing pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Sericite + calcite (secondary)",
+    "pct": null
+   }
+  ],
+  "alteration": "Partly sericite-calcite alteration in patchy form; chalcopyrite, pyrrhotite and pyrite are predominant in the altered patches; amphibole often chloritised",
+  "opaque_minerals": "Ilmenite 50-400 um anhedral in amphibole; chalcopyrite 10-80 um anhedral inside pyrrhotite; pyrite 10-500 um anhedral, SEM-EDS shows slight Ni (0.54 wt% Ni); pentlandite 1-10 um anhedral, rare, at the rim of pyrite as fracture-filling (SEM-EDS: 22.19 wt% Ni, 4.35 wt% Co)",
+  "description_summary": "Dark green holocrystalline amphibole gabbro with ophitic amphibole and patchy sericite-calcite alteration; chalcopyrite, pyrrhotite and pyrite concentrate in the altered patches and amphibole is partly chloritised. Ilmenite (50-400 um) sits inside amphibole. SEM-EDS shows the pyrite carries slight Ni (0.54 wt%) and that rare 1-10 um pentlandite occurs as fracture-filling at pyrite rims with 22.19 wt% Ni and 4.35 wt% Co.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40715",
+  "drillhole_id": "OVD-007",
+  "depth": "98.2 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD006 ; hand specimen: Dark, fine-grained ; Table 1 note: schist",
+  "rock_name": "Shale (weak schistosity)",
+  "rock_name_original": null,
+  "texture": "Pelitic rock with prominent sedimentary texture; fine pyrite in harmony with the sedimentary layering",
+  "minerals": [
+   {
+    "mineral": "Quartz (very fine-grained)",
+    "pct": null
+   },
+   {
+    "mineral": "Feldspar (very fine-grained)",
+    "pct": null
+   },
+   {
+    "mineral": "Clay mineral",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite (veinlets)",
+    "pct": null
+   }
+  ],
+  "alteration": "Not altered",
+  "opaque_minerals": "Pyrite ~1 um anhedral distributed in harmony with the sedimentary structure, and ~5 um subhedral-anhedral pyrite forming 10-20 um veinlets; calcite veinlets cut the pyrite veinlets",
+  "description_summary": "Dark fine-grained shale of very fine quartz, feldspar and clay minerals with a prominent sedimentary texture and weak schistosity. It is unaltered. Very fine (~1 um) anhedral pyrite is distributed in harmony with the sedimentary structure, and coarser (~5 um) subhedral to anhedral pyrite forms 10-20 um veinlets, which are in turn cut by calcite veinlets. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40628",
+  "drillhole_id": "OVD-005",
+  "depth": "40.5 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD007 ; hand specimen: Dark, equigranular, with sulphide mineral patches up to 1 cm across ; Table 1 note: disseminate gabbro",
+  "rock_name": "Amphibole gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline rock of plagioclase and amphibole; amphibole intergrown with plagioclase and possibly replaced by sulphides",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (50-400 um, sericitised core, albite rim)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole / hornblende (50-800 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Cr-bearing magnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Ni-bearing pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": null
+   },
+   {
+    "mineral": "Ag-Te mineral",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Ni-bearing anglesite (?)",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Partly substantial sericite-calcite alteration in patchy form; chalcopyrite, pyrrhotite and pyrite predominate in altered patches; plagioclase sericitised in core with albite rim",
+  "opaque_minerals": "Cr-bearing magnetite 50-100 um subhedral-anhedral with altered amphibole and chalcopyrite; chalcopyrite 10-80 um anhedral with Ni-bearing pyrite; pyrite 10-500 um anhedral, sometimes Ni-bearing (SEM-EDS 24.63 wt% Ni in one spot); pentlandite 1-10 um anhedral in chalcopyrite; Ag-Te mineral 1 um at the rim of chalcopyrite and pentlandite; Ni-bearing anglesite (?) ~3 um",
+  "description_summary": "Dark equigranular holocrystalline amphibole gabbro carrying sulphide patches up to 1 cm. Plagioclase is sericitised in the core with an albite rim, and amphibole is intergrown with plagioclase and may be replaced by sulphides. Alteration is patchy but locally strong sericite-calcite, and chalcopyrite, pyrrhotite and pyrite concentrate in these patches. SEM-EDS identified Cr-bearing magnetite, Ni-bearing pyrite, pentlandite in chalcopyrite and 1 um Ag-Te grains at chalcopyrite/pentlandite rims, plus a possible Ni-bearing anglesite.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40530",
+  "drillhole_id": "OVD-003",
+  "depth": "157.5 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD008 ; hand specimen: Dark black with thin dark green patchy distribution ; Table 1 note: disseminate gabbro",
+  "rock_name": "Amphibole micro-gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline rock of plagioclase and amphibole; holocrystalline and ophitic texture",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (50-400 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole / hornblende (50-800 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Ni-bearing pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": null
+   },
+   {
+    "mineral": "Cd-bearing sphalerite",
+    "pct": null
+   },
+   {
+    "mineral": "Ag-Te-Bi mineral",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Ag-Au mineral",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Partly strong sericitisation; plagioclase partly sericitised, cores often replaced by chalcopyrite or pyrite, rims chloritised; amphibole partly chloritised. Locally strong sericite-calcite alteration in patches where chalcopyrite, pyrrhotite and Ni-bearing pyrite predominate",
+  "opaque_minerals": "Magnetite 50-100 um subhedral-anhedral in amphibole; pyrite 10-200 um anhedral, sometimes replacing plagioclase and amphibole, sometimes Ni-bearing (SEM-EDS 0.52 wt% Ni); pyrrhotite 100-2000 um anhedral; chalcopyrite 10-1000 um anhedral with Ni-bearing pyrite; pentlandite 1-10 um; Ag-Te-Bi mineral 1 um in chalcopyrite and pyrite; Ag-Au mineral 1 um in pyrite; Cd-bearing sphalerite",
+  "description_summary": "Dark black holocrystalline amphibole micro-gabbro with ophitic texture and partly strong sericitisation; plagioclase cores are often replaced by chalcopyrite or pyrite while the rims are chloritised. Sulphides are relatively abundant: anhedral pyrrhotite up to 2000 um, chalcopyrite up to 1000 um, Ni-bearing pyrite (0.52 wt% Ni) and 1-10 um pentlandite. SEM-EDS also detected Cd-bearing sphalerite and 1 um precious-metal phases - an Ag-Te-Bi mineral in chalcopyrite and pyrite and an Ag-Au mineral in pyrite.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40899",
+  "drillhole_id": "OVD-001",
+  "depth": "15.5 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD009 ; hand specimen: Blackish-brown to brown, considered weathered ; Table 1 note: spotted / Schist",
+  "rock_name": "Pelitic rock (weak schistosity)",
+  "rock_name_original": null,
+  "texture": "Characteristic massive texture of muddy rock; very fine-grained quartz, feldspar and clay minerals",
+  "minerals": [
+   {
+    "mineral": "Quartz (very fine-grained)",
+    "pct": null
+   },
+   {
+    "mineral": "Feldspar (very fine-grained)",
+    "pct": null
+   },
+   {
+    "mineral": "Clay mineral",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite (veinlets)",
+    "pct": null
+   }
+  ],
+  "alteration": "No alteration, but quartz and goethite-quartz veinlets are present",
+  "opaque_minerals": "Goethite in 50-100 um wide goethite-quartz veinlets, often with voids",
+  "description_summary": "Weathered blackish-brown to brown pelitic rock with weak schistosity and the characteristic massive texture of a muddy rock, composed of very fine-grained quartz, feldspar and clay minerals. It is unaltered but is cut by quartz and goethite-quartz veinlets 50-100 um wide that often contain voids; goethite occurs in these veinlets together with quartz. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40901",
+  "drillhole_id": "OVD-002",
+  "depth": "20.4 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD010 ; hand specimen: Black to dark green with patchy orange oxidised parts ; Table 1 note: oxidized gabbro",
+  "rock_name": "Oxidized Amphibole Gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline rock of plagioclase and hornblende, ophitic texture; late-stage alteration with secondary goethite",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (100-400 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole (100-2000 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Epidote (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite",
+    "pct": null
+   }
+  ],
+  "alteration": "Partly strong sericite and epidote alteration; plagioclase strongly altered to clay (sericite, rarely calcite); amphibole strongly altered to chlorite and epidote",
+  "opaque_minerals": "Chalcopyrite 100-200 um anhedral with goethite; goethite up to 2000 um anhedral, thought to replace chalcopyrite; pyrite present",
+  "description_summary": "Black to dark green oxidised amphibole gabbro with patchy orange oxidised zones and ophitic texture. Plagioclase is strongly clay(sericite)-altered and amphibole strongly chlorite-epidote altered, so the crystals are recognised mainly from their columnar habit. Coarse anhedral goethite (up to 2000 um) is interpreted to have replaced chalcopyrite, and 100-200 um chalcopyrite still occurs with the goethite. Calcite and goethite-quartz veining is present. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40902",
+  "drillhole_id": "OVD-002",
+  "depth": "87.4 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD011 ; hand specimen: Dark gray with helminthic white calcite veins ; Table 1 note: schist",
+  "rock_name": "Pelitic rock",
+  "rock_name_original": null,
+  "texture": "Characteristic massive texture of muddy rock, rarely with 200 um plagioclase crystal fragments; dissemination of pyrite and pyrrhotite",
+  "minerals": [
+   {
+    "mineral": "Quartz (very fine-grained)",
+    "pct": null
+   },
+   {
+    "mineral": "Feldspar (very fine-grained)",
+    "pct": null
+   },
+   {
+    "mineral": "Clay mineral",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite (veins)",
+    "pct": null
+   }
+  ],
+  "alteration": "No alteration",
+  "opaque_minerals": "Pyrite 1-200 um euhedral to anhedral as fine-grained aggregates or crystal fragments; pyrrhotite 1-10 um anhedral, rarely with the pyrite aggregates",
+  "description_summary": "Dark gray unaltered pelitic rock cut by helminthic white calcite veins, with the massive texture typical of a muddy rock and rare 200 um relict plagioclase crystal fragments. It consists of very fine-grained quartz, feldspar and clay minerals. Pyrite (1-200 um, euhedral to anhedral) forms fine aggregates and crystal fragments, and rare 1-10 um anhedral pyrrhotite accompanies the pyrite aggregates. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40903",
+  "drillhole_id": "OVD-001",
+  "depth": "7.15 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD012 ; hand specimen: Dark black to reddish copper coloured, massive; some texture cut by quartz veins ; Table 1 note: gossan",
+  "rock_name": "Gossan (iron oxide-calcite-quartz; original lithofacies not identified)",
+  "rock_name_original": null,
+  "texture": "Composed of goethite and calcite with calcite filling between the goethite; rare unknown Fe-Si hydroxide minerals",
+  "minerals": [
+   {
+    "mineral": "Goethite",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite (small Mg content)",
+    "pct": null
+   },
+   {
+    "mineral": "Quartz",
+    "pct": null
+   },
+   {
+    "mineral": "Fe-Si hydroxide mineral (unknown)",
+    "pct": null
+   },
+   {
+    "mineral": "Ag-I mineral (unknown, 8 um)",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Strongly oxidised",
+  "opaque_minerals": "Goethite (dominant), unknown Fe-Si hydroxide mineral, unknown Ag-I mineral 8 um present in goethite, calcite (with small Mg content)",
+  "description_summary": "Strongly oxidised gossan, dark black to reddish copper coloured and massive, cut in places by quartz veins. It consists of goethite with calcite filling the interstices between goethite, plus rare unknown Fe-Si hydroxide minerals. The original lithofacies cannot be identified. SEM-EDS identified goethite, an Fe-Si hydroxide mineral, calcite with a small Mg content, and an 8 um unknown Ag-I mineral hosted in goethite.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40904",
+  "drillhole_id": "OVD-002",
+  "depth": "44.2 m (Table 1). NOTE: the body text of both report parts repeats 'Tag: 40902, Depth 87.4 m' for OVD013, which duplicates OVD011 and is a transcription error; Table 1 of Part 1 gives 40904 / 44.2 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD013 ; hand specimen: Dark green to black, equigranular; calcite veins often present ; Table 1 note: disseminate gabbro",
+  "rock_name": "Amphibole micro-Gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline rock of plagioclase and amphibole; ophitic texture not common in amphibole",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (50-200 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole / hornblende (50-500 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Ni-bearing pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": null
+   },
+   {
+    "mineral": "As-Ag-Te sulphide (unknown)",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Chlorite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite",
+    "pct": null
+   }
+  ],
+  "alteration": "Middle sericite-chlorite alteration with chalcopyrite-pyrite veinlets; amphibole strongly chlorite-altered",
+  "opaque_minerals": "Magnetite 50 um subhedral-anhedral in amphibole; pyrite in chalcopyrite-pyrrhotite veinlets, anhedral, sometimes Ni-bearing (SEM-EDS 0.36 wt% Ni); pyrrhotite in chalcopyrite veinlets; chalcopyrite anhedral in veinlets with pyrite or Ni-bearing pyrite; pentlandite 1-10 um anhedral inside pyrite (SEM-EDS spot with 2.54 wt% Co); unknown As-Ag-Te sulphide mineral 1 um",
+  "description_summary": "Dark green to black equigranular holocrystalline amphibole micro-gabbro with common calcite veins and moderate sericite-chlorite alteration; the amphibole is strongly chloritised. The distinctive feature is a chalcopyrite-pyrite(-pyrrhotite) veinlet. SEM-EDS identified chalcopyrite, pyrite, Ni-bearing pyrite (0.36 wt% Ni), pentlandite hosted in pyrite and an unknown 1 um As-Ag-Te sulphide.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40905",
+  "drillhole_id": "OVD-001",
+  "depth": "35.8 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD014 ; hand specimen: Brown to light green, dense, no igneous texture determinable ; Table 1 note: spotted",
+  "rock_name": "Strong altered diabase",
+  "rock_name_original": null,
+  "texture": "Very little discernible texture remains; goethite with slightly columnar shape around sericitised plagioclase gives a presumed ophitic-like texture; anorthite retained its shape better than the mafic minerals",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase (50-300 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite (after mafic mineral)",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite",
+    "pct": null
+   }
+  ],
+  "alteration": "Strong sericite alteration; plagioclase strongly sericitised, mafic minerals and/or matrix oxidised; calcite and goethite veinlets present",
+  "opaque_minerals": "Goethite present as a replaced mafic mineral, often in veins; calcite in fractures or veinlets; other opaque minerals could not be confirmed",
+  "description_summary": "Dense brown to light green strongly altered diabase in which almost no igneous texture survives. Goethite with a slightly columnar habit surrounds sericitised plagioclase, giving a presumed relict ophitic texture, and the plagioclase (anorthite) has kept its shape better than the mafic minerals because of its greater resistance to alteration. Alteration is strong sericitisation of plagioclase with oxidation of the mafic minerals and matrix; calcite and goethite veinlets are present. No other opaque minerals could be confirmed and no SEM-EDS was done.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40906",
+  "drillhole_id": "OVD-002",
+  "depth": "126.4 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD015 ; hand specimen: Black, massive; thin grayish-white patchy areas often arranged in lines ; Table 1 note: pyrite schist",
+  "rock_name": "Black Schist",
+  "rock_name_original": null,
+  "texture": "Slightly sandy quartz, feldspar and clay minerals (chlorite, illite-smectite) with schistosity; ~50 um grains; weak boudinage and fold texture; sub-rounded to rounded clusters of coarser fragments produce the spotted appearance",
+  "minerals": [
+   {
+    "mineral": "Quartz (~50 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Feldspar",
+    "pct": null
+   },
+   {
+    "mineral": "Clay minerals (chlorite, illite-smectite)",
+    "pct": null
+   },
+   {
+    "mineral": "Hematite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite (veinlets)",
+    "pct": null
+   }
+  ],
+  "alteration": "No alteration; quartz and goethite-quartz veinlets present, sometimes calcite and pyrite veinlets cutting the sedimentary and schistosity texture",
+  "opaque_minerals": "Hematite 100-500 um anhedral, rarely in clusters; pyrite 1-100 um euhedral to anhedral, commonly as veinlets",
+  "description_summary": "Black massive schist of slightly sandy quartz, feldspar and clay minerals (chlorite, illite-smectite) with schistosity, weak boudinage and fold textures. The spotted appearance in hand specimen reflects sub-rounded to rounded clusters of slightly coarser crystal fragments. The rock is unaltered but carries quartz and goethite-quartz veinlets, with calcite and pyrite veinlets locally cutting the sedimentary and schistose fabric. Opaques are anhedral hematite (100-500 um, rarely clustered) and common pyrite (1-100 um) as veinlets.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40907",
+  "drillhole_id": "OVD-001",
+  "depth": "62.4 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD016 ; hand specimen: Dark gray to dark green, irregularly distributed colours ; Table 1 note: pyrite schist",
+  "rock_name": "Strong altered diabase",
+  "rock_name_original": null,
+  "texture": "Very little discernible texture remains; goethite with slightly columnar shape around sericitised plagioclase gives presumed ophitic-like texture",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase (50-200 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite (after mafic mineral)",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   }
+  ],
+  "alteration": "Strong sericite-calcite alteration; plagioclase strongly sericitised and calcite-altered; mafic minerals and matrix oxidised; calcite and goethite veinlets present",
+  "opaque_minerals": "Goethite present as a displaced mafic mineral, often in veins; calcite replacing plagioclase, often fractured or veined; pyrite 10-100 um euhedral to subhedral, commonly disseminated",
+  "description_summary": "Dark gray to dark green strongly altered diabase with irregular colour distribution and almost no preserved primary texture; a relict ophitic-like fabric is inferred from columnar goethite around sericitised plagioclase. Alteration is strong sericite-calcite: plagioclase is strongly sericitised and replaced by calcite, and the mafic minerals and matrix are oxidised. Calcite and goethite veinlets are present, and euhedral to subhedral pyrite 10-100 um is commonly disseminated. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40908",
+  "drillhole_id": "OVD-001",
+  "depth": "8.6 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD017 ; hand specimen: Dark red patches with bright green copper oxide filling the cracks ; Table 1 note: Cu-enriched, malachite",
+  "rock_name": "Gossan (copper-iron-oxide; original lithofacies not identified)",
+  "rock_name_original": null,
+  "texture": "Copper-iron oxide mineral and malachite; malachite as fracture filling in goethite and Cu-Fe oxide; Fe-Si hydroxide mineral with brown rim and dark brown core",
+  "minerals": [
+   {
+    "mineral": "Goethite",
+    "pct": null
+   },
+   {
+    "mineral": "Malachite",
+    "pct": null
+   },
+   {
+    "mineral": "Copper-iron oxide mineral",
+    "pct": null
+   },
+   {
+    "mineral": "Cu- and Ni-bearing Fe-Si hydroxide (unknown)",
+    "pct": null
+   },
+   {
+    "mineral": "Quartz-clay mineral",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite (in altered plagioclase)",
+    "pct": null
+   }
+  ],
+  "alteration": "Oxidised",
+  "opaque_minerals": "Malachite, goethite, Cu- and Ni-bearing Fe-Si hydroxide minerals (SEM-EDS shows the Fe-Si hydroxide rim contains Cu and Ni)",
+  "description_summary": "Copper-iron-oxide gossan with dark red patches and bright green copper oxide filling cracks; the original lithofacies cannot be identified. Malachite is developed as fracture filling within goethite and copper-iron oxide minerals. An unknown Fe-Si hydroxide mineral with a brown rim and dark brown core occurs at the boundary between goethite and Cu oxide, and SEM-EDS shows that its rim contains both Cu and Ni.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40909",
+  "drillhole_id": "OVD-002",
+  "depth": "51.6 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD018 ; hand specimen: Green to dark greenish-gray, fine-grained equigranular ; Table 1 note: schist?",
+  "rock_name": "Amphibole micro-gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline rock of slightly fine-grained plagioclase and amphibole; amphibole intergrown with plagioclase",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (10-300 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole (10-500 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Chlorite (secondary)",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": "rare"
+   }
+  ],
+  "alteration": "Chlorite alteration; plagioclase weakly sericitised",
+  "opaque_minerals": "Chalcopyrite 50-100 um anhedral, rare, occurring with amphibole",
+  "description_summary": "Green to dark greenish-gray fine-grained equigranular holocrystalline amphibole micro-gabbro. Plagioclase (10-300 um) is weakly sericitised and amphibole (10-500 um) is intergrown with it; the rock carries a chlorite alteration overprint. The only opaque phase observed is rare anhedral chalcopyrite (50-100 um) associated with amphibole. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40910",
+  "drillhole_id": "OVD-002",
+  "depth": "37 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD019 ; hand specimen: Black to dark greenish-gray, fine-grained equigranular; sulphide minerals irregularly scattered ; Table 1 note: disseminate gabbro",
+  "rock_name": "Amphibole gabbro",
+  "rock_name_original": null,
+  "texture": "Holocrystalline rock of slightly fine-grained plagioclase and amphibole; amphibole often ophitic",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (50-400 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Amphibole / hornblende (50-800 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Magnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Ni-bearing pyrrhotite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Ag-Te-Bi mineral",
+    "pct": "trace"
+   },
+   {
+    "mineral": "Ag-Te mineral",
+    "pct": "trace"
+   }
+  ],
+  "alteration": "Partly sericitisation; sulphides sit in patchy strongly altered parts, with strong sericitisation between sulphide and rock-forming minerals; strongly sericitised amphibole may be actinolite",
+  "opaque_minerals": "Magnetite 50-100 um subhedral-anhedral in amphibole; chalcopyrite 10-1000 um anhedral with Ni-bearing pyrrhotite; pyrrhotite 10-200 um anhedral, Ni-bearing (SEM-EDS 0.57 wt% Ni); pyrite 10-200 um anhedral with Ni-bearing pyrrhotite; Ag-Te-Bi mineral and Ag-Te mineral, 1 um, rare, in chalcopyrite",
+  "description_summary": "Black to dark greenish-gray fine-grained equigranular holocrystalline amphibole gabbro with often ophitic amphibole and irregularly scattered sulphides. Sericitisation is patchy and is strongest between the sulphides and the rock-forming minerals; strongly sericitised amphibole may in fact be actinolite. Chalcopyrite reaches 1000 um and occurs with Ni-bearing pyrrhotite (0.57 wt% Ni) and pyrite. SEM-EDS also detected rare 1 um Ag-Te and Ag-Te-Bi minerals inside the chalcopyrite.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40911",
+  "drillhole_id": "OVD-002",
+  "depth": "75.5 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD020 ; Table 1 note: spotted",
+  "rock_name": "Strong altered diabase",
+  "rock_name_original": null,
+  "texture": "Very little discernible texture remains; the spotted appearance is thought to be plagioclase or mafic minerals; more patchy and less basal area suggests a hypabyssal rather than holocrystalline rock, hence diabase",
+  "minerals": [
+   {
+    "mineral": "Altered plagioclase (50-200 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Calcite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   }
+  ],
+  "alteration": "Strong sericite-calcite alteration; plagioclase, mafic minerals and matrix strongly sericitised; calcite and pyrite veinlets present",
+  "opaque_minerals": "Pyrite 10-100 um euhedral to subhedral, disseminated and rarely as veinlets; calcite displaces plagioclase and mafic minerals, often fractured and veined",
+  "description_summary": "Strongly altered diabase in which very little discernible texture survives; the spotted appearance is interpreted as relict plagioclase or mafic minerals and the patchy, low-groundmass character suggests a hypabyssal rock. Alteration is strong sericite-calcite affecting plagioclase, mafic minerals and matrix alike, and calcite displaces plagioclase and mafic minerals and forms fractures and veins. Euhedral to subhedral pyrite (10-100 um) is disseminated and rarely forms veinlets. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40912",
+  "drillhole_id": "OVD-002",
+  "depth": "137.6 m (Table 1); body text of both parts gives 137.4 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD021 ; hand specimen: Black to dark green with irregular lamination or cross-bedding-like texture ; Table 1 note: schist?",
+  "rock_name": "Black Schist (weak schistosity)",
+  "rock_name_original": null,
+  "texture": "Composed of fine-grained quartz, feldspar and clay minerals with weak schistosity",
+  "minerals": [
+   {
+    "mineral": "Quartz (fine-grained)",
+    "pct": null
+   },
+   {
+    "mineral": "Feldspar",
+    "pct": null
+   },
+   {
+    "mineral": "Clay minerals",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrite",
+    "pct": null
+   }
+  ],
+  "alteration": "Weak alteration",
+  "opaque_minerals": "Pyrite 1-500 um anhedral, disseminated or fissure-filling, cutting through the host-rock structure; no opaque minerals other than pyrite were found",
+  "description_summary": "Black to dark green weakly schistose black schist with an irregular lamination or cross-bedding-like texture, composed of fine-grained quartz, feldspar and clay minerals. Alteration is weak. Pyrite (1-500 um, anhedral) is the only opaque mineral present and occurs disseminated or as fissure fillings that cut through the host-rock structure. No SEM-EDS.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40914",
+  "drillhole_id": "OVD-001",
+  "depth": "9.4 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD022 ; hand specimen: Brown to reddish brown with scattered bright greenish copper oxide surrounded by greenish yellow ; Table 1 note: Cu-enriched, bornite gossan",
+  "rock_name": "Gossan (iron-copper oxide; altered gabbro?)",
+  "rock_name_original": null,
+  "texture": "Primarily quartz, goethite, Cu hydroxide mineral and clay minerals; quartz microstructure has a chalcedony texture filling voids; very rare relict textures presumed to be plagioclase or mafic mineral (amphibole?)",
+  "minerals": [
+   {
+    "mineral": "Quartz (chalcedonic)",
+    "pct": null
+   },
+   {
+    "mineral": "Goethite",
+    "pct": null
+   },
+   {
+    "mineral": "Malachite (Cu hydroxide)",
+    "pct": null
+   },
+   {
+    "mineral": "Atacamite (Cu hydroxide)",
+    "pct": null
+   },
+   {
+    "mineral": "Native copper",
+    "pct": null
+   },
+   {
+    "mineral": "Cu- and Ni-bearing Fe-Si hydroxide",
+    "pct": null
+   },
+   {
+    "mineral": "Clay minerals",
+    "pct": null
+   }
+  ],
+  "alteration": "Oxidised; intense oxidative action leaving very little original texture",
+  "opaque_minerals": "Cu hydroxide minerals 100-1000 um, disseminated, abundant, inferred to be malachite and atacamite from SEM-EDS; native copper 1-30 um encapsulated in Cu hydroxide mineral; goethite; Cu- and Ni-bearing Fe-Si hydroxide mineral",
+  "description_summary": "Intensely oxidised iron-copper oxide gossan, brown to reddish brown with scattered bright green copper oxide, in which very little original texture survives; rare relict textures presumed to be plagioclase or amphibole suggest the protolith was an altered, sulphide-bearing gabbro. It consists mainly of quartz (with chalcedonic void fill), goethite, Cu hydroxide minerals and clay minerals. SEM-EDS shows the abundant 100-1000 um Cu hydroxide minerals are malachite and atacamite, that 1-30 um native copper is encapsulated within them, and that the rim of an Fe-Si hydroxide mineral contains Cu and Ni.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+  "source_fileId": "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+  "sample_id": "40915",
+  "drillhole_id": "OVD-009",
+  "depth": "72 m",
+  "sample_type": "polished thin section; Mireslab internal sample code OVD023 ; hand specimen: Dark black with pale yellow irregular patchy texture ; Table 1 note: disseminate gabbro",
+  "rock_name": "Altered Amphibole-Orthopyroxene micro-gabbro",
+  "rock_name_original": null,
+  "texture": "Presumed holocrystalline rock of relict plagioclase and mafic minerals; relict plagioclase has an ophitic-like texture",
+  "minerals": [
+   {
+    "mineral": "Plagioclase (20-200 um, relict)",
+    "pct": null
+   },
+   {
+    "mineral": "Mafic mineral - amphibole and/or pyroxene (30-900 um)",
+    "pct": null
+   },
+   {
+    "mineral": "Cr-bearing magnetite",
+    "pct": null
+   },
+   {
+    "mineral": "Pentlandite",
+    "pct": null
+   },
+   {
+    "mineral": "Chalcopyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Pyrrhotite",
+    "pct": null
+   },
+   {
+    "mineral": "Ni-bearing pyrite",
+    "pct": null
+   },
+   {
+    "mineral": "Galena",
+    "pct": null
+   }
+  ],
+  "alteration": "Strong sericite-chlorite-epidote alteration; plagioclase core chloritised and rim sericitised; mafic mineral cores strongly chloritised and epidotised, rims sericitised. Gossan-like oxidised minerals could not be observed",
+  "opaque_minerals": "Cr-bearing magnetite 50 um euhedral-subhedral with mafic minerals; pentlandite 1-10 um anhedral in gaps between mafic crystals, often Co-bearing (SEM-EDS 31.41 wt% Ni, 2.06 wt% Co); chalcopyrite 30-300 um; pyrrhotite 30-300 um anhedral; pyrite 10-300 um anhedral, Ni-bearing (SEM-EDS 0.47 wt% Ni); galena 10-30 um anhedral with magnetite",
+  "description_summary": "Dark black altered amphibole-orthopyroxene micro-gabbro with a pale yellow patchy texture, presumed holocrystalline with relict plagioclase showing an ophitic-like fabric. Alteration is strong sericite-chlorite-epidote: plagioclase cores are chloritised with sericitised rims, and the mafic mineral cores are strongly chloritised and epidotised. Chalcopyrite, pyrrhotite (30-300 um) and Ni-bearing pyrite occur in the interstices between strongly altered plagioclase and mafic crystals, in contact with the sericitisation rim. SEM-EDS identified Cr-bearing magnetite, Co-bearing pentlandite (31.41 wt% Ni, 2.06 wt% Co), Ni-bearing pyrite (0.47 wt% Ni) and galena with magnetite. No gossan-like oxidised minerals are present.",
+  "analyst_or_lab": "Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",
+  "report_date": "2023-08-16"
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41022",
+  "drillhole_id": "OVD009",
+  "depth": "11.3 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-11.3'; per-sample PDF 41022.pdf fileId 1RkwQDzRpOEVCEQKtoVRgbRJlaYn9JHnO",
+  "rock_name": "Altered gabbrodiorite porphyry",
+  "rock_name_original": "Хувирсан габбродиорит порфир",
+  "texture": "Структур: шигтгээлэг, үнд.х-субофитлог, пойкилоофитлог, призмлэг мөхлөгт. Текстур: цул нягт. Шигтгээ 1.0-3.0 мм, үндсэн хэсэг 0.1-0.5 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "60-65"
+   },
+   {
+    "mineral": "Хувирсан эвэр хуурмаг / altered hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Хувирсан биотит / altered biotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "5-7"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Гётит / goethite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Гидрогётит / hydrogoethite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "ганц нэг (rare)"
+   }
+  ],
+  "alteration": "Серицит, хлорит, актинолит, лейкоксен, серпентин; эпигенет карбонат, кварц. Плагиоклаз серицит, пелит, карбонатад хүчтэй хувирч зарим нь бүрэн псевдоморфоз болсон; эвэр хуурмаг хлорит-актинолитод, биотит карбонат, хлорит, лейкоксенд хувирсан; 0.5-1.0 мм өргөнтэй карбонат-кварцын судлууд",
+  "opaque_minerals": "Ильменит-хромит-пирит-гётит-гидрогётит. Ильменит саарал, изометрлэг 0.1-0.4 мм, хааяа лейкоксенжсэн; хромит бараан саарал 0.02-0.1 мм; гётит бүслүүрлэг 0.1-0.2 мм, захаасаа гидрогётитоор түрэгдсэн, дотор нь пиритын реликт; ан цаваар гидрогётит",
+  "description_summary": "Плагиоклаз, хувирсан эвэр хуурмагийн шигтгээ маягийн ялгарлууд (40-45%) ба плагиоклаз, хувирсан эвэр хуурмаг, цөөвтөр биотит, кварцаас тогтсон субофитлог, пойкилоофитлог үндсэн хэсгээс бүрдэнэ. Плагиоклазын шигтгээ (1.0-2.5 мм) дундлаг-суурилаг найрлагатай, бүслүүрлэг, серицит-пелит-карбонатад хүчтэй хувирсан. Эвэр хуурмагийн шигтгээ хлорит-актинолитод хувирч хувирсан биотитоор түрэгдсэн; хувирсан биотитоор лейкоксенжсен рутил, сфен ялгарсан. Ойсон гэрэлд гётит, хромит, ильменит, пиритын цөөн мөхлөг тодорхойлогдов.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41019",
+  "drillhole_id": "OVD009",
+  "depth": "17.2 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-17.2'; per-sample PDF 41019.pdf fileId 1CQ4503I4sAtUWB4e648LRlCQRP3XwYX5",
+  "rock_name": "Porphyritic fine-grained pyroxene-hornblende gabbro (altered gabbro porphyry)",
+  "rock_name_original": "Шигтгээ маягийн жижиг ширхэгтэй пироксен-эвэр хуурмагт габбро (Хувирсан габбро порфир)",
+  "texture": "Структур: невадит шигтгээ маягийн, үнд.х-субофитлог, пойкилоофитлог, зарим хэсэгтээ микропегматитлаг. Текстур: цул нягт. Шигтгээ 1.0-3.0 мм, үндсэн хэсэг 0.1-0.8 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase (labradorite)",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Мон.пироксен / clinopyroxene",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Биотит / biotite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Апатит / apatite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Ковеллин / covellite",
+    "pct": "ганц нэг (rare)"
+   }
+  ],
+  "alteration": "Серицит, мусковит, соссюрит, хлорит, актинолит, карбонат, лейкоксен. Плагиоклаз серицит, мусковит, карбонат, соссюритад хүчтэй хувирсан; эвэр хуурмаг актинолитод бага зэрэг хувирсан; ан цаваар карбонатын линз, тасархай судланцар",
+  "opaque_minerals": "Ильменит-магнетит-хромит-титанит-пирит-халькопирит-ковеллин. Ильменит ягаавтар саарал, призмлэг 0.1-0.8 мм, хааяа лейкоксенжсэн; гематитад хувирсан магнетит 0.2-0.3 мм; хромит 0.03-0.1 мм; пирит 0.2-0.4 мм зөв хэлбэртэй, дотроо ковеллиноор түрэгдсэн халькопиритын бичил мөхлөг агуулна",
+  "description_summary": "Эвэр хуурмагийн шигтгээ маягийн ялгарлууд (50-55%) ба плагиоклаз, эвэр хуурмаг, цөөн мон.пироксен, кварцаас тогтсон офитлог, пойкилоофитлог үндсэн хэсгээс бүрдэнэ. Эвэр хуурмагийн шигтгээ (1.0-3.0 мм) харьцангуй бага хувирсан, дотроо мон.пироксены 0.2-0.6 мм мөхлөг агуулна; мон.пироксен 36-38 градусын унтралтай, хувираагүй. Үндсэн хэсгийн плагиоклаз (0.2-0.8 мм) лабрадорын найрлагатай, серицит-мусковит-карбонат-соссюритад хүчтэй хувирсан. Кварц плагиоклазтай бичил пегматитлаг ургалт үүсгэнэ. Ойсон гэрэлд ильменит, магнетит, пирит, хромит тодорхойлогдож, пирит нь ковеллиноор түрэгдсэн халькопирит агуулна.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41018",
+  "drillhole_id": "OVD009",
+  "depth": "80.9 m (per section header; the ABM Khanlab sample sheet lists this interval as 80.8 m)",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-80.9'; per-sample PDF 41018.pdf fileId 1Zfoebc7pNJtyTh3bEqcFkU9O2Pd-TXz2",
+  "rock_name": "Porphyritic fine-grained pyroxene-hornblende gabbro (altered gabbro porphyry)",
+  "rock_name_original": "Шигтгээ маягийн жижиг ширхэгтэй пироксен-эвэр хуурмагт габбро (Хувирсан габбро порфир)",
+  "texture": "Структур: невадит шигтгээ маягийн, үнд.х-субофитлог, пойкилоофитлог. Текстур: цул нягт. Шигтгээ 1.0-3.5 мм, үндсэн хэсэг 0.1-0.6 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "35-40"
+   },
+   {
+    "mineral": "Биотит / biotite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Мон.пироксен / clinopyroxene",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "ганц нэг (rare)"
+   }
+  ],
+  "alteration": "Серицит, соссюрит, хлорит, актинолит, карбонат, лейкоксен, тальк(?). Плагиоклаз серицит-карбонат-соссюритад хүчтэй хувирсан; үндсэн хэсгийн эвэр хуурмаг хлорит-актинолитот агрегатад хүчтэй хувирсан; ан цаваар карбонат",
+  "opaque_minerals": "Ильменит-хромит-титанит-пирит-халькопирит. Ильменит ягаавтар саарал 0.1-0.6 мм, хааяа лейкоксенжсэн; гематитад хувирсан магнетит 0.2-0.3 мм; хромит 0.03-0.1 мм; пирит 0.2-0.5 мм шигтгээлэг, хааяа халькопиритын бичил мөхлөг агуулна",
+  "description_summary": "Энэ чулуу нь ерөнхийдөө OVD009-17.2 дээжтэй ижилхэн бөгөөд эвэр хуурмагийн шигтгээ маягийн ялгарлууд (50-55%) ба плагиоклаз, эвэр хуурмаг, цөөн мон.пироксеноос тогтсон офитлог, пойкилоофитлог үндсэн хэсгээс бүрдэнэ. Эвэр хуурмагийн шигтгээ (1.0-3.5 мм) бага хувирсан, дотроо хувираагүй мон.пироксены 0.2-0.5 мм мөхлөг агуулна. Актинолитын зүүлэг агрегат ба тальк(?)-ны бичил шөрмөслөг агрегатаас тогтсон псевдоморфозууд мон.пироксеноор үүссэн байх магадлалтай. Ойсон гэрэлд ильменит, магнетит, пирит, хромит, халькопиритын бичил шигтгээлэг мөхлөгүүд тодорхойлогдов.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41021",
+  "drillhole_id": "OVD009",
+  "depth": "126.7 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-126.7'; per-sample PDF 41021.pdf fileId 1Sco5KPMthBmNCKDTM1HEyMb3ojskkA1N",
+  "rock_name": "Schistose, carbonatised, strongly altered gabbrodiorite porphyry (metasomatite after gabbrodiorite)",
+  "rock_name_original": "Занаржиж, карбонатчлагдаж, хүчтэй хувирсан габбродиорит порфир /Габбродиоритоор үүссэн метасоматит/",
+  "texture": "Структур: реликт шигтгээлэг, үнд.х-реликт призмлэг мөхлөгт, микрогранолепидобласт. Текстур: занарлаг, линзлэг, судлархаг. Эрдсийн мөхлөг 0.01-1.0 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Серицит-хлоритын псевдоморфоз / sericite-chlorite pseudomorph",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Мөнгө? / native silver (?)",
+    "pct": "1 ш (single grain)"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "ганц нэг (rare)"
+   },
+   {
+    "mineral": "Эпигенет карбонат / epigenetic carbonate",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Эпигенет кварц / epigenetic quartz",
+    "pct": "5-10"
+   }
+  ],
+  "alteration": "Хүчтэй метасоматоз: анхдагч габбродиорит порфир нэг зүг чиглэсэн альбит-хлоритоос тогтсон агрегатад хувирсан; плагиоклаз серицит, пелит, карбонатад хүчтэй хувирсан; лейкоксен, рутил; чулуу хүчтэй карбонатчлагдаж 0.1-2.0 мм өргөнтэй карбонатын линз, судлууд занаржилтын дагуу үүссэн",
+  "opaque_minerals": "Ильменит-пирит-титанит. Ильменит саарал 0.05-0.2 мм, томхон мөхлөгүүд хүчтэй лейкоксенжсэн; пирит 0.01-0.1 мм цөөн; лейкоксенжсэн титанит занаржилтын дагуу сунасан нарийхан линз, судланцар; тод цагаан өнгийн мөнгөний(?) 0.002 мм ганц нэг мөхлөг",
+  "description_summary": "Анхдагч чулуу болох габбродиорит порфир (микрогаббродиорит) хүчтэй метасоматоз хувирлын улмаас нэг зүг чиглэсэн альбит-хлоритоос тогтсон агрегатад хувирч, реликт призмлэг мөхлөгт бүтцээ хадгалан үлджээ. Зарим хэсэгт плагиоклазын призмлэг мөхлөгүүд (0.1-0.8 мм) ба өнгөт эрдсээр (биотитоор?) үүссэн хлоритын псевдоморфозууд сайн хадгалагдсан. Хлорит нь 0.05-1.5 мм өргөнтэй линз, зурвасуудыг үүсгэнэ. Ойсон гэрэлд ильменит, пиритын бичил мөхлөгүүд ихэвчлэн хлоритоор үүссэн лейкоксенжсэн титанит дотор ялгарч үүссэн ба тод цагаан өнгийн мөнгөний ганц нэг бичил мөхлөг ажиглагдана.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41020",
+  "drillhole_id": "OVD009",
+  "depth": "143 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-143'; per-sample PDF 41020.pdf fileId 1YsqkUicqDX6WJ5MLdGnSW87UC2_JchFX",
+  "rock_name": "Mineralized porphyritic fine-grained hornblende-olivine-pyroxene melanocratic gabbro",
+  "rock_name_original": "Хүдэржсэн шигтгээ маягийн жижиг ширхэгтэй эвэр хуурмаг-оливин-пироксент меланократ габбро",
+  "texture": "Структур: габбро маягийн, субофитлог, пойкилоофитлог. Текстур: цул нягт, торлог, судлархаг. Шигтгээ 1.0-4.0 мм, үндсэн хэсэг 0.2-0.9 мм",
+  "minerals": [
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Мон.пироксен / clinopyroxene",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Хувирсан оливин / altered olivine",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Биотит / biotite",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Пирротин / pyrrhotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пентландит / pentlandite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Серицит, иддингсит, биотит, серпентин, хлорит, актинолит, мусковит, тальк. Хувирсан оливин иддингсит(?), бастит-биотитод бүрэн хувирч серпентины нарийхан судлаар зүсэгдэн торлог бүтэц үүсгэсэн; плагиоклаз соссюрит, серицитэд хүчтэй хувирсан",
+  "opaque_minerals": "Ильменит-магнетит-пентландит-хромит-пирротин-халькопирит. Пирротин ягаавтар шаргал, изометрлэг 0.2-4.0 мм, халькопирит (0.2-1.5 мм) түүнийг түрж эмжээрлэсэн; линзүүд 0.5-4.5 мм; пентландит 0.1-0.5 мм пойкилитоор линз дотор; магнетит 0.2-0.8 мм шигтгээлэг ба серпентины судланцрын дагуу 0.01-0.1 мм; ильменит 0.1-0.9 мм; хромит 0.05-0.2 мм",
+  "description_summary": "Өнгөт эрдсүүдийн шигтгээлэг ялгарлууд (50-55%) ба плагиоклаз, мон.пироксен, хувирсан биотит, эвэр хуурмагаас тогтсон офитлог, пойкилоофитлог, габбро маягийн үндсэн хэсгээс бүрдэнэ. Хувирсан оливины шигтгээ (1.5-4.0 мм) бор хүрэн иддингсит(?), бастит-биотитод бүрэн хувирч, серпентины судлуудаар зүсэгдэн торлог бүтэц үүсгэнэ. Мон.пироксены шигтгээ (1.1-3.0 мм) бараг хувираагүй, эвэр хуурмагийнх (1.0-3.5 мм) актинолитод бага хувирсан. Ойсон гэрэлд пирротин-халькопиритын ургалтаас тогтсон 0.5-4.5 мм линзүүд чулуунд жигд тархалттай үүссэн ба нүдээр ч ажиглагдана; линз дотор пентландитын зөв хэлбэртэй мөхлөгүүд пойкилитоор агуулагдана.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41015",
+  "drillhole_id": "OVD009",
+  "depth": "149.5 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-149.5'; per-sample PDF 41015.pdf fileId 1EAtV1kmg-X0X6njWtMRP8cYUMUKTl5Za",
+  "rock_name": "Altered gabbrodiorite porphyry (with hornblende gabbro schlieren)",
+  "rock_name_original": "Хувирсан габбродиорит порфир",
+  "texture": "Структур: шигтгээлэг, үнд.х-субофитлог, пойкилоофитлог, призмлэг мөхлөгт. Текстур: цул нягт. Шигтгээ 1.0-2.5 мм, үндсэн хэсэг 0.1-0.8 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "75-80"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Апатит / apatite",
+    "pct": "0.5-1"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "ганц нэг (rare)"
+   }
+  ],
+  "alteration": "Серицит, карбонат, хлорит, актинолит, эпидот. Плагиоклазын шигтгээ эпидоттой мусковит-серицитэт агрегатад хүчтэй хувирч зарим нь бүрэн псевдоморфоз болсон; эвэр хуурмаг актинолит, карбонат, хлоритод хувирсан",
+  "opaque_minerals": "Ильменит-титанит-пирит-халькопирит. Пирит цайвар шар, зөв хэлбэртэй 0.1-0.6 мм шигтгээлэг, заримдаа бичил линз үүсгэнэ; ильменит ягаавтар саарал 0.1-0.4 мм, лейкоксеноор бага хувирсан; халькопирит 0.01-0.03 мм цөөн, хувирсан эвэр хуурмагтай ассоциацитай",
+  "description_summary": "Хувирсан плагиоклазын шигтгээнүүд (10-15%) ба плагиоклаз, эвэр хуурмаг, цөөн кварцаас тогтсон офитлог, пойкилоофитлог үндсэн хэсгээс бүрдэнэ. Плагиоклазын шигтгээ (1.0-2.0 мм) бүслүүрлэг бүтэцтэй, эпидоттой мусковит-серицитэт агрегатад хүчтэй хувирсан. Үндсэн хэсгийн плагиоклаз (0.2-0.8 мм) шигтгээтэйгээ ижил, хэмжээгээрээ ялгаатай ба захын хэсэг нь хувираагүй. Энэ порфир дотор жижиг-дунд ширхэгтэй эвэр хуурмагт габбродиоритын 0.5-16 мм шлирүүд (15-20%) жигд тархалттай ажиглагдах ба тэдгээрт өнгөт эрдэстэй каркас маягийн ургалт үүсгэсэн титанит (ильменит) мөхлөгүүд, дотор нь халькопиритын бичил мөхлөгүүд ажиглагдана.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41033",
+  "drillhole_id": "OVD009",
+  "depth": "149.8 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-149.8'; per-sample PDF 41033.pdf fileId 1a2lAdL9Zt_Y9CdFKSV8XuQtwK0GyDO3q",
+  "rock_name": "Altered gabbro porphyry (with hornblende gabbrodiorite schlieren)",
+  "rock_name_original": "Хувирсан габбро порфир",
+  "texture": "Структур: шигтгээлэг, үнд.х-субофитлог, пойкилоофитлог, призмлэг мөхлөгт. Текстур: цул нягт. Шигтгээ 1.0-2.5 мм, үндсэн хэсэг 0.1-0.8 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "50-55"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "20-25"
+   },
+   {
+    "mineral": "Мон.пироксен / clinopyroxene",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "5"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Апатит / apatite",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Серицит, карбонат, хлорит, актинолит, эпидот; эпигенет карбонат, кварц. Хувирсан эвэр хуурмагийн шигтгээ актинолит, хлоритод хүчтэй хувирсан; плагиоклазын шигтгээ эпидот, мусковит-серицитэт агрегатад хүчтэй хувирсан, захаараа хувираагүй эмжээртэй; 0.1-8.0 мм өргөнтэй кварц-карбонатын линз, судлууд",
+  "opaque_minerals": "Ильменит-титанит-пирит-халькопирит. Ильменит ягаавтар саарал, призмлэг 0.1-0.6 мм, лейкоксеноор бага хувирсан, халькопиритын 0.01-0.1 мм бичил мөхлөгтэй ургалт үүсгэнэ; кварц-карбонатын судал дотор пирит (0.1-0.6 мм) ба халькопирит (0.1-0.5 мм) линзлэг ургалт үүсгэнэ",
+  "description_summary": "Хувирсан плагиоклаз, хувирсан эвэр хуурмаг, мон.пироксены шигтгээнүүд (20-25%) ба плагиоклаз, хувирсан эвэр хуурмаг, цөөн кварцаас тогтсон офитлог, пойкилоофитлог үндсэн хэсгээс бүрдэнэ. Мон.пироксены шигтгээ (1.0-2.0 мм) хувираагүй, захаасаа хувирсан эвэр хуурмагаар эмжээрлэгдсэн. Чулуунд кварц, карбонатаас тогтсон 0.1-8.0 мм өргөнтэй линз, судлууд үүсч, тэдгээрийн дунд хүдэржилт явагдсан. Энэ порфир дотор (009-149.5 дээжтэй ижилхэн) жижиг-дунд ширхэгтэй эвэр хуурмагт габбродиоритын 10-30 мм шлирүүд 20-25% хэмжээтэй ажиглагдана. Ойсон гэрэлд ильменит, пирит, халькопирит тодорхойлогдов.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41023",
+  "drillhole_id": "OVD009",
+  "depth": "151.6 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-151.6'; per-sample PDF 41023.pdf fileId 1obtPlYrPnq9Wqp51W5SZr5CO4vOjZy7T",
+  "rock_name": "Porphyritic fine-grained pyroxene-hornblende gabbro (altered gabbro porphyry)",
+  "rock_name_original": "Шигтгээ маягийн жижиг ширхэгтэй пироксен-эвэр хуурмагт габбро (Хувирсан габбро порфир)",
+  "texture": "Структур: шигтгээлэг, үнд.х-субофитлог, пойкилоофитлог, призмлэг мөхлөгт. Текстур: цул нягт. Шигтгээ 1.0-2.5 мм, үндсэн хэсэг 0.2-0.8 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "25-30"
+   },
+   {
+    "mineral": "Мон.пироксен / clinopyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "0.5-1"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Пирротин / pyrrhotite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Апатит / apatite",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Серицит, мусковит, карбонат, хлорит, актинолит, эпидот; эпигенет карбонат, кварц. Плагиоклазын шигтгээ эпидот, мусковит-серицитэт агрегатад хүчтэй хувирсан; эвэр хуурмаг хлорит-актинолитод хүчтэй хувирсан; 0.1-8.0 мм өргөнтэй кварц-карбонатын линз, судлууд",
+  "opaque_minerals": "Ильменит-титанит-пирит-халькопирит. Ильменит ягаавтар саарал 0.1-0.5 мм, лейкоксеноор бага хувирсан, халькопиритын 0.01-0.1 мм бичил мөхлөгтэй ургалт; хожуу карбонат-кварцын линз дотор шаргал ягаан пирротин (0.3-4.0 мм) ба халькопиритын ургалтаас тогтсон 3.0х7.0 мм линзүүд, мөн цайвар шар пиритээс тогтсон бичил линзүүд",
+  "description_summary": "Энэ чулуу нь ерөнхийдөө OVD009-149.5 ба OVD009-149.8 дээжүүдтэй ижил төстэй бөгөөд мон.пироксен, эвэр хуурмаг, хувирсан плагиоклазын шигтгээнүүд (20-25%) ба плагиоклаз, хувирсан эвэр хуурмагаас тогтсон офитлог, пойкилоофитлог үндсэн хэсгээс бүрдэнэ. Мон.пироксены шигтгээ (1.0-2.5 мм) хувираагүй; эвэр хуурмагийн шигтгээ (1.0-2.0 мм) карбонат, актинолит, хлоритод хувирсан. Ойсон гэрэлд ильменит, пирротин, пирит, халькопирит тодорхойлогдож, хожуу карбонат-кварцын линз дотор пирротин-халькопиритын 3.0х7.0 мм хүртэл ургалт үүссэн байна.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41017",
+  "drillhole_id": "OVD009",
+  "depth": "161 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-161'; per-sample PDF 41017.pdf fileId 1gQUNPeXL6LnbQ-zuuAElk2uUcTVpstUx",
+  "rock_name": "Mineralized, altered porphyritic medium- to fine-grained melanocratic gabbronorite (peridotite?)",
+  "rock_name_original": "Хүдэржиж, хувирсан шигтгээ маягийн дунд жижиг ширхэгтэй меланократ габбронорит (Перидотит?)",
+  "texture": "Структур: шигтгээ маягийн, үнд.х-субофитлог, пойкилоофитлог. Текстур: цул нягт. Шигтгээ 1.0-6.0 мм, үндсэн хэсэг 0.1-0.8 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан пироксен / altered pyroxene (bastite)",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "5"
+   },
+   {
+    "mineral": "Хувирсан оливин / altered olivine",
+    "pct": "5-8"
+   },
+   {
+    "mineral": "Биотит / biotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Пирротин / pyrrhotite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пентландит / pentlandite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Сфалерит / sphalerite (?)",
+    "pct": "ганц нэг (rare)"
+   }
+  ],
+  "alteration": "Серицит, карбонат, хлорит, актинолит, серпентин, тальк. Ромбо пироксен баститад (лизардит-серпентин) бүрэн псевдоморфоз болтлоо хувирсан; оливин серпентинд бүрэн хувирсан; плагиоклаз серицитэд хүчтэй хувирсан",
+  "opaque_minerals": "Магнетит-ильменит-хромит-пентландит-пирротин-халькопирит. Пирротин-халькопиритын ургалтаас тогтсон 2.0-8.0 мм линзүүд чулуунд 15-20%; линз захаар пентландит (0.1-0.2 мм) ба ильменит; ильменит 0.1-0.5 мм лейкоксентэй; магнетит 0.1-0.3 мм ба серпентины судланцрын дагуу 0.01-0.1 мм; хромит 0.02-0.1 мм; халькопиритын тоосонцор агуулсан сфалерит(?) 0.1-0.2 мм",
+  "description_summary": "Пироксен, хувирсан оливин, хувирсан эвэр хуурмагийн шигтгээ маягийн ялгарлууд (60-65%) ба плагиоклаз, хувирсан эвэр хуурмаг, хувирсан пироксен, биотитоос тогтсон үндсэн хэсгээс бүрдэнэ. Хувирсан ромбо пироксены шигтгээ (1.0-6.0 мм) баститад бүрэн псевдоморфоз болж, ногоон серпентины нарийхан судлуудаар зүсэгдэн түүнийг даган хүдрийн эрдсийн бичил мөхлөгүүд (0.01-0.03 мм) үүссэн. Бараг хувиралд өртөөгүй моноклин пироксен, серпентинд бүрэн хувирсан оливины псевдоморфоз (2.5-3.0 мм) ажиглагдана. Ойсон гэрэлд ильменит, магнетит, пирротин, пентландит, хромит, халькопирит тодорхойлогдож, пирротин-халькопиритын линзүүд чулуунд 15-20%-ийг эзэлнэ.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41016",
+  "drillhole_id": "OVD009",
+  "depth": "171.5 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-171.5'; per-sample PDF 41016.pdf fileId 180rRCCwZYjQjBI-sK_DFmbwoGK8vhcyN",
+  "rock_name": "Mineralized altered fine- to medium-grained melanocratic gabbronorite (peridotite?)",
+  "rock_name_original": "Хүдэржсэн жижиг дунд ширхэгтэй хувирсан меланократ габбронорит (перидотит?)",
+  "texture": "Структур: панидиоморфлог, пойкилоофитлог, пойкилитлог. Текстур: цул нягт. Эрдсийн мөхлөг 0.3-5.0 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан пироксен / altered pyroxene (ortho + clino)",
+    "pct": "40-45"
+   },
+   {
+    "mineral": "Хувирсан оливин / altered olivine",
+    "pct": "15-20"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "10"
+   },
+   {
+    "mineral": "Биотит / biotite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Пирротин / pyrrhotite",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "1-2"
+   },
+   {
+    "mineral": "Пентландит / pentlandite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Серицит, карбонат, хлорит, актинолит, серпентин, тальк(?). Ромбо пироксен хуваагдлын ан цавын дагуу серпентины судлуудаар зүсэгдэж, захаасаа серпентин-актинолитоор түрэгдсэн; оливин серпентин-магнетитын судлаар торлог бүтэц үүсгэсэн; плагиоклаз серицитэд хувирсан",
+  "opaque_minerals": "Магнетит-ильменит-хромит-пентландит-пирротин-халькопирит. Пентландит-пирротин-халькопиритын ургалтаас тогтсон 1.0-8.0 мм линзүүд чулууны 30-35%-ийг эзэлнэ; ильменит 0.05-0.5 мм, халькопиритын тоосонцор агуулна; хромит 0.03-0.6 мм; магнетит 0.1-0.3 мм ба серпентины судланцрын дагуу 0.01-0.1 мм; сфалерит линз дотор",
+  "description_summary": "Хувирсан пироксен, хувирсан оливин, хувирсан эвэр хуурмаг, бага зэргийн плагиоклаз, биотит ба хүдрийн эрдсүүдээс бүрдэнэ. Ромбо пироксен шулуун унтралтай, мон.пироксен 35-38 градусын унтралтай, 0.3-5.0 мм; оливин зургаа-найман талт 0.2-3.0 мм, хөндлөн ан цавын дагуу серпентин, магнетитын нарийхан судлууд үүсч торлог бүтэц үүсгэсэн. Хүчтэй хүдэржилтийн улмаас пентландит-пирротин-халькопиритын ургалтаас тогтсон 1.0-8.0 мм линзүүд чулууны бараг 30-35%-ийг эзэлж, жигд тархалттай үүссэн байна.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41034",
+  "drillhole_id": "OVD009",
+  "depth": "190.8 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-190.8'; per-sample PDF 41034.pdf fileId 12JXw5FsWuVxKDMeyXnr9YChSdciAmE7b",
+  "rock_name": "Mineralized porphyritic fine-grained pyroxene-hornblende gabbro (altered gabbro porphyry)",
+  "rock_name_original": "Хүдэржсэн шигтгээ маягийн жижиг ширхэгтэй пироксен-эвэр хуурмагт габбро /Хувирсан габбро порфир/",
+  "texture": "Структур: шигтгээлэг, үнд.х-субофитлог, пойкилоофитлог, призмлэг мөхлөгт. Текстур: цул нягт. Шигтгээ 0.8-2.5 мм, үндсэн хэсэг 0.1-0.6 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "55-60"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "30-35"
+   },
+   {
+    "mineral": "Мон.пироксен / clinopyroxene",
+    "pct": "5-10"
+   },
+   {
+    "mineral": "Хувирсан биотит / altered biotite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Кварц / quartz",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "0.5-1.0"
+   },
+   {
+    "mineral": "Пирит / pyrite",
+    "pct": "3-5"
+   },
+   {
+    "mineral": "Пирротин / pyrrhotite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Титанит / titanite",
+    "pct": "0.5-1"
+   }
+  ],
+  "alteration": "Серицит, пелит, эпидот, хлорит, актинолит, карбонат, лейкоксен, кварц. Плагиоклазын шигтгээ (0.8-2.5 мм) дундлаг-суурилаг найрлагатай, эпидот, серицит, пелитэд хүчтэй хувирсан; эвэр хуурмаг актинолитод бага хувирсан; ан цаваар кварц, карбонатын 0.2-0.6 мм мөхлөгүүд",
+  "opaque_minerals": "Ильменит-хромит-титанит-пирит-пирротин-халькопирит. Хүдрийн эрдсээс тогтсон 0.2-3.0 мм өргөнтэй линз, судлууд; ильменит ягаавтар саарал 0.1-0.6 мм, лейкоксенжсэн, халькопиритын 0.01-0.1 мм бичил мөхлөгтэй; пирит зонхилох ба 0.5-1.5 мм өргөнтэй судлууд үүсгэн чулууг зүсэж, халькопиритын бичил мөхлөг агуулна",
+  "description_summary": "Хувирсан плагиоклаз, эвэр хуурмагийн шигтгээ маягийн ялгарлууд (40-45%) ба плагиоклаз, эвэр хуурмаг, цөөн мон.пироксеноос тогтсон офитлог, пойкилоофитлог үндсэн хэсгээс бүрдэнэ. Эвэр хуурмагийн шигтгээ (0.8-2.0 мм) бор хүрэн өнгөтэй, дотроо хувираагүй мон.пироксены 0.2-0.4 мм мөхлөг агуулна; мон.пироксен 36-38 градусын унтралтай. Чулуу хүдэржилтэд өртсний улмаас хүдрийн эрдсээс тогтсон 0.2-3.0 мм өргөнтэй линз, судлууд үүсч, хүдрийн эрдсүүд чулууг бүрдүүлэгч эрдсүүдтэй ургалт үүсгэсэн. Ойсон гэрэлд ильменит, магнетит, пирит, хромит, пирротин, халькопирит тодорхойлогдов.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "Petrography_mineragraphy_24 sample.pdf (consolidated 24-sample Khanlab O-24 report; per-sample PDFs 41014-41023, 41033, 41034 in folder 03_khanlab_Petrography_and_Mineralogy_description_2023)",
+  "source_fileId": "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+  "sample_id": "41014",
+  "drillhole_id": "OVD009",
+  "depth": "195.2 m",
+  "sample_type": "polished thin section (ӨТШ); section header 'ӨТШ-OVD009-195.2'; per-sample PDF 41014.pdf fileId 1JizR826XY6q8ymy0RK9o9lDs5yXm-ag2",
+  "rock_name": "Mineralized, altered porphyritic fine- to medium-grained melanocratic gabbronorite (peridotite?)",
+  "rock_name_original": "Хүдэржиж, хувирсан шигтгээ маягийн жижиг дунд ширхэгтэй меланократ габбронорит (Перидотит?)",
+  "texture": "Структур: шигтгээ маягийн, үнд.х-субофитлог, пойкилоофитлог. Текстур: цул нягт. Шигтгээ 0.8-4.0 мм, үндсэн хэсэг 0.1-0.6 мм",
+  "minerals": [
+   {
+    "mineral": "Хувирсан пироксен / altered pyroxene (bastite)",
+    "pct": "10-15"
+   },
+   {
+    "mineral": "Эвэр хуурмаг / hornblende",
+    "pct": "8-10"
+   },
+   {
+    "mineral": "Биотит / biotite",
+    "pct": "10"
+   },
+   {
+    "mineral": "Хувирсан плагиоклаз / altered plagioclase",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Хувирсан оливин / altered olivine",
+    "pct": "1-3"
+   },
+   {
+    "mineral": "Халькопирит / chalcopyrite",
+    "pct": "0.5"
+   },
+   {
+    "mineral": "Пирротин / pyrrhotite",
+    "pct": "0.5-1"
+   },
+   {
+    "mineral": "Ильменит / ilmenite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Магнетит / magnetite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Хромит / chromite",
+    "pct": "цөөн (few)"
+   },
+   {
+    "mineral": "Пентландит / pentlandite",
+    "pct": "цөөн (few)"
+   }
+  ],
+  "alteration": "Серпентин, тальк, мусковит, серицит, хлорит, актинолит, карбонат. Ромбо пироксен баститад (лизардит-серпентин) бүрэн псевдоморфоз болтлоо хувирсан; баститын псевдоморфоз гадуураа актинолит, хлоритжсон биотит, тальк агрегатаар түрэгдсэн; плагиоклаз серицитэд хүчтэй хувирсан",
+  "opaque_minerals": "Магнетит-ильменит-хромит-пирротин-халькопирит. Пирротин-халькопиритын ургалтаас тогтсон 0.8-3.0 мм линзүүд чулуунд 10-15%, гадуураа хожуу карбонатаар эмжээрлэгдсэн; магнетит 0.1-0.4 мм ба серпентины судланцрын дагуу 0.01-0.1 мм; ильменит 0.1-0.5 мм биотит, хувирсан эвэр хуурмагтай ассоциацитай; хромит 0.02-0.1 мм бөөгнөрсөн",
+  "description_summary": "Энэ чулуу нь ерөнхийдөө OVD009-161 дээжтэй ижилхэн бөгөөд пироксен, хувирсан оливин, хувирсан эвэр хуурмагийн шигтгээ маягийн ялгарлууд (60-65%) ба актинолитжсон эвэр хуурмаг, серпентинжсэн пироксен, бага зэргийн хувирсан плагиоклаз, биотитоос тогтсон хүчтэй хувирсан үндсэн хэсгээс бүрдэнэ. Хувирсан ромбо пироксены шигтгээ (0.8-4.0 мм) баститад бүрэн псевдоморфоз болж реликт призмлэг хэлбэрээ хадгалсан. Ойсон гэрэлд ильменит, магнетит, пирротин, пентландит, хромит, халькопирит тодорхойлогдож, пирротин-халькопиритын 0.8-3.0 мм линзүүд чулуунд 10-15%-ийг эзэлнэ.",
+  "analyst_or_lab": "not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",
+  "report_date": null
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00228.JPG",
+  "source_fileId": "1vYYemys2Ff_RuyG3mXvUb4-poYrMQ1Hx",
+  "sample_id": "DSC00228",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00229.JPG",
+  "source_fileId": "1Ld-HDjowwKZMjgDxqxCrEwcNSc2WJ-VO",
+  "sample_id": "DSC00229",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00230.JPG",
+  "source_fileId": "14ZTmklnu5i_KsSrfQadyuCWtlnSJWa0N",
+  "sample_id": "DSC00230",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00231.JPG",
+  "source_fileId": "13RXgi1Y9H7r0_EhEjUQHYTuhK0pyoRZc",
+  "sample_id": "DSC00231",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00232.JPG",
+  "source_fileId": "1Zk6yPLjQzzO4vUQ_G6hnLay2-9192hUi",
+  "sample_id": "DSC00232",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00233.JPG",
+  "source_fileId": "1_DzfiTQDnE580BZos3IXPORzcV1DyzwX",
+  "sample_id": "DSC00233",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00234.JPG",
+  "source_fileId": "16oJ5d7udM-qCkQBa80DHnLgk9pda3zA2",
+  "sample_id": "DSC00234",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00235.JPG",
+  "source_fileId": "1DK3GgXyEERepSh4wdwDRtvau_rKG6K_J",
+  "sample_id": "DSC00235",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-09"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00251.JPG",
+  "source_fileId": "1lg_O5TwsNdZ5LRFAST-UpKtR948tPfFT",
+  "sample_id": "DSC00251",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00252.JPG",
+  "source_fileId": "1tWEVEDJrpaVIKVrqfK36kKtK7BIvrO3-",
+  "sample_id": "DSC00252",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00253.JPG",
+  "source_fileId": "1UvsKe57PUjKXRWN1vQgwOC-WWpif58u8",
+  "sample_id": "DSC00253",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00254.JPG",
+  "source_fileId": "1LAHQOgtw3j3ChGjwurT2KoM9WAZDXFPb",
+  "sample_id": "DSC00254",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00255.JPG",
+  "source_fileId": "1UwvCJUert0xsQnkyn33Y-CjeUXR9QKXv",
+  "sample_id": "DSC00255",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00257.JPG",
+  "source_fileId": "1dECwdgQj0yF2nt7w-p_OCttwwZignfIB",
+  "sample_id": "DSC00257",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00258.JPG",
+  "source_fileId": "1_CMHvIjca7GPk3aYZupzd9-UAcuUThKR",
+  "sample_id": "DSC00258",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00259.JPG",
+  "source_fileId": "18K8jMTcHzK4pT0Fc9U8q4oQmmzkOTW8W",
+  "sample_id": "DSC00259",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ },
+ {
+  "source_file": "CORE PHOTO/ARDH-2005-01/4. Thin section photo (folder - JPG images only, no accompanying report) :: DSC00260.JPG",
+  "source_fileId": "1InTZ2OQTK27hcPFZtbAXkgb2ImM3p1-n",
+  "sample_id": "DSC00260",
+  "drillhole_id": "ARDH-2005-01",
+  "depth": null,
+  "sample_type": "thin section photograph only (photo_only) - no petrographic text found; filename is a camera sequence number, not a sample/lab tag",
+  "rock_name": null,
+  "rock_name_original": null,
+  "texture": null,
+  "minerals": [],
+  "alteration": null,
+  "opaque_minerals": null,
+  "description_summary": "Photo-only record. The ARDH-2005-01 'CORE PHOTO/4. Thin section photo' folder holds 18 JPG files (17 unique; 'Copy of DSC00233.JPG' duplicates DSC00233). No petrographic or mineragraphic report, spreadsheet or description document accompanies them anywhere in the ARDH-2005-01 tree (sibling folders are only '1. Hole Location photo', '2. Core photo' and '3. Speciment photo'). File EXIF/modified dates are 2005-11-09 and 2005-11-10, consistent with the 2005 ARDH drilling campaign. Sample identity must be resolved from an external ARDH-2005-01 sample register - the filenames carry no sample number.",
+  "analyst_or_lab": null,
+  "report_date": "2005-11-10"
+ }
+]
