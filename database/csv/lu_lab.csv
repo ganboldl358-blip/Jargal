@@ -1,8 +1,10 @@
 ﻿lab_raw,lab_canonical,role,n_records
+ABM field geologist (not named in the sheet),ABM field geologist (not named in the sheet),unresolved,54
 Altantsetseg,Altantsetseg (ABM/Aventura in-house petrographer),ABM in-house,161
-"Dr Anthony J Crawford, A & A Crawford Geological Research Consultants",Dr Anthony J Crawford (A & A Crawford Geological Research),consultant,38
+"Dr Anthony J Crawford, A & A Crawford Geological Research Consultants",Dr Anthony J Crawford (A & A Crawford Geological Research),consultant,40
 Innova Mineral LLC,Innova Mineral LLC,commercial lab,15
 Khanlab,Khanlab LLC (KhanAltai),commercial lab,48
+L. Oyunjargal Ph.D (NUM); client Ragnarock Investment LLC; 9-page report. Mongolian-language twin: 'BE-3 samples in Mongolian.pdf' fileId 1POBc4Or0a4L_m33xSjb5WwJSULy7bb0X,National University of Mongolia (МУИС/NUM; L.Jargal PhD),university lab,3
 MIRES,Mireslab Mongol LLC (MIRESL),commercial lab,22
 MIRESL (Mireslab Mongol LLC),Mireslab Mongol LLC (MIRESL),commercial lab,23
 "MUST (ШУТИС) Mineral Resource Research professor team — B.Enkhjargal (PhD), T.Oyunchimeg (PhD), N.Bolorchimeg (PhD), B.Altanzul (PhD); client: Ragnarok Investment LLC | N.Bolorchimeg",MUST — Mongolian University of Science & Technology (ШУТИС),university lab,2
@@ -11,11 +13,20 @@ MIRESL (Mireslab Mongol LLC),Mireslab Mongol LLC (MIRESL),commercial lab,23
 "MUST (ШУТИС) Mineral Resource Research professor team — B.Enkhjargal (PhD), T.Oyunchimeg (PhD), N.Bolorchimeg (PhD), B.Altanzul (PhD); client: Ragnarok Investment LLC | T.Oyunchimeg, B.Enkhjargal",MUST — Mongolian University of Science & Technology (ШУТИС),university lab,8
 "MUST (ШУТИС) Mineral Resource Research professor team — B.Enkhjargal (PhD), T.Oyunchimeg (PhD), N.Bolorchimeg (PhD), B.Altanzul (PhD); client: Ragnarok Investment LLC | T.Oyunchimeg, B.Enkhjargal, B.Altanzul (SEM)",MUST — Mongolian University of Science & Technology (ШУТИС),university lab,3
 Mireslab,Mireslab Mongol LLC (MIRESL),commercial lab,47
+Mireslab Mongol LLC (reported by Undarmaa Batsaikhan); Report #004 / Order No 004; contact Batkhurel (Innova Mineral),Mireslab Mongol LLC (MIRESL),commercial lab,2
+Mireslab Mongol LLC (reported by Undarmaa); Report #005 / Order No 005; contact Batkhurel (Innova Mineral),Mireslab Mongol LLC (MIRESL),commercial lab,6
+"Mireslab Mongol LLC (Миреслаб Монгол) - Ж. Эрдэнэбаяр (J. Erdenebayar); Report #004 / Order #003; contact B. Batkhurel (Innova Mineral). Sections prepared at Geological Central Laboratory (from 3 Aug 2022); microscopy at MUST Mineral Resources & Geoinformation Centre on Nikon Eclipse LV100-POL; XRD at Akita, Japan",Mireslab Mongol LLC (MIRESL),commercial lab,8
+"Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2302 / Order No 007 for Innova Mineral LLC (contact Batkhurel). 23 polished thin sections prepared at Mineral Resource Science Laboratory, Akita, Japan; Nikon Eclipse LV100NPOL optical microscope; JEOL JSM 5400 SEM + Oxford EDS, Akita University",Mireslab Mongol LLC (MIRESL),commercial lab,23
+"Mireslab Mongol LLC - Engineer Erdenebayar J, Ph.D; Director Batsumber A, M.Eng. Report #2303 / Order No 008 for Innova Mineral LLC (contact Batkhurel). 2 polished thin sections per sample prepared at MiReSLab Japan; Nikon Eclipse LV100NPOL; JEOL JSM 5400 SEM + Oxford EDS, Akita University",Mireslab Mongol LLC (MIRESL),commercial lab,2
+"Mireslab Mongol LLC - Jamsran Erdenebayar; Report #001 / Order No 001; contact Batkhurel. Sections prepared at MiReSLab Japan; XRD Rigaku SmartLab (MiReSLab Japan); SEM-EDS JEOL JSM 5400 + Oxford, Akita University",Mireslab Mongol LLC (MIRESL),commercial lab,1
+"Mireslab Mongol LLC - Jamsran Erdenebayar; Report #004 / Order No 002; report to Innova Mineral, contact Batkhurel. Sections prepared at Dept. of Geology & Hydrogeology, MUST; XRD at MiReS Lab Japan; SEM-EDS (JEOL JSM 5400 + Oxford EDS) at Akita University",Mireslab Mongol LLC (MIRESL),commercial lab,2
 NUM,National University of Mongolia (МУИС/NUM; L.Jargal PhD),university lab,3
 Oyunjargal,"Oyunjargal (project geologist, in-house)",in-house,6
 SHUTIS,MUST — Mongolian University of Science & Technology (ШУТИС),university lab,42
 "ThinSection Mongolia LLC (Dr. T.Oyunchimeg PhD, Dr. B.Enkhjargal PhD, Dr. B.Dolzodmaa PhD); client: Aventura Minerals LLC",ThinSection Mongolia LLC,commercial lab,16
 not stated,not stated,unresolved,62
 not stated in document (Khanlab per ABM 'Suggested Petro for the Oval 2024' list),Khanlab LLC (KhanAltai),commercial lab,12
+"not stated in document (Khanlab, per ABM 'Suggested Petro for the Oval 2024' list); 'Петрографи, минераграфийн бичиглэл' format, sections numbered ӨТШ-<hole>-<depth>; Mongolian original also as 'Петрографи, минераграфи О -24.doc' and English translation 'Eng Петрографи, минераграфи О -24.doc'",Khanlab LLC (KhanAltai),commercial lab,12
+"not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)","not stated in document (Mongolian-language petrographic-mineragraphic description sheet, 'Петрографи, минераграфийн бичиглэл' format; filed under 31_From_Batkhurel/5. Laboratory/Thin and polish)",unresolved,8
 Л.Жаргал PhD (client: Рагнарок инвестмент ХХК / Ragnarok Investment LLC; order Зах-2023/01),National University of Mongolia (МУИС/NUM; L.Jargal PhD),university lab,3
 Л.Жаргал PhD (order Зах-2023/01),National University of Mongolia (МУИС/NUM; L.Jargal PhD),university lab,4

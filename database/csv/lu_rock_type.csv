@@ -1,476 +1,707 @@
-﻿rock_name_original,rock_group,n_occurrences
-Gabbro,gabbro / gabbronorite / norite,96
-Peridotite,peridotite / ultramafic,50
-Gabbrodiorite,gabbrodiorite,42
-Gabbro mineralized,gabbro / gabbronorite / norite,26
-Diorite,diorite / quartz diorite,25
-Peridodtite,other / unclassified,22
-Olivine gabbro,olivine gabbro / melagabbro,19
-Meta sediment,sediment / metasediment,16
-Spotted rock,hornfels / spotted rock,16
-Pyroxenite,peridotite / ultramafic,14
-Altered gabbrodiorite porphyry,gabbrodiorite,12
-Amphibole micro-gabbro,gabbro / gabbronorite / norite,12
-Siltstone,sediment / metasediment,11
-Gabbro Mineralized,gabbro / gabbronorite / norite,10
-Porphyritic fine grained pyroxene-hornblende gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,10
-gabbro,gabbro / gabbronorite / norite,10
-schist,schist / phyllite,10
-Amphibole gabbro,gabbro / gabbronorite / norite,9
-Dolerite,dolerite / diabase / basalt dyke,9
-Strong altered diabase,dolerite / diabase / basalt dyke,9
-Breccia,breccia / fault rock,8
-Hornblende peridotite,peridotite / ultramafic,8
-Alkalic Gabbro,gabbro / gabbronorite / norite,7
-Diabase,dolerite / diabase / basalt dyke,7
-Sandstone,sediment / metasediment,7
-Altered andesite,volcanic / subvolcanic,6
-Gabbro dyke,gabbro / gabbronorite / norite,6
-Altered gabbro porphyry,gabbro / gabbronorite / norite,5
-Andesite,volcanic / subvolcanic,5
-Massive sulphide,massive sulfide / ore,5
-"Mineralised, altered uneven-grained pyroxene-olivine-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,5
-Mineralized gabbro,gabbro / gabbronorite / norite,5
-Norite,gabbro / gabbronorite / norite,5
-Rhyolite,volcanic / subvolcanic,5
-Silstone,other / unclassified,5
-"Strongly altered, mineralised uneven-grained pyroxene-olivine-hornblende peridotite",peridotite / ultramafic,5
-Altered porphyritic fine grained pyroxene-hornblende melanocratic gabbro (Altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,4
-Gossan,gossan / oxidized,4
-Metasediment,sediment / metasediment,4
-"Mineralised, serpentinized, fine to medium grained hornblende peridotite",peridotite / ultramafic,4
-Oxidized Amphibole gabbro,gossan / oxidized,4
-Phyllite,schist / phyllite,4
-Porphyritic fine-grained pyroxene-hornblende gabbro (altered gabbro porphyry),gabbro / gabbronorite / norite,4
-Altered Amphibole-Orthopyroxene micro-gabbro,gabbro / gabbronorite / norite,3
-Altered diorite porphyry,diorite / quartz diorite,3
-Black Schist (weak schistosity),schist / phyllite,3
-Foid Gabbro,gabbro / gabbronorite / norite,3
-Gossan (Iron-copper oxide. Altered Gabbro?),gossan / oxidized,3
-"Mineralised, altered uneven-grained pyroxene-olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,3
-"Mineralized, serpentinitized, fine to medium grained Amph-peridotite",peridotite / ultramafic,3
-Monzodiorite,diorite / quartz diorite,3
-Pelitic rock,sediment / metasediment,3
-Pelitic rock (weak schistosity),schist / phyllite,3
-Poorly mineralized gabbro,gabbro / gabbronorite / norite,3
-Shale (weak schistosity),schist / phyllite,3
-Spotted Rock,hornfels / spotted rock,3
-Weakly mineralized gabbro,gabbro / gabbronorite / norite,3
-gneiss,sediment / metasediment,3
-spotted,hornfels / spotted rock,3
-Altered amygdaloidal basalt,dolerite / diabase / basalt dyke,2
-Altered fine-meduim grained biotite-amphibole gabbro,gabbro / gabbronorite / norite,2
-Altered medium- to fine-grained biotite-hornblende gabbrodiorite,gabbrodiorite,2
-Altered medium- to fine-grained hornblende-pyroxene gabbro,gabbro / gabbronorite / norite,2
-Altered melanocratic microgabbro,gabbro / gabbronorite / norite,2
-Altered mineralized gabbro,gabbro / gabbronorite / norite,2
-Altered porphyritic-like fine- to medium-grained olivine-pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,2
-Altered uneven-grained peridotite,peridotite / ultramafic,2
-"Altered, mineralised uneven-grained olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,2
-Altereted Gabbrodiorite,gabbrodiorite,2
-Amphibole-orthoperoxene micro-gabbro,gabbro / gabbronorite / norite,2
-Andesite porphyry,volcanic / subvolcanic,2
-Basalt - Andesite basalt,dolerite / diabase / basalt dyke,2
-Black schist,schist / phyllite,2
-Carbonate-altered basalt,dolerite / diabase / basalt dyke,2
-Coarse- to medium-grained biotite granite,granitoid,2
-Dense dissemination,other / unclassified,2
-Diorite Porphyry,diorite / quartz diorite,2
-Felsic (acid) subvolcanic rock,volcanic / subvolcanic,2
-Fine and medium grained olivine-hornblende- pyroxene peridotite,peridotite / ultramafic,2
-Fine- to medium-grained biotite granite,granitoid,2
-Fine- to medium-grained biotite-hornblende-pyroxene gabbro,gabbro / gabbronorite / norite,2
-"Fine- to medium-grained hornblende quartz diorite (gabbrodiorite), weakly gneissose",gabbrodiorite,2
-Fine- to medium-grained olivine-pyroxene gabbro,gabbro / gabbronorite / norite,2
-Fine- to medium-grained pyroxene-hornblende gabbrodiorite,gabbrodiorite,2
-Fine-grained hornblende gabbrodiorite,gabbrodiorite,2
-Fine-grained pyroxene-hornblende gabbrodiorite,gabbrodiorite,2
-Gabbro Mineralized M,gabbro / gabbronorite / norite,2
-Gossan (Copper-iron-oxide. The original lithofacies is not identified.),gossan / oxidized,2
-Gossan (Iron oxide-calcite-quartz. The original lithofacies are not identification.),gossan / oxidized,2
-Granodiorite,diorite / quartz diorite,2
-High Mineralized gabbro,gabbro / gabbronorite / norite,2
-Hydrothermal breccia,breccia / fault rock,2
-Intense Limonited Metasediment rock. Cut by Quartz.,gossan / oxidized,2
-Intense mineralized quartz diorite porphyry (Andesite-dacite),diorite / quartz diorite,2
-Intensive metasomatic altered gabbrodiorite porphyry,gabbrodiorite,2
-Intensively altered fine-meduim grained olivine-amphibole gabbro (melanocratic gabbro),olivine gabbro / melagabbro,2
-Massive sulfide ore,massive sulfide / ore,2
-Massive sulphide top contact,massive sulfide / ore,2
-Mineralised cordierite-actinolite metasomatite,other / unclassified,2
-Mineralised quartz-carbonate vein (oxidised Cu),vein / quartz,2
-Mineralised spinel-bearing epidote-pyroxene micro-gneiss (skarn?),sediment / metasediment,2
-Mineralised spinel-cordierite-actinolite metasomatite (micro-gneiss),sediment / metasediment,2
-Mineralized Amph-Pl gneiss (from diorite),diorite / quartz diorite,2
-Mineralized altered porphyritic medium-fine grained hornblende pyroxene melanocratic gabbronorite (Peridotite?),peridotite / ultramafic,2
-Mineralized and altered fine- medium grained hornblende pyroxene melanocratic gabbronorite (Peridotite?),peridotite / ultramafic,2
-Mineralized olivine+hornblende orthocumulate,other / unclassified,2
-Mineralized porphyritic fine grained hornblende-olivine-pyroxene melanocratic gabbro,olivine gabbro / melagabbro,2
-Mineralized qtz-actinolite-albite gneiss (after gabbrodiorite),gabbrodiorite,2
-Mineralized sericite-quartz schist,schist / phyllite,2
-"Mineralized, altered porphyritic fine -medium grained hornblende pyroxene melanocratic gabbronorite (Peridotite?)",peridotite / ultramafic,2
-"Mineralized, altered, fine to medium grained Px-Bt-Amph gabbro",gabbro / gabbronorite / norite,2
-"Mineralized, cordierite-actinolite metasomatite",other / unclassified,2
-"Mineralized, fine- medium grained hornblende pyroxene melanocratic gabbro (Peridotite?)",peridotite / ultramafic,2
+﻿rock_name_original,rock_group,rock_family,n_occurrences,seen_in
+Gabbro,gabbro / gabbronorite / norite,mafic intrusive,96,samples.field_lithology; samples.iogas_lithology; samples.petro_lithology
+Peridotite,peridotite / ultramafic,ultramafic,50,samples.field_lithology; samples.iogas_lithology; samples.petro_lithology
+Gabbrodiorite,gabbrodiorite,mafic intrusive,42,descriptions.rock_name; samples.field_lithology; samples.iogas_lithology; samples.petro_lithology
+Diorite,diorite / quartz diorite,felsic-intermediate intrusive,27,descriptions.rock_name; samples.field_lithology; samples.iogas_lithology; samples.petro_lithology
+Gabbro mineralized,gabbro / gabbronorite / norite,mafic intrusive,26,samples.field_lithology
+Peridodtite,peridotite / ultramafic,ultramafic,22,samples.petro_lithology
+Olivine gabbro,olivine gabbro / melagabbro,mafic intrusive,19,descriptions.rock_name; samples.petro_lithology
+Amphibole micro-gabbro,gabbro / gabbronorite / norite,mafic intrusive,16,descriptions.rock_name
+Meta sediment,sediment / metasediment,sedimentary,16,samples.field_lithology; samples.petro_lithology
+Spotted rock,hornfels / spotted rock,metamorphic,16,samples.field_lithology; samples.petro_lithology
+Pyroxenite,peridotite / ultramafic,ultramafic,14,samples.field_lithology; samples.petro_lithology
+Altered gabbrodiorite porphyry,gabbrodiorite,mafic intrusive,13,descriptions.rock_name; samples.petro_lithology
+Amphibole gabbro,gabbro / gabbronorite / norite,mafic intrusive,12,descriptions.rock_name
+Strong altered diabase,dolerite / diabase / basalt dyke,mafic intrusive,12,descriptions.rock_name
+Siltstone,sediment / metasediment,sedimentary,11,samples.field_lithology; samples.petro_lithology
+Gabbro Mineralized,gabbro / gabbronorite / norite,mafic intrusive,10,samples.field_lithology
+Porphyritic fine grained pyroxene-hornblende gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,mafic intrusive,10,descriptions.rock_name
+gabbro,gabbro / gabbronorite / norite,mafic intrusive,10,samples.field_lithology
+schist,schist / phyllite,metamorphic,10,samples.field_lithology; samples.petro_lithology
+Dolerite,dolerite / diabase / basalt dyke,mafic intrusive,9,samples.field_lithology
+Breccia,breccia / fault rock,metamorphic,8,samples.field_lithology; samples.petro_lithology
+Hornblende peridotite,peridotite / ultramafic,ultramafic,8,descriptions.rock_name; samples.field_lithology
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй пироксен-оливин-эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,8,descriptions.rock_name_original
+Alkalic Gabbro,gabbro / gabbronorite / norite,mafic intrusive,7,samples.iogas_lithology
+Diabase,dolerite / diabase / basalt dyke,mafic intrusive,7,samples.field_lithology; samples.petro_lithology
+Porphyritic fine-grained pyroxene-hornblende gabbro (altered gabbro porphyry),gabbro / gabbronorite / norite,mafic intrusive,7,descriptions.rock_name
+Sandstone,sediment / metasediment,sedimentary,7,samples.field_lithology; samples.petro_lithology
+Altered andesite,volcanic / subvolcanic,volcanic,6,descriptions.rock_name; samples.field_lithology; samples.petro_lithology
+Gabbro dyke,gabbro / gabbronorite / norite,mafic intrusive,6,samples.field_lithology
+Gossan,gossan / oxidized,vein-ore,6,descriptions.rock_name; samples.field_lithology; samples.petro_lithology
+Хувирсан габбродиорит порфир,gabbrodiorite,mafic intrusive,6,descriptions.rock_name_original
+"Хүдэржиж, серпентинжсэн жижиг дунд ширхэгтэй эвэр хуурмагтай перидотит",peridotite / ultramafic,ultramafic,6,descriptions.rock_name_original
+Шигтгээ маягийн жижиг ширхэгтэй пироксен-эвэр хуурмагт габбро (Хувирсан габбро порфир),gabbro / gabbronorite / norite,mafic intrusive,6,descriptions.rock_name_original
+Altered gabbro porphyry,gabbro / gabbronorite / norite,mafic intrusive,5,descriptions.rock_name
+Andesite,volcanic / subvolcanic,volcanic,5,descriptions.rock_name; samples.field_lithology; samples.petro_lithology
+Massive sulphide,massive sulfide / ore,vein-ore,5,samples.field_lithology; samples.petro_lithology
+"Mineralised, altered uneven-grained pyroxene-olivine-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,ultramafic,5,descriptions.rock_name
+Mineralized gabbro,gabbro / gabbronorite / norite,mafic intrusive,5,samples.field_lithology
+Norite,gabbro / gabbronorite / norite,mafic intrusive,5,samples.field_lithology
+Rhyolite,volcanic / subvolcanic,volcanic,5,samples.field_lithology; samples.petro_lithology
+Silstone,sediment / metasediment,sedimentary,5,samples.petro_lithology
+"Strongly altered, mineralised uneven-grained pyroxene-olivine-hornblende peridotite",peridotite / ultramafic,ultramafic,5,descriptions.rock_name
+"Хүчтэй хувирч, хүдэржсэн жигд биш ширхэгтэй пироксен-оливин-эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,5,descriptions.rock_name_original
+Altered Amphibole-Orthopyroxene micro-gabbro,gabbro / gabbronorite / norite,mafic intrusive,4,descriptions.rock_name
+Altered porphyritic fine grained pyroxene-hornblende melanocratic gabbro (Altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,mafic intrusive,4,descriptions.rock_name
+Andesite porphyry,volcanic / subvolcanic,volcanic,4,descriptions.rock_name; samples.field_lithology
+Basalt - Andesite basalt,dolerite / diabase / basalt dyke,mafic intrusive,4,descriptions.rock_name; samples.field_lithology
+Black Schist (weak schistosity),schist / phyllite,metamorphic,4,descriptions.rock_name
+Metasediment,sediment / metasediment,sedimentary,4,samples.field_lithology
+"Mineralised, serpentinized, fine to medium grained hornblende peridotite",peridotite / ultramafic,ultramafic,4,descriptions.rock_name
+Oxidized Amphibole Gabbro,gossan / oxidized,vein-ore,4,descriptions.rock_name
+Oxidized Amphibole gabbro,gossan / oxidized,vein-ore,4,descriptions.rock_name
+Pelitic rock,sediment / metasediment,sedimentary,4,descriptions.rock_name
+Pelitic rock (weak schistosity),schist / phyllite,metamorphic,4,descriptions.rock_name
+Phyllite,schist / phyllite,metamorphic,4,descriptions.rock_name; samples.petro_lithology
+Shale (weak schistosity),schist / phyllite,metamorphic,4,descriptions.rock_name
+Хувирсан андезит,volcanic / subvolcanic,volcanic,4,descriptions.rock_name_original; samples.petro_lithology
+Altered diorite porphyry,diorite / quartz diorite,felsic-intermediate intrusive,3,descriptions.rock_name
+Foid Gabbro,gabbro / gabbronorite / norite,mafic intrusive,3,samples.iogas_lithology
+Gossan (Iron-copper oxide. Altered Gabbro?),gossan / oxidized,vein-ore,3,descriptions.rock_name
+"Mineralised, altered uneven-grained pyroxene-olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,3,descriptions.rock_name
+"Mineralized, serpentinitized, fine to medium grained Amph-peridotite",peridotite / ultramafic,ultramafic,3,descriptions.rock_name
+Monzodiorite,diorite / quartz diorite,felsic-intermediate intrusive,3,samples.field_lithology
+Poorly mineralized gabbro,gabbro / gabbronorite / norite,mafic intrusive,3,samples.field_lithology
+Quartz vein,vein / quartz,vein-ore,3,descriptions.rock_name; samples.field_lithology; samples.petro_lithology
+Spotted Rock,hornfels / spotted rock,metamorphic,3,samples.field_lithology
+Weakly mineralized gabbro,gabbro / gabbronorite / norite,mafic intrusive,3,samples.field_lithology
+gneiss,sediment / metasediment,sedimentary,3,samples.petro_lithology
+spotted,hornfels / spotted rock,metamorphic,3,samples.field_lithology
+Верлит,peridotite / ultramafic,ultramafic,3,descriptions.rock_name_original; samples.petro_lithology
+Хувирсан габбро,gabbro / gabbronorite / norite,mafic intrusive,3,descriptions.rock_name_original; samples.petro_lithology
+Хувирсан диорит порфир,diorite / quartz diorite,felsic-intermediate intrusive,3,descriptions.rock_name_original
+Altered amygdaloidal basalt,dolerite / diabase / basalt dyke,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Altered fine-meduim grained biotite-amphibole gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name
+Altered medium- to fine-grained biotite-hornblende gabbrodiorite,gabbrodiorite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Altered medium- to fine-grained hornblende-pyroxene gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Altered melanocratic microgabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name
+Altered mineralized gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,samples.field_lithology
+Altered porphyritic-like fine- to medium-grained olivine-pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name
+Altered uneven-grained peridotite,peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+"Altered, mineralised uneven-grained olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name
+Altereted Gabbrodiorite,gabbrodiorite,mafic intrusive,2,samples.field_lithology
+Amphibole micro-Gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name
+Amphibole-Orthopyroxene micro-gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name
+Amphibole-orthoperoxene micro-gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name
+Black Schist,schist / phyllite,metamorphic,2,descriptions.rock_name
+Black schist,schist / phyllite,metamorphic,2,descriptions.rock_name
+Carbonate-altered basalt,dolerite / diabase / basalt dyke,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Coarse- to medium-grained biotite granite,granitoid,felsic-intermediate intrusive,2,descriptions.rock_name; samples.petro_lithology
+Dacite Porphyry,volcanic / subvolcanic,volcanic,2,descriptions.rock_name; samples.field_lithology
+Dense dissemination,other / unclassified,unknown,2,samples.field_lithology
+Diorite Porphyry,diorite / quartz diorite,felsic-intermediate intrusive,2,samples.petro_lithology
+Felsic (acid) subvolcanic rock,volcanic / subvolcanic,volcanic,2,descriptions.rock_name; samples.petro_lithology
+Fine and medium grained olivine-hornblende- pyroxene peridotite,peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+Fine- to medium-grained biotite granite,granitoid,felsic-intermediate intrusive,2,descriptions.rock_name; samples.petro_lithology
+Fine- to medium-grained biotite-hornblende-pyroxene gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+"Fine- to medium-grained hornblende quartz diorite (gabbrodiorite), weakly gneissose",gabbrodiorite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Fine- to medium-grained olivine-pyroxene gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Fine- to medium-grained pyroxene-hornblende gabbrodiorite,gabbrodiorite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Fine-grained hornblende gabbrodiorite,gabbrodiorite,mafic intrusive,2,descriptions.rock_name
+Fine-grained pyroxene-hornblende gabbrodiorite,gabbrodiorite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Gabbro Mineralized M,gabbro / gabbronorite / norite,mafic intrusive,2,samples.field_lithology
+Gabbro amphybolite,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name; samples.field_lithology
+Gabbro pyroxenite,peridotite / ultramafic,ultramafic,2,descriptions.rock_name; samples.field_lithology
+Gabbrodiorite porphyry and Amphybolite,gabbrodiorite,mafic intrusive,2,descriptions.rock_name; samples.field_lithology
+Gossan (Copper-iron-oxide. The original lithofacies is not identified.),gossan / oxidized,vein-ore,2,descriptions.rock_name
+Gossan (Iron oxide-calcite-quartz. The original lithofacies are not identification.),gossan / oxidized,vein-ore,2,descriptions.rock_name
+Granodiorite,diorite / quartz diorite,felsic-intermediate intrusive,2,samples.field_lithology; samples.petro_lithology
+High Mineralized gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,samples.field_lithology
+Hydrothermal breccia,breccia / fault rock,metamorphic,2,samples.field_lithology
+Intense Limonited Metasediment rock. Cut by Quartz.,gossan / oxidized,vein-ore,2,samples.field_lithology
+Intense mineralized quartz diorite porphyry (Andesite-dacite),diorite / quartz diorite,felsic-intermediate intrusive,2,descriptions.rock_name
+Intensely hydrothermally altered and brecciated protomylonite (protolith probably olivine-hornblende gabbro),gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+"Intensely hydrothermally altered rock, probably a leucogabbro dyke (no protolith evidence preserved)",gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name; samples.petro_lithology
+Intensive metasomatic altered gabbrodiorite porphyry,skarn / metasomatite,metamorphic,2,descriptions.rock_name
+Intensively altered fine-meduim grained olivine-amphibole gabbro (melanocratic gabbro),olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name
+Intrusive Rock?,intrusive (undifferentiated),unknown,2,descriptions.rock_name; samples.field_lithology
+Massive sulfide ore,massive sulfide / ore,vein-ore,2,descriptions.rock_name
+Massive sulphide top contact,massive sulfide / ore,vein-ore,2,samples.field_lithology
+Mineralised cordierite-actinolite metasomatite,skarn / metasomatite,metamorphic,2,descriptions.rock_name
+Mineralised quartz-carbonate vein (oxidised Cu),vein / quartz,vein-ore,2,descriptions.rock_name; samples.petro_lithology
+Mineralised spinel-bearing epidote-pyroxene micro-gneiss (skarn?),skarn / metasomatite,metamorphic,2,descriptions.rock_name; samples.petro_lithology
+Mineralised spinel-cordierite-actinolite metasomatite (micro-gneiss),skarn / metasomatite,metamorphic,2,descriptions.rock_name
+Mineralized Amph-Pl gneiss (from diorite),diorite / quartz diorite,felsic-intermediate intrusive,2,descriptions.rock_name
+Mineralized altered porphyritic medium-fine grained hornblende pyroxene melanocratic gabbronorite (Peridotite?),peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+Mineralized and altered fine- medium grained hornblende pyroxene melanocratic gabbronorite (Peridotite?),peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+Mineralized olivine+hornblende orthocumulate,peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+Mineralized porphyritic fine grained hornblende-olivine-pyroxene melanocratic gabbro,olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name
+Mineralized qtz-actinolite-albite gneiss (after gabbrodiorite),gabbrodiorite,mafic intrusive,2,descriptions.rock_name
+Mineralized sericite-quartz schist,schist / phyllite,metamorphic,2,descriptions.rock_name; samples.petro_lithology
+"Mineralized, altered porphyritic fine -medium grained hornblende pyroxene melanocratic gabbronorite (Peridotite?)",peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+"Mineralized, altered, fine to medium grained Px-Bt-Amph gabbro",gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name
+"Mineralized, cordierite-actinolite metasomatite",skarn / metasomatite,metamorphic,2,descriptions.rock_name
+"Mineralized, fine- medium grained hornblende pyroxene melanocratic gabbro (Peridotite?)",peridotite / ultramafic,ultramafic,2,descriptions.rock_name
 "Mineralized, metasomatized medium grained Amph-peridotite 
-(melanocratic Gabbro?)",peridotite / ultramafic,2
-"Mineralized, quartz vein with carbonate",vein / quartz,2
-"Mineralized, serpentinitized, fine to medium grained Amph-Peridotite",peridotite / ultramafic,2
-"Mineralized, silicified cordierite-serpentine-actinolite metasomatite",other / unclassified,2
-"Mineralized, silicified cordierite-serpentine-chlorite metasomatite",other / unclassified,2
-Net textured,massive sulfide / ore,2
-Olivine Gabbro,olivine gabbro / melagabbro,2
-Olivine+hornblende orthocumulate,other / unclassified,2
-"Ore mineralized, altered fine-medium grained biotite subalkaline diorite",diorite / quartz diorite,2
-Oxidized Amphibole Gabbro,gossan / oxidized,2
-Poorly mineralised gabbro,gabbro / gabbronorite / norite,2
-Porphyritic fine grained pyroxene-hornblende melanocratic gabbro (Altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,2
-Porphyritic fine-grained pyroxene-hornblende gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,2
-Quartz vein,vein / quartz,2
-Quartz-bearing amphibolite,other / unclassified,2
-Rhyolite porphyry (dacite porphyry in fig. captions),volcanic / subvolcanic,2
-"Schistose, carbonatized and intense altered gabbrodiorite-porphyry (Metasomatite by gabbrodiorite porphyry)",gabbrodiorite,2
-Serpentinite,peridotite / ultramafic,2
-Spotted meta-siltstone,hornfels / spotted rock,2
-Strong metasomatized ultramafic,other / unclassified,2
-"Strongly altered, mineralised uneven-grained hornblende peridotite",peridotite / ultramafic,2
-"Strongly altered, weakly mineralised uneven-grained olivine-pyroxene peridotite",peridotite / ultramafic,2
-Strongly mineralised (ferruginous) quartzite,other / unclassified,2
-Strongly mineralised garnet-quartz vein,vein / quartz,2
-"Strongly mineralised, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,2
-Strongly mineralized quartz-sericite schist,schist / phyllite,2
-Unmineralized gabbro,gabbro / gabbronorite / norite,2
-Weak mineralized Hornblende Peridotite,peridotite / ultramafic,2
-Weakly mineralised and altered fine- to medium-grained pyroxene-hornblende gabbrodiorite,gabbrodiorite,2
-"Weakly mineralised, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,2
-"Weakly mineralized, altered, fine to medium grained Px-Amph Gabbrodiorite",gabbrodiorite,2
-"Well preserved, mineralized olivine-hornblende orthocumulate",other / unclassified,2
-gossan,gossan / oxidized,2
-oxidazed gabbro,gossan / oxidized,2
-schist?,schist / phyllite,2
-Верлит,peridotite / ultramafic,2
-Кварц‑карбонат метасоматит,vein / quartz,2
-Оливин габбро,olivine gabbro / melagabbro,2
-Хувирсан габбро,gabbro / gabbronorite / norite,2
-Alkaline rock with strong hematitic alterations,other / unclassified,1
-Altered (actinolitized) gabbrodiorite porphyry,gabbrodiorite,1
-Altered (strongly actinolitized) gabbrodiorite porphyry,gabbrodiorite,1
-"Altered alkali, quartzose diorite porphyry",diorite / quartz diorite,1
-Altered fine- to medium-grained biotite-amphibole gabbro,gabbro / gabbronorite / norite,1
-Altered fine- to medium-grained pyroxene-hornblende gabbro,gabbro / gabbronorite / norite,1
-Altered gabbro,gabbro / gabbronorite / norite,1
-Altered medium- to coarse-grained pyroxenite,peridotite / ultramafic,1
-Altered medium- to fine-grained hornblende gabbrodiorite,gabbrodiorite,1
-Altered melanocratic gabbro (dolerite) porphyry with melanocratic microgabbro and pyroxene-garnet-carbonate skarn schlieren,olivine gabbro / melagabbro,1
-Altered melanocratic microgabbro (with lenses/bands of porphyritic melanocratic gabbronorite),olivine gabbro / melagabbro,1
-Altered olivine gabbro,olivine gabbro / melagabbro,1
-Altered plagio-rhyolite (plagio-granite porphyry),granitoid,1
-Altered porphyritic fine-grained pyroxene-hornblende melanocratic gabbro (altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,1
-Altered porphyritic-like fine- to medium-grained olivine-pyroxene-hornblende melanocratic gabbro (uneven-grained melanocratic gabbro),olivine gabbro / melagabbro,1
-Altered porphyritic-like medium- to fine-grained olivine-pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,1
-Altered porphyritic-like medium- to fine-grained olivine-pyroxene-hornblende melanocratic gabbro (gabbro porphyry),olivine gabbro / melagabbro,1
-Altered pyroxenite porphyry (vein pyroxenite),peridotite / ultramafic,1
-Altered qtz microdiorite,diorite / quartz diorite,1
-Altered quartz diorite,diorite / quartz diorite,1
-Altered quartzose microdiorite,diorite / quartz diorite,1
-Altered rock with strong silicification and hematitic alterations,other / unclassified,1
-Altered uneven-grained hornblende melanocratic gabbro (with mineralised microgabbro lens/schlieren),olivine gabbro / melagabbro,1
-Altered uneven-grained olivine-hornblende melanocratic gabbro,olivine gabbro / melagabbro,1
-"Altered, fine to medium grained, Pyroxene-Amphibole Gabbro",gabbro / gabbronorite / norite,1
-"Altered, oxidised uneven-grained olivine-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,1
-Amphibole micro-Gabbro,gabbro / gabbronorite / norite,1
-Amphibole-Orthopyroxene micro-gabbro,gabbro / gabbronorite / norite,1
-Amphibolitized pyroxenite,peridotite / ultramafic,1
-Andesite tuff,volcanic / subvolcanic,1
-Andesite with some malachite within the fractures,volcanic / subvolcanic,1
-Andesitic rock with hematitic alteration along the fractures,volcanic / subvolcanic,1
-Basalt,dolerite / diabase / basalt dyke,1
-Basalt dyke,dolerite / diabase / basalt dyke,1
-Black Schist,schist / phyllite,1
-"Carbonate altered, albite altered, epidote-pyroxene-garnet-carbonate Skarn",other / unclassified,1
-"Carbonate altered, fine grained, Ksp-qtz sandy meta-siltstone",sediment / metasediment,1
-Carbonated and mineralised quartz vein,vein / quartz,1
-Carbonatised and albitised epidote-pyroxene-garnet-carbonate skarn,other / unclassified,1
-Carbonatised fine-grained feldspar-quartz sandy metasiltstone,sediment / metasediment,1
-Carbonatised plagioclase-epidote-pyroxene micro-gneiss? (garnet-bearing skarn-like rock),sediment / metasediment,1
-"Carbonatised, metasomatically strongly altered medium- to fine-grained biotite diorite",diorite / quartz diorite,1
-"Carbonatised, mineralised quartz vein",vein / quartz,1
-"Carbonatised, mineralised uneven-grained olivine-hornblende peridotite (with fine gabbro and leucogabbro lenses/schlieren)",peridotite / ultramafic,1
-"Carbonatised, silicified altered gabbrodiorite porphyry",gabbrodiorite,1
-"Carbonatised, weakly brecciated altered diorite porphyry",diorite / quartz diorite,1
-Carbonatized and silicified altered andesite,volcanic / subvolcanic,1
-"Carbonatized, silicified metasomatized andesite",volcanic / subvolcanic,1
-Chlorite-biotite-muscovite-albite metasomatite,other / unclassified,1
-Chlorite-muscovite-albite metasomatite after microdiorite,diorite / quartz diorite,1
-Chlorite-sericite metasomatite,other / unclassified,1
-Chlorite-sericite micro-schist (phyllite),schist / phyllite,1
-Chlorite-sericite phyllite (micro-schist),schist / phyllite,1
-Clayey-micaceous phyllite,schist / phyllite,1
-Dacite,volcanic / subvolcanic,1
-Dacite Porphyry,volcanic / subvolcanic,1
-"Dark green, moderately magnetic, strongly chlorytic mafic rock (Andesite?)",volcanic / subvolcanic,1
-Diabase (olivine-bearing),dolerite / diabase / basalt dyke,1
-Diabase dyke,dolerite / diabase / basalt dyke,1
-"Diffusely mineral-banded, medium- to coarse-grained, poikilitic-textured hornblende-bearing olivine gabbro",olivine gabbro / melagabbro,1
-Diorite?,diorite / quartz diorite,1
-Dolerite?,dolerite / diabase / basalt dyke,1
-Dunite,peridotite / ultramafic,1
-Epidote vein,vein / quartz,1
-Epidote-chlorite-actinolite metasomatite (after gabbrodiorite porphyry?),gabbrodiorite,1
-Felsic rock with jarositic alteration,volcanic / subvolcanic,1
-Fine grained Bt-Qtz Diorite (micro-diorite),diorite / quartz diorite,1
-Fine grained amph-gabbrodiorite,gabbrodiorite,1
-Fine to medium grained amphibole gabbrodiorite,gabbrodiorite,1
-Fine- to medium-grained biotite granodiorite,diorite / quartz diorite,1
-Fine- to medium-grained olivine-hornblende-pyroxene peridotite,peridotite / ultramafic,1
-Fine-grained biotite-quartz diorite (microdiorite),diorite / quartz diorite,1
-Fine-grained feldspathic sandstone,sediment / metasediment,1
-"Fine-grained, sparsely olivine-phyric, weakly vesicular metabasalt",dolerite / diabase / basalt dyke,1
-"Finely hornblende-phyric basalt, probably a dyke or (less likely) chilled margin of a hornblende gabbro intrusive unit",gabbro / gabbronorite / norite,1
-"Foliated, pyritic, fine-grained variolitic metabasalt",dolerite / diabase / basalt dyke,1
-Fuchsite,other / unclassified,1
-Gabbrdiorite,diorite / quartz diorite,1
-Gabbro Mineralized P,gabbro / gabbronorite / norite,1
-Gabbro Mineralized S,gabbro / gabbronorite / norite,1
-Gabbro Mineralized s,gabbro / gabbronorite / norite,1
-Gabbro amphybolite,gabbro / gabbronorite / norite,1
-Gabbro mineralized M,gabbro / gabbronorite / norite,1
-Gabbro pyroxenite,peridotite / ultramafic,1
-Gabbrodiorite porphyry and Amphybolite,gabbrodiorite,1
-Garnet-Qtz-Carbonate metamorphic rock,other / unclassified,1
-Garnet-carbonate metasomatite (Skarn),other / unclassified,1
-Garnet-carbonate metasomatite (skarn),other / unclassified,1
-Garnet-quartz-carbonate rock,other / unclassified,1
-Gossan (Copper-iron-oxide ),gossan / oxidized,1
-Gossan (Iron oxide-calcite-quartz),gossan / oxidized,1
-Gravely sandstone,sediment / metasediment,1
-"Greenish gray, porphyritic diorite, disseminated py, limonite, malachite replaced sulfide blebs with some residual chalcopyrite",gossan / oxidized,1
-Hb Peridotite,peridotite / ultramafic,1
-Hematite and limonite altered quartz vein,gossan / oxidized,1
-Highly altered gabbrodiorite porphyry (albite-chlorite-carbonate metasomatite),gabbrodiorite,1
-Hornblende gabbrodiorite,gabbrodiorite,1
-Hornblende wehrlite,peridotite / ultramafic,1
-"Hydrotermal breccia. Strongly brecciated rock. Quartz, carbonate breccia. Light yellowish, moderately limonite, strongly carbonate alteration",gossan / oxidized,1
-Hydrothermal altered gabbro,gabbro / gabbronorite / norite,1
-Intensely altered aphyric fine-grained leucogabbroic dyke (doleritic texture),gabbro / gabbronorite / norite,1
-Intensely hydrothermally altered and brecciated protomylonite (protolith probably olivine-hornblende gabbro),gabbro / gabbronorite / norite,1
-"Intensely hydrothermally altered rock, probably a leucogabbro dyke (no protolith evidence preserved)",gabbro / gabbronorite / norite,1
-Intrusive Rock?,other / unclassified,1
-"Light greenish altered rhyolite with strong silicification, located on the north side of the fault, maybe related to the fault zone the rock may be altered.",volcanic / subvolcanic,1
-Light yellowish altered porphyritic rhyolite with strong limonitic alterations,gossan / oxidized,1
-Listvenite,other / unclassified,1
-Lithology essentially identical to OVD005@40.5m (section too thin for confident diagnosis),other / unclassified,1
-Mafic rock,other / unclassified,1
-Mainly fine-grained protomylonite derived from a hornblende gabbro protolith,gabbro / gabbronorite / norite,1
-Massive Sulphide,massive sulfide / ore,1
-Massive magnetite-chalcopyrite-millerite-pyrrhotite ore,other / unclassified,1
-Massive sulphide bottom contact,massive sulfide / ore,1
-Medium-grained hornblende gabbro,gabbro / gabbronorite / norite,1
-Medium-grained hornblende gabbro (poikilitic texture),gabbro / gabbronorite / norite,1
-"Mendee's CR82 point. Strong silcified hydrothermal brecciated metasedimentary. XRF reading high sulfur S-4000ppm, Phosphorus-1%. Hydrothermal cement material has magnetite.",sediment / metasediment,1
-"Meta sediment with strongly argillic, limonitic, sercitic alterations",gossan / oxidized,1
-"Meta sediment with strongly laminated texture, with strong limonitic, hematitic, sericitic alterations",gossan / oxidized,1
-Metasomatically strongly altered andesidacite,volcanic / subvolcanic,1
-Metasomatically strongly altered diorite porphyry,diorite / quartz diorite,1
-"Mineral-banded, medium- to coarse-grained, poikilitic-textured hornblende-bearing olivine gabbro",olivine gabbro / melagabbro,1
-Mineralised amphibole-plagioclase gneiss (formed from gabbro-diorite),gabbro / gabbronorite / norite,1
-Mineralised and altered fine to medium grained peridotite with hornblende (melanocratic gabbro?),peridotite / ultramafic,1
-Mineralised and altered fine-grained melanocratic (olivine-hornblende) gabbro,gabbro / gabbronorite / norite,1
-Mineralised and altered variably grained pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,1
-Mineralised and metasomatically strongly altered fine- to medium-grained peridotite,peridotite / ultramafic,1
-"Mineralised and serpentinized, fine to medium grained hornblende peridotite",peridotite / ultramafic,1
-Mineralised chlorite-carbonate metasomatite,other / unclassified,1
-Mineralised chlorite-carbonate metasomatite (after gabbrodiorite),gabbrodiorite,1
-Mineralised chlorite-sericite bearing micro-schist,schist / phyllite,1
-Mineralised coarse- to medium-grained hornblende gabbro (gabbrodiorite),gabbro / gabbronorite / norite,1
-Mineralised fine- to medium-grained pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,1
-Mineralised gneiss with quartz-actinolite-albite (metasomatite formed from gabbro-diorite),gabbro / gabbronorite / norite,1
-"Mineralised, altered gabbro-porphyry",gabbro / gabbronorite / norite,1
-"Mineralised, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,1
-"Mineralised, altered porphyritic-like fine-grained pyroxene-olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,1
-"Mineralised, altered uneven-grained (porphyritic-like) hornblende melanocratic gabbro",olivine gabbro / melagabbro,1
-"Mineralised, altered uneven-grained (porphyritic-like) olivine-pyroxene-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,1
-"Mineralised, altered uneven-grained hornblende peridotite",peridotite / ultramafic,1
-"Mineralised, altered uneven-grained hornblende peridotite (with altered gabbrodiorite schlieren)",peridotite / ultramafic,1
-"Mineralised, altered uneven-grained olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,1
-"Mineralised, altered uneven-grained olivine-pyroxene-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,1
-"Mineralised, altered uneven-grained pyroxene melanocratic gabbro",olivine gabbro / melagabbro,1
-"Mineralised, altered uneven-grained pyroxene-hornblende melanocratic gabbro",olivine gabbro / melagabbro,1
-"Mineralised, altered, fine to medium grained pyroxene-biotite-hornblende gabbro",gabbro / gabbronorite / norite,1
-"Mineralised, carbonatised medium- to fine-grained garnet-bearing olivine-pyroxene gabbro (with microgabbro lens)",gabbro / gabbronorite / norite,1
-Mineralized fine- to medium-grained hornblende-pyroxene melanocratic gabbro (peridotite?),peridotite / ultramafic,1
-Mineralized hornblende+phlogopite-bearing olivine gabbro,olivine gabbro / melagabbro,1
-Mineralized olivine hornblendite transitional to an olivine hornblende gabbro,hornblendite,1
-Mineralized olivine-hornblende orthocumulate transitional to a hornblende-bearing wehrlite,peridotite / ultramafic,1
-Mineralized vari-textured hornblende gabbro with sulfidic blebs,gabbro / gabbronorite / norite,1
-"Mineralized, alkalic qtz diorite porphyry",diorite / quartz diorite,1
-"Mineralized, altered fine- to medium-grained biotite-bearing alkaline-affinity diorite (with diorite porphyry contact in section)",diorite / quartz diorite,1
-"Mineralized, altered gabbro porphyry",gabbro / gabbronorite / norite,1
-"Mineralized, altered, fine grained melanocratic Ol-Amph gabbro",gabbro / gabbronorite / norite,1
-"Mineralized, altered, fine to medium grained, inequigranular, Px-Amph melanocratic Gabbro",olivine gabbro / melagabbro,1
-"Mineralized, chlorite-sericite micro-schist",schist / phyllite,1
-"Mineralized, serpentinized, fine- to medium-grained hornblende-bearing peridotite",peridotite / ultramafic,1
-"Mineralized, silicic altered biotite-chlorite serpentinite",peridotite / ultramafic,1
-"Mineralized, silicified serpentine-actinolite-cordierite metasomatite",other / unclassified,1
-"Mineralized, silicified serpentine-chlorite-cordierite metasomatite",other / unclassified,1
-"Mineralized, silicified, carbonate altered siltstone",sediment / metasediment,1
-"Mineralized, spinel-cordierite-actinolite metasomatite (micro-schist)",schist / phyllite,1
-"Mineralized, strong metasomatized, fine to edium grained Peridotite",peridotite / ultramafic,1
-"Moderately foliated, brecciated protomylonite (protolith compositionally typical of the hornblende gabbros)",gabbro / gabbronorite / norite,1
-Mетасоматоз хувиралд хүчтэй орсон андезидацит,volcanic / subvolcanic,1
-Norite and Fault,gabbro / gabbronorite / norite,1
-Olivine-bearing gabbronorite,gabbro / gabbronorite / norite,1
-Olivine-bearing hornblende gabbro,gabbro / gabbronorite / norite,1
-Olivine-bearing websterite,peridotite / ultramafic,1
-Olivine-hornblende orthocumulate (very similar to OVD009@161m),other / unclassified,1
-Ophitic-textured hornblende biotite gabbro,gabbro / gabbronorite / norite,1
-Out of chart,other / unclassified,1
-Picrite,peridotite / ultramafic,1
-Plagio-rhyolite (Plagio-granite porphyry),granitoid,1
-Plagioclase-quartz-calcite metasomatite,other / unclassified,1
-Plagiorhyolite (plagiogranite porphyry),granitoid,1
-"Poikilitic-textured hornblende-bearing olivine gabbro transitional to olivine-bearing hornblendite, cut by a broad band of skarnoid alteration",hornblendite,1
-Poorly mineralized Olivine Gabbro,olivine gabbro / melagabbro,1
-Porphyritic basalt,dolerite / diabase / basalt dyke,1
-Porphyritic fine grained pyroxene hornblende  gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,1
-Porphyritic fine grained pyroxene hornblende gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,1
-Porphyritic fine-grained pyroxene-hornblende melanocratic gabbro (altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,1
-Probably a sulfide-bearing hornblende-olivine gabbro or hornblendite (section too thin for confident diagnosis),hornblendite,1
-Px Hb Gabbro,gabbro / gabbronorite / norite,1
-"Py boxwork in Quartz Veins, moderate to Strong jarosite in Py in Rock.",vein / quartz,1
-Pyritised chlorite-sericite-muscovite metasomatite,other / unclassified,1
-Pyroxene hornfels,hornfels / spotted rock,1
-Pyroxenite?-Poorly mineralized,peridotite / ultramafic,1
-"Qtz sheeted veinlets. 21 veins per meter. XRF reading Cu-3500ppm. The rock is strong silcified limonite hematite altered metasedimentary cut by veinlets. Strong limonite altered part's XRF reading is 270ppm Cu, but the less limonite altered, strong silicic altered and cut by sheeted veins part contains 3500ppm Cu by XRF reading. Sample CR86. dip azi 315, dip 63.",gossan / oxidized,1
-Quartzite,other / unclassified,1
-Relatively fine-grained hornblende gabbro (possible near-chilled margin candidate),gabbro / gabbronorite / norite,1
-Rhyodacite,volcanic / subvolcanic,1
-Rhyolite dyke,volcanic / subvolcanic,1
-Rhyolite porphyry,volcanic / subvolcanic,1
-"Rhyolite with strong goetic, hematitic, limonitic and argillic aletrations",gossan / oxidized,1
-Schist or Mudstone,schist / phyllite,1
-Semi massive,massive sulfide / ore,1
-Serpentine-carbonate-actinolite-chlorite metasomatite (after gabbro or ultramafic pluton),gabbro / gabbronorite / norite,1
-Serpentine-carbonate-actinolite-chlorite metasomatite (derived from gabbro or ultramafic rock),gabbro / gabbronorite / norite,1
-Silicified and mineralised serpentinite with biotite-chlorite,peridotite / ultramafic,1
-"Silicified, carbonatised and mineralised silty argillite",sediment / metasediment,1
-"Silicified, carbonatised chlorite-sericite-muscovite micro-schist (phyllite) after siltstone",schist / phyllite,1
-"Silicified, carbonatised, pyritized silty argillite (phyllite)",schist / phyllite,1
-"Silicified, mineralised biotite-chlorite serpentinite",peridotite / ultramafic,1
-"Silicified, mineralised cordierite-serpentine-actinolite metasomatite",other / unclassified,1
-"Silicified, mineralised cordierite-serpentine-chlorite metasomatite",other / unclassified,1
-"Silicified, mineralised serpentine-actinolite-cordierite metasomatite",other / unclassified,1
-"Silicified, mineralised serpentine-chlorite-cordierite metasomatite",other / unclassified,1
-"Silicified, pyritized silty argillite",sediment / metasediment,1
-"Silicified, weakly mineralised medium- to fine-grained pyroxenite",peridotite / ultramafic,1
-Siltstone & Sandstone,sediment / metasediment,1
-Skarn,other / unclassified,1
-Spotted,hornfels / spotted rock,1
-Strong  hematite altered gneissous rock,sediment / metasediment,1
-Strong carbonate altered Gabbrodiorite porphyry,gabbrodiorite,1
-Strong metasomatized diorite porphyry,diorite / quartz diorite,1
-"Strong mineralized, altered, fine to medium grained Amph-Peridotite",peridotite / ultramafic,1
+(melanocratic Gabbro?)",skarn / metasomatite,metamorphic,2,descriptions.rock_name
+"Mineralized, quartz vein with carbonate",vein / quartz,vein-ore,2,descriptions.rock_name
+"Mineralized, serpentinitized, fine to medium grained Amph-Peridotite",peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+"Mineralized, silicified cordierite-serpentine-actinolite metasomatite",skarn / metasomatite,metamorphic,2,descriptions.rock_name
+"Mineralized, silicified cordierite-serpentine-chlorite metasomatite",skarn / metasomatite,metamorphic,2,descriptions.rock_name
+Net textured,massive sulfide / ore,vein-ore,2,samples.field_lithology
+Olivine Gabbro,olivine gabbro / melagabbro,mafic intrusive,2,samples.field_lithology
+Olivine+hornblende orthocumulate,peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+"Ore mineralized, altered fine-medium grained biotite subalkaline diorite",diorite / quartz diorite,felsic-intermediate intrusive,2,descriptions.rock_name
+Poorly mineralised gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,samples.field_lithology
+Porphyritic fine grained pyroxene-hornblende melanocratic gabbro (Altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name
+Porphyritic fine-grained pyroxene-hornblende gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name
+Quartz-bearing amphibolite,amphibolite / metabasite,metamorphic,2,descriptions.rock_name; samples.petro_lithology
+Quartzite,sediment / metasediment,sedimentary,2,descriptions.rock_name; samples.field_lithology
+Rhyodacite,volcanic / subvolcanic,volcanic,2,descriptions.rock_name; samples.field_lithology
+Rhyolite porphyry (dacite porphyry in fig. captions),volcanic / subvolcanic,volcanic,2,descriptions.rock_name; samples.petro_lithology
+"Schistose, carbonatized and intense altered gabbrodiorite-porphyry (Metasomatite by gabbrodiorite porphyry)",skarn / metasomatite,metamorphic,2,descriptions.rock_name
+Serpentinite,peridotite / ultramafic,ultramafic,2,samples.petro_lithology
+Spotted meta-siltstone,hornfels / spotted rock,metamorphic,2,descriptions.rock_name; samples.petro_lithology
+Strong metasomatized ultramafic,skarn / metasomatite,metamorphic,2,samples.field_lithology
+"Strongly altered, mineralised uneven-grained hornblende peridotite",peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+"Strongly altered, weakly mineralised uneven-grained olivine-pyroxene peridotite",peridotite / ultramafic,ultramafic,2,descriptions.rock_name; samples.petro_lithology
+Strongly mineralised (ferruginous) quartzite,sediment / metasediment,sedimentary,2,descriptions.rock_name; samples.petro_lithology
+Strongly mineralised garnet-quartz vein,vein / quartz,vein-ore,2,descriptions.rock_name; samples.petro_lithology
+"Strongly mineralised, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name
+Strongly mineralized quartz-sericite schist,schist / phyllite,metamorphic,2,descriptions.rock_name; samples.petro_lithology
+Subvolcanic Rock,volcanic / subvolcanic,volcanic,2,descriptions.rock_name; samples.field_lithology
+Tuffsandstone,volcanic / subvolcanic,volcanic,2,descriptions.rock_name; samples.field_lithology
+Unmineralized gabbro,gabbro / gabbronorite / norite,mafic intrusive,2,samples.field_lithology
+Weak mineralized Hornblende Peridotite,peridotite / ultramafic,ultramafic,2,samples.field_lithology
+Weakly mineralised and altered fine- to medium-grained pyroxene-hornblende gabbrodiorite,gabbrodiorite,mafic intrusive,2,descriptions.rock_name
+"Weakly mineralised, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name
+"Weakly mineralized, altered, fine to medium grained Px-Amph Gabbrodiorite",gabbrodiorite,mafic intrusive,2,descriptions.rock_name
+"Well preserved, mineralized olivine-hornblende orthocumulate",peridotite / ultramafic,ultramafic,2,descriptions.rock_name
+altered dolerite,dolerite / diabase / basalt dyke,mafic intrusive,2,descriptions.rock_name; samples.field_lithology
+gossan,gossan / oxidized,vein-ore,2,samples.field_lithology
+mafic intrusive,mafic intrusive (undifferentiated),mafic intrusive,2,descriptions.rock_name; samples.field_lithology
+oxidazed gabbro,gossan / oxidized,vein-ore,2,samples.field_lithology
+schist?,schist / phyllite,metamorphic,2,samples.field_lithology
+Андезит,volcanic / subvolcanic,volcanic,2,descriptions.rock_name_original; samples.petro_lithology
+Андезитын туф,volcanic / subvolcanic,volcanic,2,descriptions.rock_name_original; samples.petro_lithology
+Габбродиорит,gabbrodiorite,mafic intrusive,2,descriptions.rock_name_original; samples.petro_lithology
+Габбродиорит порфироор үүссэн амфиболит,gabbrodiorite,mafic intrusive,2,descriptions.rock_name; samples.field_lithology
+Диабаз,dolerite / diabase / basalt dyke,mafic intrusive,2,descriptions.rock_name_original; samples.petro_lithology
+Диорит,diorite / quartz diorite,felsic-intermediate intrusive,2,descriptions.rock_name_original; samples.petro_lithology
+Жигд биш ширхэгтэй хээрийн жоншт граувакк элсжин,sediment / metasediment,sedimentary,2,descriptions.rock_name_original
+Жижиг ширхэгтэй эвэр хуурмагт габбордиорит,diorite / quartz diorite,felsic-intermediate intrusive,2,descriptions.rock_name_original
+Кварц‑карбонат метасоматит,skarn / metasomatite,metamorphic,2,samples.petro_lithology
+Оливин габбро,olivine gabbro / melagabbro,mafic intrusive,2,samples.petro_lithology
+Оливинт габбро,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name_original
+Оливинтой габбронорит,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name_original; samples.petro_lithology
+Пикрит,peridotite / ultramafic,ultramafic,2,descriptions.rock_name_original; samples.petro_lithology
+Пироксент роговик,hornfels / spotted rock,metamorphic,2,descriptions.rock_name_original; samples.petro_lithology
+"Сулавтар хүдэржиж, хувирсан жижиг дунд ширхэгтэй пироксен-эвэр хуурмагт габбродиорит",gabbrodiorite,mafic intrusive,2,descriptions.rock_name_original
+Филлит,schist / phyllite,metamorphic,2,descriptions.rock_name_original
+Хувирсан габбро порфир,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name_original
+Хувирсан жигд биш ширхэгтэй перидотит,peridotite / ultramafic,ultramafic,2,descriptions.rock_name_original
+Хувирсан кварцат диорит,diorite / quartz diorite,felsic-intermediate intrusive,2,descriptions.rock_name_original; samples.petro_lithology
+Хувирсан оливинт габбро,gabbro / gabbronorite / norite,mafic intrusive,2,descriptions.rock_name_original; samples.petro_lithology
+Хувирсан шигтгээ маягийн жижиг дунд ширхэгтэй оливин-пироксен-эвэр хуурмагт меланократ габбро,olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй пироксен-эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name_original
+"Хүчтэй хувирч, хүдэржсэн жигд биш ширхэгтэй эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,2,descriptions.rock_name_original
+"Хүчтэй хүдэржиж, хувирсан меланократ габбро порфир",olivine gabbro / melagabbro,mafic intrusive,2,descriptions.rock_name_original
+Цул сульфидаас тогтсон хүдэр,massive sulfide / ore,vein-ore,2,descriptions.rock_name_original
+Эвэрхуурмагт перидотит,peridotite / ultramafic,ultramafic,2,descriptions.rock_name_original; samples.petro_lithology
+Alkaline rock with strong hematitic alterations,granitoid,felsic-intermediate intrusive,1,samples.field_lithology
+Altered (actinolitized) gabbrodiorite porphyry,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Altered (strongly actinolitized) gabbrodiorite porphyry,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+"Altered alkali, quartzose diorite porphyry",diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Altered andesite (field name given as 'Gabbro basalt' - rejected by analyst),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Altered fine- to medium-grained biotite-amphibole gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Altered fine- to medium-grained pyroxene-hornblende gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Altered gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Altered gabbro porphyry (with hornblende gabbrodiorite schlieren),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Altered gabbrodiorite porphyry (with hornblende gabbro schlieren),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Altered medium- to coarse-grained pyroxenite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Altered medium- to fine-grained hornblende gabbrodiorite,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Altered melanocratic gabbro (dolerite) porphyry with melanocratic microgabbro and pyroxene-garnet-carbonate skarn schlieren,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Altered melanocratic microgabbro (with lenses/bands of porphyritic melanocratic gabbronorite),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Altered olivine gabbro,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Altered plagio-rhyolite (plagio-granite porphyry),granitoid,felsic-intermediate intrusive,1,descriptions.rock_name
+Altered porphyritic fine-grained pyroxene-hornblende melanocratic gabbro (altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Altered porphyritic-like fine- to medium-grained olivine-pyroxene-hornblende melanocratic gabbro (uneven-grained melanocratic gabbro),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Altered porphyritic-like medium- to fine-grained olivine-pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Altered porphyritic-like medium- to fine-grained olivine-pyroxene-hornblende melanocratic gabbro (gabbro porphyry),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Altered pyroxenite porphyry (vein pyroxenite),peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Altered qtz microdiorite,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Altered quartz diorite,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Altered quartzose microdiorite,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Altered rock with strong silicification and hematitic alterations,altered rock (protolith undetermined),unknown,1,samples.field_lithology
+Altered uneven-grained hornblende melanocratic gabbro (with mineralised microgabbro lens/schlieren),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Altered uneven-grained olivine-hornblende melanocratic gabbro,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Altered, fine to medium grained, Pyroxene-Amphibole Gabbro",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Altered, oxidised uneven-grained olivine-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Amphibolite after gabbro (medium-grained),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Amphibolite after gabbrodiorite porphyry (amphibolitised gabbrodiorite porphyry),gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Amphibolitized pyroxenite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Amygdaloidal basalt / andesite-basalt,dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name
+Andesite porphyry (fine-grained diorite),diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Andesite porphyry; ore: hematite-goethite-limonite low-grade ore,gossan / oxidized,vein-ore,1,descriptions.rock_name
+Andesite tuff,volcanic / subvolcanic,volcanic,1,descriptions.rock_name
+Andesite with some malachite within the fractures,volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Andesitic rock with hematitic alteration along the fractures,volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Basalt,dolerite / diabase / basalt dyke,mafic intrusive,1,samples.field_lithology
+Basalt / andesite-basalt (altered volcanic),dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name
+Basalt dyke,dolerite / diabase / basalt dyke,mafic intrusive,1,samples.field_lithology
+"Carbonate altered, albite altered, epidote-pyroxene-garnet-carbonate Skarn",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Carbonate altered, fine grained, Ksp-qtz sandy meta-siltstone",sediment / metasediment,sedimentary,1,descriptions.rock_name
+Carbonated and mineralised quartz vein,vein / quartz,vein-ore,1,descriptions.rock_name
+Carbonatised and albitised epidote-pyroxene-garnet-carbonate skarn,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Carbonatised fine-grained feldspar-quartz sandy metasiltstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+Carbonatised plagioclase-epidote-pyroxene micro-gneiss? (garnet-bearing skarn-like rock),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Carbonatised, metasomatically strongly altered medium- to fine-grained biotite diorite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Carbonatised, mineralised quartz vein",vein / quartz,vein-ore,1,descriptions.rock_name
+"Carbonatised, mineralised uneven-grained olivine-hornblende peridotite (with fine gabbro and leucogabbro lenses/schlieren)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Carbonatised, silicified altered gabbrodiorite porphyry",gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+"Carbonatised, weakly brecciated altered diorite porphyry",diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Carbonatized and silicified altered andesite,volcanic / subvolcanic,volcanic,1,descriptions.rock_name
+"Carbonatized, silicified metasomatized andesite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Chlorite-albite metasomatite after diorite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Chlorite-albite metasomatite after gabbrodiorite porphyry,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Chlorite-biotite-muscovite-albite metasomatite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Chlorite-muscovite-albite metasomatite after microdiorite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Chlorite-sericite metasomatite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Chlorite-sericite micro-schist (phyllite),schist / phyllite,metamorphic,1,descriptions.rock_name
+Chlorite-sericite phyllite (micro-schist),schist / phyllite,metamorphic,1,descriptions.rock_name
+Clayey-micaceous phyllite,schist / phyllite,metamorphic,1,descriptions.rock_name
+Dacite,volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Dacite porphyry,volcanic / subvolcanic,volcanic,1,descriptions.rock_name
+"Dark green, moderately magnetic, strongly chlorytic mafic rock (Andesite?)",volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Diabase (olivine-bearing),dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name
+Diabase dyke,dolerite / diabase / basalt dyke,mafic intrusive,1,samples.field_lithology
+"Diffusely mineral-banded, medium- to coarse-grained, poikilitic-textured hornblende-bearing olivine gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Diorite?,diorite / quartz diorite,felsic-intermediate intrusive,1,samples.field_lithology
+Dolerite?,dolerite / diabase / basalt dyke,mafic intrusive,1,samples.field_lithology
+Dunite,peridotite / ultramafic,ultramafic,1,samples.field_lithology
+Epidote vein,vein / quartz,vein-ore,1,samples.field_lithology
+Epidote-chlorite-actinolite metasomatite (after gabbrodiorite porphyry?),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Felsic rock with jarositic alteration,volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Fine grained Bt-Qtz Diorite (micro-diorite),diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Fine grained amph-gabbrodiorite,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Fine to medium grained amphibole gabbrodiorite,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Fine- to medium-grained biotite granodiorite,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Fine- to medium-grained olivine-hornblende-pyroxene peridotite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Fine- to medium-grained pyroxene-hornblende gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Fine-grained biotite-quartz diorite (microdiorite),diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+Fine-grained feldspathic sandstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+"Fine-grained, sparsely olivine-phyric, weakly vesicular metabasalt",dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name
+"Finely hornblende-phyric basalt, probably a dyke or (less likely) chilled margin of a hornblende gabbro intrusive unit",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Foliated, pyritic, fine-grained variolitic metabasalt",dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name
+Fuchsite,skarn / metasomatite,metamorphic,1,samples.field_lithology
+Gabbrdiorite,diorite / quartz diorite,felsic-intermediate intrusive,1,samples.field_lithology
+Gabbro Mineralized P,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+Gabbro Mineralized S,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+Gabbro Mineralized s,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+Gabbro mineralized M,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+Garnet-Qtz-Carbonate metamorphic rock,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Garnet-carbonate metasomatite (Skarn),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Garnet-carbonate metasomatite (skarn),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Garnet-quartz-carbonate rock,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Gossan (Copper-iron-oxide ),gossan / oxidized,vein-ore,1,descriptions.rock_name
+Gossan (Iron oxide-calcite-quartz),gossan / oxidized,vein-ore,1,descriptions.rock_name
+Gossan (copper-iron-oxide; original lithofacies not identified),gossan / oxidized,vein-ore,1,descriptions.rock_name
+Gossan (iron oxide-calcite-quartz; original lithofacies not identified),gossan / oxidized,vein-ore,1,descriptions.rock_name
+Gossan (iron-copper oxide; altered gabbro?),gossan / oxidized,vein-ore,1,descriptions.rock_name
+Gravely sandstone,sediment / metasediment,sedimentary,1,samples.field_lithology
+"Greenish gray, porphyritic diorite, disseminated py, limonite, malachite replaced sulfide blebs with some residual chalcopyrite",gossan / oxidized,vein-ore,1,samples.field_lithology
+Hb Peridotite,peridotite / ultramafic,ultramafic,1,samples.field_lithology
+Hematite and limonite altered quartz vein,gossan / oxidized,vein-ore,1,samples.field_lithology
+Hematite ore,gossan / oxidized,vein-ore,1,descriptions.rock_name
+Hematite-goethite-hydrogoethite ore,gossan / oxidized,vein-ore,1,descriptions.rock_name
+Highly altered gabbrodiorite porphyry (albite-chlorite-carbonate metasomatite),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Hornblende gabbrodiorite,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Hornblende wehrlite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Hydrotermal breccia. Strongly brecciated rock. Quartz, carbonate breccia. Light yellowish, moderately limonite, strongly carbonate alteration",gossan / oxidized,vein-ore,1,samples.field_lithology
+Hydrothermal altered gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+Intensely altered aphyric fine-grained leucogabbroic dyke (doleritic texture),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Intermediate (?) intrusive rock - entirely altered, name not determinable",intrusive (undifferentiated),unknown,1,descriptions.rock_name
+Intermediate subvolcanic rock (intermediate subvolcanic / dyke-type intrusive),volcanic / subvolcanic,volcanic,1,descriptions.rock_name
+"Light greenish altered rhyolite with strong silicification, located on the north side of the fault, maybe related to the fault zone the rock may be altered.",volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Light yellowish altered porphyritic rhyolite with strong limonitic alterations,gossan / oxidized,vein-ore,1,samples.field_lithology
+Listvenite,skarn / metasomatite,metamorphic,1,samples.field_lithology
+Lithology essentially identical to OVD005@40.5m (section too thin for confident diagnosis),indeterminate (section not diagnosable),unknown,1,descriptions.rock_name
+Mafic intrusive rock,mafic intrusive (undifferentiated),mafic intrusive,1,descriptions.rock_name
+Mafic rock,mafic intrusive (undifferentiated),mafic intrusive,1,samples.field_lithology
+Mainly fine-grained protomylonite derived from a hornblende gabbro protolith,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Malachite-bearing iron oxide ore,gossan / oxidized,vein-ore,1,descriptions.rock_name
+Massive Sulphide,massive sulfide / ore,vein-ore,1,samples.field_lithology
+Massive magnetite-chalcopyrite-millerite-pyrrhotite ore,massive sulfide / ore,vein-ore,1,descriptions.rock_name
+Massive sulphide bottom contact,massive sulfide / ore,vein-ore,1,samples.field_lithology
+Medium-grained hornblende gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Medium-grained hornblende gabbro (poikilitic texture),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Mendee's CR82 point. Strong silcified hydrothermal brecciated metasedimentary. XRF reading high sulfur S-4000ppm, Phosphorus-1%. Hydrothermal cement material has magnetite.",sediment / metasediment,sedimentary,1,samples.field_lithology
+"Meta sediment with strongly argillic, limonitic, sercitic alterations",gossan / oxidized,vein-ore,1,samples.field_lithology
+"Meta sediment with strongly laminated texture, with strong limonitic, hematitic, sericitic alterations",gossan / oxidized,vein-ore,1,samples.field_lithology
+Metasomatically strongly altered andesidacite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Metasomatically strongly altered diorite porphyry,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Mineral-banded, medium- to coarse-grained, poikilitic-textured hornblende-bearing olivine gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Mineralised amphibole-plagioclase gneiss (formed from gabbro-diorite),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Mineralised and altered fine to medium grained peridotite with hornblende (melanocratic gabbro?),peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Mineralised and altered fine-grained melanocratic (olivine-hornblende) gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Mineralised and altered variably grained pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Mineralised and metasomatically strongly altered fine- to medium-grained peridotite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Mineralised and serpentinized, fine to medium grained hornblende peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Mineralised chlorite-carbonate metasomatite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Mineralised chlorite-carbonate metasomatite (after gabbrodiorite),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Mineralised chlorite-sericite bearing micro-schist,schist / phyllite,metamorphic,1,descriptions.rock_name
+Mineralised coarse- to medium-grained hornblende gabbro (gabbrodiorite),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Mineralised fine- to medium-grained pyroxene-hornblende melanocratic gabbro,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Mineralised gneiss with quartz-actinolite-albite (metasomatite formed from gabbro-diorite),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Mineralised, altered gabbro-porphyry",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Mineralised, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Mineralised, altered porphyritic-like fine-grained pyroxene-olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Mineralised, altered uneven-grained (porphyritic-like) hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Mineralised, altered uneven-grained (porphyritic-like) olivine-pyroxene-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralised, altered uneven-grained hornblende peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralised, altered uneven-grained hornblende peridotite (with altered gabbrodiorite schlieren)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralised, altered uneven-grained olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Mineralised, altered uneven-grained olivine-pyroxene-hornblende melanocratic gabbro (hornblende peridotite)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralised, altered uneven-grained pyroxene melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Mineralised, altered uneven-grained pyroxene-hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Mineralised, altered, fine to medium grained pyroxene-biotite-hornblende gabbro",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Mineralised, carbonatised medium- to fine-grained garnet-bearing olivine-pyroxene gabbro (with microgabbro lens)",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Mineralized altered fine- to medium-grained melanocratic gabbronorite (peridotite?),peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Mineralized fine- to medium-grained hornblende-pyroxene melanocratic gabbro (peridotite?),peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Mineralized hornblende+phlogopite-bearing olivine gabbro,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Mineralized olivine hornblendite transitional to an olivine hornblende gabbro,hornblendite,ultramafic,1,descriptions.rock_name
+Mineralized olivine-hornblende orthocumulate transitional to a hornblende-bearing wehrlite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Mineralized porphyritic fine-grained hornblende-olivine-pyroxene melanocratic gabbro,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Mineralized porphyritic fine-grained pyroxene-hornblende gabbro (altered gabbro porphyry),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Mineralized vari-textured hornblende gabbro with sulfidic blebs,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Mineralized, alkalic qtz diorite porphyry",diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+"Mineralized, altered fine- to medium-grained biotite-bearing alkaline-affinity diorite (with diorite porphyry contact in section)",diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+"Mineralized, altered gabbro porphyry",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Mineralized, altered porphyritic fine- to medium-grained melanocratic gabbronorite (peridotite?)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralized, altered porphyritic medium- to fine-grained melanocratic gabbronorite (peridotite?)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralized, altered, fine grained melanocratic Ol-Amph gabbro",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Mineralized, altered, fine to medium grained, inequigranular, Px-Amph melanocratic Gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Mineralized, chlorite-sericite micro-schist",schist / phyllite,metamorphic,1,descriptions.rock_name
+"Mineralized, serpentinized, fine- to medium-grained hornblende-bearing peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralized, silicic altered biotite-chlorite serpentinite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Mineralized, silicified serpentine-actinolite-cordierite metasomatite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Mineralized, silicified serpentine-chlorite-cordierite metasomatite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Mineralized, silicified, carbonate altered siltstone",sediment / metasediment,sedimentary,1,descriptions.rock_name
+"Mineralized, spinel-cordierite-actinolite metasomatite (micro-schist)",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Mineralized, strong metasomatized, fine to edium grained Peridotite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Moderately altered dolerite,dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name
+"Moderately foliated, brecciated protomylonite (protolith compositionally typical of the hornblende gabbros)",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Mudstone (?) - oxidised, weathered",sediment / metasediment,sedimentary,1,descriptions.rock_name
+Mетасоматоз хувиралд хүчтэй орсон андезидацит,volcanic / subvolcanic,volcanic,1,samples.petro_lithology
+Norite and Fault,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+Olivine-bearing gabbronorite,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Olivine-bearing hornblende gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Olivine-bearing websterite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Olivine-hornblende orthocumulate (very similar to OVD009@161m),peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Ophitic-textured hornblende biotite gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Out of chart,other / unclassified,unknown,1,samples.iogas_lithology
+Picrite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Plagio-rhyolite (Plagio-granite porphyry),granitoid,felsic-intermediate intrusive,1,descriptions.rock_name
+Plagioclase-quartz-calcite metasomatite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Plagiorhyolite (plagiogranite porphyry),granitoid,felsic-intermediate intrusive,1,descriptions.rock_name
+"Poikilitic-textured hornblende-bearing olivine gabbro transitional to olivine-bearing hornblendite, cut by a broad band of skarnoid alteration",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Poorly mineralized Olivine Gabbro,olivine gabbro / melagabbro,mafic intrusive,1,samples.field_lithology
+Porphyritic basalt,dolerite / diabase / basalt dyke,mafic intrusive,1,samples.field_lithology
+Porphyritic fine grained pyroxene hornblende  gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Porphyritic fine grained pyroxene hornblende gabbro (Altered gabbro porphyry),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Porphyritic fine-grained pyroxene-hornblende melanocratic gabbro (altered melanocratic gabbro porphyry),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Probably a sulfide-bearing hornblende-olivine gabbro or hornblendite (section too thin for confident diagnosis),hornblendite,ultramafic,1,descriptions.rock_name
+Px Hb Gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+"Py boxwork in Quartz Veins, moderate to Strong jarosite in Py in Rock.",vein / quartz,vein-ore,1,samples.field_lithology
+Pyritised chlorite-sericite-muscovite metasomatite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Pyroxene hornfels,hornfels / spotted rock,metamorphic,1,descriptions.rock_name
+Pyroxenite?-Poorly mineralized,peridotite / ultramafic,ultramafic,1,samples.field_lithology
+"Qtz sheeted veinlets. 21 veins per meter. XRF reading Cu-3500ppm. The rock is strong silcified limonite hematite altered metasedimentary cut by veinlets. Strong limonite altered part's XRF reading is 270ppm Cu, but the less limonite altered, strong silicic altered and cut by sheeted veins part contains 3500ppm Cu by XRF reading. Sample CR86. dip azi 315, dip 63.",gossan / oxidized,vein-ore,1,samples.field_lithology
+Quartz vein (?) - quartz-carbonate vein,vein / quartz,vein-ore,1,descriptions.rock_name
+Red-brown quartzite hematite (hematitic quartzite),sediment / metasediment,sedimentary,1,descriptions.rock_name
+Relatively fine-grained hornblende gabbro (possible near-chilled margin candidate),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Rhyodacite (acid volcanic); ore: hematite-pyrite disseminated ore,volcanic / subvolcanic,volcanic,1,descriptions.rock_name
+Rhyolite dyke,volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Rhyolite porphyry,volcanic / subvolcanic,volcanic,1,descriptions.rock_name
+"Rhyolite with strong goetic, hematitic, limonitic and argillic aletrations",gossan / oxidized,vein-ore,1,samples.field_lithology
+Schist or Mudstone,schist / phyllite,metamorphic,1,samples.field_lithology
+"Schistose, carbonatised, strongly altered gabbrodiorite porphyry (metasomatite after gabbrodiorite)",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Semi massive,massive sulfide / ore,vein-ore,1,samples.field_lithology
+Serpentine-carbonate-actinolite-chlorite metasomatite (after gabbro or ultramafic pluton),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Serpentine-carbonate-actinolite-chlorite metasomatite (derived from gabbro or ultramafic rock),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Silicified actinolite-chlorite-clinozoisite-sericite metasomatite (after quartz diorite),skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Silicified and mineralised serpentinite with biotite-chlorite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Silicified, carbonatised and mineralised silty argillite",sediment / metasediment,sedimentary,1,descriptions.rock_name
+"Silicified, carbonatised chlorite-sericite-muscovite micro-schist (phyllite) after siltstone",schist / phyllite,metamorphic,1,descriptions.rock_name
+"Silicified, carbonatised, pyritized silty argillite (phyllite)",schist / phyllite,metamorphic,1,descriptions.rock_name
+"Silicified, mineralised biotite-chlorite serpentinite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Silicified, mineralised cordierite-serpentine-actinolite metasomatite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Silicified, mineralised cordierite-serpentine-chlorite metasomatite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Silicified, mineralised serpentine-actinolite-cordierite metasomatite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Silicified, mineralised serpentine-chlorite-cordierite metasomatite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Silicified, pyritized silty argillite",sediment / metasediment,sedimentary,1,descriptions.rock_name
+"Silicified, weakly mineralised medium- to fine-grained pyroxenite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Siltstone & Sandstone,sediment / metasediment,sedimentary,1,samples.field_lithology
+Skarn,skarn / metasomatite,metamorphic,1,samples.petro_lithology
+Spotted,hornfels / spotted rock,metamorphic,1,samples.field_lithology
+Strong  hematite altered gneissous rock,sediment / metasediment,sedimentary,1,samples.field_lithology
+Strong carbonate altered Gabbrodiorite porphyry,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Strong metasomatized diorite porphyry,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Strong mineralized, altered, fine to medium grained Amph-Peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
 "Strong mineralized, altered, fine to medium grained Amph-Peridotite 
-(contains weakly mineralized, altered, fine to medium grained Px-Amph Gabbrodiorite lens)",peridotite / ultramafic,1
-"Strong sericite, jarosite altered metasomatite",other / unclassified,1
-Strongly altered fine- to medium-grained olivine-amphibole gabbro (melanocratic gabbro),olivine gabbro / melagabbro,1
-Strongly altered gabbrodiorite porphyry,gabbrodiorite,1
-Strongly altered medium-grained hornblende peridotite,peridotite / ultramafic,1
-Strongly altered uneven-grained hornblende peridotite,peridotite / ultramafic,1
-"Strongly altered, fine to medium grained, Amph-Peridotite",peridotite / ultramafic,1
-"Strongly altered, gabbrodiorite porphyry (albite-chlorite-actinolite metasomatite after gabbrodiorite)",gabbrodiorite,1
-"Strongly altered, mineralised porphyritic-like medium- to fine-grained hornblende melanocratic gabbro",olivine gabbro / melagabbro,1
-"Strongly altered, mineralised uneven-grained hornblende peridotite (melanocratic gabbro)",peridotite / ultramafic,1
-"Strongly altered, mineralised uneven-grained olivine-hornblende peridotite",peridotite / ultramafic,1
-"Strongly altered, weakly mineralised uneven-grained pyroxene-olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,1
-"Strongly altered, weakly mineralised uneven-grained pyroxene-olivine-hornblende peridotite",peridotite / ultramafic,1
-"Strongly brecciated, silicified, carbonate altered, mineralized chlorite-serpentine metasomatite",breccia / fault rock,1
-"Strongly brecciated, silicified, carbonatised, mineralised chlorite-serpentine metasomatite (chloritic serpentinite)",peridotite / ultramafic,1
-Strongly carbonatised and altered gabbrodiorite porphyry,gabbrodiorite,1
-Strongly carbonatised epidote-chlorite-actinolite-sericite metasomatite after gabbrodiorite porphyry,gabbrodiorite,1
-Strongly carbonatised fine-grained arkosic sandstone,sediment / metasediment,1
-"Strongly carbonatised, chloritized gabbrodiorite porphyry",gabbrodiorite,1
-Strongly metasomatically altered gabbrodiorite porphyry,gabbrodiorite,1
-Strongly mineralised and altered fine- to medium-grained hornblende peridotite,peridotite / ultramafic,1
-Strongly mineralised and altered fine- to medium-grained hornblende peridotite (with lenses of weakly mineralised pyroxene-hornblende gabbrodiorite),peridotite / ultramafic,1
-Strongly mineralised and altered fine- to medium-grained peridotite,peridotite / ultramafic,1
-Strongly mineralised and altered uneven-grained hornblende peridotite,peridotite / ultramafic,1
-Strongly mineralised fine- to medium-grained pyroxene-hornblende gabbro,gabbro / gabbronorite / norite,1
-"Strongly mineralised, altered uneven-grained olivine-hornblende peridotite",peridotite / ultramafic,1
-Strongly mineralized quartz diorite porphyry (andesite-dacite),diorite / quartz diorite,1
-"Strongly mineralized, quite coarse-grained hornblende gabbro",gabbro / gabbronorite / norite,1
-Subvolcanic Rock,volcanic / subvolcanic,1
-"Texturally well preserved, medium-grained olivine hornblendite",hornblendite,1
-Tuff sandstone,volcanic / subvolcanic,1
-Tuffsandstone,volcanic / subvolcanic,1
-Ultramafic?,other / unclassified,1
-Uneven-grained arkosic sandstone,sediment / metasediment,1
-Uneven-grained feldspathic gravelly greywacke sandstone,sediment / metasediment,1
-Uneven-grained feldspathic greywacke (gravelly) sandstone,sediment / metasediment,1
-Uneven-grained feldspathic greywacke sandstone,sediment / metasediment,1
-Uneven-grained pyroxene-bearing hornblendite,hornblendite,1
-Unmineralized Gabbro,gabbro / gabbronorite / norite,1
-Vari-textured gabbro,gabbro / gabbronorite / norite,1
-Vari-textured gabbro (texturally complex),gabbro / gabbronorite / norite,1
-Vari-textured hornblende gabbro,gabbro / gabbronorite / norite,1
-Vari-textured olivine hornblende microgabbro transitional to a hornblende dolerite,gabbro / gabbronorite / norite,1
-"Weakly brecciated, carbonatised medium-grained pyroxene-hornblende peridotite",peridotite / ultramafic,1
-"Weakly carbonate altered, minerlized sandy siltstone",sediment / metasediment,1
-Weakly carbonatised and mineralised silty argillite (siltstone),sediment / metasediment,1
-"Weakly ferruginised, carbonatised quartz-actinolite-epidote metasomatite (after gabbrodiorite porphyry)",gabbrodiorite,1
-Weakly mineralised and altered fine- to medium-grained hornblende peridotite,peridotite / ultramafic,1
-Weakly mineralised and altered fine- to medium-grained melanocratic gabbro (hornblende peridotite),peridotite / ultramafic,1
-Weakly mineralised and altered melanocratic gabbro porphyry,olivine gabbro / melagabbro,1
-Weakly mineralised and altered melanocratic gabbro porphyry (porphyry-like fine-grained melanocratic gabbro),olivine gabbro / melagabbro,1
-Weakly mineralised argillite (phyllite) derived from siltstone,schist / phyllite,1
-Weakly mineralised carbonate-actinolite-chlorite metasomatite derived from gabbrodiorite,gabbrodiorite,1
-Weakly mineralised chlorite-sericite micro-schist (phyllite) derived from siltstone,schist / phyllite,1
-Weakly mineralised meta-siltstone,sediment / metasediment,1
-"Weakly mineralised, altered microgabbro (taxitic microgabbro/microgabbrodiorite)",gabbro / gabbronorite / norite,1
-"Weakly mineralized, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,1
-"Weakly mineralized, altered, fine to medium grained Amph-Peridotite",peridotite / ultramafic,1
-"Weakly mineralized, altered, fine to medium grained, melanocratic Gabbro (Amph-Peridotite)",peridotite / ultramafic,1
-"Weakly mineralized, altered, melanocratic Gabbro porphyry (Porphyry like melanocratic Gabbro)",olivine gabbro / melagabbro,1
-"Weakly mineralized, altered, melanocratic Gabbro porphyry (Porphyry like, weakly mineralized, altered melanocratic gabbro",olivine gabbro / melagabbro,1
-"Weakly mineralized, carbonate-actinolite-chlorite metasomatite after gabbrodiorite",gabbrodiorite,1
-"Weakly mineralized, chlorite-sericite phyllite after siltstone",schist / phyllite,1
-Weakly pyritised chlorite-sericite-muscovite metasomatite,other / unclassified,1
-Wehrlite,peridotite / ultramafic,1
-Well preserved olivine hornblende orthocumulate,other / unclassified,1
-Well preserved subophitic-textured olivine-phyric hornblende microgabbro (close to chilled margin 'parent magma' candidate; 7.1% MgO),gabbro / gabbronorite / norite,1
-Well-mineralized olivine+hornblende orthocumulate (approaching net-textured sulfides),massive sulfide / ore,1
-altered dolerite,dolerite / diabase / basalt dyke,1
-altered gneiss,sediment / metasediment,1
-mafic intrusive,other / unclassified,1
-spotted/Schist,schist / phyllite,1
-spotted???,hornfels / spotted rock,1
-Альбит‑биотит габбро,gabbro / gabbronorite / norite,1
-Амфиболит,other / unclassified,1
-Андезит,volcanic / subvolcanic,1
-Андезитын туф,volcanic / subvolcanic,1
-Габбродиорит,gabbrodiorite,1
-Габбродиорит порфироор үүссэн амфиболит,gabbrodiorite,1
-Диабаз,dolerite / diabase / basalt dyke,1
-Диорит,diorite / quartz diorite,1
-Карбанат хээрийн габбро,gabbro / gabbronorite / norite,1
-Карбанаттай метасоматит,other / unclassified,1
-Оливинт вебстерит,other / unclassified,1
-Оливинтой габбронорит,gabbro / gabbronorite / norite,1
-Пикрит,other / unclassified,1
-Пироксент роговик,hornfels / spotted rock,1
-Плагиоклаз-кварц- кальцитын метасоматит,vein / quartz,1
-Риолит‑порфир,volcanic / subvolcanic,1
-Тольбон габбро,gabbro / gabbronorite / norite,1
-Хувирсан андезит,volcanic / subvolcanic,1
-Хувирсан кварцат диорит,diorite / quartz diorite,1
-Хувирсан оливин габбро,olivine gabbro / melagabbro,1
-Хувирсан оливинт габбро,gabbro / gabbronorite / norite,1
-Хувирсан пироксенит,peridotite / ultramafic,1
-Эвэрттугмат верлит,peridotite / ultramafic,1
-Эвэрттугмат габбродиорит,gabbrodiorite,1
-Эвэрхуурмагт перидотит,peridotite / ultramafic,1
-Эпидотот амфиболит,other / unclassified,1
-габбронорит,gabbro / gabbronorite / norite,1
-кварц-карбонат-эпидотийн судлаар зүсэгдсэн эпидот хлоритын метасоматит,vein / quartz,1
-метасоматит,other / unclassified,1
-хүдрийн эрдэсжилттэй хээрийн жонш -карбонат-кварцын метасоматит,vein / quartz,1
+(contains weakly mineralized, altered, fine to medium grained Px-Amph Gabbrodiorite lens)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Strong sericite, jarosite altered metasomatite",skarn / metasomatite,metamorphic,1,samples.field_lithology
+Strongly altered fine- to medium-grained olivine-amphibole gabbro (melanocratic gabbro),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Strongly altered gabbrodiorite porphyry,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Strongly altered medium-grained hornblende peridotite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Strongly altered uneven-grained hornblende peridotite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Strongly altered, fine to medium grained, Amph-Peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Strongly altered, gabbrodiorite porphyry (albite-chlorite-actinolite metasomatite after gabbrodiorite)",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Strongly altered, mineralised porphyritic-like medium- to fine-grained hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Strongly altered, mineralised uneven-grained hornblende peridotite (melanocratic gabbro)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Strongly altered, mineralised uneven-grained olivine-hornblende peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Strongly altered, weakly mineralised uneven-grained pyroxene-olivine-hornblende melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Strongly altered, weakly mineralised uneven-grained pyroxene-olivine-hornblende peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Strongly brecciated, silicified, carbonate altered, mineralized chlorite-serpentine metasomatite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Strongly brecciated, silicified, carbonatised, mineralised chlorite-serpentine metasomatite (chloritic serpentinite)",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Strongly carbonatised and altered gabbrodiorite porphyry,gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Strongly carbonatised epidote-chlorite-actinolite-sericite metasomatite after gabbrodiorite porphyry,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Strongly carbonatised fine-grained arkosic sandstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+"Strongly carbonatised, chloritized gabbrodiorite porphyry",gabbrodiorite,mafic intrusive,1,descriptions.rock_name
+Strongly metasomatically altered gabbrodiorite porphyry,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Strongly mineralised and altered fine- to medium-grained hornblende peridotite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Strongly mineralised and altered fine- to medium-grained hornblende peridotite (with lenses of weakly mineralised pyroxene-hornblende gabbrodiorite),peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Strongly mineralised and altered fine- to medium-grained peridotite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Strongly mineralised and altered uneven-grained hornblende peridotite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Strongly mineralised fine- to medium-grained pyroxene-hornblende gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Strongly mineralised, altered uneven-grained olivine-hornblende peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Strongly mineralized quartz diorite porphyry (andesite-dacite),diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name
+"Strongly mineralized, quite coarse-grained hornblende gabbro",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Supergene Ni ore - garnierite / nickeliferous goethite-limonite in fractures,gossan / oxidized,vein-ore,1,descriptions.rock_name
+"Texturally well preserved, medium-grained olivine hornblendite",hornblendite,ultramafic,1,descriptions.rock_name
+Tuff sandstone,volcanic / subvolcanic,volcanic,1,samples.field_lithology
+Tuffite / tuffaceous sandstone; andesitic tuff with 2-8 mm rhyolite and andesite lithic clasts,volcanic / subvolcanic,volcanic,1,descriptions.rock_name
+Ultramafic?,peridotite / ultramafic,ultramafic,1,samples.field_lithology
+Uneven-grained arkosic sandstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+Uneven-grained feldspathic gravelly greywacke sandstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+Uneven-grained feldspathic greywacke (gravelly) sandstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+Uneven-grained feldspathic greywacke sandstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+Uneven-grained pyroxene-bearing hornblendite,hornblendite,ultramafic,1,descriptions.rock_name
+Unmineralized Gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,samples.field_lithology
+Vari-textured gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Vari-textured gabbro (texturally complex),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Vari-textured hornblende gabbro,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Vari-textured olivine hornblende microgabbro transitional to a hornblende dolerite,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Weakly brecciated, carbonatised medium-grained pyroxene-hornblende peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Weakly carbonate altered, minerlized sandy siltstone",sediment / metasediment,sedimentary,1,descriptions.rock_name
+Weakly carbonatised and mineralised silty argillite (siltstone),sediment / metasediment,sedimentary,1,descriptions.rock_name
+Weakly carbonatised iron oxide ore,gossan / oxidized,vein-ore,1,descriptions.rock_name
+"Weakly ferruginised, carbonatised quartz-actinolite-epidote metasomatite (after gabbrodiorite porphyry)",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Weakly mineralised and altered fine- to medium-grained hornblende peridotite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Weakly mineralised and altered fine- to medium-grained melanocratic gabbro (hornblende peridotite),peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Weakly mineralised and altered melanocratic gabbro porphyry,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Weakly mineralised and altered melanocratic gabbro porphyry (porphyry-like fine-grained melanocratic gabbro),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+Weakly mineralised argillite (phyllite) derived from siltstone,schist / phyllite,metamorphic,1,descriptions.rock_name
+Weakly mineralised carbonate-actinolite-chlorite metasomatite derived from gabbrodiorite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Weakly mineralised chlorite-sericite micro-schist (phyllite) derived from siltstone,schist / phyllite,metamorphic,1,descriptions.rock_name
+Weakly mineralised meta-siltstone,sediment / metasediment,sedimentary,1,descriptions.rock_name
+"Weakly mineralised, altered microgabbro (taxitic microgabbro/microgabbrodiorite)",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+"Weakly mineralized, altered melanocratic gabbro porphyry",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Weakly mineralized, altered, fine to medium grained Amph-Peridotite",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Weakly mineralized, altered, fine to medium grained, melanocratic Gabbro (Amph-Peridotite)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+"Weakly mineralized, altered, melanocratic Gabbro porphyry (Porphyry like melanocratic Gabbro)",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Weakly mineralized, altered, melanocratic Gabbro porphyry (Porphyry like, weakly mineralized, altered melanocratic gabbro",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name
+"Weakly mineralized, carbonate-actinolite-chlorite metasomatite after gabbrodiorite",skarn / metasomatite,metamorphic,1,descriptions.rock_name
+"Weakly mineralized, chlorite-sericite phyllite after siltstone",schist / phyllite,metamorphic,1,descriptions.rock_name
+Weakly pyritised chlorite-sericite-muscovite metasomatite,skarn / metasomatite,metamorphic,1,descriptions.rock_name
+Wehrlite,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Well preserved olivine hornblende orthocumulate,peridotite / ultramafic,ultramafic,1,descriptions.rock_name
+Well preserved subophitic-textured olivine-phyric hornblende microgabbro (close to chilled margin 'parent magma' candidate; 7.1% MgO),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name
+Well-mineralized olivine+hornblende orthocumulate (approaching net-textured sulfides),massive sulfide / ore,vein-ore,1,descriptions.rock_name
+altered gneiss,sediment / metasediment,sedimentary,1,samples.petro_lithology
+spotted/Schist,schist / phyllite,metamorphic,1,samples.field_lithology
+spotted???,hornfels / spotted rock,metamorphic,1,samples.field_lithology
+Альбит‑биотит габбро,gabbro / gabbronorite / norite,mafic intrusive,1,samples.petro_lithology
+Амфиболит,amphibolite / metabasite,metamorphic,1,samples.petro_lithology
+Амфиболитжсон пироксенит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Габброгоор үүссэн амфиболит,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Габбродиорит порфироор үүссэн амфиболит /амфиболжсон габбродиорит порфир/,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Габбродиорит порфироор үүссэн хлорит-альбитат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Гематит-гётит-гидрогётитийн хүдэр,massive sulfide / ore,vein-ore,1,descriptions.rock_name_original
+Гранат-карбонатат метасоматит (Скарн),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Гранат-кварц-карбонатат чулуу,vein / quartz,vein-ore,1,descriptions.rock_name_original
+Диоритоор үүссэн хлорит-альбитат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Дундлаг найрлагатай субвулкан,volcanic / subvolcanic,volcanic,1,descriptions.rock_name_original
+Жигд биш ширхэгтэй аркоз элсжин,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Жигд биш ширхэгтэй пироксентэй горнблендит (Hornblendite),hornblendite,ultramafic,1,descriptions.rock_name_original
+Жигд биш ширхэгтэй хээрийн жоншт гравелитлаг граувакк элсжин,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Жижиг дунд ширхэгтэй биотит-эвэр хуурмаг-пироксент габбро,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Жижиг дунд ширхэгтэй биотитот боржин,granitoid,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Жижиг дунд ширхэгтэй биотитот гранодиорит,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Жижиг дунд ширхэгтэй оливин-пироксент габбро,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Жижиг дунд ширхэгтэй пироксен-эвэрхуурмагт габбродиорит,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Жижиг дунд ширхэгтэй эвэр хуурмагт кварцат диорит (габбродиорит),gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Жижиг ширхэгтэй биотитот кварцат диорит (Микродиорит),diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Жижиг ширхэгтэй пироксен-эвэрхуурмагт габбродиорит,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Жижиг ширхэгтэй хээрийн жоншт элсжин,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Жижиг-дунд ширхэгтэй оливин-эвэр хуурмаг-пироксент перидотит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Жижиг-дунд ширхэгтэй пироксен эвэр хуурмагт габбро,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+"Занаржиж, карбонатчлагдаж, хүчтэй хувирсан габбродиорит порфир /Габбродиоритоор үүссэн метасоматит/",skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Карбанат хээрийн габбро,gabbro / gabbronorite / norite,mafic intrusive,1,samples.petro_lithology
+Карбанаттай метасоматит,skarn / metasomatite,metamorphic,1,samples.petro_lithology
+Карбонатжиж хувирсан базальт,dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name_original
+"Карбонатжиж, хүдэржсэн кварцын судал",vein / quartz,vein-ore,1,descriptions.rock_name_original
+Карбонатчлагдаж сулавтар брекчилэгдсэн хувирсан диорит порфир,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+"Карбонатчлагдаж, метасоматозоор хүчтэй хувирсан дунд жижиг ширхэгтэй биотитот диорит",diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+"Карбонатчлагдаж, хүдэржсэн жигд биш ширхэгтэй оливин-эвэр хуурмагт перидотит (жижиг ширхэгтэй габбро болон лейкогабброгийн линз, шлиртэй)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Карбонатчлагдаж, цахиуржсан хувирсан андезит",volcanic / subvolcanic,volcanic,1,descriptions.rock_name_original
+"Карбонатчлагдаж, цахиуржсан хувирсан габбродиорит порфир",gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+"Карбонатчлагдан, альбитжсан эпидот -пироксен-гранат-карбонаттай скарн",skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Карбонатчлагдсан жижиг ширхэгтэй хээрийн жонш-кварцат элсжинлэг метаалевролит,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Карбонатчлагдсан плагиоклаз-эпидот-пироксент бичил гнейс?,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Кварц агуулсан амфиболит,amphibolite / metabasite,metamorphic,1,descriptions.rock_name_original
+Магнетит-халькопирит-миллерит-пирротиноос тогтсон цул хүдэр,massive sulfide / ore,vein-ore,1,descriptions.rock_name_original
+Малахиттай төмрийн ислийн хүдэр,massive sulfide / ore,vein-ore,1,descriptions.rock_name_original
+Метасоматоз хувиралд хүчтэй орсон андезидацит,volcanic / subvolcanic,volcanic,1,descriptions.rock_name_original
+Метасоматозоор хүчтэй хувирсан габбродиорит порфир,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Метасоматозоор хүчтэй хувирсан диорит порфир,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Микродиоритоор үүссэн хлорит-мусковит-альбитат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Миндалекаменный базальт-андезитбазальт,dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name_original
+Оливинт вебстерит,peridotite / ultramafic,ultramafic,1,samples.petro_lithology
+Оливинтой вебстерит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Пиритжсэн хлорит-серицит-мусковитат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Плагиоклаз-кварц- кальцитын метасоматит,skarn / metasomatite,metamorphic,1,samples.petro_lithology
+Плагиоклаз-кварц-кальцитын метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Плагиориолит (Плагиоборжин порфир),granitoid,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Риодацит; Хүдэр: гематит-пиритийн шигтгээлэг хүдэр,massive sulfide / ore,vein-ore,1,descriptions.rock_name_original
+Риолит порфир,volcanic / subvolcanic,volcanic,1,descriptions.rock_name_original
+Риолит-порфир,volcanic / subvolcanic,volcanic,1,descriptions.rock_name_original
+Риолит‑порфир,volcanic / subvolcanic,volcanic,1,samples.petro_lithology
+Серпентин-карбонат-актинолит-хлоритот метасоматит (Габбро юмуу хэт суурилаг чулуугаар үүссэн),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Сулавтар брекчилэгдэж карбонатчлагдсан дунд ширхэгтэй пироксен-эвэрхуурмагт перидотит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Сулавтар карбонатчлагдаж, хүдэржсэн алевритлаг аргиллит (алевролит)",sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Сулавтар карбонатчлагдсан төмрийн ислийн хүдэр,massive sulfide / ore,vein-ore,1,descriptions.rock_name_original
+Сулавтар пиритжсэн хлорит-серицит-мусковитат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Сулавтар төмөржиж карбонатчлагдсан кварц-актинолит-эпидотот метасоматит (габбродиорит порфироор үүссэн),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+"Сулавтар хүдэржиж, хувирсан жижиг дунд ширхэгтэй меланократ габбро (эвэр хуурмагт перидотит)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Сулавтар хүдэржиж, хувирсан жижиг дунд ширхэгтэй эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Сулавтар хүдэржиж, хувирсан меланократ габбро порфир",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Сулавтар хүдэржиж, хувирсан меланократ габбро порфир (Шигтгээ маягийн жижиг ширхэгтэй меланократ габбро)",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Сулавтар хүдэржиж, хувирсан меланократ габбро порфир (Шигтгээ маягийн сулавтар хүдэржиж, хувирсан меланократ габбро)",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Сулавтар хүдэржиж, хувирсан микрогаббро",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Сулавтар хүдэржсэн алевролитоор үүссэн аргиллит (филлит),schist / phyllite,metamorphic,1,descriptions.rock_name_original
+Сулавтар хүдэржсэн алевролитоор үүссэн хлорит-серицитэт бичил занар (филлит),schist / phyllite,metamorphic,1,descriptions.rock_name_original
+Сулавтар хүдэржсэн габбродиоритоор үүссэн карбонат-актинолит-хлоритот метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Сулавтар хүдэржсэн метаалевролит,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Толболог метаалевролит,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Тольбон габбро,gabbro / gabbronorite / norite,mafic intrusive,1,samples.petro_lithology
+Том дунд ширхэгтэй биотитот боржин,granitoid,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Хлорит-биотит-мусковит-альбитат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хлорит-серицитэт бичил занар (филлит),schist / phyllite,metamorphic,1,descriptions.rock_name_original
+Хлорит-серицитэт метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хувирсан (актинолитжсан) габбродиорит порфир,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан (хүчтэй актинолитжсан) габбродиорит порфир,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан базальт (миндалинлаг),dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан габбродиорит-порфир,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан дунд жижиг ширхэгтэй биотит-эвэр хуурмагт габбродиорит,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан дунд жижиг ширхэгтэй эвэр хуурмаг-пироксент габбро,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан дунд жижиг ширхэгтэй эвэрхуурмагт габбродиорит,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан дунд том ширхэгтэй пироксенит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Хувирсан жигд биш ширхэгтэй оливин-эвэр хуурмагт меланократ габбро,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хувирсан жигд биш ширхэгтэй эвэр хуурмагт меланократ габбро (хүдэржсэн микрогабброгийн линз, шлиртэй)",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан жижиг дунд ширхэгтэй пироксен-эвэр хуурмагт габбро,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан жижиг-дунд мөхлөгт биотит-амфиболт габбро,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан кварцат микродиорит,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Хувирсан меланократ габбро (долерит) порфир (меланократ микрогаббро ба пироксен-гранат-карбонатат скарны шлирүүдтэй),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хувирсан меланократ микрогаббро,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан оливин габбро,olivine gabbro / melagabbro,mafic intrusive,1,samples.petro_lithology
+Хувирсан пироксенит,peridotite / ultramafic,ultramafic,1,samples.petro_lithology
+Хувирсан пироксенит порфир (Судлын пироксенит),peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Хувирсан шигтгээ маягийн дунд жижиг ширхэгтэй оливин-пироксен-эвэр хуурмагт меланократ габбро,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан шигтгээ маягийн дунд жижиг ширхэгтэй оливин-пироксен-эвэр хуурмагт меланократ габбро (Габбро порфир),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан шигтгээ маягийн жижиг дунд ширхэгтэй оливин-пироксен-эвэр хуурмагт меланократ габбро (Жигд биш ширхэгтэй меланократ габбро),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан шигтгээ маягийн жижиг ширхэгтэй пироксен эвэр хуурмагт меланократ габбро (Хувирсан меланократ габбро порфир),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хувирсан шүлтлэгдүү кварцат диорит порфир,diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Хувирч хүдэржсэн жигд биш ширхэгтэй оливин-эвэр хуурмагт меланократ габбро,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хувирч, исэлдсэн жигд биш ширхэгтэй оливин-эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хувирч, хүдэржсэн жигд биш ширхэгтэй оливин-эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хүдэржиж хувирсан жигд биш ширхэгтэй оливин эвэр хуурмагт меланократ габбро,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, карбонатчлагдсан дунд жижиг ширхэгтэй гранаттай оливин-пироксент габбро (микрогабброгийн линзтэй)",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, метасоматозоор хүчтэй хувирсан жижиг дунд ширхэгтэй перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан габбро порфир",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй (шигтгээ маягийн) оливин-пироксен-эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй (шигтгээ маягийн) эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй оливин-пироксен-эвэр хуурмагт меланократ габбро (эвэр хуурмагт перидотит)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй пироксент меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жигд биш ширхэгтэй эвэр хуурмагт перидотит (Хувирсан габбродиоритын шлиртэй)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жижиг дунд ширхэгтэй пироксен-биотит-эвэр хуурмагт габбро",gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жижиг дунд ширхэгтэй эвэр хуурмагт перидотит (меланократ габбро?)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жижиг ширхэгтэй меланократ (оливин-эвэр хуурмагт) габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан жижиг-дунд мөхлөгт биотитот шүлтлэгдүү диорит",diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан меланократ габбро порфир",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан шигтгээ маягийн дунд жижиг ширхэгтэй меланократ габбронорит (Перидотит?)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан шигтгээ маягийн жижиг дунд ширхэгтэй меланократ габбронорит (Перидотит?)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүдэржиж, хувирсан шигтгээ маягийн жижиг ширхэгтэй пироксен-оливин-эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хүдэржисэн жижиг дунд ширхэгтэй пироксен-эвэр хуурмагт меланократ габбро,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хүдэржсэн амфибол-плагиоклазат гнейс (габбро-диоритоор үүссэн),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Хүдэржсэн жижиг дунд ширхэгтэй хувирсан меланократ габбронорит (перидотит?),peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Хүдэржсэн жижиг дунд ширхэгтэй эвэр хуурмаг-пироксент меланократ габбро (перидотит?),peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Хүдэржсэн кварц-актинолит-альбитат гнейс (габбро-диоритоор үүссэн метасоматит),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүдэржсэн кварц-карбонатын судал,vein / quartz,vein-ore,1,descriptions.rock_name_original
+Хүдэржсэн кордиерит-актинолитат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүдэржсэн серицит-кварцат занар,schist / phyllite,metamorphic,1,descriptions.rock_name_original
+Хүдэржсэн том дунд ширхэгтэй эвэрхуурмагт габбро (Габбродиорит),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Хүдэржсэн хлорит-карбонатат метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүдэржсэн хлорит-карбонатат метасоматит (Габбродиоритоор үүссэн),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүдэржсэн хлорит-серицитэт бичил занар,schist / phyllite,metamorphic,1,descriptions.rock_name_original
+Хүдэржсэн шигтгээ маягийн жижиг ширхэгтэй пироксен-эвэр хуурмагт габбро /Хувирсан габбро порфир/,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Хүдэржсэн шигтгээ маягийн жижиг ширхэгтэй эвэр хуурмаг-оливин-пироксент меланократ габбро,olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Хүдэржсэн шпинель -кордиерит-актинолитат метасоматит (бичил гнейс),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүдэржсэн шпинельтэй эпидот-пироксент бичил гнейс (скарн?),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүчиллэг найрлагатай субвулканит,volcanic / subvolcanic,volcanic,1,descriptions.rock_name_original
+"Хүчтэй брекчлэгдэн цахиуржиж, карбонатчлагдан хүдэржсэн хлорит-серпентинт метасоматит (хлориттой серпентинит)",skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+"Хүчтэй карбонатчлагдаж, хлоритжсон габбродиорит порфир",gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+"Хүчтэй карбонатчлагдаж, хувирсан габбродиорит порфир",gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Хүчтэй карбонатчлагдсан габбродиорит порфироор үүссэн эпидот-хлорит-актинолит-серицитэт метасоматит,skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүчтэй карбонатчлагдсан жижиг ширхэгтэй аркоз элсжин,sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+Хүчтэй хувирсан габбродиорит порфир,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Хүчтэй хувирсан габбродиорит порфир (Габбродиорит-порфироор үүссэн альбит-хлорит-карбонатат метасоматит),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Хүчтэй хувирсан дунд жижиг ширхэгтэй эвэр хуурмагтай перидотит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Хүчтэй хувирсан жигд биш ширхэгтэй эвэр хуурмагт перидотит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Хүчтэй хувирсан жижиг-дунд мөхлөгт оливин-амфиболт габбро (меланократ габбро),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүчтэй хувирч, сулавтар хүдэржсэн жигд биш ширхэгтэй оливин-пироксент перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хувирч, сулавтар хүдэржсэн жигд биш ширхэгтэй пироксен-оливин-эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүчтэй хувирч, сулавтар хүдэржсэн жигд биш ширхэгтэй пироксен-оливин-эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хувирч, хүдэржсэн жигд биш ширхэгтэй оливин-эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хувирч, хүдэржсэн жигд биш ширхэгтэй эвэр хуурмагт перидотит (меланократ габбро)",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хувирч, хүдэржсэн шигтгээ маягийн дунд жижиг ширхэгтэй эвэр хуурмагт меланократ габбро",olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+"Хүчтэй хүдэржиж, хувирсан жигд биш ширхэгтэй оливин-эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хүдэржиж, хувирсан жигд биш ширхэгтэй эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хүдэржиж, хувирсан жижиг дунд ширхэгтэй перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хүдэржиж, хувирсан жижиг дунд ширхэгтэй эвэр хуурмагт перидотит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Хүчтэй хүдэржиж, хувирсан жижиг дунд ширхэгтэй эвэр хуурмагт перидотит. (Сулавтар хүдэржиж, хувирсан жижиг дунд ширхэгтэй пироксен-эвэр хуурмагт габбродиоритын линзтэй )",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Хүчтэй хүдэржсэн (төмөржсөн) кварцит,gossan / oxidized,vein-ore,1,descriptions.rock_name_original
+Хүчтэй хүдэржсэн гранат-кварцын судал,vein / quartz,vein-ore,1,descriptions.rock_name_original
+Хүчтэй хүдэржсэн жижиг дунд ширхэгтэй пироксен-эвэрхуурмагт габбро,gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Хүчтэй хүдэржсэн кварц-серицитэт занар,schist / phyllite,metamorphic,1,descriptions.rock_name_original
+Хүчтэй хүдэржсэн кварцат диорит порфир (Андезит дацит),diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+Цахиуржиж карбонатчлагдсан алевролитоор үүссэн хлорит-серицит-мусковитот бичил занар (филлит),schist / phyllite,metamorphic,1,descriptions.rock_name_original
+"Цахиуржиж, карбонатчлагдаж, пиритжсэн алевритлаг аргиллит (филлит)",schist / phyllite,metamorphic,1,descriptions.rock_name_original
+"Цахиуржиж, карбонатчлагдан, хүдэржсэн алевритлаг аргиллит",sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+"Цахиуржиж, пиритжсэн алевритлаг аргиллит",sediment / metasediment,sedimentary,1,descriptions.rock_name_original
+"Цахиуржиж, сулавтар хүдэржсэн дунд жижиг ширхэгтэй пироксенит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Цахиуржиж, хүдэржсэн биотит-хлориттой серпентинит",peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+"Цахиуржиж, хүдэржсэн кордиерит-серпентин-актинолитат метасоматит",skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+"Цахиуржиж, хүдэржсэн кордиерит-серпентин-хлоритот метасоматит",skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+"Цахиуржиж, хүдэржсэн серпентин-актинолит- кордиеритот метасоматит",skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+"Цахиуржиж, хүдэржсэн серпентин-хлорит- кордиеритот метасоматит",skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Цахиуржсан актинолит-хлорит-циозит-серицитэт метасоматит (кварцат диоритоор үүссэн),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Шаварлаг-гялтгануурт филлит,schist / phyllite,metamorphic,1,descriptions.rock_name_original
+Шигтгээ маягийн жижиг ширхэгтэй пироксен эвэр хуурмагт габбро (Хувирсан габбро порфир),gabbro / gabbronorite / norite,mafic intrusive,1,descriptions.rock_name_original
+Шигтгээ маягийн жижиг ширхэгтэй пироксен-эвэр хуурмагт меланократ габбро (Хувирсан меланократ габбро порфир),olivine gabbro / melagabbro,mafic intrusive,1,descriptions.rock_name_original
+Эвэрттугмат верлит,peridotite / ultramafic,ultramafic,1,samples.petro_lithology
+Эвэрттугмат габбродиорит,gabbrodiorite,mafic intrusive,1,samples.petro_lithology
+Эвэрхуурмагт верлит,peridotite / ultramafic,ultramafic,1,descriptions.rock_name_original
+Эвэрхуурмагт габбродиорит,gabbrodiorite,mafic intrusive,1,descriptions.rock_name_original
+Эпидот-хлорит-актинолитот метасоматит (габбродиорит порфироор үүссэн?),skarn / metasomatite,metamorphic,1,descriptions.rock_name_original
+Эпидотот амфиболит,amphibolite / metabasite,metamorphic,1,samples.petro_lithology
+андезит порфир (жижиг мөхлөгтэй диорит),diorite / quartz diorite,felsic-intermediate intrusive,1,descriptions.rock_name_original
+андезит порфир; Хүдэр: Гематит-гётит-лимонит ядуу хүдэр,massive sulfide / ore,vein-ore,1,descriptions.rock_name_original
+базальт- андезитбазальт,dolerite / diabase / basalt dyke,mafic intrusive,1,descriptions.rock_name_original
+габбронорит,gabbro / gabbronorite / norite,mafic intrusive,1,samples.petro_lithology
+кварц-карбонат-эпидотийн судлаар зүсэгдсэн эпидот хлоритын метасоматит,skarn / metasomatite,metamorphic,1,samples.petro_lithology
+метасоматит,skarn / metasomatite,metamorphic,1,samples.petro_lithology
+"туффит, туфоэлсжин",volcanic / subvolcanic,volcanic,1,descriptions.rock_name_original
+хүдрийн эрдэсжилттэй хээрийн жонш -карбонат-кварцын метасоматит,skarn / metasomatite,metamorphic,1,samples.petro_lithology

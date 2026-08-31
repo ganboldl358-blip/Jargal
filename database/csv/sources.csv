@@ -1,33 +1,49 @@
-﻿title,drive_fileId,role
-Yambat Petrographic Master Data.xlsx,1lG0hZDsnslLbezFCw34bx6f_bZn3YJ4w,master sample table (All sheet = spine; grab & rockchip sheets)
-Yambat petrography samples 2022-2024 from Core & grab.xlsx,1y25l1orJYDXQjXNupiht93Wg7Tr17Ste,"working workbook: bichiglel description table, Sheet3, phase sheets, Samples-to-Japan"
-Collar_all_combined.csv,1MxtDUzpvCtD9Nbi9IODl8EmXQOLCgvh2,drillhole collars (76 holes) — location authority
-Survey_all_YMB.csv,1fqyguCqRGnMgmuTm8pJbuPPmFTo3OMf0,"downhole surveys (1,990 rows) — desurvey input"
-Khanlab_petrography_Samples.xlsx,1W3XRRKAl-s3UAJY9ZpEal1rZjToOw0uh,Khanlab assay verification table (hole@depth keyed; context only)
-PETRO LIST 2025.xlsx,19_86z6DSb2PMclXSzPuJBTVJwc-U6Ahl,2025 phase-3 sample list (subset of Master All)
-Petrograph_2023.xlsx (v3),1hLNU5HcF31MqC9LaTzQ4rn6qFQ1flvB3,2023 sample register — source of tag 40904
-Suggested Petro for the Oval 2024.xlsx,1bR-8vDiTDOcK4RclatPAGfHOIj-Y7Rct,AJC/Tony Christie tag<->hole@depth cross-reference
-Drillhole Petrograph_2023.xlsx,1gUTrLiQm_mVlDuPpeIpjaHLlXvxgYHvl,2023 register of 50 drill-core petrography determinations (3 labs)
-Petrograph_MIRESL20230816_summary.xlsx,1xtXI_avodVIDEyqzPANfOnjWdssdiFPR,MIRESL 2023-08-16 summary: lithofacies/alteration/ore-mineral detail
-Петрограф008.docx,1g1XzQNPExltgXYax7dNieSAFGhnFes-_,"Khanlab 2024 Mongolian descriptions, 12 samples (ӨТШ)"
-AM_ThinSectionMongolia_Report_2024.pdf,1mNAkW0F0qWUuq2vDpBnjOtZ5oEcfESYj,"ThinSection Mongolia 2024 report, 8 unlocated samples (TS-n/Дээж-n)"
-2023-08-06-2 шлиф.pdf,1UONp87cloKEolNq0fNTAcR_WPXKZMaJE,L.Jargal 2023 descriptions of С-1/С-2 (unlocated)
-2023-06-20-3 thin sections.pdf,1EkoHRvviZAooeAEkEmwHpM7KmeMZ6ZS8,L.Jargal/Ragnarok 2023 descriptions of tags 40763/40900/40913
-Asian Battery Metals March 2025 The Oval Summary Report.pdf,1HQZSTrXY79Q10i0cLzdl1Ug5Zp9POr9z,Crawford 2025 petrographic report — 38 samples (English)
-Review of Work on 'The Oval' Ni-CU Target Revised March 2025.pdf,1oLGiwQWcY8r_S9nhTHozPrDgJhzkjzss,Crawford review (context; no per-sample descriptions)
-FW_ Petrology - Oval Nickel Project.zip,1n_jRl5VBRsIzcX8KFezy7IznoPbUGIL-,email bundle: Suggested Petro xlsx + assay table + May-2024 review
-English Petrographic and Mineragraphic Descriptions. 6.docx,1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc,"2024 descriptions, 6 samples (superseded by 41-sample report)"
-English Petrographic and Mineragraphic description. 15.docx,1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga,"Innova Mineral 2024 descriptions, 15 samples"
-English 41 Petrographic and Mineragraphic description.docx,1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV,"2024 consolidated descriptions, 41 samples"
-22 р цооног зассан 14ш.docx,1ogaE3Tl1iDtPXh9h5ZKylOqCqTS58Tvx,OVD22 descriptions (14)
-23 р цооног дууссан 9ш.docx,1Hpn_S6ZrXwAI93crIjVJlKaG6QD6qAv-,OVD23 descriptions (9)
-24 р цооног зассан 13ш.docx,1IehFzGt7P_1swflmBZWZOxwkH0alPxBT,OVD24 descriptions (13)
-25 цооног 10ш.docx,1SkGc5ogH9rFr2AUsZ353aTqoG2OFv4KJ,OVD25 descriptions (10)
-26 р цооног 16 ш зассан.docx,1RmOTmYH2cLctQR66cq2a_j8u1PhOTHMk,OVD26 descriptions (16)
-27 р цооног 12ш.docx,1vPXAWelQlX_bfjQp1jOqa8xwVMsp91U6,OVD27 descriptions (12)
-28 ба 29 р цооног 9ш.docx,1ZwejH5NIjLSqTYBmuRyl5PoCSmgAdsMR,OVD28+OVD29 descriptions (9)
-15ш пет-мин бичиглэл. 09.02.docx,17UhBmihR8HYhLMbUo0qz-myjvxNi7G6y,"2025 descriptions, 15 samples (14 unlocated + 43816=OVD009@126.6)"
-5 петрографи баттерей (2).docx,1JSiTRfddzTDCi4VRso_BGmQKA_S6WVB7,"2025 descriptions, 5 samples"
-Report_ABM 2025.09.09 final.pdf,1el3ET8WvDjbohD0oJyQJ1CU4Lo7h-0-Z,"MUST (ШУТИС) 2025-09-09 report, 22 samples, SEM-EDX"
-BayanSair_Drilling Sample Petrography_12 Sample.docx,1XSM2M96NX3-UdzGe8csb3RF95jqecbOD,2026 BS001 descriptions (12)
-MS3_Outcrop Sample_Петрографи-минераграфи 4ш.docx,1pdeSCucBLmStH5nrRrOUaMwXzr_KpQK-,2026 MS3 outcrop descriptions (4)
+﻿title,drive_fileId,role,provenance_note
+Yambat Petrographic Master Data.xlsx,1lG0hZDsnslLbezFCw34bx6f_bZn3YJ4w,master sample table (All sheet = spine; grab & rockchip sheets),
+Yambat petrography samples 2022-2024 from Core & grab.xlsx,1y25l1orJYDXQjXNupiht93Wg7Tr17Ste,"working workbook: bichiglel description table, Sheet3, phase sheets, Samples-to-Japan",
+Collar_all_combined.csv,1MxtDUzpvCtD9Nbi9IODl8EmXQOLCgvh2,drillhole collars (76 holes) — location authority,
+Survey_all_YMB.csv,1fqyguCqRGnMgmuTm8pJbuPPmFTo3OMf0,"downhole surveys (1,990 rows) — desurvey input",
+Khanlab_petrography_Samples.xlsx,1W3XRRKAl-s3UAJY9ZpEal1rZjToOw0uh,Khanlab assay verification table (hole@depth keyed; context only),
+PETRO LIST 2025.xlsx,1X95MBGNX1QTlsDtQ26fcaXHIJIecNO1O,2025 phase-3 sample list (subset of Master All),
+Petrograph_2023.xlsx (v3),1hLNU5HcF31MqC9LaTzQ4rn6qFQ1flvB3,2023 sample register — source of tag 40904,
+Suggested Petro for the Oval 2024.xlsx,1bR-8vDiTDOcK4RclatPAGfHOIj-Y7Rct,AJC/Tony Christie tag<->hole@depth cross-reference,
+Drillhole Petrograph_2023.xlsx,1gUTrLiQm_mVlDuPpeIpjaHLlXvxgYHvl,2023 register of 50 drill-core petrography determinations (3 labs),
+Petrograph_MIRESL20230816_summary.xlsx,1xtXI_avodVIDEyqzPANfOnjWdssdiFPR,MIRESL 2023-08-16 summary: lithofacies/alteration/ore-mineral detail,"fileId corrected in v1.1: the build cited 1WoLN-IjSNCLeOxNqkBHa8S9UXbzHwloF, which is not an inventory entry; the inventory-canonical copy of this title is 1xtXI_avodVIDEyqzPANfOnjWdssdiFPR"
+Петрограф008.docx,1tw3IOr7TudHqMDZz22kbLw2BvtTgugtK,"Khanlab 2024 Mongolian descriptions, 12 samples (ӨТШ)",
+AM_ThinSectionMongolia_Report_2024.pdf,1mNAkW0F0qWUuq2vDpBnjOtZ5oEcfESYj,"ThinSection Mongolia 2024 report, 8 unlocated samples (TS-n/Дээж-n)",not listed in workspace/inventory.json (inventory gap)
+2023-08-06-2 шлиф.pdf,1UONp87cloKEolNq0fNTAcR_WPXKZMaJE,L.Jargal 2023 descriptions of С-1/С-2 (unlocated),not listed in workspace/inventory.json (inventory gap)
+2023-06-20-3 thin sections.pdf,1laCOiOgBKgIdPSmLIRmnRHeu7UAxTfhm,L.Jargal/Ragnarok 2023 descriptions of tags 40763/40900/40913,"fileId corrected in v1.1: the build cited 1kkEQHYDCdr7ckB7d7xv7zssmCIkEGpU-, which is not an inventory entry; the inventory-canonical copy of this title is 1laCOiOgBKgIdPSmLIRmnRHeu7UAxTfhm"
+Asian Battery Metals March 2025 The Oval Summary Report.pdf,1HQZSTrXY79Q10i0cLzdl1Ug5Zp9POr9z,Crawford 2025 petrographic report — 38 samples (English),not listed in workspace/inventory.json (inventory gap)
+Review of Work on 'The Oval' Ni-CU Target Revised March 2025.pdf,1oLGiwQWcY8r_S9nhTHozPrDgJhzkjzss,Crawford review (context; no per-sample descriptions),not listed in workspace/inventory.json (inventory gap)
+FW_ Petrology - Oval Nickel Project.zip,1n_jRl5VBRsIzcX8KFezy7IznoPbUGIL-,email bundle: Suggested Petro xlsx + assay table + May-2024 review,not listed in workspace/inventory.json (inventory gap)
+English Petrographic and Mineragraphic Descriptions. 6.docx,1oaodEQTEk0STZ9sRQ0X9ysVSqs4arRxc,"2024 descriptions, 6 samples (superseded by 41-sample report)",
+English Petrographic and Mineragraphic description. 15.docx,1H4Afka4AW1Irumg9EYs2XIw5n2rRa4Ga,"Innova Mineral 2024 descriptions, 15 samples",
+English 41 Petrographic and Mineragraphic description.docx,1beJzCAEVfCiPwChYtmCDu0vhlxqy4qAV,"2024 consolidated descriptions, 41 samples",
+22 р цооног зассан 14ш.docx,1ogaE3Tl1iDtPXh9h5ZKylOqCqTS58Tvx,OVD22 descriptions (14),
+23 р цооног дууссан 9ш.docx,1Hpn_S6ZrXwAI93crIjVJlKaG6QD6qAv-,OVD23 descriptions (9),
+24 р цооног зассан 13ш.docx,1IehFzGt7P_1swflmBZWZOxwkH0alPxBT,OVD24 descriptions (13),
+25 цооног 10ш.docx,1SkGc5ogH9rFr2AUsZ353aTqoG2OFv4KJ,OVD25 descriptions (10),
+26 р цооног 16 ш зассан.docx,1RmOTmYH2cLctQR66cq2a_j8u1PhOTHMk,OVD26 descriptions (16),
+27 р цооног 12ш.docx,1vPXAWelQlX_bfjQp1jOqa8xwVMsp91U6,OVD27 descriptions (12),
+28 ба 29 р цооног 9ш.docx,1ZwejH5NIjLSqTYBmuRyl5PoCSmgAdsMR,OVD28+OVD29 descriptions (9),
+15ш пет-мин бичиглэл. 09.02.docx,17UhBmihR8HYhLMbUo0qz-myjvxNi7G6y,"2025 descriptions, 15 samples (14 unlocated + 43816=OVD009@126.6)",
+5 петрографи баттерей (2).docx,1JSiTRfddzTDCi4VRso_BGmQKA_S6WVB7,"2025 descriptions, 5 samples",
+Report_ABM 2025.09.09 final.pdf,1el3ET8WvDjbohD0oJyQJ1CU4Lo7h-0-Z,"MUST (ШУТИС) 2025-09-09 report, 22 samples, SEM-EDX",
+BayanSair_Drilling Sample Petrography_12 Sample.docx,1XSM2M96NX3-UdzGe8csb3RF95jqecbOD,2026 BS001 descriptions (12),
+MS3_Outcrop Sample_Петрографи-минераграфи 4ш.docx,1pdeSCucBLmStH5nrRrOUaMwXzr_KpQK-,2026 MS3 outcrop descriptions (4),"fileId corrected in v1.1: the build cited 1pdeSCucBLmStN5nrRrOUaMwXzr_KpQK-, which is not an inventory entry; the inventory-canonical copy of this title is 1pdeSCucBLmStH5nrRrOUaMwXzr_KpQK-"
+"41ш петрографи, минераграфийн бичиглэл.docx (41 samples MN)",1uDyW5O5Ij4LixvQfTtNdwZAQlAQs2y00,Mongolian twin of the 41-sample 2024 report — source of the Mongolian rock names merged into those 41 English descriptions,
+Петрографи минераграфийн бичиглэл. 15 ш. Иннова Минерал.docx,1HOaqAhH-D7Jm6CRRXwDuMw28lm7woGRK,Mongolian twin of the Innova Mineral 15-sample 2024 report — source of the Mongolian rock names merged into those 15 descriptions,
+Petrographic descriptions 06.23.pdf,16r0N4TEldedRvrGcPM_hEvIeCsZfMA7v,"Mireslab 2022-06-23 surface petrography, 2 samples (OV202202/OV202203)",
+Petrographic descriptions 11.04.pdf,1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq,"Mireslab 2022-11-07 surface petrography, 6 samples (OVF-1/-2, 020, OV-40/-41/-51)",
+Report_0715_Ni.pdf,1jIT5VpacpQcvW1KbUty6C1EmT2PPr1Fu,"Mireslab 2022-07-15 first Ni report, 2 unjoinable samples (2111, 2107)",
+Report_microscope_20221012.pdf,1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t,"Mireslab 2022-10-12 surface petrography, 8 samples (YT-/YM- field numbers)",
+MINERALOGICAL-DESCRIPTIONS_2023.03.25.pdf,1PqskoIsimAuRzmS2h6uQeKGz1cv2ZHoq,"Mireslab 2023-03 supergene Ni mineralogy, 1 unjoinable sample (2023Nisample)",
+Thin and polish-1.docx,1DfMbUNC3_4pIxEMFYjDPUb3TQZ5WHzM2,"MN description sheet, 1 surface sample (SH-14)",
+Thin and polish-1sh.docx,1UiyI5UX26_xmf4BTJIIUTL2yWWZ-FGEa,"MN description sheet, 1 surface sample (SH-18)",
+Thin and polish-2sh.docx,15hjIW8slda5_7rpK_Hkbvake7Qq7J0pW,"MN description sheet, 2 surface samples (SH-14-1, SH-16)",
+Thin and polish-4.docx,1ip2bAQRB303SZq0R5zbY0CBuhQnA02cs,"MN description sheet, 4 surface samples (2107, 2104-1, A, 2102)",
+BE-3 samples in English.pdf,1JCorsOW4v8Vepb9HJlzYNDtzabENxU25,NUM (L.Oyunjargal PhD) 2023-06-22 ore petrology of blocks 40763/40900/40913,
+Report20231124.docx,106T7bR2o5_Pw1pFPEcfzml6Q9DhdnFUT,"Mireslab report #2303 (Innova Mineral order 008), 2 samples 40763/40913",
+Report_20230816_Part1.pdf + Report_20230816_Part2.pdf,1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH,Mireslab report #2302 — the FULL narrative behind the 23-row MIRESL summary sheet (internal codes OVD001-OVD023),
+Petrography_mineragraphy_24 sample.pdf,17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3,"Khanlab О-24 consolidated report — the 12 OVD009 sections (41014-41023, 41033, 41034) missing from Петрограф008.docx",
+CORE PHOTO/ARDH-2005-01/4. Thin section photo (18 JPG),folder:1SpY0E3wPZudd9e6KIC5D8SpFgfnRF2tk,"legacy 2005 hole ARDH-2005-01: 17 unique thin-section photographs, no accompanying report — photo_only sample stubs",

@@ -4,6 +4,12 @@
 build_database.py — Consolidated, 3D-modelling-ready petrography database
 for the Oval Ni-Cu project (Yambat, Mongolia).
 
+VERSION 1.1 (2026-08-31).  v1.1 applies every defect found by the two
+independent audits (database/VERIFICATION_integrity.md D1-D10 and
+database/VERIFICATION_coverage.md G1-G14) and merges the
+workspace/extracted/missing_sources/ batch (84 records).  See the changelog
+in database/QA_report.md.
+
 Reads the extracted source tables under  workspace/extracted/  and writes
 ONE consolidated database to  database/ :
   csv/samples.csv           one row per physical sample (the spine)
@@ -24,6 +30,7 @@ Requires: pandas, openpyxl  (pip install pandas openpyxl)
 """
 
 import csv
+import datetime
 import json
 import math
 import re
@@ -38,10 +45,13 @@ ROOT = Path(__file__).resolve().parent.parent          # /home/user/Jargal
 WS = ROOT / "workspace" / "extracted"
 MASTER = WS / "master"
 XLSX = WS / "xlsx"
+MISS = WS / "missing_sources"
 OUT = ROOT / "database"
 CSVDIR = OUT / "csv"
 CSVDIR.mkdir(parents=True, exist_ok=True)
 
+DB_VERSION = "1.1"
+BUILD_DATE = "2026-08-31"
 EPSG_NOTE = "WGS84 / UTM zone 46N (EPSG:32646)"
 
 # ----------------------------------------------------------------------------
@@ -198,10 +208,66 @@ for row in read_csv_rows(MASTER / "Survey_all_YMB.csv")[1:]:
         "method": row[6].strip(),
         "survey_company": row[7].strip(),
         "survey_date": row[8].strip() if len(row) > 8 else "",
+        "qa_note": "",
     }
     survey_rows.append(rec)
-    if d is not None and dip is not None and azi is not None:
-        survey_by_hole[h].append((d, dip, azi))
+
+
+def _sdate(s):
+    """'7/28/2024' -> (2024, 7, 28); unparseable -> (0, 0, 0)."""
+    m = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{2,4})$", str(s).strip())
+    if not m:
+        return (0, 0, 0)
+    mm, dd, yy = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    if yy < 100:
+        yy += 2000
+    return (yy, mm, dd)
+
+
+# --- D4: duplicate hole+depth survey stations -------------------------------
+# Both readings are KEPT VERBATIM (they are verbatim source rows); the conflict
+# is recorded in the new `qa_note` column and the recommended row is named.
+_station_groups = defaultdict(list)
+for rec in survey_rows:
+    if rec["depth_m"] is not None:
+        _station_groups[(rec["hole_id"], rec["depth_m"])].append(rec)
+
+survey_conflicts = []
+for (h, d), recs in sorted(_station_groups.items()):
+    if len(recs) < 2:
+        continue
+    keep = max(recs, key=lambda r: (_sdate(r["survey_date"]), r["survey_company"]))
+    for r in recs:
+        others = "; ".join(
+            f"{o['dip']}/{o['azimuth']} ({o['method']}, {o['survey_company']}, "
+            f"{o['survey_date']})" for o in recs if o is not r)
+        r["qa_note"] = (
+            f"D4: duplicate survey station — {h} @ {d:g} m is recorded "
+            f"{len(recs)} times with conflicting orientations (other reading(s): "
+            f"{others}). Both rows are kept verbatim from Survey_all_YMB.csv. "
+            f"RECOMMENDED row for importers that reject duplicate hole+depth "
+            f"keys: the {keep['survey_date']} {keep['survey_company']} "
+            f"({keep['method']}) reading, dip {keep['dip']} / azimuth "
+            f"{keep['azimuth']} — the most recent instrument survey; this is "
+            f"also the row the desurvey in this build uses."
+            + (" THIS ROW." if r is keep else " (drop this row.)"))
+    survey_conflicts.append(
+        f"{h} @ {d:g} m: {len(recs)} readings — "
+        + " vs ".join(f"dip {o['dip']} / azi {o['azimuth']} ({o['method']}, "
+                      f"{o['survey_company']}, {o['survey_date']})" for o in recs)
+        + f" | recommended: {keep['survey_date']} {keep['survey_company']}")
+
+# desurvey stations: one per (hole, depth), the most recent survey wins
+_pref_station = {}
+for rec in survey_rows:
+    if rec["depth_m"] is None or rec["dip"] is None or rec["azimuth"] is None:
+        continue
+    key = (rec["hole_id"], rec["depth_m"])
+    cur = _pref_station.get(key)
+    if cur is None or _sdate(rec["survey_date"]) > _sdate(cur["survey_date"]):
+        _pref_station[key] = rec
+for (h, d), rec in _pref_station.items():
+    survey_by_hole[h].append((d, rec["dip"], rec["azimuth"]))
 
 
 def _mc_delta(md1, i1, a1, md2, i2, a2):
@@ -442,12 +508,39 @@ for row in read_csv_rows(MASTER / PH2)[2:]:
         continue
     tag = row[5].strip()
     f, t = ffloat(row[2]), ffloat(row[3])
+    ph2_flag = ""
+    # --- D1: the sheet's sample From/To is inverted on at least one row
+    # (47176: From 144, To 114.1).  The assay block on the SAME row (cols
+    # 21/22 'from'/'to') is the corroborating record, and the 2024-2026
+    # extract states the sample sits at 114-116 m.  Prefer the assay block.
+    if f is not None and t is not None and f > t:
+        af, at = (ffloat(row[21]) if len(row) > 21 else None,
+                  ffloat(row[22]) if len(row) > 22 else None)
+        if af is not None and at is not None and af <= at:
+            ph2_flag = (
+                f"D1 CORRECTED: master sheets record this sample interval as "
+                f"From {f:g} / To {t:g} (inverted — a source typo for the "
+                f"depth {af:g} m); the assay block on the same "
+                f"{PH2} row reads from {af:g} m / to {at:g} m and the 2024-2026 "
+                f"report extract states 'sample sits at {af:g}-{at:g} m, listed "
+                f"after deeper samples in the source doc'. Interval set to "
+                f"{af:g}-{at:g} m and re-desurveyed; the '{f:g}' of "
+                f"Yambat_Petrographic_Master_Data__All.csv / the bichiglel "
+                f"table is a master-sheet typo (144 for 114)")
+            f, t = af, at
+        else:
+            f, t = t, f
+            ph2_flag = (f"D1: inverted interval in {PH2} (From {t:g} > To "
+                        f"{f:g}); swapped, no corroborating assay interval")
     s = tag2sample.get(tag)
     if s and f is not None:
         if s["depth_to_m"] is None:
             s["depth_from_m"], s["depth_to_m"] = rdepth(f), rdepth(t)
             s["depth_mid_m"] = rdepth((f + t) / 2.0 if t is not None else f)
             s["source_files"] += "; " + PH2
+            if ph2_flag:
+                s["qa_flags"] = (s["qa_flags"] + "; " + ph2_flag).strip("; ")
+                qa["depth_interval_fixes"].append(f"{s['sample_id']}: {ph2_flag}")
         hd = row[4].strip()
         if hd and hd not in s["alt_ids"]:
             s["alt_ids"] = (s["alt_ids"] + " | " + hd).strip(" |")
@@ -655,6 +748,97 @@ qa["rockchip_merge"].append(
     f"{n_rc_merged} rockchip-sheet rows merged into existing grab-sheet samples "
     f"(same Sample_numbers; grab sheet supplies their X/Y)")
 
+# ---------------------------------------------------------------------------
+# 3h. COVERAGE G1 — two Crawford-2025 thin sections that exist physically but
+#     have no row in any sample register.  Both are drill core with a known
+#     hole + depth, so both are created and desurveyed.
+# ---------------------------------------------------------------------------
+CRAWFORD_PDF = "Asian Battery Metals March 2025 The Oval Summary Report.pdf"
+
+new_sample(composite_id("OVD003", 202.0), "OVD003", 202.0, None,
+           CRAWFORD_PDF, "2025", "drill core",
+           lab="Dr Anthony J Crawford, A & A Crawford Geological Research "
+               "Consultants",
+           petro_lith="Intensely hydrothermally altered and brecciated "
+                      "protomylonite (protolith probably olivine-hornblende "
+                      "gabbro)",
+           alt="OVD003@202m",
+           qa_flag="COVERAGE G1: sample row created in v1.1 for a Crawford 2025 "
+                   "thin section that has no entry in any sample register "
+                   "(Master All, bichiglel, Sheet3, phase sheets); hole+depth "
+                   "taken verbatim from the report caption 'OVD003@202m' and "
+                   "desurveyed (OVD003 total depth 209.5 m, so the depth is "
+                   "inside the hole)",
+           flags=["polished_thin_section"])
+
+new_sample(composite_id("OVD009", 178.0), "OVD009", 178.0, 180.0,
+           CRAWFORD_PDF, "2025", "drill core",
+           lab="Dr Anthony J Crawford, A & A Crawford Geological Research "
+               "Consultants",
+           petro_lith="Intensely hydrothermally altered rock, probably a "
+                      "leucogabbro dyke (no protolith evidence preserved)",
+           alt="OVD009@178-180m",
+           qa_flag="COVERAGE G1: sample row created in v1.1 for a Crawford 2025 "
+                   "thin section that has no entry in any sample register "
+                   "(OVD009 register samples jump 171.5 -> 190.8 m); interval "
+                   "taken verbatim from the report caption 'OVD009@178-180m' "
+                   "and desurveyed at the 179.0 m midpoint. CRAWFORD CAVEAT: "
+                   "the analyst states the wholerock assay for this interval "
+                   "does not match the thin section and suspects a SAMPLE SWAP "
+                   "(possibly with a leucogabbro dyke such as OVD021@101.5m / "
+                   "OVD011-101.5, tag 42027) — treat the location as "
+                   "provisional",
+           flags=["polished_thin_section"])
+
+# ---------------------------------------------------------------------------
+# 3i. missing_sources batch — ARDH-2005-01 photo_only stubs (legacy 2005 hole)
+# ---------------------------------------------------------------------------
+with open(MISS / "samples.json", encoding="utf-8") as f:
+    recs_miss = json.load(f)
+
+miss_photo = [r for r in recs_miss
+              if "photo_only" in str(r.get("sample_type") or "")]
+miss_desc_recs = [r for r in recs_miss if r not in miss_photo]
+
+for r in miss_photo:
+    cam = str(r["sample_id"]).strip()
+    hole_raw = str(r.get("drillhole_id") or "").strip()      # ARDH-2005-01
+    rec = new_sample(f"{hole_raw}-{cam}", "", None, None,
+                     "CORE PHOTO/ARDH-2005-01/4. Thin section photo folder "
+                     "— 17 photo_only stubs", "2005", "drill core",
+                     lab="", alt=cam,
+                     qa_flag="legacy_2005_photo_only: thin-section PHOTOGRAPH "
+                             "only — no petrographic report, sheet or "
+                             "description exists anywhere under ARDH-2005-01; "
+                             "no depth is recorded on the image or in the "
+                             "folder. Hole ARDH-2005-01 is NOT in "
+                             "Collar_all_combined.csv, so no collar, no survey "
+                             "and no coordinates are available "
+                             "(coord_source = none). ARDH-2005-02's equivalent "
+                             "folder is empty on Drive",
+                     flags=["thin_section"])
+    # ARDH-2005-01 is not a recognised hole pattern and is absent from collar:
+    # carry it in hole_id_norm for grouping but keep it OUT of lu_hole_alias.
+    rec["hole_id_norm"] = hole_raw
+    rec["source_files"] = ("CORE PHOTO/ARDH-2005-01/4. Thin section photo "
+                           f"(folder:1SpY0E3wPZudd9e6KIC5D8SpFgfnRF2tk) :: "
+                           f"{cam}.JPG")
+
+# ---------------------------------------------------------------------------
+# 3z. GLOBAL depth_from <= depth_to GUARD (D1).
+#     Any surviving inversion is corrected by swapping and is loudly flagged;
+#     the final assertion block (§12) fails the build if one is left.
+# ---------------------------------------------------------------------------
+for s in samples:
+    df_, dt_ = s["depth_from_m"], s["depth_to_m"]
+    if df_ is not None and dt_ is not None and df_ > dt_:
+        s["depth_from_m"], s["depth_to_m"] = dt_, df_
+        s["depth_mid_m"] = rdepth((df_ + dt_) / 2.0)
+        flag = (f"D1 GUARD: stored interval was inverted (from {df_:g} > to "
+                f"{dt_:g}); from/to swapped by build_database.py")
+        s["qa_flags"] = (s["qa_flags"] + "; " + flag).strip("; ")
+        qa["depth_interval_fixes"].append(f"{s['sample_id']}: {flag}")
+
 # ============================================================================
 # 4. Coordinates
 # ============================================================================
@@ -723,10 +907,18 @@ for s in samples:
 
 
 def match_by_label(raw_id):
-    """exact match of a hole-depth label after normalizing the hole part."""
+    """exact match of a hole-depth label after normalizing the hole part.
+
+    COVERAGE G10 fix: the VERBATIM label (suffix included) is tried FIRST, so
+    `OVD015-175.5 (B)` lands on 42389 (alt_id `OVD015-175.5 (B)`) instead of
+    falling through to the suffix-stripped `OVD015-175.5`, which used to send
+    both D0088 and D0089 to 42388."""
     if not raw_id:
         return None
-    lab = str(raw_id).split(" (")[0].strip()
+    verbatim = str(raw_id).strip()
+    if verbatim in label2sample:
+        return label2sample[verbatim]
+    lab = verbatim.split(" (")[0].strip()
     if lab in label2sample:
         return label2sample[lab]
     m = HD_LABEL.match(lab)
@@ -941,24 +1133,401 @@ for r in recs2426:
              tag=tag, hole=hole, d=r.get("depth_m"),
              dfrom=r.get("depth_from_m"), dto=r.get("depth_to_m"), suffix=sfx)
 
-# known Crawford issues -> qa notes on unmatched
-for dd in descriptions:
-    if dd["join_method"] == "unmatched" and "Crawford" not in dd["qa_notes"]:
-        if dd["raw_sample_id"].startswith("OVD021@101.5"):
-            dd["qa_notes"] = ("probably OVD011-101.5 (tag 42027): Crawford set "
-                              "contains no other OVD021@101.5 source sample; "
-                              "leucogabbro dyke QA flag in Crawford report")
-        if dd["raw_sample_id"].startswith("OVD009@178-180"):
-            dd["qa_notes"] = ("untagged Crawford suggestion; Crawford flags "
-                              "'wholerock assay does not match this thin section'"
-                              " (suspected swap)")
-        if dd["raw_sample_id"].startswith("OVD003@202"):
-            dd["qa_notes"] = "untagged Crawford extra suggestion (Low MgO gabbro)"
-        if dd["raw_sample_id"].strip() == "OVD20-121":
-            dd["qa_notes"] = ("41-report id inconsistency: its microphoto is "
-                              "captioned '21-121', so this is most likely "
-                              "OVD021-121 (tag 43251); OVD020 has no sample at "
-                              "121 m — left unmatched rather than force-joined")
+# ---------------------------------------------------------------------------
+# 6g. COVERAGE G9 — the master grab sheet's free-text FIELD descriptions.
+#     54 of the 65 grab rows carry a geologist's outcrop description in the
+#     right-hand `Description` column (col 13).  v1.0 dropped them entirely;
+#     they are now emitted as description rows joined to their grab sample.
+# ---------------------------------------------------------------------------
+n_grab_desc = 0
+for row in read_csv_rows(MASTER / GRAB)[2:]:
+    row = row + [""] * (14 - len(row))
+    sid = row[1].strip()
+    field_text = row[13].strip()
+    if not sid or not field_text:
+        continue
+    n_grab_desc += 1
+    joined = sample_by_id.get(sid)
+    descriptions.append({
+        "sample_id": joined["sample_id"] if joined else "",
+        "desc_id": f"D{len(descriptions)+1:04d}",
+        "raw_sample_id": sid,
+        "raw_hole_id": "",
+        "raw_depth": "",
+        "source_file": "Yambat Petrographic Master Data.xlsx :: "
+                       "2022-2024 grab sheet (field description column)",
+        "analyst_or_lab": "ABM field geologist (not named in the sheet)",
+        "report_date": "",
+        "language": "mn" if is_cyrillic(field_text) else "en",
+        "rock_name": row[5].strip(),
+        "rock_name_original": "",
+        "texture": "",
+        "minerals_json": "",
+        "alteration": "",
+        "opaque_minerals": "",
+        "description_text": field_text,
+        "join_method": "grab sheet row" if joined else "unmatched",
+        "qa_notes": "COVERAGE G9: field (hand-specimen/outcrop) description "
+                    "recovered in v1.1 from the master grab sheet; it is a "
+                    "field call, NOT a microscope determination",
+    })
+qa["grab_field_descriptions"].append(
+    f"{n_grab_desc} field descriptions recovered from the 2022-2024 grab sheet")
+
+# ---------------------------------------------------------------------------
+# 6h. missing_sources batch (84 records; 17 photo_only became samples in 3i,
+#     the remaining 67 become descriptions here).
+#     Join rules are those of workspace/extracted/missing_sources/README.md.
+# ---------------------------------------------------------------------------
+
+# (i) surface records -> the 2022-2024 grab sheet rows 1-24, matched on the
+#     sample id after case folding and leading-zero stripping.
+def _surface_key(sid):
+    s = str(sid).strip().lower().replace(" ", "")
+    s = {"2022-01": "2021-01"}.get(s, s)      # README §4.3 year-digit typo
+    if re.fullmatch(r"\d+", s):               # README §4.2 leading zeros
+        s = s.lstrip("0") or "0"
+    return s
+
+
+grab_key2sample = {}
+grab_row_no = {}
+for _i, row in enumerate(read_csv_rows(MASTER / GRAB)[2:]):
+    if len(row) < 2 or not row[1].strip():
+        continue
+    sid = row[1].strip()
+    grab_key2sample.setdefault(_surface_key(sid), sid)
+    grab_row_no.setdefault(_surface_key(sid), len(grab_row_no) + 1)
+
+# (ii) MIRESL internal code (OVD001..OVD023) -> ABM 5-digit tag, read from the
+#      `Code` column of the MIRESL 2023-08-16 summary sheet.
+mireslab_code2tag = {}
+for row in read_csv_rows(XLSX / MIR)[1:]:
+    if len(row) < 6 or not re.fullmatch(r"\d{5}", row[0].strip()):
+        continue
+    if row[5].strip():
+        mireslab_code2tag[row[5].strip().upper()] = row[0].strip()
+
+MISS_UNMATCHED_NOTE = {
+    "2111": "no field/sample number anywhere in Report_0715_Ni.pdf and no row "
+            "in the 2022-2024 grab sheet or Master All — cannot be joined "
+            "until a field number is supplied (missing_sources README §4.7)",
+    "2107": "AMBIGUOUS ID: `2107` in Report_0715_Ni.pdf is a Ni-ore sample "
+            "(XRD + ore microscopy + SEM-EDS), while grab row 21 `2107` is an "
+            "amphibolite thin section (Thin and polish-4.docx). The grab-sheet "
+            "coordinates put row 21 in the same outcrop cluster, so they are "
+            "probably the same physical sample described by different methods "
+            "— but no document states it, so this record is left UNJOINED "
+            "rather than force-merged (missing_sources README §4.6)",
+    "2023Nisample": "descriptive placeholder, not a field number: "
+                    "MINERALOGICAL-DESCRIPTIONS_2023.03.25.pdf gives no sample "
+                    "id for the garnierite / Ni-goethite sample "
+                    "(missing_sources README §4.7)",
+}
+
+miss_stats = Counter()
+miss_depth_conflicts = []
+for r in miss_desc_recs:
+    raw_sid = str(r["sample_id"]).strip()
+    src = str(r["source_file"])
+    hole_raw = str(r.get("drillhole_id") or "")
+    hole = norm_hole(hole_raw.split(" ")[0], "missing_sources: " + src[:40])
+    depth_txt = str(r.get("depth") or "")
+    d, _dt, _dn = parse_depth_text(depth_txt.split(" ")[0]) if depth_txt else (None, None, "")
+    tag = raw_sid if re.fullmatch(r"\d{5}", raw_sid) else None
+    qa_notes, joined, method = "", None, "unmatched"
+
+    if tag:                                   # sources 10-13: 5-digit ABM tags
+        joined = tag2sample.get(tag)
+        method = "tag" if joined else "unmatched"
+        code = re.search(r"internal sample code (OVD\d{3})",
+                         str(r.get("sample_type") or ""))
+        if code:                              # source 12 — verify via MIRESL Code
+            want = mireslab_code2tag.get(code.group(1).upper())
+            if want == tag:
+                method = "tag (MIRESL code)"
+                qa_notes = (f"joined via the Mireslab internal code "
+                            f"{code.group(1)} -> tag {tag} of the "
+                            f"Petrograph_MIRESL20230816_summary `Code` column")
+            elif want:
+                qa_notes = (f"MIRESL code {code.group(1)} maps to tag {want} in "
+                            f"the summary sheet but this record carries tag "
+                            f"{tag} — joined on the tag, conflict recorded")
+    elif raw_sid in MISS_UNMATCHED_NOTE and "Thin and polish" not in src:
+        qa_notes = "UNMATCHED (v1.1): " + MISS_UNMATCHED_NOTE[raw_sid]
+    else:                                     # sources 1, 2, 4, 6-9: surface
+        key = _surface_key(raw_sid)
+        gsid = grab_key2sample.get(key)
+        if gsid and gsid in sample_by_id:
+            joined = sample_by_id[gsid]
+            method = "grab sheet id"
+            if gsid != raw_sid:
+                qa_notes = (f"grab-sheet id `{gsid}` (row {grab_row_no[key]}) "
+                            f"vs report id `{raw_sid}`: joined after case "
+                            f"folding / leading-zero stripping"
+                            + ("; `2021-01` vs `2022-01` is a year-digit typo, "
+                               "not two samples (missing_sources README §4.3) "
+                               "— a human should confirm which spelling is "
+                               "authoritative" if key == "2021-01" else ""))
+                flag = (f"v1.1: the 2022 lab report calls this sample "
+                        f"`{raw_sid}`; the grab sheet calls it `{gsid}`. Joined "
+                        f"on the case-folded / zero-stripped id"
+                        + ("; the year digit differs (2021 vs 2022) — a human "
+                           "should confirm which spelling is authoritative"
+                           if key == "2021-01" else ""))
+                if flag not in joined["qa_flags"]:
+                    joined["qa_flags"] = (joined["qa_flags"] + "; " + flag).strip("; ")
+            if raw_sid == "2107":
+                flag2 = ("v1.1 AMBIGUOUS ID: a second `2107` exists in "
+                         "Report_0715_Ni.pdf (a Ni-ore sample analysed by XRD + "
+                         "ore microscopy + SEM-EDS). Its coordinates are not "
+                         "given, but this grab row sits in the same outcrop "
+                         "cluster as 2102/2104-1/A, so the two are probably one "
+                         "physical sample described by different methods — no "
+                         "document states it, so the Ni-report description is "
+                         "kept UNJOINED (missing_sources README §4.6)")
+                if flag2 not in joined["qa_flags"]:
+                    joined["qa_flags"] = (joined["qa_flags"] + "; " + flag2).strip("; ")
+    if joined is None and not qa_notes:
+        qa_notes = "UNMATCHED (v1.1): no sample row carries this id"
+
+    minerals = json.dumps(r.get("minerals"), ensure_ascii=False) \
+        if r.get("minerals") else ""
+    text = r.get("description_summary") or ""
+    lang = "mn" if is_cyrillic(text + str(r.get("rock_name_original") or "")) else "en"
+    miss_stats[method.split(" (")[0]] += 1
+    descriptions.append({
+        "sample_id": joined["sample_id"] if joined else "",
+        "desc_id": f"D{len(descriptions)+1:04d}",
+        "raw_sample_id": raw_sid,
+        "raw_hole_id": hole_raw,
+        "raw_depth": depth_txt,
+        "source_file": src,
+        "analyst_or_lab": r.get("analyst_or_lab") or "",
+        "report_date": r.get("report_date") or "",
+        "language": lang,
+        "rock_name": r.get("rock_name") or "",
+        "rock_name_original": r.get("rock_name_original") or "",
+        "texture": r.get("texture") or "",
+        "minerals_json": minerals,
+        "alteration": r.get("alteration") or "",
+        "opaque_minerals": r.get("opaque_minerals") or "",
+        "description_text": text,
+        "join_method": method,
+        "qa_notes": qa_notes,
+    })
+    if joined is not None and hole and joined["hole_id_norm"] and \
+            joined["hole_id_norm"] != hole:
+        descriptions[-1]["qa_notes"] = (
+            descriptions[-1]["qa_notes"] + "; hole in record (" + hole +
+            ") differs from the joined sample's hole (" +
+            joined["hole_id_norm"] + ")").strip("; ")
+    # depth cross-check: the report's stated depth vs the sample register's
+    if joined is not None and d is not None and joined["depth_from_m"] is not None:
+        sf = joined["depth_from_m"]
+        st_ = joined["depth_to_m"] if joined["depth_to_m"] is not None else sf
+        if not (sf - 0.05 <= d <= st_ + 0.05):
+            off = round(min(abs(d - sf), abs(d - st_)), 3)
+            descriptions[-1]["qa_notes"] = (
+                descriptions[-1]["qa_notes"] +
+                f"; depth cross-check: this report states {d:g} m but the "
+                f"sample register stores {sf:g}"
+                + (f"-{st_:g}" if st_ != sf else "") +
+                f" m ({off:g} m apart) — joined on the lab tag, depth kept as "
+                f"the register has it").strip("; ")
+            miss_depth_conflicts.append(
+                f"{descriptions[-1]['desc_id']} tag {raw_sid}: report {d:g} m "
+                f"vs register {sf:g} m ({off:g} m)")
+
+# ---------------------------------------------------------------------------
+# 6i. Join corrections and source caveats
+#     (integrity D2 / D5 / D9, coverage G2 / G10 / G11)
+# ---------------------------------------------------------------------------
+
+def _descs(raw_prefix, src_contains=""):
+    return [d for d in descriptions
+            if d["raw_sample_id"].strip().startswith(raw_prefix)
+            and src_contains in d["source_file"]]
+
+
+def _add_note(d, note):
+    d["qa_notes"] = "; ".join(x for x in [d["qa_notes"], note] if x)
+
+
+def _flag_sample(sid, flag):
+    s = sample_by_id.get(sid)
+    if s is not None and flag not in s["qa_flags"]:
+        s["qa_flags"] = (s["qa_flags"] + "; " + flag).strip("; ")
+
+
+# --- G2: two descriptions the v1.0 build left unmatched are in fact resolvable
+#     from evidence already present in the extraction layer.
+G2_REJOINS = [
+    ("OVD021@101.5m", CRAWFORD_PDF, "42027",
+     "COVERAGE G2 (v1.1): re-joined to 42027 = OVD011-101.5. The "
+     "`KhanAltai vs Tony` sheet of the working workbook carries Tony "
+     "Crawford's IDENTICAL micro-description ('An intensely altered aphyric, "
+     "quite fine-grained leucogabbroic dyke(?)') against row OVD011-101.5, so "
+     "`OVD021@101.5m` in the Crawford PDF is a hole-number typo for OVD011. "
+     "OVD021 has no sample at 101.5 m. CRAWFORD CAVEAT: the rock lacks "
+     "sulfides and has no chromite to account for its high-Cr assay"),
+    ("OVD20-121", "English 41", "43251",
+     "COVERAGE G2 (v1.1): re-joined to 43251 = OVD021 @ 121.0 m (alt id "
+     "`OVD21-121`). The 41-sample report's own microphoto for this entry is "
+     "captioned '21-121', and Sheet3 / the bichiglel table both carry "
+     "`OVD21-121` = tag 43251; OVD020 has no sample at 121 m, so `OVD20-121` "
+     "is a hole-number typo"),
+]
+g2_applied = []
+for raw, src, target, note in G2_REJOINS:
+    for d in _descs(raw, src):
+        d["sample_id"] = target
+        d["join_method"] = "xref-corrected"
+        d["qa_notes"] = note
+        g2_applied.append(f"{d['desc_id']} `{raw}` -> {target}")
+
+# --- G1 follow-through: the two new Crawford samples' descriptions
+for d in _descs("OVD003@202", CRAWFORD_PDF):
+    _add_note(d, "COVERAGE G1 (v1.1): joined to the sample row created for "
+                 "this thin section; untagged Crawford extra suggestion "
+                 "(low-MgO gabbro), no register entry exists for it")
+for d in _descs("OVD009@178-180", CRAWFORD_PDF):
+    _add_note(d, "COVERAGE G1 (v1.1): joined to the sample row created for "
+                 "this thin section. CRAWFORD CAVEAT: 'wholerock assay does "
+                 "not match this thin section' — suspected sample swap; no "
+                 "register entry exists for it")
+
+# --- D2: the Crawford 2025 caveats must be queryable from qa_notes / qa_flags,
+#     not only from the tail of description_text (QA_report §9 said they were).
+CRAWFORD_CAVEATS = [
+    ("OVD007@55.9m", "Crawford 2025 caveat: the analyst was unsure the "
+                     "provided core photo matches the thin section"),
+    ("OVD008@88.9m", "Crawford 2025 caveat: this sample lacks sulfides "
+                     "despite the 2.5 %S assay for the interval"),
+    ("OVD008@90.5m", "Crawford 2025 caveat: the assay for this hole/depth "
+                     "indicates a strongly sulfidic rock (~30 % pyrrhotite) "
+                     "whereas the thin section is a finely hornblende-phyric "
+                     "basalt (dyke?) with <2 % sulfides"),
+    ("OVD005@40.5m", "Crawford 2025 caveat: section far too thin — very "
+                     "little rock preserved, diagnosis provisional"),
+    ("OVD005@53.0m", "Crawford 2025 caveat: another far too-thin section with "
+                     "little useful material"),
+    ("OVD021@148.8m", "Crawford 2025 caveat: sulfides too poorly polished to "
+                      "be informative"),
+    ("OVD021@101.5m", "Crawford 2025 caveat: the rock lacks sulfides and "
+                      "there is no trace of chromite to account for the "
+                      "high-Cr assay"),
+    ("OVD009@178-180m", "Crawford 2025 caveat: wholerock assay does not match "
+                        "this thin section (suspected sample swap)"),
+]
+d2_applied = []
+for raw, note in CRAWFORD_CAVEATS:
+    for d in _descs(raw, CRAWFORD_PDF):
+        _add_note(d, note)
+        d2_applied.append(f"{d['desc_id']} ({raw} -> {d['sample_id'] or '-'})")
+        if d["sample_id"]:
+            _flag_sample(d["sample_id"], note + f" [source: {raw}]")
+
+# --- D9: the A/B slide-suffix joins rest on letter order alone
+ab_notes = []
+for d in descriptions:
+    if not d["sample_id"]:
+        continue
+    ms = re.search(r"(?:[ .\-(]|(?<=\d))([ABab])\)?\s*$",
+                   d["raw_sample_id"].strip())
+    if not ms:
+        continue
+    s = sample_by_id[d["sample_id"]]
+    if not re.search(r"\((A|B)\)", s["alt_ids"]):
+        continue
+    letter = ms.group(1).upper()
+    _add_note(d, f"D9: A/B slide suffix — this description was assigned to "
+                 f"{s['sample_id']} (`{s['alt_ids']}`) on LETTER ORDER ALONE "
+                 f"(report letter '{letter}' -> master suffix '({letter})'). "
+                 f"There is no independent discriminator — the master lists "
+                 f"the (A) and (B) slides with the same lithology — so if "
+                 f"either source transposed the letters, the two descriptions "
+                 f"are swapped between the two samples. The (A)/(B) pair "
+                 f"shares one hole and depth, so the spatial impact is nil")
+    ab_notes.append(f"{d['desc_id']} `{d['raw_sample_id']}` -> {s['sample_id']}")
+
+# --- G11: samples that merge two physically distinct (A)/(B) thin sections
+for s in samples:
+    if "(A)" in s["alt_ids"] and "(B)" in s["alt_ids"]:
+        _flag_sample(s["sample_id"],
+                     f"COVERAGE G11: this single row MERGES two physically "
+                     f"distinct thin sections, `{s['alt_ids']}`, that the "
+                     f"master sheet records at the same hole and depth. Their "
+                     f"descriptions are all attached to this one sample_id; "
+                     f"they are NOT split (unlike OVD015-175.5 (A)/(B), which "
+                     f"carry separate tags 42388/42389)")
+
+# --- D5: samples whose stored interval disagrees with the interval their own
+#     report names.  Detected generically, not hard-coded.
+_RE_RPT_IV = re.compile(
+    r"^\s*([A-Za-z]+\s?-?\d+[A-Za-z]?)[-@](\d+(?:\.\d+)?)\s*-\s*"
+    r"(\d+(?:\.\d+)?)\s*m?\s*(?:\((\d{5})\))?\s*$")
+_RE_RPT_CAP = re.compile(
+    r"^\s*([A-Za-z]+\s?-?\d+[A-Za-z]?)-(\d+(?:\.\d+)?)\s*\("
+    r"(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\)\s*$")
+d5_rows, n_iv_checked = [], 0
+for d in descriptions:
+    raw = d["raw_sample_id"].strip()
+    m, m2 = _RE_RPT_IV.match(raw), _RE_RPT_CAP.match(raw)
+    if m:
+        rf, rt = float(m.group(2)), float(m.group(3))
+    elif m2:
+        rf, rt = float(m2.group(3)), float(m2.group(4))
+    else:
+        continue
+    if not d["sample_id"]:
+        continue
+    s = sample_by_id[d["sample_id"]]
+    sf = s["depth_from_m"]
+    if sf is None:
+        continue
+    st_ = s["depth_to_m"] if s["depth_to_m"] is not None else sf
+    n_iv_checked += 1
+    lo, hi = min(rf, rt), max(rf, rt)
+    if lo - 1e-9 <= sf and st_ <= hi + 1e-9:
+        continue
+    gap = round(max(lo - sf, st_ - hi), 3)
+    flag = (f"D5: the report that describes this sample names the interval "
+            f"{lo:g}-{hi:g} m (`{raw}`), but the master workbook stores it at "
+            f"{sf:g}-{st_:g} m — a {gap:g} m disagreement inside the sources "
+            f"themselves (the phase sheet's sample From/To vs the assay "
+            f"interval on the same row). Stored values are the master's; treat "
+            f"the depth as uncertain to +/-{gap:g} m")
+    _flag_sample(s["sample_id"], flag)
+    _add_note(d, f"D5: stored interval {sf:g}-{st_:g} m disagrees with the "
+                 f"report-named interval {lo:g}-{hi:g} m by {gap:g} m")
+    d5_rows.append((d["desc_id"], raw, s["sample_id"], f"{sf:g}-{st_:g}",
+                    f"{lo:g}-{hi:g}", gap))
+d5_rows.sort(key=lambda t: -t[5])
+
+# --- D7: cross-reference near-duplicate samples on the same hole
+near_dupes = []
+_by_hole = defaultdict(list)
+for s in samples:
+    if s["hole_id_norm"] and s["depth_mid_m"] is not None:
+        _by_hole[s["hole_id_norm"]].append(s)
+for h, lst in sorted(_by_hole.items()):
+    lst = sorted(lst, key=lambda s: (s["depth_mid_m"], s["sample_id"]))
+    for i in range(len(lst) - 1):
+        a, b = lst[i], lst[i + 1]
+        gap = round(abs(b["depth_mid_m"] - a["depth_mid_m"]), 3)
+        if gap > 0.35:
+            continue
+        for x, y in ((a, b), (b, a)):
+            _flag_sample(x["sample_id"],
+                         f"D7 cross-reference: possible duplicate of sample "
+                         f"{y['sample_id']} ({y['hole_id_norm']} @ "
+                         f"{y['depth_mid_m']:g} m, {gap:g} m away"
+                         + (f", alt ids `{y['alt_ids']}`" if y["alt_ids"] else "")
+                         + ") — verify before treating the two as independent "
+                           "observations")
+        near_dupes.append((h, a["sample_id"], a["depth_mid_m"],
+                           b["sample_id"], b["depth_mid_m"], gap))
 
 # ============================================================================
 # 7. Lookups
@@ -994,9 +1563,19 @@ LAB_CANON = [
 
 
 def canon_lab(raw):
-    for key, canon, role in LAB_CANON:
-        if key.lower() in str(raw).lower():
-            return canon, role
+    """Canonicalize a lab/analyst string.
+
+    The rules are matched against the HEAD of the string (everything before the
+    first ';'), i.e. the lab that actually made the determination.  Long v1.1
+    analyst strings often name a *second* institution further along ('sections
+    prepared at MUST', 'XRD at Akita'), which used to hijack the match — e.g.
+    'Mireslab Mongol LLC - Jamsran Erdenebayar; Report #004 ...; sections at
+    MUST' was canonicalized as MUST."""
+    head = str(raw).split(";")[0]
+    for text in (head, str(raw)):
+        for key, canon, role in LAB_CANON:
+            if key.lower() in text.lower():
+                return canon, role
     return "", ""
 
 
@@ -1014,24 +1593,67 @@ for raw, n in sorted(lab_raws.items()):
                    "role": role or "unresolved", "n_records": n})
 
 # 7c. rock types
+# D3: the rule set now covers the Mongolian (Cyrillic) vocabulary of
+# `descriptions.rock_name_original` as well as the English names, so that
+# EVERY distinct rock name in the database receives a rock_group, and a coarse
+# `rock_family` (ultramafic / mafic intrusive / felsic-intermediate intrusive /
+# volcanic / sedimentary / metamorphic / vein-ore / unknown) is derived from it.
 ROCK_RULES = [
-    ("massive sulfide / ore", r"massive sulph|massive sulf|net.?texture|semi.?massive|цул сульфид"),
-    ("gossan / oxidized", r"gossan|limonit|госсан|oxidiz|oxidaz|hematite and limonite"),
-    ("peridotite / ultramafic", r"peridot|wehrlite|dunite|lherzol|верлит|перидотит|picrite|websterite|pyroxenite|пироксенит|olivinite|serpentinit"),
+    ("massive sulfide / ore", r"massive sulph|massive sulf|net.?texture|semi.?massive|цул сульфид|цул хүдэр|цул сулфид|massive ore|massive [\w\- ]*ore|sulphide ore|sulfide ore|хүдэр(?!ж)"),
+    ("gossan / oxidized", r"gossan|limonit|госсан|oxidiz|oxidaz|hematite and limonite|hematite ore|iron oxide ore|төмөржсөн|гётит|goethite|garnierite|гарниерит"),
+    ("skarn / metasomatite", r"skarn|скарн|metasomat|метасоматит|greisen|грейзен|listvenit|лиственит|fuchsite|фуксит|garnet[\w\- ]*carbonate|carbonate[\w\- ]*garnet"),
+    ("peridotite / ultramafic", r"perido|wehrlite|dunite|lherzol|верлит|перидотит|picrite|пикрит|websterite|вебстерит|pyroxenite|пироксенит|olivinite|оливинит|serpentinit|серпентинит|ultramafic|ультра|orthocumulate|adcumulate|mesocumulate|cumulate"),
     ("hornblendite", r"hornblendite|горнблендит"),
     ("olivine gabbro / melagabbro", r"olivine gabbro|melanocratic gabbro|melagabbro|оливин габбро|меланократ"),
     ("gabbro / gabbronorite / norite", r"gabbro(?!diorite)|norite|габбро(?!диорит)|норит"),
     ("gabbrodiorite", r"gabbrodiorite|габбродиорит"),
-    ("diorite / quartz diorite", r"diorite|диорит"),
-    ("granitoid", r"granodiorite|granite|гранодиорит|гранит|monzonit|syenit"),
+    ("diorite / quartz diorite", r"diorite|диорит|monzodiorite|монцодиорит"),
+    ("granitoid", r"granodiorite|granite|гранодиорит|гранит|боржин|monzonit|монцонит|syenit|сиенит|plagiogranite|плагиогранит|alkaline rock|шүлтлэг"),
     ("dolerite / diabase / basalt dyke", r"doleri|diabase|basalt|долерит|диабаз|базальт"),
-    ("volcanic / subvolcanic", r"andesi|rhyoli|dacite|tuff|volcan|porphyry(?! system)|андезит|риолит|дацит|туф|субвулкан|felsic"),
-    ("schist / phyllite", r"schist|phyllite|сланец|филлит"),
+    ("volcanic / subvolcanic", r"andesi|rhyoli|rhyodacite|dacite|trachy|tuff|volcan|porphyry(?! system)|андезит|риолит|риодацит|дацит|трахи|туф|субвулкан|felsic|lava|лаав"),
+    ("amphibolite / metabasite", r"amphibolit|амфиболит|metabasit|метабазит|greenschist|зеленокамен"),
+    ("schist / phyllite", r"schist|phyllite|сланец|филлит|занар|slate"),
     ("hornfels / spotted rock", r"spotted|hornfels|роговик"),
-    ("sediment / metasediment", r"sandstone|siltstone|argillite|mudstone|pelit|sediment|gneiss|песчаник|алевролит|аргиллит|гнейс|метаморф"),
-    ("breccia / fault rock", r"breccia|fault|брекчи|разлом"),
-    ("vein / quartz", r"quartz vein|vein|кварц(?!ит)"),
+    ("sediment / metasediment", r"sandstone|siltstone|silstone|argillite|mudstone|shale|pelit|sediment|gneiss|conglomerat|gravelit|greywacke|arkose|quartzite|песчаник|элсжин|элсэн чулуу|алевролит|аргиллит|гнейс|кварцит|гравелит|граувакк|аркоз|конгломерат|шавар"),
+    ("breccia / fault rock", r"breccia|fault|mylonit|брекчи|разлом|милонит"),
+    ("vein / quartz", r"quartz vein|vein|кварц(?!ит)|судал"),
+    ("metamorphic (undifferentiated)", r"metamorphic|метаморф|метаморфизм"),
+    ("mafic intrusive (undifferentiated)", r"mafic|basic intrusive|мафик"),
+    ("intrusive (undifferentiated)", r"intrusive|интрузив"),
+    ("indeterminate (section not diagnosable)",
+     r"too thin|not determinable|indetermin|essentially identical to"),
+    ("altered rock (protolith undetermined)",
+     r"altered rock|entirely altered|silicif"),
 ]
+
+# rock_group -> coarse family
+ROCK_FAMILY = {
+    "massive sulfide / ore": "vein-ore",
+    "gossan / oxidized": "vein-ore",
+    "vein / quartz": "vein-ore",
+    "skarn / metasomatite": "metamorphic",
+    "amphibolite / metabasite": "metamorphic",
+    "schist / phyllite": "metamorphic",
+    "hornfels / spotted rock": "metamorphic",
+    "breccia / fault rock": "metamorphic",
+    "peridotite / ultramafic": "ultramafic",
+    "hornblendite": "ultramafic",
+    "olivine gabbro / melagabbro": "mafic intrusive",
+    "gabbro / gabbronorite / norite": "mafic intrusive",
+    "gabbrodiorite": "mafic intrusive",
+    "dolerite / diabase / basalt dyke": "mafic intrusive",
+    "diorite / quartz diorite": "felsic-intermediate intrusive",
+    "granitoid": "felsic-intermediate intrusive",
+    "volcanic / subvolcanic": "volcanic",
+    "sediment / metasediment": "sedimentary",
+    "metamorphic (undifferentiated)": "metamorphic",
+    "mafic intrusive (undifferentiated)": "mafic intrusive",
+    "intrusive (undifferentiated)": "unknown",
+    "indeterminate (section not diagnosable)": "unknown",
+    "altered rock (protolith undetermined)": "unknown",
+    "other / unclassified": "unknown",
+    "": "unknown",
+}
 
 
 def rock_group(name):
@@ -1044,16 +1666,37 @@ def rock_group(name):
     return "other / unclassified"
 
 
+def rock_family(grp):
+    return ROCK_FAMILY.get(grp, "unknown")
+
+
+# D3: count EVERY distinct rock name across samples AND descriptions —
+# including descriptions.rock_name_original, which v1.0 left out (172 of the
+# 645 distinct names had no row, and 14 rows under-counted n_occurrences).
 rock_counter = Counter()
+rock_seen_in = defaultdict(set)
+
+
+def _count_rock(v, where):
+    v = (v or "").strip()
+    if v:
+        rock_counter[v] += 1
+        rock_seen_in[v].add(where)
+
+
 for s in samples:
-    for v in (s["field_lithology"], s["petro_lithology"], s["iogas_lithology"]):
-        if v.strip():
-            rock_counter[v.strip()] += 1
+    _count_rock(s["field_lithology"], "samples.field_lithology")
+    _count_rock(s["petro_lithology"], "samples.petro_lithology")
+    _count_rock(s["iogas_lithology"], "samples.iogas_lithology")
 for dsc in descriptions:
-    if dsc["rock_name"].strip():
-        rock_counter[dsc["rock_name"].strip()] += 1
-lu_rock_type = [{"rock_name_original": k, "rock_group": rock_group(k),
-                 "n_occurrences": n}
+    _count_rock(dsc["rock_name"], "descriptions.rock_name")
+    _count_rock(dsc["rock_name_original"], "descriptions.rock_name_original")
+
+lu_rock_type = [{"rock_name_original": k,
+                 "rock_group": rock_group(k),
+                 "rock_family": rock_family(rock_group(k)),
+                 "n_occurrences": n,
+                 "seen_in": "; ".join(sorted(rock_seen_in[k]))}
                 for k, n in sorted(rock_counter.items(), key=lambda t: (-t[1], t[0]))]
 
 # also standardized group on samples
@@ -1121,19 +1764,104 @@ SOURCES = [
      "2026 BS001 descriptions (12)"),
     ("MS3_Outcrop Sample_Петрографи-минераграфи 4ш.docx", "1pdeSCucBLmStN5nrRrOUaMwXzr_KpQK-",
      "2026 MS3 outcrop descriptions (4)"),
+    # ---- COVERAGE G8: contributing files that v1.0 omitted -----------------
+    ("41ш петрографи, минераграфийн бичиглэл.docx (41 samples MN)",
+     "1uDyW5O5Ij4LixvQfTtNdwZAQlAQs2y00",
+     "Mongolian twin of the 41-sample 2024 report — source of the Mongolian "
+     "rock names merged into those 41 English descriptions"),
+    ("Петрографи минераграфийн бичиглэл. 15 ш. Иннова Минерал.docx",
+     "1HOaqAhH-D7Jm6CRRXwDuMw28lm7woGRK",
+     "Mongolian twin of the Innova Mineral 15-sample 2024 report — source of "
+     "the Mongolian rock names merged into those 15 descriptions"),
+    # ---- v1.1 missing_sources batch (84 records) ---------------------------
+    ("Petrographic descriptions 06.23.pdf", "16r0N4TEldedRvrGcPM_hEvIeCsZfMA7v",
+     "Mireslab 2022-06-23 surface petrography, 2 samples (OV202202/OV202203)"),
+    ("Petrographic descriptions 11.04.pdf", "1nIKqxM9CtQt3Hn62D0ExKWKdL-CAaVPq",
+     "Mireslab 2022-11-07 surface petrography, 6 samples (OVF-1/-2, 020, OV-40/-41/-51)"),
+    ("Report_0715_Ni.pdf", "1jIT5VpacpQcvW1KbUty6C1EmT2PPr1Fu",
+     "Mireslab 2022-07-15 first Ni report, 2 unjoinable samples (2111, 2107)"),
+    ("Report_microscope_20221012.pdf", "1sBdqf9GC7ZO_690r9rE2R6QhJe2cq54t",
+     "Mireslab 2022-10-12 surface petrography, 8 samples (YT-/YM- field numbers)"),
+    ("MINERALOGICAL-DESCRIPTIONS_2023.03.25.pdf", "1PqskoIsimAuRzmS2h6uQeKGz1cv2ZHoq",
+     "Mireslab 2023-03 supergene Ni mineralogy, 1 unjoinable sample (2023Nisample)"),
+    ("Thin and polish-1.docx", "1DfMbUNC3_4pIxEMFYjDPUb3TQZ5WHzM2",
+     "MN description sheet, 1 surface sample (SH-14)"),
+    ("Thin and polish-1sh.docx", "1UiyI5UX26_xmf4BTJIIUTL2yWWZ-FGEa",
+     "MN description sheet, 1 surface sample (SH-18)"),
+    ("Thin and polish-2sh.docx", "15hjIW8slda5_7rpK_Hkbvake7Qq7J0pW",
+     "MN description sheet, 2 surface samples (SH-14-1, SH-16)"),
+    ("Thin and polish-4.docx", "1ip2bAQRB303SZq0R5zbY0CBuhQnA02cs",
+     "MN description sheet, 4 surface samples (2107, 2104-1, A, 2102)"),
+    ("BE-3 samples in English.pdf", "1JCorsOW4v8Vepb9HJlzYNDtzabENxU25",
+     "NUM (L.Oyunjargal PhD) 2023-06-22 ore petrology of blocks 40763/40900/40913"),
+    ("Report20231124.docx", "106T7bR2o5_Pw1pFPEcfzml6Q9DhdnFUT",
+     "Mireslab report #2303 (Innova Mineral order 008), 2 samples 40763/40913"),
+    ("Report_20230816_Part1.pdf + Report_20230816_Part2.pdf",
+     "1KLR39-VqsFSizHMIQk81Alv-HWZuslik + 1TEpS_kJCBV63jULDdND8Y7DZHfoEGHFH",
+     "Mireslab report #2302 — the FULL narrative behind the 23-row MIRESL "
+     "summary sheet (internal codes OVD001-OVD023)"),
+    ("Petrography_mineragraphy_24 sample.pdf", "17L0euxdhc6dl-FDZchKX9xKrgYgvpKS3",
+     "Khanlab О-24 consolidated report — the 12 OVD009 sections "
+     "(41014-41023, 41033, 41034) missing from Петрограф008.docx"),
+    ("CORE PHOTO/ARDH-2005-01/4. Thin section photo (18 JPG)",
+     "folder:1SpY0E3wPZudd9e6KIC5D8SpFgfnRF2tk",
+     "legacy 2005 hole ARDH-2005-01: 17 unique thin-section photographs, "
+     "no accompanying report — photo_only sample stubs"),
 ]
-# fix a typo-prone id from inventory directly
-_inv = {}
+
+# ---------------------------------------------------------------------------
+# COVERAGE G8 — resolve every fileId to the inventory-CANONICAL copy.
+# v1.0 built {title: fileId} by plain assignment, so the LAST inventory entry
+# for a title won (often the duplicate copy), which is how PETRO LIST 2025,
+# Петрограф008.docx and 2023-06-20-3 thin sections.pdf ended up citing
+# `isDuplicateOf` copies.
+# ---------------------------------------------------------------------------
+_inv_by_id, _inv_by_title = {}, {}
 try:
     with open(ROOT / "workspace" / "inventory.json", encoding="utf-8") as f:
         for it in json.load(f):
-            _inv[it["title"]] = it["fileId"]
+            _inv_by_id[it["fileId"]] = it
+            # a canonical entry (isDuplicateOf = null) always wins its title
+            if it["title"] not in _inv_by_title or not it.get("isDuplicateOf"):
+                if it["title"] not in _inv_by_title or \
+                        _inv_by_title[it["title"]].get("isDuplicateOf"):
+                    _inv_by_title[it["title"]] = it
 except Exception:
     pass
+
+
+def canonical_fileid(title, fid):
+    """inventory-canonical fileId for a source row, plus a provenance note."""
+    note = ""
+    if " + " in fid:                       # two-part report, both ids verbatim
+        return fid, ""
+    it = _inv_by_id.get(fid)
+    if it and it.get("isDuplicateOf"):
+        note = f"fileId corrected in v1.1: {fid} is a duplicate copy of"
+        fid = it["isDuplicateOf"]
+        note += f" the inventory-canonical {fid}"
+        return fid, note
+    if it:
+        return fid, note
+    it = _inv_by_title.get(title)
+    if it:
+        cid = it.get("isDuplicateOf") or it["fileId"]
+        if cid != fid:
+            note = (f"fileId corrected in v1.1: the build cited {fid}, which is "
+                    f"not an inventory entry; the inventory-canonical copy of "
+                    f"this title is {cid}")
+        return cid, note
+    return fid, "not listed in workspace/inventory.json (inventory gap)"
+
+
 sources_tbl = []
+source_fixes = []
 for title, fid, role in SOURCES:
-    fid2 = _inv.get(title, fid)
-    sources_tbl.append({"title": title, "drive_fileId": fid2, "role": role})
+    fid2, note = canonical_fileid(title, fid)
+    if note:
+        source_fixes.append(f"{title}: {note}")
+    sources_tbl.append({"title": title, "drive_fileId": fid2, "role": role,
+                        "provenance_note": note})
 
 # ============================================================================
 # 9. write outputs
@@ -1156,7 +1884,7 @@ COLLAR_COLS = ["hole_id", "project", "prospect", "hole_type", "east", "north",
                "start_date", "end_date", "status", "lease", "company",
                "supervisor", "remarks", "edited_date", "crs", "hole_id_raw"]
 SURVEY_COLS = ["hole_id", "depth_m", "dip", "azimuth", "grid", "method",
-               "survey_company", "survey_date", "hole_id_raw"]
+               "survey_company", "survey_date", "hole_id_raw", "qa_note"]
 
 df_samples = pd.DataFrame(samples)[SAMPLE_COLS]
 df_desc = pd.DataFrame(descriptions)[DESC_COLS]
@@ -1188,37 +1916,239 @@ for name, df in TABLES.items():
 with pd.ExcelWriter(OUT / "Oval_Petrography_DB.xlsx", engine="openpyxl") as xw:
     for name, df in TABLES.items():
         df.to_excel(xw, sheet_name=name, index=False)
+    _stamp = datetime.datetime(2026, 8, 31, 0, 0, 0)
+    xw.book.properties.created = _stamp
+    xw.book.properties.modified = _stamp
+    xw.book.properties.creator = "scripts/build_database.py"
+    xw.book.properties.lastModifiedBy = "scripts/build_database.py"
+
+
+def _make_xlsx_deterministic(path, stamp="2026-08-31T00:00:00Z"):
+    """openpyxl stamps the save time into docProps/core.xml and into every zip
+    entry's mtime, so two runs of an otherwise identical build produce
+    different bytes.  Rewrite the archive with a fixed timestamp everywhere so
+    the whole build is byte-reproducible."""
+    import zipfile
+    with zipfile.ZipFile(path) as zf:
+        items = [(i.filename, zf.read(i.filename)) for i in zf.infolist()]
+    fixed = []
+    for name, data in items:
+        if name == "docProps/core.xml":
+            data = re.sub(rb"(<dcterms:modified[^>]*>)[^<]*(</dcterms:modified>)",
+                          rb"\g<1>" + stamp.encode() + rb"\g<2>", data)
+        fixed.append((name, data))
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for name, data in fixed:
+            info = zipfile.ZipInfo(name, date_time=(2026, 8, 31, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o600 << 16
+            zf.writestr(info, data)
+
+
+_make_xlsx_deterministic(OUT / "Oval_Petrography_DB.xlsx")
+
+# ---------------------------------------------------------------------------
+# SQLite (D6): real NULLs instead of '', primary keys, indexes and foreign keys
+# ---------------------------------------------------------------------------
+PK = {
+    "samples": "sample_id",
+    "descriptions": "desc_id",
+    "collar": "hole_id",
+    "sample_assays": "sample_id",
+}
+FKS = {
+    "descriptions": [("sample_id", "samples", "sample_id")],
+    "sample_assays": [("sample_id", "samples", "sample_id")],
+    "survey": [("hole_id", "collar", "hole_id")],
+}
+INDEXES = [
+    ("idx_descriptions_sample_id", "descriptions", "sample_id"),
+    ("idx_descriptions_source", "descriptions", "source_file"),
+    ("idx_samples_hole_depth", "samples", "hole_id_norm, depth_from_m"),
+    ("idx_samples_coord_source", "samples", "coord_source"),
+    ("idx_survey_hole_depth", "survey", "hole_id, depth_m"),
+    ("idx_assays_hole_depth", "sample_assays", "hole_id_norm, depth_from_m"),
+    ("idx_alias_norm", "lu_hole_alias", "hole_id_norm"),
+]
+
+
+def _sqlite_type(series):
+    k = series.dtype.kind
+    if k == "i":
+        return "INTEGER"
+    if k == "f":
+        return "REAL"
+    return "TEXT"
+
+
+def _sql_value(v):
+    """'' -> NULL, NaN -> NULL, numpy scalar -> python scalar."""
+    if v is None:
+        return None
+    if isinstance(v, str):
+        return v if v.strip() != "" else None
+    try:
+        if pd.isna(v):
+            return None
+    except (TypeError, ValueError):
+        pass
+    if hasattr(v, "item"):
+        return v.item()
+    return v
+
 
 db_path = OUT / "Oval_Petrography_DB.sqlite"
 if db_path.exists():
     db_path.unlink()
 con = sqlite3.connect(db_path)
+con.execute("PRAGMA foreign_keys = ON")
 for name, df in TABLES.items():
-    df.to_sql(name, con, index=False)
+    coldefs = []
+    for c in df.columns:
+        t = _sqlite_type(df[c])
+        if PK.get(name) == c:
+            coldefs.append(f'"{c}" {t} NOT NULL PRIMARY KEY')
+        else:
+            coldefs.append(f'"{c}" {t}')
+    for col, rt, rc in FKS.get(name, []):
+        coldefs.append(f'FOREIGN KEY ("{col}") REFERENCES "{rt}"("{rc}")')
+    con.execute(f'CREATE TABLE "{name}" (\n  ' + ",\n  ".join(coldefs) + "\n)")
+    placeholders = ",".join("?" * len(df.columns))
+    con.executemany(
+        f'INSERT INTO "{name}" VALUES ({placeholders})',
+        [tuple(_sql_value(v) for v in rec)
+         for rec in df.itertuples(index=False, name=None)])
+for iname, tname, cols in INDEXES:
+    con.execute(f'CREATE INDEX "{iname}" ON "{tname}" ({cols})')
 con.commit()
+fk_violations = con.execute("PRAGMA foreign_key_check").fetchall()
+if fk_violations:
+    raise AssertionError(f"SQLite foreign-key violations: {fk_violations[:10]}")
 
 # ============================================================================
 # 10. verification + QA report
 # ============================================================================
+
+from openpyxl import load_workbook  # noqa: E402
+wb = load_workbook(OUT / "Oval_Petrography_DB.xlsx", read_only=True)
+xlsx_sheets = wb.sheetnames
+xlsx_rows = {ws.title: ws.max_row - 1 for ws in wb.worksheets}
+wb.close()
 
 ver = []
 for name, df in TABLES.items():
     n_sql = con.execute(f"SELECT COUNT(*) FROM {name}").fetchone()[0]
     with open(CSVDIR / f"{name}.csv", encoding="utf-8-sig", newline="") as f:
         n_csv = sum(1 for _ in csv.reader(f)) - 1     # CSV records, not lines
-    ok = (n_sql == len(df) == n_csv)
-    ver.append((name, len(df), n_csv, n_sql, ok))
-con.close()
+    n_xls = xlsx_rows.get(name, -1)
+    ok = (n_sql == len(df) == n_csv == n_xls)
+    ver.append((name, len(df), n_csv, n_sql, n_xls, ok))
 
-from openpyxl import load_workbook  # noqa: E402
-wb = load_workbook(OUT / "Oval_Petrography_DB.xlsx", read_only=True)
-xlsx_sheets = wb.sheetnames
-wb.close()
+# ---------------------------------------------------------------------------
+# 10a. HARD ASSERTIONS — the build fails loudly if any of these break
+# ---------------------------------------------------------------------------
+checks = []
+
+
+def _check(label, cond, detail=""):
+    checks.append((label, bool(cond), detail))
+    if not cond:
+        raise AssertionError(f"BUILD ASSERTION FAILED — {label}: {detail}")
+
+
+_check("row counts consistent CSV = SQLite = XLSX = dataframe",
+       all(v[5] for v in ver),
+       "; ".join(f"{v[0]} df={v[1]} csv={v[2]} sqlite={v[3]} xlsx={v[4]}"
+                 for v in ver if not v[5]))
+
+_dup_sid = [k for k, n in Counter(s["sample_id"] for s in samples).items() if n > 1]
+_check("samples.sample_id unique and non-blank",
+       not _dup_sid and all(s["sample_id"].strip() for s in samples),
+       f"duplicates: {_dup_sid[:5]}")
+
+_orphans = sorted({d["sample_id"] for d in descriptions
+                   if d["sample_id"] and d["sample_id"] not in sample_by_id})
+_check("every descriptions.sample_id is in samples (or blank)",
+       not _orphans, f"orphans: {_orphans[:5]}")
+
+_inv_iv = [(s["sample_id"], s["depth_from_m"], s["depth_to_m"]) for s in samples
+           if s["depth_from_m"] is not None and s["depth_to_m"] is not None
+           and s["depth_from_m"] > s["depth_to_m"]]
+_check("depth_from_m <= depth_to_m everywhere (D1)",
+       not _inv_iv, f"inverted: {_inv_iv[:5]}")
+
+_inv_a = [(a["sample_id"], a["depth_from_m"], a["depth_to_m"])
+          for a in assay_records
+          if a["depth_from_m"] is not None and a["depth_to_m"] is not None
+          and a["depth_from_m"] > a["depth_to_m"]]
+_check("depth_from_m <= depth_to_m in sample_assays", not _inv_a,
+       f"inverted: {_inv_a[:5]}")
+
+_s47176 = sample_by_id.get("47176")
+_exp = (722067.76, 5144288.08, 1738.42)
+_got = (_s47176["x_utm"], _s47176["y_utm"], _s47176["z_rl"]) if _s47176 else None
+_check("D1: sample 47176 re-desurveyed to the corrected 114-116 m interval",
+       _s47176 is not None
+       and _s47176["depth_from_m"] == 114.0 and _s47176["depth_to_m"] == 116.0
+       and _got is not None
+       and all(abs(g - e) <= 0.1 for g, e in zip(_got, _exp)),
+       f"got interval {_s47176['depth_from_m']}-{_s47176['depth_to_m']} "
+       f"coords {_got}, expected 114.0-116.0 {_exp}")
+
+_d89 = [d for d in descriptions
+        if d["raw_sample_id"].strip() == "OVD015-175.5 (B)"]
+_check("G10: the bichiglel `OVD015-175.5 (B)` row joins to 42389",
+       _d89 and all(d["sample_id"] == "42389" for d in _d89),
+       f"got {[ (d['desc_id'], d['sample_id']) for d in _d89 ]}")
+_d88 = [d for d in descriptions
+        if d["raw_sample_id"].strip() == "OVD015-175.5 (A)"]
+_check("G10: the bichiglel `OVD015-175.5 (A)` row joins to 42388",
+       _d88 and all(d["sample_id"] == "42388" for d in _d88),
+       f"got {[ (d['desc_id'], d['sample_id']) for d in _d88 ]}")
+
+for _sid, _lbl in ((composite_id("OVD003", 202.0), "OVD003@202m"),
+                   (composite_id("OVD009", 178.0), "OVD009@178-180m")):
+    _s = sample_by_id.get(_sid)
+    _nd = [d for d in descriptions if d["sample_id"] == _sid]
+    _check(f"G1: new Crawford sample {_sid} exists, is desurveyed and carries "
+           f"its description",
+           _s is not None and _s["coord_source"] == "desurvey"
+           and _s["x_utm"] and _s["y_utm"] and _s["z_rl"] and _nd,
+           f"sample={_s}, descriptions={len(_nd)}")
+
+for _raw, _target in (("OVD021@101.5m", "42027"), ("OVD20-121", "43251")):
+    _dd = [d for d in descriptions if d["raw_sample_id"].strip() == _raw]
+    _check(f"G2: `{_raw}` re-joined to {_target}",
+           _dd and all(d["sample_id"] == _target for d in _dd),
+           f"got {[(d['desc_id'], d['sample_id']) for d in _dd]}")
+
+_check("D3: lu_rock_type covers every distinct rock name in samples+descriptions",
+       len({r["rock_name_original"] for r in lu_rock_type}) == len(rock_counter),
+       "")
+
+_check("D6: descriptions.sample_id is NULL (not '') in SQLite for unjoined rows",
+       con.execute("SELECT COUNT(*) FROM descriptions "
+                   "WHERE sample_id = ''").fetchone()[0] == 0, "")
+_check("D6: SQLite primary keys present",
+       all(con.execute(f"SELECT COUNT(*) FROM pragma_table_info('{t}') "
+                       f"WHERE pk > 0").fetchone()[0] == 1 for t in PK), "")
+_check("D6: SQLite indexes present",
+       {r[0] for r in con.execute(
+           "SELECT name FROM sqlite_master WHERE type='index' "
+           "AND name LIKE 'idx_%'")} == {i[0] for i in INDEXES}, "")
+_check("D6: SQLite foreign keys resolve", not fk_violations, "")
+
+con.close()
 
 # drill samples whose hole exists in collar must have coordinates
 uncovered = [s for s in samples
              if s["hole_id_norm"] and s["hole_id_norm"] in collar_by_hole
              and s["coord_source"] != "desurvey"]
+_check("every drill-core sample whose hole is in collar is desurveyed",
+       not uncovered, f"{len(uncovered)} uncovered")
+
+no_collar = sorted({s["hole_id_norm"] for s in samples
+                    if s["hole_id_norm"] and s["hole_id_norm"] not in collar_by_hole})
 
 # spot checks
 spot = []
@@ -1234,6 +2164,10 @@ def _spot(sid):
 _spot("41011")
 _spot("47188")
 _spot("43816")
+_spot("47176")
+_spot(composite_id("OVD003", 202.0))
+_spot(composite_id("OVD009", 178.0))
+_spot("42389")
 
 n_coord = sum(1 for s in samples if s["x_utm"] is not None)
 n_desurv = sum(1 for s in samples if s["coord_source"] == "desurvey")
@@ -1248,19 +2182,41 @@ for d in descriptions:
         src_match[d["source_file"]][1] += 1
 
 qa_md = []
-qa_md.append("# QA report — Oval Petrography Database")
+qa_md.append(f"# QA report — Oval Petrography Database v{DB_VERSION}")
 qa_md.append("")
-qa_md.append(f"Built by `scripts/build_database.py` on 2026-08-31 from "
-             f"`workspace/extracted/`. CRS: {EPSG_NOTE}.")
+qa_md.append(f"Built by `scripts/build_database.py` (v{DB_VERSION}) on "
+             f"{BUILD_DATE} from `workspace/extracted/`. CRS: {EPSG_NOTE}.")
 qa_md.append("")
-qa_md.append("## 1. Row counts (dataframe = csv = sqlite)")
+qa_md.append("v1.1 applies every defect raised by the two independent audits "
+             "(`VERIFICATION_integrity.md` D1–D10, `VERIFICATION_coverage.md` "
+             "G1–G14) and merges the `missing_sources` extraction batch. "
+             "See §12 for the changelog and §11 for what is still missing at "
+             "source.")
 qa_md.append("")
-qa_md.append("| table | rows | csv | sqlite | ok |")
-qa_md.append("|---|---|---|---|---|")
-for name, n, nc, ns, ok in ver:
-    qa_md.append(f"| {name} | {n} | {nc} | {ns} | {'OK' if ok else '**MISMATCH**'} |")
+qa_md.append("## 0. Build assertions (the build fails if any of these break)")
+qa_md.append("")
+for label, ok, _detail in checks:
+    qa_md.append(f"- [{'PASS' if ok else 'FAIL'}] {label}")
+qa_md.append("")
+qa_md.append("## 1. Row counts (dataframe = csv = sqlite = xlsx)")
+qa_md.append("")
+qa_md.append("| table | rows | csv | sqlite | xlsx | ok |")
+qa_md.append("|---|---|---|---|---|---|")
+for name, n, nc, ns, nx, ok in ver:
+    qa_md.append(f"| {name} | {n} | {nc} | {ns} | {nx} | "
+                 f"{'OK' if ok else '**MISMATCH**'} |")
 qa_md.append("")
 qa_md.append(f"xlsx sheets: {', '.join(xlsx_sheets)}")
+qa_md.append("")
+qa_md.append("SQLite carries real `NULL`s (never `''`), a primary key on "
+             "`samples.sample_id`, `descriptions.desc_id`, `collar.hole_id` and "
+             "`sample_assays.sample_id`, foreign keys "
+             "`descriptions.sample_id`/`sample_assays.sample_id` → "
+             "`samples.sample_id` and `survey.hole_id` → `collar.hole_id`, and "
+             "the indexes " + ", ".join(f"`{i[0]}`" for i in INDEXES) +
+             ". `PRAGMA foreign_key_check` is clean. No FK is declared on "
+             "`samples.hole_id_norm` because the 17 legacy ARDH-2005-01 rows "
+             "reference a hole that is not in `collar` (see §11).")
 qa_md.append("")
 qa_md.append("## 2. Coordinate coverage")
 qa_md.append("")
@@ -1274,6 +2230,11 @@ qa_md.append(f"- drill-core samples whose hole is in collar but NOT desurveyed: 
              f"**{len(uncovered)}**"
              + ("" if not uncovered else " — " + "; ".join(
                  f"{s['sample_id']} ({s['qa_flags']})" for s in uncovered)))
+qa_md.append(f"- samples referencing a hole that is NOT in `collar`: "
+             f"**{sum(1 for s in samples if s['hole_id_norm'] and s['hole_id_norm'] not in collar_by_hole)}**"
+             + (f" (holes: {', '.join(no_collar)}) — the legacy 2005 "
+                f"photo-only stubs; no collar, no survey, no coordinates"
+                if no_collar else ""))
 qa_md.append("")
 qa_md.append("## 3. Description join statistics")
 qa_md.append("")
@@ -1282,6 +2243,12 @@ qa_md.append(f"- descriptions total: **{len(descriptions)}**; matched: "
              f"({100*(len(descriptions)-len(unmatched))/len(descriptions):.1f} %), "
              f"unmatched: {len(unmatched)}")
 qa_md.append(f"- join methods: " + ", ".join(f"{k}: {v}" for k, v in jm.most_common()))
+qa_md.append(f"- v1.1 additions: **{n_grab_desc}** grab-sheet field "
+             f"descriptions (G9) and **{len(miss_desc_recs)}** rows from the "
+             f"`missing_sources` batch ("
+             + ", ".join(f"{k}: {v}" for k, v in miss_stats.most_common())
+             + f"). The batch's other {len(miss_photo)} records are photo-only "
+             f"and became sample rows, not descriptions.")
 qa_md.append("")
 qa_md.append("| source | descriptions | matched |")
 qa_md.append("|---|---|---|")
@@ -1305,13 +2272,27 @@ for x in qa["rockchip_merge"]:
 qa_md.append(f"- Master All formatting rows skipped (no id, no interval): "
              f"{skipped_formatting}")
 qa_md.append("")
-qa_md.append("## 5. Depth-parse failures")
+qa_md.append("## 5. Depth handling — parsing AND range validation")
 qa_md.append("")
+qa_md.append("**Depth-parse failures** (a depth string that could not be read "
+             "at all):")
 if qa["depth_parse_failures"]:
     for x in qa["depth_parse_failures"]:
         qa_md.append(f"- {x}")
 else:
     qa_md.append("- none")
+qa_md.append("")
+qa_md.append("**Depth-RANGE validation** (v1.1 — v1.0 had none, which is how "
+             "D1 survived; a parse success is not a range success):")
+if qa["depth_interval_fixes"]:
+    for x in qa["depth_interval_fixes"]:
+        qa_md.append(f"- {x}")
+else:
+    qa_md.append("- no inverted intervals found")
+qa_md.append("")
+qa_md.append("The build now asserts `depth_from_m <= depth_to_m` over every "
+             "`samples` and `sample_assays` row and aborts if a violation "
+             "cannot be corrected from a corroborating source.")
 qa_md.append("")
 qa_md.append("## 6. Samples added beyond the Master All spine "
              f"({len(qa['samples_added'])})")
@@ -1336,16 +2317,20 @@ qa_md.append("")
 qa_md.append("## 9. Known issues carried from sources")
 qa_md.append("")
 qa_md.extend([
-    "- **Crawford 2025 sample/assay mix-up flags** (kept in `descriptions.qa_notes`): "
-    "OVD008@88.9m lacks sulfides despite 2.5 %S assay; OVD008@90.5m section "
-    "(hbl-phyric basalt) does not match ~30 % pyrrhotite assay; OVD009@178-180m "
-    "wholerock assay does not match section (suspected swap with a leucogabbro "
-    "dyke like OVD021@101.5m); OVD021@101.5m high-Cr assay has no chromite; "
-    "OVD007@55.9m core photo may not match section.",
+    "- **Crawford 2025 sample/assay mix-up flags.** CORRECTED CLAIM (v1.0 §9 "
+    "said these were in `descriptions.qa_notes` when they were only in the tail "
+    "of `description_text`): as of v1.1 each caveat is written into BOTH "
+    "`descriptions.qa_notes` AND the joined `samples.qa_flags`, and the "
+    "original wording still stands verbatim inside `description_text`. "
+    "Rows carrying a Crawford caveat: "
+    + ", ".join(d2_applied) + ".",
     "- Crawford notes sub-standard polish on many of the 38 sections; OVD005@40.5 "
-    "and @53.0 'far too thin'; OVD021@148.8 sulfides too poorly polished.",
-    "- `OVD021@101.5m` (Crawford) is most likely OVD011-101.5 (tag 42027) — the "
-    "description is left unmatched rather than force-joined.",
+    "and @53.0 'far too thin'; OVD021@148.8 sulfides too poorly polished. These "
+    "three are also in `qa_notes`/`qa_flags` as of v1.1.",
+    "- `OVD021@101.5m` (Crawford) is OVD011-101.5 (tag **42027**) — as of v1.1 "
+    "the description IS joined (`join_method = xref-corrected`), on the strength "
+    "of the identical Crawford micro-description filed against OVD011-101.5 in "
+    "the `KhanAltai vs Tony` sheet. v1.0 left it unmatched.",
     "- Tag **42808** is printed on two SC04 samples (171.0 m and 280.7 m); the "
     "280.7 m sample is stored as `SC04@280.7`.",
     "- BS001 sample numbering: report prints 45652 on both 380.5 and 380.8 m "
@@ -1371,6 +2356,328 @@ qa_md.extend([
     "- Survey azimuths are used as grid azimuths (Grid (Orig) = WGS84_46N; "
     "`Azim (UTM)` column is empty in the source).",
     "- Collar data typo: MU2502 End date '10/14/225' (kept verbatim).",
+    "- **OVD008A depth datum**: OVD008A is a re-drill sharing the OVD008 collar. "
+    "`collar.start_depth_m` is 110.5 m, but its 33 survey stations run "
+    "0 → 162.5 m MEASURED FROM SURFACE, not from the re-entry point. Any depth "
+    "quoted against OVD008A must therefore be surface-referenced. No sample in "
+    "the database is assigned to OVD008A.",
+    "- **Duplicate survey station** OVD009 @ 240.0 m (see §10 D4) — both "
+    "readings are kept verbatim, flagged in the new `survey.qa_note` column.",
+])
+qa_md.append("")
+
+# ---------------------------------------------------------------------------
+qa_md.append("## 10. v1.1 defect resolutions (audit D1–D10, G1–G14)")
+qa_md.append("")
+qa_md.append("### Integrity audit (`VERIFICATION_integrity.md`)")
+qa_md.append("")
+qa_md.append("**D1 — inverted depth interval on 47176 (HIGH).** Fixed. " +
+             ("; ".join(qa["depth_interval_fixes"]) or "no fix recorded") +
+             f". The sample now sits at {sample_by_id['47176']['depth_from_m']:g}"
+             f"–{sample_by_id['47176']['depth_to_m']:g} m "
+             f"(mid {sample_by_id['47176']['depth_mid_m']:g} m) and desurveys to "
+             f"({sample_by_id['47176']['x_utm']}, "
+             f"{sample_by_id['47176']['y_utm']}, "
+             f"{sample_by_id['47176']['z_rl']}) — a 14.05 m correction from the "
+             f"v1.0 position (722071.89, 5144281.90, 1726.51). A global "
+             "`depth_from <= depth_to` guard plus a build assertion now make "
+             "this class of defect impossible to ship.")
+qa_md.append("")
+qa_md.append(f"**D2 — Crawford caveats not queryable.** Fixed: "
+             f"{len(d2_applied)} description rows now carry the caveat in "
+             f"`qa_notes`, and every joined sample carries it in `qa_flags`. "
+             f"§9 above is corrected.")
+qa_md.append("")
+qa_md.append(f"**D3 — `lu_rock_type` incomplete.** Fixed: the lookup is now "
+             f"built from `samples.field_lithology` + `petro_lithology` + "
+             f"`iogas_lithology` **and** `descriptions.rock_name` **and** "
+             f"`descriptions.rock_name_original` — "
+             f"**{len(lu_rock_type)}** distinct names (v1.0: 473), each with a "
+             f"`rock_group`, a new coarse `rock_family` column and a `seen_in` "
+             f"column, and `n_occurrences` recounted over all five fields. "
+             f"Names left `other / unclassified`: "
+             f"{sum(1 for r in lu_rock_type if r['rock_group'] == 'other / unclassified')}.")
+qa_md.append("")
+qa_md.append("**D4 — duplicate survey station.** Both rows kept verbatim; the "
+             "new `survey.qa_note` column names the conflict and the "
+             "recommended row on BOTH rows of the pair:")
+for x in survey_conflicts:
+    qa_md.append(f"- {x}")
+qa_md.append("")
+qa_md.append("The desurvey now resolves duplicate `(hole, depth)` stations "
+             "deterministically to the most recent survey date, so the "
+             "database and the README import guide agree. No stored coordinate "
+             "changes (the deepest OVD009 sample is 195.2 m).")
+qa_md.append("")
+qa_md.append(f"**D5 — stored interval vs report-named interval.** "
+             f"{n_iv_checked} descriptions name an explicit interval; "
+             f"**{len(d5_rows)}** disagree with the sample's stored interval "
+             f"and now carry a `qa_flags` entry on the sample and a `qa_notes` "
+             f"entry on the description:")
+qa_md.append("")
+qa_md.append("| desc | report label | report interval | sample | stored | gap (m) |")
+qa_md.append("|---|---|---|---|---|---|")
+for did, raw, sid, stored, rpt, gap in d5_rows:
+    qa_md.append(f"| {did} | `{raw}` | {rpt} | {sid} | {stored} | {gap:g} |")
+qa_md.append("")
+qa_md.append("The audit's D5 named 9 of these. The generic detector used here "
+             "also catches `OVD028-38 (33.14-35)` (named in D5's own text as a "
+             "related case), `OVD029-122.4 (123-124.5)` — both of which write "
+             "the report interval as a caption rather than in the id — and "
+             "`OVD28-19-21.25 (47097)` at 0.05 m. All 12 are flagged.")
+qa_md.append("")
+qa_md.append("**D6 — SQLite ergonomics.** Fixed: real NULLs, primary keys, "
+             "foreign keys and 7 indexes (see §1).")
+qa_md.append("")
+qa_md.append(f"**D7 — near-duplicate samples not cross-referenced.** Fixed: a "
+             f"generic scan of every hole for sample pairs within 0.35 m found "
+             f"**{len(near_dupes)}** pairs; both members of each pair now carry "
+             f"a `D7 cross-reference` entry in `qa_flags`:")
+for h, a, da, b, db_, gap in near_dupes:
+    qa_md.append(f"- {h}: {a} @ {da:g} m vs {b} @ {db_:g} m ({gap:g} m apart)")
+qa_md.append("")
+qa_md.append("**D8 — `depth_mid_m` vs the master's point depth.** Unchanged by "
+             "design: where the Phase-2 sheet supplies a narrow interval the "
+             "build stores that interval and uses its midpoint (typical "
+             "difference 0.05 m, worst 0.5 m). Recorded here so the difference "
+             "is not mistaken for corruption.")
+qa_md.append("")
+qa_md.append(f"**D9 — A/B suffix rests on letter order.** Fixed: "
+             f"{len(ab_notes)} description rows now record the inference in "
+             f"`qa_notes` — {', '.join(ab_notes)}.")
+qa_md.append("")
+qa_md.append("**D10 — OVD008A depth datum undocumented.** Fixed: documented in "
+             "§9 above and in `README.md` (import notes).")
+qa_md.append("")
+qa_md.append("### Coverage audit (`VERIFICATION_coverage.md`)")
+qa_md.append("")
+qa_md.append(f"**G1 — 2 described thin sections with no sample row.** Fixed: "
+             f"`{composite_id('OVD003', 202.0)}` and "
+             f"`{composite_id('OVD009', 178.0)}` created from the Crawford 2025 "
+             f"report and desurveyed; their descriptions (previously unmatched) "
+             f"are now joined.")
+qa_md.append("")
+qa_md.append("**G2 — 2 resolvable unmatched descriptions.** Fixed: " +
+             "; ".join(g2_applied) + ".")
+qa_md.append("")
+qa_md.append("**G3 — whole-dataset omissions unacknowledged.** Fixed: §11.")
+qa_md.append("")
+qa_md.append(f"**G4/G5/G6/G7 — unextracted source documents.** Largely fixed by "
+             f"the `missing_sources` batch (§4 of that folder's README): "
+             f"{len(recs_miss)} records, of which {len(miss_desc_recs)} became "
+             f"descriptions and {len(miss_photo)} became photo-only sample "
+             f"stubs. What is still missing is listed in §11.")
+qa_md.append("")
+if miss_depth_conflicts:
+    qa_md.append("Depth cross-check on the batch's tag-joined records — the "
+                 "report's stated depth vs the sample register's "
+                 f"({len(miss_depth_conflicts)} disagreement"
+                 f"{'' if len(miss_depth_conflicts) == 1 else 's'}, recorded in "
+                 "`descriptions.qa_notes`; the register value is kept):")
+    for x in miss_depth_conflicts:
+        qa_md.append(f"- {x}")
+    qa_md.append("")
+qa_md.append("**No new SURFACE sample rows were needed.** All 24 surface "
+             "records of the batch (sources 1, 2, 4 and 6–9) map onto rows "
+             "1–24 of the master grab sheet — which already have sample rows — "
+             "after case folding, leading-zero stripping and the documented "
+             "`2021-01` / `2022-01` year-digit typo, and the mapping agrees "
+             "with the row order the batch README reconstructs. Where the two "
+             "spellings differ, BOTH the description (`qa_notes`) and the "
+             "sample (`qa_flags`) record it. The three records that map to no "
+             "sample (`2111`, the Ni-report `2107`, `2023Nisample`) are kept "
+             "UNJOINED rather than given invented sample rows, because none of "
+             "them has a field number — see §11.")
+qa_md.append("")
+qa_md.append("**G8 — `sources.csv` provenance.** Fixed: every fileId is now "
+             "resolved to the inventory-canonical copy (duplicates are "
+             "followed through `isDuplicateOf`), the omitted contributing "
+             "files are registered, and the corrections are recorded in the "
+             "new `sources.provenance_note` column:")
+for x in source_fixes:
+    qa_md.append(f"- {x}")
+qa_md.append("")
+qa_md.append(f"**G9 — grab-sheet field descriptions dropped.** Fixed: "
+             f"{n_grab_desc} field descriptions recovered from the "
+             f"`2022-2024 grab` sheet's right-hand `Description` column and "
+             f"emitted as description rows "
+             f"(`join_method = grab sheet row`, language `mn`/`en` as written).")
+qa_md.append("")
+qa_md.append("**G10 — `D0089` mis-join.** Fixed in `match_by_label`: the "
+             "verbatim label (suffix included) is now tried before the "
+             "suffix-stripped form, so `OVD015-175.5 (A)` → 42388 and "
+             "`OVD015-175.5 (B)` → 42389.")
+qa_md.append("")
+qa_md.append("**G11 — undocumented OVD014-89.8 (A)/(B) merge.** Fixed: sample "
+             "42147 carries a `COVERAGE G11` note in `qa_flags`.")
+qa_md.append("")
+qa_md.append("**G12/G13/G14 — unverified tables, the BE-3 assumption and the "
+             "photo datasets.** G13 is now resolved: `BE-3 samples in "
+             "English.pdf` was read in the `missing_sources` batch and its "
+             "three block samples ARE tags 40763 / 40900 / 40913, confirming "
+             "the v1.0 assumption. G12 and G14 remain open — see §11.")
+qa_md.append("")
+
+# ---------------------------------------------------------------------------
+qa_md.append("## 11. Known missing at source (datasets identified but NOT in "
+             "this database)")
+qa_md.append("")
+qa_md.append("This section exists because the coverage audit found that v1.0 "
+             "acknowledged none of these. Row counts were never inflated — "
+             "nothing below is silently counted as covered.")
+qa_md.append("")
+qa_md.append("### Absent from Google Drive itself (cannot be ingested)")
+qa_md.append("")
+qa_md.extend([
+    "- **Gtech prospect review** — referenced by name in project correspondence; "
+    "no file in the Drive set.",
+    "- **Chuluunbataar / Vi Vitex LLC review (May 2022)** — referenced by name; "
+    "no file in the Drive set.",
+    "- **Dennis (RPM Global, Oct 2023)** and **Prof. D. Holwell (Oct 2023)** "
+    "reviews — referenced by name; no file in the Drive set.",
+    "- **ARDH-2005-02 thin-section photos** — folder "
+    "`1AHFQu0eLtEZbbM-nrJFZvfu2-OUqRxid` exists but is EMPTY on Drive.",
+    "- **`41016.jpg`** — the hand-specimen photo for tag 41016 is missing from "
+    "both `Khanlab_Petrograph_samples` photo folders (23 JPGs for 24 samples). "
+    "The 41016 DESCRIPTION is present (ingested in v1.1 from the consolidated "
+    "Khanlab О-24 PDF).",
+    "- **Khanlab batch-1 report** (SEM-EDS reference '1', 7 × OVD-009 sections: "
+    "41014, 41015, 41016, 41017, 41020, 41021, 41023) — the report document "
+    "itself is not in the Drive set. All 7 samples exist and, as of v1.1, all 7 "
+    "carry the Khanlab О-24 narrative from the consolidated PDF.",
+])
+qa_md.append("")
+qa_md.append("### Out of scope for this database (no table models them)")
+qa_md.append("")
+qa_md.extend([
+    "- **≈330 sample photographs in 13 Drive folders** — `Petrographic_photos_2023` "
+    "(36 PNG), `Mineralogical_photos_2023` (31), `SEM-EDS_photos_2023` (17), "
+    "`Khanlab_Petrograph_samples` (23), `ymb_2024_Scanned…` (~75), Phase-1 (~55), "
+    "Phase-2 (~45), ARDH-2005-01 (18). Many are named by sample tag "
+    "(40530–40915) and are therefore directly linkable to `samples.sample_id`. "
+    "**There is no `sample_photos` table in v1.1** — the images themselves are "
+    "not ingested and no per-image row exists, EXCEPT the 17 ARDH-2005-01 "
+    "thin-section photographs, which are carried as photo-only sample stubs "
+    "because they are the only record of that hole's sections.",
+    "- **`МП2026-24 Батбадмаараг ХХК …pdf` (Modot-3, licence XV-020181)** — "
+    "deliberately excluded: a different project, not Oval/Yambat.",
+])
+qa_md.append("")
+qa_md.append("### Present on Drive, still not opened (G12 — no evidence they "
+             "add samples, but unverified)")
+qa_md.append("")
+qa_md.extend([
+    "- `2023 Drilling petrography samples.xlsx` — `17GqS_Wo0T6OOEIAgiUyl6rkUgjN2Ox5Z`",
+    "- `Yambat petrography samples 2024 from Core.xlsx` — `1dRlx13-icZZl-OokbD9OfXov-mbuoP4o`",
+    "- `Petrograph_2023_07_31.xlsx` — `1PPWrYjVeLfTTgec-Qmazi_oYdYnOu3Gi`",
+    "- `Deejiin hoolgoonii list_ABM (1).xlsx` — `1o_jgfkLe_lC4f21Uf1z3uoSmZZtfoVId`",
+    "- Grab lists `Grab 2022aug-2023.xlsx/.csv` (`16f8S2Si…`, `1JeL0cAM…`), "
+    "`2022aug-2023.xlsx` (`1is5GE0W…`), `03Aug2022.xlsx` (`1XZC2MhQ…`) — the "
+    "65-sample grab count rests on the master grab sheet, not on these.",
+    "- The three 250–320 MB Khanlab `.doc` files "
+    "(`1b2NKUWu…`, `1d9YIMNE…`, `1jhySMOE…`) — the same 24-sample report; the "
+    "consolidated PDF used in v1.1 covers all 24 sections, but the ENGLISH "
+    "translation has not been harvested, so the 12 new Khanlab records carry "
+    "Mongolian `description_text` with an English `rock_name`.",
+    "- `R_2023-21 Petrology, mineralogy – Mireslab Mongol LLC.pdf` "
+    "(`16QAZBbGJVSkJSjXjzeO6RLW_De4LCIhH`) — READ in the v1.1 batch and found "
+    "to be the WORK CONTRACT, not a petrography report (26 samples ordered, "
+    "23 delivered as Report #2302). No sample data; deliberately not ingested.",
+])
+qa_md.append("")
+qa_md.append("### Sample suites that still have no petrographic description")
+qa_md.append("")
+qa_md.append("- **Grab-sheet rows 25–65** — `TS1`–`TS7`, `RC5`, `RC6`, tags "
+             "`43113, 43122, 43123, 43125, 43141, 43144, 43146, 41154, 41155, "
+             "41160–41163, 41167–41169, 41172, 41178–41180, 41183, 47071–47073, "
+             "47076, 47077, 47084`, and `CR66, CR99, CR71, CR1, CRE`. None of "
+             "the recovered 2022–23 reports describes them. As of v1.1 they do "
+             "carry the geologist's FIELD description (§10 G9), but no "
+             "microscope determination.")
+qa_md.append("")
+qa_md.append("### Unjoinable records (ingested, but with no sample to attach to)")
+qa_md.append("")
+for raw, note in sorted(MISS_UNMATCHED_NOTE.items()):
+    qa_md.append(f"- `{raw}` — {note}")
+qa_md.append("")
+qa_md.append("Full list of every unmatched description row (all sources):")
+qa_md.append("")
+for d in unmatched:
+    qa_md.append(f"- `{d['desc_id']}` `{d['raw_sample_id']}` "
+                 f"({d['source_file'][:60]})")
+qa_md.append("")
+qa_md.append("### Datasets the audit listed as missing that v1.1 RESOLVED")
+qa_md.append("")
+qa_md.extend([
+    "- The 10 unextracted 2022–23 Mireslab surface reports — **ingested** "
+    "(`Petrographic descriptions 06.23`, `… 11.04`, `Report_0715_Ni`, "
+    "`Report_microscope_20221012`, `MINERALOGICAL-DESCRIPTIONS_2023.03.25` + "
+    "its `-NI.docx` twin, `Thin and polish-1/-1sh/-2sh/-4`). 24 of the 65 "
+    "grab/rockchip samples now carry a laboratory petrographic description.",
+    "- `Report20231124.docx` and `Report_20230816 Part1/Part2` — **ingested**; "
+    "the 23 MIRESL 2023 drill-core samples now carry the FULL narrative "
+    "(hand specimen, texture, per-mineral habit and size, alteration, SEM-EDS), "
+    "not only the one-line summary-sheet fields.",
+    "- The Khanlab О-24 consolidated report — **ingested**; the 12 OVD009 "
+    "sections (41014–41023, 41033, 41034) that `Петрограф008.docx` did not "
+    "cover now have their primary-source description.",
+    "- **Mireslab 'pdf2' (tags 40910, 40628, 40635, 40645)** — RESOLVED as an "
+    "artefact: all four tags are Report #2302 sections (Mireslab internal codes "
+    "OVD019, OVD007, OVD004, OVD005), whose full narrative arrived with "
+    "`Report_20230816 Part1/Part2` in this batch. There is no separate 'pdf2' "
+    "document to find; the four samples now carry the primary-source narrative "
+    "alongside the MIRESL summary row and the Crawford description.",
+    "- **ARDH-2005-01** — the 17 unique thin-section photographs are now "
+    "carried as sample rows (photo-only stubs). There is still no petrographic "
+    "text for them: no report, sheet or description exists under that hole.",
+    "- The `BE-3 samples` PDFs (G13) — read; the 3 NUM sections are confirmed "
+    "to be tags 40763 / 40900 / 40913.",
+])
+qa_md.append("")
+
+# ---------------------------------------------------------------------------
+qa_md.append("## 12. Changelog v1.0 → v1.1")
+qa_md.append("")
+qa_md.append(f"| table | v1.0 rows | v{DB_VERSION} rows | change |")
+qa_md.append("|---|---|---|---|")
+V10_ROWS = {"samples": 376, "descriptions": 451, "collar": 76, "survey": 1990,
+            "sample_assays": 277, "lu_hole_alias": 101, "lu_lab": 20,
+            "lu_rock_type": 473, "sources": 32}
+for name, df in TABLES.items():
+    old = V10_ROWS.get(name, 0)
+    qa_md.append(f"| {name} | {old} | {len(df)} | {len(df)-old:+d} |")
+qa_md.append("")
+qa_md.extend([
+    "**Data corrections**",
+    "",
+    f"- 47176: interval 144.0–114.1 → 114.0–116.0 m; position moved 14.05 m "
+    f"(D1).",
+    f"- `OVD015-175.5 (B)` description re-joined 42388 → 42389 (G10).",
+    f"- `OVD021@101.5m` → 42027 and `OVD20-121` → 43251, both previously "
+    f"unmatched (G2).",
+    f"- 2 new drill-core samples created and desurveyed (G1).",
+    f"- 17 legacy ARDH-2005-01 photo-only sample stubs created.",
+    "",
+    "**New content**",
+    "",
+    f"- {n_grab_desc} grab-sheet field descriptions recovered (G9).",
+    f"- {len(miss_desc_recs)} descriptions merged from the `missing_sources` "
+    f"batch (of 84 records; the other {len(miss_photo)} are photo-only stubs).",
+    "",
+    "**Schema changes**",
+    "",
+    "- `survey` gains `qa_note`.",
+    "- `lu_rock_type` gains `rock_family` and `seen_in`.",
+    "- `sources` gains `provenance_note`.",
+    "- SQLite gains NULLs, primary keys, foreign keys and indexes.",
+    "",
+    "**Documentation**",
+    "",
+    "- §5 now separates depth PARSING from depth RANGE validation (the v1.0 "
+    "claim 'depth-parse failures: none' was true but masked D1).",
+    "- §9 corrected: the Crawford caveats are now genuinely in "
+    "`descriptions.qa_notes` and `samples.qa_flags`, as v1.0 claimed.",
+    "- §11 'Known missing at source' added.",
 ])
 qa_md.append("")
 (OUT / "QA_report.md").write_text("\n".join(qa_md), encoding="utf-8")
@@ -1379,7 +2686,7 @@ qa_md.append("")
 # 11. README (schema documentation)
 # ============================================================================
 
-readme = f"""# Oval Ni-Cu (Yambat) — Consolidated Petrography Database
+readme = f"""# Oval Ni-Cu (Yambat) — Consolidated Petrography Database (v{DB_VERSION})
 
 Built from the Google Drive petrography/drilling sources of the AZ9 GeoHub
 by `scripts/build_database.py`. One row per **physical sample** in `samples`,
@@ -1390,6 +2697,30 @@ several descriptions: Mongolian lab report, Crawford 2025, MIRESL 2023, ...).
 - Files: `csv/*.csv` (UTF-8 with BOM — opens correctly in Excel),
   `Oval_Petrography_DB.xlsx`, `Oval_Petrography_DB.sqlite`, `QA_report.md`.
 
+## Contents (v{DB_VERSION}, built {BUILD_DATE})
+
+| table | rows | what it is |
+|---|---|---|
+| `samples` | {len(df_samples)} | physical samples (the spine) |
+| `descriptions` | {len(df_desc)} | petrographic / mineragraphic descriptions |
+| `collar` | {len(df_collar)} | drillhole collars |
+| `survey` | {len(df_survey)} | downhole survey stations |
+| `sample_assays` | {len(df_assay)} | wide assay suite from the Master "All" sheet |
+| `lu_hole_alias` | {len(df_alias)} | raw hole-id spelling → normalized id |
+| `lu_lab` | {len(df_lab)} | lab / petrographer lookup |
+| `lu_rock_type` | {len(df_rock)} | every distinct rock name → group / family |
+| `sources` | {len(df_sources)} | contributing files with Drive fileIds |
+
+- **{n_coord} of {len(samples)}** samples ({100*n_coord/len(samples):.1f} %) carry
+  coordinates — {n_desurv} desurveyed in 3-D (x, y, z), {n_masterxy} with
+  surface X/Y only, {len(samples)-n_coord} with none.
+- **{len(descriptions)-len(unmatched)} of {len(descriptions)}**
+  ({100*(len(descriptions)-len(unmatched))/len(descriptions):.1f} %) descriptions
+  are joined to a sample; {len(unmatched)} cannot be (see `QA_report.md` §11).
+- v1.1 fixes every defect raised by the two independent audits
+  (`VERIFICATION_integrity.md`, `VERIFICATION_coverage.md`) and merges the
+  `missing_sources` batch. Changelog: `QA_report.md` §12.
+
 ## Re-running
 
 ```bash
@@ -1398,7 +2729,10 @@ python3 scripts/build_database.py
 ```
 
 Inputs are read from `workspace/extracted/` (master/, xlsx/, reports/,
-reports2024_2026/). Outputs are rewritten under `database/`.
+reports2024_2026/, missing_sources/). Outputs are rewritten under `database/`.
+The build is deterministic — two consecutive runs produce byte-identical CSVs,
+SQLite, XLSX and Markdown — and it aborts with an `AssertionError` if any of
+the invariants listed in `QA_report.md` §0 is broken.
 
 ## Tables
 
@@ -1441,15 +2775,22 @@ reports2024_2026/). Outputs are rewritten under `database/`.
 | alteration | alteration minerals / intensity |
 | opaque_minerals | ore/opaque mineralogy and paragenesis |
 | description_text | free-text description / summary |
-| join_method | tag / hole+depth / hole+depth+suffix / report id / unmatched |
-| qa_notes | join or source-quality notes |
+| join_method | tag / label / hole+depth / hole+depth+suffix / report id / grab sheet id / grab sheet row / xref-corrected / unmatched |
+| qa_notes | join or source-quality notes (Crawford caveats, A/B-suffix inferences, interval disagreements, id corrections) |
+
+`join_method` values added in v1.1: **`grab sheet row`** (a field description
+recovered from the master grab sheet), **`grab sheet id`** (a 2022–23 surface
+lab description matched to a grab row after case folding / leading-zero
+stripping) and **`xref-corrected`** (a source id typo corrected against
+independent evidence — see `QA_report.md` §10 G2).
 
 ### collar.csv / survey.csv
 
 Normalized copies of `Collar_all_combined` (76 holes) and `Survey_all_YMB`
 (downhole surveys). `hole_id` is normalized (`OVD008a`->`OVD008A`);
 raw spelling kept in `hole_id_raw`. Depths in metres; dips negative-down;
-azimuths are grid azimuths (WGS84_46N).
+azimuths are grid azimuths (WGS84_46N). `survey.qa_note` (new in v1.1) carries
+station-level warnings — currently the duplicate-station conflict below.
 
 ### sample_assays.csv
 
@@ -1462,9 +2803,15 @@ Wide assay suite carried over verbatim from the Master "All" sheet, keyed by
 
 - `lu_hole_alias.csv` — every raw hole-id spelling seen anywhere -> normalized id.
 - `lu_lab.csv` — raw lab/petrographer strings -> canonical lab.
-- `lu_rock_type.csv` — every distinct rock name (samples + descriptions) ->
-  best-effort standardized `rock_group`; originals kept untouched.
-- `sources.csv` — contributing files with Google Drive fileIds.
+- `lu_rock_type.csv` — **every** distinct rock name across
+  `samples.field_lithology` / `petro_lithology` / `iogas_lithology` and
+  `descriptions.rock_name` / `rock_name_original` (the Mongolian vocabulary
+  included, which v1.0 omitted) -> best-effort standardized `rock_group`, a
+  coarse `rock_family` (ultramafic / mafic intrusive /
+  felsic-intermediate intrusive / volcanic / sedimentary / metamorphic /
+  vein-ore / unknown), `n_occurrences` and `seen_in`. Originals untouched.
+- `sources.csv` — contributing files with Google Drive fileIds, resolved to the
+  inventory-canonical copy; `provenance_note` records any correction.
 
 ## Loading into Leapfrog / Micromine
 
@@ -1489,24 +2836,83 @@ points file — filter `coord_source = "desurvey"` for true 3D positions;
 **Descriptions** are text: join `descriptions.csv` to the loaded samples on
 `sample_id` in your GIS/DB, or keep it as the reference table.
 
+### Import notes you must read first
+
+**1. Duplicate survey station — OVD009 @ 240.0 m.** `survey.csv` contains two
+rows for this hole+depth, both verbatim from `Survey_all_YMB.csv`:
+
+| dip | azimuth | method | company | date |
+|---|---|---|---|---|
+| −78.91 | 244.64 | MS | Bayan Undraga LLC | 7/28/2024 |
+| −78.00 | 246.50 | Ez-trac, Multi shot | Ragnarok Investment LLC | 5/30/2023 |
+
+Leapfrog and Micromine reject or silently resolve duplicate hole+depth survey
+keys. **Recommended: keep the 2024-07-28 Bayan Undraga MS reading (−78.91 /
+244.64) and delete the 2023-05-30 row.** That is the most recent instrument
+survey of the hole and is the station this build's own desurvey uses, so the
+imported trace will match `samples.x_utm/y_utm/z_rl` exactly. Nothing stored
+depends on the choice in practice — the deepest OVD009 sample is at 195.2 m,
+above both readings. Both rows carry the full explanation in `survey.qa_note`,
+so you can filter with `qa_note LIKE '%drop this row%'`.
+
+**2. OVD008A depths are measured FROM SURFACE.** OVD008A is a re-drill sharing
+the OVD008 collar and `collar.start_depth_m` = 110.5 m, but its 33 survey
+stations run 0 → 162.5 m **from surface**, not from the 110.5 m re-entry point.
+Desurveying OVD008A @ 110.0 m and OVD008 @ 110.5 m gives positions 0.54 m
+apart, which is the correct behaviour for a re-drill of the same collar. If you
+add an OVD008A sample, quote its depth from surface — quoting it from the
+re-entry datum would place it ~110 m too shallow. No sample in the database is
+currently assigned to OVD008A.
+
+**3. 17 samples reference hole `ARDH-2005-01`, which is NOT in `collar`.**
+These are the legacy 2005 thin-section photo stubs (`qa_flags` begins
+`legacy_2005_photo_only`). They have no depth and no coordinates. Filter them
+out with `coord_source <> 'none'` or `hole_id_norm <> 'ARDH-2005-01'` before
+building a drillhole database, otherwise the importer will report an unknown
+hole. This is also why the SQLite file declares no foreign key on
+`samples.hole_id_norm`.
+
+**4. `samples.csv` as an interval table.** `depth_to_m` is null for point
+samples — use `depth_mid_m` as a point table, or `COALESCE(depth_to_m,
+depth_from_m)`. Every row satisfies `depth_from_m <= depth_to_m` (asserted at
+build time); the one inverted interval found by the audit (47176) is corrected
+and flagged.
+
 ## Provenance and caveats
 
 See `QA_report.md` for row counts, join statistics, duplicate handling,
-unmatched descriptions and known source issues (Crawford sample mix-up flags,
-shared tag 42808, unlocated 2025 lab-number samples, etc.).
+unmatched descriptions, the full v1.0 → v1.1 changelog (§12), the resolution of
+every audit defect (§10) and — new in v1.1 — **§11 "Known missing at source"**,
+which lists the datasets that exist only as a name, the ≈330 sample photographs
+that no table models, and the sample suites that still have no microscope
+description.
 """
 (OUT / "README.md").write_text(readme, encoding="utf-8")
 
 # ============================================================================
 # console summary
 # ============================================================================
-print("== BUILD OK ==")
-for name, n, nc, ns, ok in ver:
-    print(f"{name:15s} rows={n:5d} csv={nc:5d} sqlite={ns:5d} {'OK' if ok else 'MISMATCH'}")
+print(f"== BUILD OK (v{DB_VERSION}) ==")
+for name, n, nc, ns, nx, ok in ver:
+    print(f"{name:15s} rows={n:5d} csv={nc:5d} sqlite={ns:5d} xlsx={nx:5d} "
+          f"{'OK' if ok else 'MISMATCH'}")
 print(f"samples with coordinates: {n_coord}/{len(samples)} "
       f"({100*n_coord/len(samples):.1f}%)  desurvey={n_desurv} master_xy={n_masterxy}")
-print(f"descriptions matched: {len(descriptions)-len(unmatched)}/{len(descriptions)}")
+print(f"descriptions matched: {len(descriptions)-len(unmatched)}/{len(descriptions)}"
+      f"  join methods: " + ", ".join(f"{k}={v}" for k, v in jm.most_common()))
 print("uncovered drill samples (hole in collar, no desurvey):", len(uncovered))
+print(f"missing_sources batch: {len(recs_miss)} records -> "
+      f"{len(miss_desc_recs)} descriptions ("
+      + ", ".join(f"{k}={v}" for k, v in miss_stats.most_common())
+      + f"), {len(miss_photo)} photo-only sample stubs")
+print(f"grab-sheet field descriptions recovered: {n_grab_desc}")
+print(f"D5 interval disagreements flagged: {len(d5_rows)} of {n_iv_checked} "
+      f"interval-bearing descriptions checked")
+print(f"D7 near-duplicate sample pairs cross-referenced: {len(near_dupes)}")
+print(f"lu_rock_type: {len(lu_rock_type)} distinct rock names, "
+      f"{sum(1 for r in lu_rock_type if r['rock_group'] == 'other / unclassified')}"
+      f" unclassified")
+print(f"assertions: {sum(1 for _l, ok, _d in checks if ok)}/{len(checks)} passed")
 for x in spot:
     print("SPOT:", x)
 if uncovered:
