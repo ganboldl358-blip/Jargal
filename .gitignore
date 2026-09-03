@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+synth/
+synth2/
+Out_Target/
+_Merged/
+_QC_Sheets/
+*.xlsx
