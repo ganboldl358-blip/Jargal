@@ -156,7 +156,7 @@ def num(v):
     if isinstance(v, (int, float)):
         return v if v == v else None
     if isinstance(v, str):
-        s = v.strip().replace(",", ".").replace("%", "").replace("\u00a0", "")
+        s = v.strip().replace(",", ".").replace("%", "").replace(chr(160), "")
         if not s or s[0] in "<>":
             return None
         try:
