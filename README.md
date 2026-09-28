@@ -20,6 +20,7 @@ Oval Ni-Cu төслийн (Yambat, Asian Battery Metals / AZ9) петрогра�
 - `workspace/` — Drive-ийн инвентор (110+ файл, давхардлын зураглал) ба задалсан завсрын өгөгдөл
 - `scripts/build_database.py` — санг дахин угсрах скрипт (workspace/extracted → database/)
 - `docs/AI_Workflow_L1L2L3_MN.md` — NPG тайлангийн L1/L2/L3 ажлын урсгал: Grok/Gemini/Claude-ийн лимит хэмнэх зохион байгуулалт, туршилтын дүн, модель сонголт
+- `docs/L3_INSTRUCTIONS.md`, `docs/L3_REGISTER.md` — L3 (master/QA/numbers) заавар ба бүртгэл: 2026-09-28-нд 37 хэсэг, 434 хуудас
 - `scripts/npg/` — LLM-гүй хэрэгслүүд: QUEUE удирдах, Gemini API-гаар L1, механик L2, QA, хүснэгт→CSV
 
 ## Эх сурвалжууд (нэгтгэсэн)
