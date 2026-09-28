@@ -33,9 +33,31 @@ async function loadDataset(kind) {
       toast(tr({ en: 'Demo project ready', mn: 'Туршилтын төсөл бэлэн' }));
       navigate('#/');
     } else if (kind === 'oval') {
+      const { readOvalSources, loadOval, OVAL_FILES } = await import('../../core/oval.js');
+      let src;
+      try {
+        src = await readOvalSources();
+      } catch {
+        // not shipped with this copy of ORD: ask for the files from database/csv
+        const ok = await confirmDialog({
+          title: tr({ en: 'Choose the Oval CSV files', mn: 'Oval CSV файлуудыг сонгоно уу' }),
+          body: tr({ en: 'Select these four files from the repository folder database/csv: {f}', mn: 'Репогийн database/csv хавтаснаас эдгээр дөрвөн файлыг сонгоно уу: {f}' }, { f: OVAL_FILES.join(', ') }),
+          ok: tr({ en: 'Choose files', mn: 'Файл сонгох' }),
+        });
+        if (!ok) return;
+        const files = await new Promise((resolve) => {
+          const inp = document.createElement('input');
+          inp.type = 'file';
+          inp.multiple = true;
+          inp.accept = '.csv';
+          inp.onchange = () => resolve([...(inp.files || [])]);
+          inp.click();
+        });
+        if (!files.length) return;
+        src = await readOvalSources(files);
+      }
       await createProject({ name: 'Oval (Yambat) – repository database', description: 'database/csv from the Jargal repository' });
-      const { loadOval } = await import('../../core/oval.js');
-      const r = await loadOval();
+      const r = await loadOval(src);
       await flushNow();
       toast(tr({ en: 'Loaded {h} holes, {s} samples, {a} assay records', mn: '{h} цооног, {s} дээж, {a} шинжилгээ ачааллаа' }, { h: r.holes, s: r.samples, a: r.assays }));
       navigate('#/holes');

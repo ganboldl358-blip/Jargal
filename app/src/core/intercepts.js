@@ -112,8 +112,10 @@ export function toGrade(v, flag, bdl = 'half') {
   }
   if (!isNum(n)) return null;
   if (SENTINELS.has(n)) return null;
+  // a numeric value flagged '<' was already converted on import (settings().belowDetection):
+  // use it as stored instead of halving it a second time
   const f = String(flag ?? '').trim().toLowerCase();
-  if (f.startsWith('<') || f === 'bdl' || f === 'lod' || f === 'lor' || f === 'nd') below = true;
+  if (typeof v === 'string' && (f.startsWith('<') || f === 'bdl' || f === 'lod' || f === 'lor' || f === 'nd')) below = true;
   if (n < 0) {
     below = true;
     n = -n;

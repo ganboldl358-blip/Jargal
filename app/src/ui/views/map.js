@@ -50,6 +50,7 @@ import {
   HoverLayer,
   hashParam,
   mappableHoles,
+  vizSig,
   isPrimarySample,
   lightColourMap,
   recolourSvg,
@@ -723,8 +724,10 @@ function SectionPanel({ section, onSection, onClose, data, shownIds, colouring, 
             height: H,
             candidates: [[0, -13, 'c'], [6, -11, 'l'], [-6, -11, 'r'], [8, 0, 'l'], [-8, 0, 'r'], [0, -26, 'c']],
             obstacles: [
-              [fx0 - 2, fy0 - 21, fx0 + 12, fy0 - 3],
-              [fx1 - 16, fy0 - 21, fx1 + 2, fy0 - 3],
+              [fx0 - 2, fy0 - 21, fx0 + 12, fy0 - 3], // "A"
+              [fx1 - 16, fy0 - 21, fx1 + 2, fy0 - 3], // "A′"
+              [0, fy0 - 8, fx0 - 1, fy1 + 8], // RL tick labels
+              [fx0 - 20, fy1 + 1, fx1 + 20, fy1 + 20], // distance tick labels
             ],
           },
         )
@@ -844,7 +847,7 @@ function SectionPanel({ section, onSection, onClose, data, shownIds, colouring, 
 // -------------------------------------------------------------- map view
 
 export function MapView({ params }) {
-  const rev = useStore();
+  useStore();
   const theme = useTheme();
   const [filter, setFilter] = useVizFilter();
   const [cp, setCp] = useColourPrefs();
@@ -853,18 +856,22 @@ export function MapView({ params }) {
   const [selected, setSelected] = useState(initialHole);
   const [focus, setFocus] = useState(initialHole ? { id: initialHole, n: 0 } : null);
   const [tool, setTool] = useState('');
-  const [section, setSection] = usePref('map.section.' + (S.pid || 'none'), null);
+  // one saved section per project (the view can stay mounted across a project switch)
+  const [sections, setSections] = usePref('map.sections', {});
+  const section = sections?.[S.pid || 'none'] || null;
+  const setSection = (v) => setSections((cur) => ({ ...(cur || {}), [S.pid || 'none']: v }));
   const [secShare] = usePref('map.secShare', 42);
   const hoverRef = useRef(null);
   const readoutRef = useRef(null);
   const stageRef = useRef(null);
   const size = useSize(stageRef);
 
-  const all = useMemo(() => mappableHoles(), [rev]);
-  const total = useMemo(() => holes().length, [rev]);
+  const sig = vizSig();
+  const all = useMemo(() => mappableHoles(), [sig]);
+  const total = useMemo(() => holes().length, [sig]);
   const shown = useMemo(() => all.filter((c) => matchFilter(c, filter)), [all, filter]);
   const shownIds = useMemo(() => new Set(shown.map((c) => c.holeId)), [shown]);
-  const colouring = useMemo(() => buildColouring({ ...cp, theme }), [rev, cp.mode, cp.el, cp.method, theme.key]);
+  const colouring = useMemo(() => buildColouring({ ...cp, theme }), [sig, cp.mode, cp.el, cp.method, theme.key]);
   const data = useMemo(() => planData(all, colouring), [all, colouring]);
   const paths = useMemo(() => tracePaths(data, shownIds), [data, shownIds]);
   const legend = useMemo(() => colouring.legend(shownIds), [colouring, shownIds]);
@@ -1005,8 +1012,9 @@ function miniData() {
 
 /** Plan thumbnail of all collars with one hole highlighted (hole workspace header). */
 export function MiniMap({ holeId, height = 120 }) {
-  const rev = useStore();
-  const d = useMemo(() => miniData(), [rev]);
+  useStore();
+  const sig = vizSig();
+  const d = useMemo(() => miniData(), [sig]);
   const target = d.holes.find((x) => x.id === holeId);
   if (!d.holes.length || !validBounds(d.bounds)) {
     return html`<div class="minimap minimap-empty muted" style=${`height:${height}px`}>${tr({ en: 'No coordinates', mn: 'Координатгүй' })}</div>`;

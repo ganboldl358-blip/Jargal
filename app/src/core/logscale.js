@@ -139,10 +139,14 @@ export function fmtVal(v) {
   return trimNum(v, Math.min(6, 2 - Math.floor(Math.log10(a))));
 }
 
-/** Value to plot for an assay: below-detection ('<' flag or negative) → half LOR / LOR / zero. */
+/**
+ * Value to plot for an assay. A stored value flagged '<' was already converted on
+ * import (settings().belowDetection) and is plotted as is; only the old
+ * negative (−LOR) convention is converted here → half LOR / LOR / zero.
+ */
 export function plotValue(v, flag, mode = 'half') {
   if (!isNum(v)) return null;
-  const below = flag === '<' || v < 0;
+  const below = v < 0;
   if (!below) return v;
   const a = Math.abs(v);
   if (mode === 'lor') return a;

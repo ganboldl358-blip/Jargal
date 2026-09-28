@@ -13,11 +13,14 @@ import { Grid } from '../grid.js';
 import { useStore, Button, IconButton, Pill, Tabs, Empty, openModal, confirmDialog, promptDialog, toast, navigate, injectCSS, usePref, Field, Select } from '../kit.js';
 import { track, doneToast } from '../undo.js';
 import { PhotoTab, PhotoStrip } from '../photos.js';
+import { MiniMap } from './map.js';
 
 injectCSS(
   'holeview',
   `
 .hv { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+.hv-mini { width: 132px; flex: none; }
+.hv-mini .mm-n { display: none; }
 .hv-head { display: flex; gap: 14px; align-items: center; padding: 12px 20px 10px; background: var(--surface); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
 .hv-title { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .hv-title h1 { font-family: var(--display); font-size: 22px; letter-spacing: 0.01em; }
@@ -40,7 +43,7 @@ injectCSS(
 .hv-form .form-grid { max-width: 1100px; }
 .hv-issues { padding: 16px 20px; overflow: auto; }
 @media (max-width: 1100px) { .hv-body { grid-template-columns: minmax(0, 1fr); } .hv-log, .hv-split { display: none; } }
-@media (max-width: 700px) { .hv-head { padding: 10px 16px 8px; gap: 8px; } .hv-facts { gap: 10px; font-size: 12px; } .hv-facts > span:nth-child(n+4) { display: none; } .hv-title h1 { font-size: 19px; } }
+@media (max-width: 700px) { .hv-mini { display: none; } .hv-head { padding: 10px 16px 8px; gap: 8px; } .hv-facts { gap: 10px; font-size: 12px; } .hv-facts > span:nth-child(n+4) { display: none; } .hv-title h1 { font-size: 19px; } }
 .colpick { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 6px 12px; }
 .hist-row { display: grid; grid-template-columns: 130px 1fr; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
 .diff del { color: var(--err); text-decoration: line-through; }
@@ -471,6 +474,7 @@ export function HoleView({ params }) {
         ${sevCount.warn ? html`<span style="color:var(--warn)"><b>${sevCount.warn}</b> ${tr({ en: 'warnings', mn: 'анхааруулга' })}</span>` : null}
       </div>
       <span class="spacer"></span>
+      ${isNum(c.east) && isNum(c.north) ? html`<div class="hv-mini" title=${tr({ en: 'Location among all holes — click to open the map', mn: 'Бусад цооногийн дундах байршил — дарж зураг нээнэ' })}><${MiniMap} holeId=${holeId} height=${52} /></div>` : null}
       <div class="row">
         <${Button} size="sm" icon="log" onClick=${() => navigate('#/striplog/' + encodeURIComponent(holeId))}>${tr({ en: 'Strip log', mn: 'Баганан лог' })}<//>
         <${IconButton} icon="menu" title=${tr({ en: 'Hole actions', mn: 'Цооногийн үйлдэл' })} onClick=${hostActions} />

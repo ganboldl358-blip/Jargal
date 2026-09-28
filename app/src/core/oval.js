@@ -8,7 +8,12 @@ import { mutate, setSettings, codeMap } from './store.js';
 
 const SOURCES = ['data/oval/', '../database/csv/'];
 
-async function fetchCSV(name) {
+export const OVAL_FILES = ['collar.csv', 'survey.csv', 'samples.csv', 'sample_assays.csv'];
+
+async function fetchCSV(name, files) {
+  const f = files?.find((x) => x.name.toLowerCase() === name);
+  if (f) return parseCSVObjects(await f.text()).rows;
+  if (files) throw new Error(`${name} was not among the chosen files`);
   let lastErr;
   for (const base of SOURCES) {
     try {
@@ -43,8 +48,14 @@ export function parseAssayHeader(h) {
   return { key: `${el}_${unit}`, el, unit, method: method.replace(/_/g, '-') };
 }
 
-export async function loadOval() {
-  const [collars, surveys, samples, assays] = await Promise.all([fetchCSV('collar.csv'), fetchCSV('survey.csv'), fetchCSV('samples.csv'), fetchCSV('sample_assays.csv')]);
+/** Read the four source tables — from the files shipped next to the app, or from files the user picked. */
+export async function readOvalSources(files) {
+  const [collars, surveys, samples, assays] = await Promise.all(OVAL_FILES.map((n) => fetchCSV(n, files)));
+  return { collars, surveys, samples, assays };
+}
+
+export async function loadOval(src) {
+  const { collars, surveys, samples, assays } = src || (await readOvalSources());
   const ops = [];
   const holeSet = new Set();
 

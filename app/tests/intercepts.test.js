@@ -54,7 +54,7 @@ test('below-detection values and sentinels', () => {
   assert.equal(toGrade('<0.01', null, 'lor'), 0.01);
   assert.equal(toGrade('<0.01', null, 'zero'), 0);
   assert.equal(toGrade(-0.01), 0.005);
-  assert.equal(toGrade(0.01, '<'), 0.005);
+  assert.equal(toGrade(0.01, '<'), 0.01, 'a stored value flagged < was already converted on import');
   assert.equal(toGrade(-99), null);
   assert.equal(toGrade(-999), null);
   assert.equal(toGrade('>10'), 10);
@@ -178,11 +178,11 @@ test('zero samples, all waste and below-detection samples', () => {
   makeHole('B1', [1, { raw: '<0.01' }, { raw: 0.01, flag: '<' }, { raw: -0.01 }, 1]);
   const half = run('B1', { ...P, minLen: 1 });
   assert.equal(half.length, 1);
-  near(half[0].grade, (1 + 0.005 * 3 + 1) / 5);
+  near(half[0].grade, (1 + 0.005 + 0.01 + 0.005 + 1) / 5);
   const lor = run('B1', { ...P, minLen: 1, bdl: 'lor' });
   near(lor[0].grade, (1 + 0.01 * 3 + 1) / 5);
   const zero = run('B1', { ...P, minLen: 1, bdl: 'zero' });
-  near(zero[0].grade, 0.4);
+  near(zero[0].grade, (1 + 0 + 0.01 + 0 + 1) / 5);
   // a BDL sample never starts an intercept even at a tiny cut-off with LOR policy
   makeHole('B2', [{ raw: '<0.5' }, { raw: '<0.5' }]);
   assert.equal(run('B2', { ...P, cutoff: 0.3, minLen: 1 }).length, 0, 'half of 0.5 LOR is below 0.3');

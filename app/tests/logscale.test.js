@@ -92,7 +92,7 @@ test('value domains and scales (linear and log)', () => {
 });
 
 test('below-detection values plot at half LOR by default', () => {
-  assert.equal(L.plotValue(0.005, '<'), 0.0025);
+  assert.equal(L.plotValue(0.0025, '<'), 0.0025, 'already converted on import');
   assert.equal(L.plotValue(-0.01, undefined), 0.005);
   assert.equal(L.plotValue(-0.01, undefined, 'lor'), 0.01);
   assert.equal(L.plotValue(-0.01, '<', 'zero'), 0);

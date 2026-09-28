@@ -30,6 +30,7 @@ import {
   HoverLayer,
   hashParam,
   mappableHoles,
+  vizSig,
   useDebounced,
 } from './vizkit.js';
 
@@ -48,14 +49,10 @@ function loadThree() {
   return threeP;
 }
 
-function webglAvailable() {
-  try {
-    const c = document.createElement('canvas');
-    return !!(window.WebGLRenderingContext && (c.getContext('webgl2') || c.getContext('webgl')));
-  } catch {
-    return false;
-  }
-}
+// Cheap check only: creating a throw-away context would cost one of the few
+// contexts a page may hold. If context creation fails, three.js throws and
+// the view shows the same "not available" message.
+const webglAvailable = () => typeof window !== 'undefined' && !!window.WebGLRenderingContext;
 
 // One WebGL renderer is kept between visits to the 3D view: creating and
 // tearing down a context is slow (seconds on software GL) and browsers cap
@@ -383,7 +380,6 @@ class Scene3D {
         label.style.display = 'none';
         this.labelLayer.appendChild(label);
       }
-      label.w = null;
       const h = { id: it.id, mesh, xs, ys, zs, mds, pts: it.pts, planned: it.planned, label, sx: new Float32Array(n), sy: new Float32Array(n) };
       if (mesh) mesh.visible = !this.visible || this.visible.has(it.id);
       this.holes.set(it.id, h);
@@ -725,6 +721,10 @@ class Scene3D {
     const items = [];
     const s = this.world.scale.z;
     if (this.showLabels) {
+      // measure new labels once, in one batch (write all, then read all)
+      const fresh = [...this.holes.values()].filter((h) => h.label.w == null);
+      for (const h of fresh) h.label.style.display = 'block';
+      for (const h of fresh) h.label.w = h.label.offsetWidth || h.id.length * 7 + 12;
       const pri = [this.selected, this.hoverId].filter(Boolean);
       const ids = [...pri, ...this.order.filter((id) => !pri.includes(id))];
       const lift = this.radius * 2;
@@ -733,10 +733,6 @@ class Scene3D {
         if (!h || (this.visible && !this.visible.has(id))) continue;
         const sp = this.project(h.xs[0], h.ys[0], h.zs[0] + lift / (s || 1));
         if (!sp || sp[0] < -40 || sp[1] < -20 || sp[0] > this.w + 40 || sp[1] > this.h + 20) continue;
-        if (h.label.w == null) {
-          h.label.style.display = 'block';
-          h.label.w = h.label.offsetWidth || id.length * 7 + 12;
-        }
         items.push({ id, x: sp[0], y: sp[1], w: h.label.w, h: 18 });
       }
     }
@@ -1009,7 +1005,7 @@ function Message({ icon = 'cube', title, children }) {
 }
 
 export function View3D({ params }) {
-  const rev = useStore();
+  useStore();
   const theme = useTheme();
   const [filter, setFilter] = useVizFilter();
   const [cp, setCp] = useColourPrefs();
@@ -1028,11 +1024,12 @@ export function View3D({ params }) {
   const tipRef = useRef(null);
   const size = useSize(stageRef);
 
-  const all = useMemo(() => mappableHoles(), [rev]);
-  const total = useMemo(() => holes().length, [rev]);
+  const sig = vizSig();
+  const all = useMemo(() => mappableHoles(), [sig]);
+  const total = useMemo(() => holes().length, [sig]);
   const shown = useMemo(() => all.filter((c) => matchFilter(c, filter)), [all, filter]);
   const shownIds = useMemo(() => new Set(shown.map((c) => c.holeId)), [shown]);
-  const colouring = useMemo(() => buildColouring({ ...cp, theme }), [rev, cp.mode, cp.el, cp.method, theme.key]);
+  const colouring = useMemo(() => buildColouring({ ...cp, theme }), [sig, cp.mode, cp.el, cp.method, theme.key]);
   const model = useMemo(() => buildModel(all, colouring), [all, colouring]);
   const legend = useMemo(() => colouring.legend(shownIds), [colouring, shownIds]);
   const veBuild = useDebounced(ve, 250);

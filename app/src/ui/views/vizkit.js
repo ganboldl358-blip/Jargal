@@ -339,7 +339,7 @@ function legendFor(c, ids) {
 
 /** Legend card (HTML overlay). */
 export function Legend({ legend, class: cls = '' }) {
-  const [open, setOpen] = usePref('viz.legendOpen', true);
+  const [open, setOpen] = usePref('viz.legendOpen', !window.matchMedia?.('(max-width: 820px)').matches);
   if (!legend) return null;
   return html`<div class=${'viz-legend ' + cls} role="group" aria-label=${tr({ en: 'Legend', mn: 'Тайлбар' })}>
     <button class="viz-legend-head" onClick=${() => setOpen(!open)} aria-expanded=${open}>
@@ -423,8 +423,7 @@ export function HoverLayer({ bind, colouring, w, h, hint = true }) {
   useEffect(() => {
     bind.current = setHv;
     return () => {
-      bind.current = null;
-      setHv(null);
+      if (bind.current === setHv) bind.current = null;
     };
   }, [bind]);
   const mdKey = hv ? Math.round(hv.md * 10) : 0;
@@ -442,6 +441,31 @@ export function hashParam(name) {
     if (k === name) return decodeURIComponent(v || '');
   }
   return '';
+}
+
+const VIZ_TABLES = new Set(['collar', 'survey', 'lith', 'samples', 'assays', 'codes', 'settings']);
+
+/**
+ * Signature of everything the map / section / 3D draw. The store also emits for
+ * status-only changes (autosave, the cloud project list); keying memos on this
+ * instead of the store revision avoids rebuilding geometry when no drawn data changed.
+ */
+export function vizSig() {
+  return memo('viz.sig', () => {
+    let h = 2166136261 >>> 0;
+    const add = (str) => {
+      for (let i = 0; i < str.length; i++) h = Math.imul(h ^ str.charCodeAt(i), 16777619) >>> 0;
+    };
+    let n = 0;
+    for (const d of S.docs.values()) {
+      if (!VIZ_TABLES.has(d.table)) continue;
+      let mt = 0;
+      for (const r of d.rows) if ((r._t || 0) > mt) mt = r._t;
+      add(`${d.key}:${d.rows.length}:${mt};`);
+      n++;
+    }
+    return `${S.pid}|${S.lang}|${n}|${h.toString(36)}`;
+  });
 }
 
 /** Collars with coordinates (memoised per store revision). */
@@ -467,7 +491,7 @@ injectCSS(
 .viz { flex: 1; min-height: 0; min-width: 0; display: flex; flex-direction: column; background: var(--bg); position: relative; }
 .viz-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 8px 12px; border-bottom: 1px solid var(--line); background: var(--surface); }
 .viz-bar h1 { font-size: 16px; font-weight: 650; margin-right: 2px; }
-.viz-bar .grp { display: inline-flex; align-items: center; gap: 6px; }
+.viz-bar .grp { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .viz-bar .lbl { font-size: 12px; color: var(--muted); font-weight: 550; white-space: nowrap; }
 .viz-bar .inp { padding: 4px 8px; font-size: 13px; max-width: 210px; }
 .viz-bar input[type=range] { width: 92px; accent-color: var(--accent); }
@@ -519,7 +543,7 @@ injectCSS(
   .viz-side.open { transform: none; }
   .viz-bar { padding: 8px; gap: 6px 10px; }
   .viz-bar .hide-sm { display: none; }
-  .viz-legend { width: 210px; right: 8px; bottom: 8px; }
+  .viz-legend { width: 210px; right: 8px; bottom: 8px; max-height: 55%; }
 }
 @media (min-width: 821px) { .viz-side:not(.open) { display: none; } }
 `,
