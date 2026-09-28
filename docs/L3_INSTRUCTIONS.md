@@ -54,7 +54,7 @@ L2 (нормчилсон монгол, `(тайлан, х.N)` иштэй) тек
 - **Ном зүй**: бүртгэлийн тоо, гол бүтээлүүдийг (зохиогч, он) жагсаана. Бүтнээр нь хуулах шаардлагагүй.
 
 ## 4. numbers.csv (UTF-8 BOM = U+FEFF-ээр эхэлнэ)
-**Upload:** `textContent` BOM-ийг хасдаг тул CSV-г **`base64Content`**-оор (UTF-8 BOM `EF BB BF` + текст) ачаална. `contentMimeType: text/csv`, `disableConversionToGoogleType: true`.
+**Upload:** энгийн `textContent`-оор НЭГ удаа ачаална (`text/csv`, `disableConversionToGoogleType: true`). BOM-ийг Drive хасдаг бөгөөд base64 оролдлогыг хийхгүй. BOM-ийг дараа нь Jak-ын компьютер дээр `scripts/npg/csv_bom.py` нэмнэ. Зөвхөн BOM эсвэл форматын төлөө `_v2` хуулбар үүсгэхгүй.
 Толгой (өөрчлөхгүй): `report_id,item,value,unit,l3_section,source_page,l1_match,notes`
 - L3-д орсон **гол тоо бүр** нэг мөр болно: зузаан, хэмжээ, агуулга, нөөц, солбицол, он, сорьцын дугаар, тоо ширхэг.
 - `l1_match`: `тийм` / `үгүй` / `L2_GROK засвар` (L1-ээс ялгаатай боловч L2_GROK зассан, жишээ нь а/б/в индекс) / `уншигдахгүй`.
