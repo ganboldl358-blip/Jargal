@@ -53,7 +53,7 @@ L2 (нормчилсон монгол, `(тайлан, х.N)` иштэй) тек
 - **Зураг ([FIGURE])**: гарчиг, дугаарыг «Зураг ба хавсралт» дэд хэсэгт жагсаана.
 - **Ном зүй**: бүртгэлийн тоо, гол бүтээлүүдийг (зохиогч, он) жагсаана. Бүтнээр нь хуулах шаардлагагүй.
 
-## 4. numbers.csv (UTF-8 BOM, `﻿`-ээр эхэлнэ)
+## 4. numbers.csv (UTF-8 BOM = U+FEFF-ээр эхэлнэ)
 **Upload:** `textContent` BOM-ийг хасдаг тул CSV-г **`base64Content`**-оор (UTF-8 BOM `EF BB BF` + текст) ачаална. `contentMimeType: text/csv`, `disableConversionToGoogleType: true`.
 Толгой (өөрчлөхгүй): `report_id,item,value,unit,l3_section,source_page,l1_match,notes`
 - L3-д орсон **гол тоо бүр** нэг мөр болно: зузаан, хэмжээ, агуулга, нөөц, солбицол, он, сорьцын дугаар, тоо ширхэг.
