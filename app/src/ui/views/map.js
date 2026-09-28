@@ -51,6 +51,8 @@ import {
   hashParam,
   mappableHoles,
   isPrimarySample,
+  lightColourMap,
+  recolourSvg,
 } from './vizkit.js';
 
 const M = () => tr({ en: 'm', mn: 'м' });
@@ -716,7 +718,15 @@ function SectionPanel({ section, onSection, onClose, data, shownIds, colouring, 
               const p = hh.collar.inside ? hh.collar : hh.entry;
               return { id: hh.id, x: X(p.along), y: Y(p.z), w: hh.id.length * 6.7 + 4, h: 13 };
             }),
-          { width: W, height: H, candidates: [[0, -13, 'c'], [6, -11, 'l'], [-6, -11, 'r'], [8, 0, 'l'], [-8, 0, 'r'], [0, -26, 'c']] },
+          {
+            width: W,
+            height: H,
+            candidates: [[0, -13, 'c'], [6, -11, 'l'], [-6, -11, 'r'], [8, 0, 'l'], [-8, 0, 'r'], [0, -26, 'c']],
+            obstacles: [
+              [fx0 - 2, fy0 - 21, fx0 + 12, fy0 - 3],
+              [fx1 - 16, fy0 - 21, fx1 + 2, fy0 - 3],
+            ],
+          },
         )
       : [];
   const mono = theme.mono;
@@ -728,11 +738,13 @@ function SectionPanel({ section, onSection, onClose, data, shownIds, colouring, 
     try {
       const clone = el.cloneNode(true);
       clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+      clone.removeAttribute('style');
       clone.querySelectorAll('[data-noexport]').forEach((n) => n.remove());
       const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
       title.textContent = `${S.project?.name || 'ORD'} – section A–A′`;
       clone.insertBefore(title, clone.firstChild);
-      const str = '<?xml version="1.0" encoding="UTF-8"?>\n' + new XMLSerializer().serializeToString(clone);
+      // always export in the light palette: sections end up in printed reports
+      const str = '<?xml version="1.0" encoding="UTF-8"?>\n' + recolourSvg(new XMLSerializer().serializeToString(clone), lightColourMap(theme, colouring));
       await saveFile('ord_section.svg', str, 'image/svg+xml');
     } catch (e) {
       console.error(e);
@@ -1077,7 +1089,6 @@ injectCSS(
 .map-minus { font-size: 20px; line-height: 1; font-weight: 500; }
 .map-hint { position: absolute; left: 50%; top: 12px; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 6px 12px; border-radius: 8px; font-size: 13px; box-shadow: var(--shadow); pointer-events: none; max-width: calc(100% - 140px); text-align: center; }
 .map-readout { position: absolute; left: 14px; bottom: 34px; font: 11px var(--mono); color: var(--ink-2); background: color-mix(in srgb, var(--bg) 75%, transparent); padding: 1px 5px; border-radius: 5px; pointer-events: none; }
-.map-info { left: auto; right: 12px; top: 12px; }
 .map-info .meter { height: 5px; }
 .map-empty { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: grid; gap: 8px; justify-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; box-shadow: var(--shadow); }
 .vmap .viz-legend { bottom: 12px; }

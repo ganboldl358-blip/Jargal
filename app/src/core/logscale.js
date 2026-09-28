@@ -247,11 +247,14 @@ export function layoutTracks(tracks, avail) {
     const f = pref > minSum ? Math.max(0, (avail - minSum) / (pref - minSum)) : 0;
     widths = tracks.map((t) => (t.min ?? t.w) + (t.w - (t.min ?? t.w)) * f);
   }
+  // round the boundaries, not each width, so the tracks add up to the whole width
+  let acc = 0;
   let x = 0;
   const out = tracks.map((t, i) => {
-    const w = Math.max(1, Math.floor(widths[i]));
-    const o = { ...t, x, w };
-    x += w;
+    acc += widths[i];
+    const end = Math.max(x + 1, Math.round(acc));
+    const o = { ...t, x, w: end - x };
+    x = end;
     return o;
   });
   return { tracks: out, width: x };

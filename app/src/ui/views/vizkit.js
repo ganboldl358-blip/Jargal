@@ -6,7 +6,7 @@ import { html, useState, useEffect, useMemo } from '../../lib.js';
 import { S, holes, hole, rows, codes, codeColor, meaning, settings, assayValues, elementKeys, memo } from '../../core/store.js';
 import { holeTrace, buildTrace } from '../../core/desurvey.js';
 import { elementLabel } from '../../core/schema.js';
-import { makeClassScale, rampFor, fmtValue, mix, isDark } from '../../core/colorramp.js';
+import { makeClassScale, rampFor, rampColors, RAMPS, fmtValue, mix, isDark } from '../../core/colorramp.js';
 import { colourPieces, intervalAt } from '../../core/geom2d.js';
 import { isNum, natCmp, fmt } from '../../core/util.js';
 import { tr } from '../../i18n.js';
@@ -67,6 +67,34 @@ export function useTheme() {
 
 /** Colour for unlogged / unsampled depths: recessive but visible on the surface. */
 export const neutralColour = (theme) => mix(theme.muted, theme.bg, theme.dark ? 0.3 : 0.4);
+
+/**
+ * Colour substitutions that turn a drawing made in the dark theme into its
+ * light-theme equivalent (exports go into reports printed on white).
+ * Returns a Map lower-case hex -> light hex; empty in the light theme.
+ */
+export function lightColourMap(theme, colouring) {
+  const m = new Map();
+  if (!theme?.dark) return m;
+  const light = { ...FALLBACK, dark: false };
+  for (const k of Object.keys(FALLBACK)) if (theme[k] && theme[k] !== FALLBACK[k]) m.set(String(theme[k]).toLowerCase(), FALLBACK[k]);
+  m.set(neutralColour(theme).toLowerCase(), neutralColour(light));
+  const sc = colouring?.scale;
+  if (sc?.colors?.length) {
+    const lc = rampColors(RAMPS.light, sc.colors.length);
+    sc.colors.forEach((c, i) => m.set(c.toLowerCase(), lc[i]));
+  }
+  return m;
+}
+
+/** Apply lightColourMap() to quoted hex colours in an SVG/XML string. */
+export function recolourSvg(str, map) {
+  if (!map?.size) return str;
+  return str.replace(/(["'])(#[0-9a-fA-F]{3,8})\1/g, (all, q, hex) => {
+    const r = map.get(hex.toLowerCase());
+    return r ? q + r + q : all;
+  });
+}
 
 // ---------------------------------------------------------------- filters
 

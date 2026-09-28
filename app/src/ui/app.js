@@ -35,7 +35,8 @@ const ROUTES = [
 ];
 
 function matchRoute(hash) {
-  const path = hash.replace(/^#\/?/, '').split('?')[0];
+  const [path, qs = ''] = hash.replace(/^#\/?/, '').split('?');
+  const query = Object.fromEntries(new URLSearchParams(qs));
   const parts = path ? path.split('/').map(decodeURIComponent) : [];
   for (const [pat, load, name] of ROUTES) {
     const pp = pat ? pat.split('/') : [];
@@ -46,9 +47,9 @@ function matchRoute(hash) {
       if (p.startsWith(':')) params[p.slice(1)] = parts[i];
       else if (p !== parts[i]) ok = false;
     });
-    if (ok) return { pat, load, name, params };
+    if (ok) return { pat, load, name, params: { ...params, query } };
   }
-  return { pat: '', load: ROUTES[0][1], name: ROUTES[0][2], params: {} };
+  return { pat: '', load: ROUTES[0][1], name: ROUTES[0][2], params: { query } };
 }
 
 function useHash() {

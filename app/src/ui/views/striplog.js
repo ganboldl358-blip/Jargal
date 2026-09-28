@@ -232,7 +232,12 @@ function drawLith(t, d, c) {
     else byColor.set(col, (byColor.get(col) || '') + L.rectPath(x, y0, w, hgt));
     if (hgt >= 3) seps += `M${x} ${r1(y0)}h${w}M${x} ${r1(y1)}h${w}`;
     if (hgt >= 10 && r.lith1 && cols >= 2) {
-      labels.push(html`<text x=${r1(x + w / 2)} y=${r1((y0 + y1) / 2)} dy="0.34em" text-anchor="middle" fill=${isCL ? undefined : L.inkOn(col)} style=${isCL ? 'fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:3px' : undefined}>${L.fitHead(r.lith1, cols)}</text>`);
+      const named = !isCL && hgt >= 28 && w >= 72 && meaning('LITH', r.lith1);
+      const cy = (y0 + y1) / 2 - (named ? 5 : 0);
+      const ink = isCL ? undefined : L.inkOn(col);
+      const halo = isCL ? 'fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:3px' : undefined;
+      labels.push(html`<text x=${r1(x + w / 2)} y=${r1(cy)} dy="0.34em" text-anchor="middle" fill=${ink} style=${halo}>${L.fitHead(r.lith1, cols)}</text>`);
+      if (named) labels.push(html`<text x=${r1(x + w / 2)} y=${r1(cy + 11)} dy="0.34em" text-anchor="middle" fill=${ink} style=${`${FONT};font-size:8.5px;font-weight:400;opacity:0.85`}>${L.fitHead(meaning('LITH', r.lith1), Math.floor((w - 6) / 4.8))}</text>`);
     }
   }
   return {
@@ -559,13 +564,15 @@ function drawComments(t, d, c) {
     const y1 = c.y(r.to);
     iv.push({ y0, y1, row: r, table: 'lith', kind: 'lith' });
     const hgt = y1 - y0;
-    const lineTop = hgt >= LH + 2 ? y0 + 1 : (y0 + y1) / 2 - LH / 2;
-    const top = Math.max(lineTop, lastBottom + 1);
-    const limit = Math.max(y1, lineTop + LH);
-    const n = Math.min(8, Math.floor((limit - top) / LH));
-    if (n < 1) continue;
-    const lines = L.wrapText(txt, cols, n);
+    const mid = (y0 + y1) / 2;
+    // centred on the interval's mid-depth; never overlapping the note above
+    let lines = L.wrapText(txt, cols, Math.max(1, Math.min(8, Math.floor((hgt - 2) / LH))));
     if (!lines.length) continue;
+    const limit = Math.max(y1, mid + LH / 2);
+    const top = Math.max(mid - (lines.length * LH) / 2, lastBottom + 1);
+    const n = Math.floor((limit - top) / LH + 1e-6);
+    if (n < 1) continue;
+    if (n < lines.length) lines = L.wrapText(txt, cols, n);
     if (hgt >= 4) brackets += `M${r1(t.x + 6)} ${r1(y0 + 1)}h-2V${r1(y1 - 1)}h2`;
     const bx = r1(t.x + 9);
     texts.push(html`<text x=${bx} y=${r1(top + 8)}>${lines.map((ln, i) => html`<tspan x=${bx} dy=${i ? LH : 0}>${ln}</tspan>`)}</text>`);
@@ -656,6 +663,12 @@ function buildLog(d, tracks, o) {
       : null}
   </g>`;
   return { tracks: laid, W, H, ppm, head, body, hits, index, dropped };
+}
+
+/** Laid-out geometry of a hole's log without rendering it (tests, print layouts). */
+export function stripLogGeometry(holeId, { ppm = 4, width = 900, log = false, hidden = [], pxrf = '' } = {}) {
+  const d = collect(holeId, pxrf);
+  return buildLog(d, trackList(d), { ppm: L.clampPpm(ppm), width, log, hidden, uid: 'slg' });
 }
 
 function hitTest(g, x, y) {
@@ -1340,7 +1353,7 @@ function holeMeta(h) {
   if (!h) return '';
   return [
     h.prospect,
-    h.holeType && meaning('HOLETYPE', h.holeType) ? `${h.holeType}` : h.holeType,
+    h.holeType,
     h.status ? meaning('HOLESTATUS', h.status) || h.status : null,
     isNum(h.azimuth) || isNum(h.dip) ? `Az ${isNum(h.azimuth) ? L.trimNum(h.azimuth, 1) : '—'}° / ${isNum(h.dip) ? L.trimNum(h.dip, 1) : '—'}°` : null,
     isNum(h.eoh) ? `EOH ${fix(h.eoh, 2)} m` : isNum(h.plannedDepth) ? `${tr({ en: 'planned', mn: 'төлөвлөсөн' })} ${fix(h.plannedDepth, 1)} m` : null,

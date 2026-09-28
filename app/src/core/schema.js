@@ -237,6 +237,23 @@ export const TABLES = {
     ],
   },
 
+  photos: {
+    key: 'photos',
+    label: { en: 'Core photos', mn: 'Кернийн зураг' },
+    short: { en: 'Photos', mn: 'Зураг' },
+    scope: 'hole',
+    kind: 'interval',
+    match: ['name'],
+    fields: [
+      F('from', 'num', 'From', 'Эхлэл', { w: 70, dp: 2 }),
+      F('to', 'num', 'To', 'Төгсгөл', { w: 70, dp: 2 }),
+      F('kind', 'text', 'Wet / dry', 'Нойтон / хуурай', { w: 70 }),
+      F('boxes', 'text', 'Boxes', 'Хайрцаг', { w: 70 }),
+      F('name', 'text', 'File name', 'Файлын нэр', { w: 260 }),
+      F('comments', 'note', 'Comments', 'Тайлбар', { w: 200 }),
+    ],
+  },
+
   // ---- project-scope tables ------------------------------------------------
   codes: {
     key: 'codes',

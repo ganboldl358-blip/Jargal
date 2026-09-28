@@ -2,7 +2,7 @@
 // otherwise an in-memory fallback so the app still works in restricted frames.
 
 const DB_NAME = 'ord-drillhole';
-const DB_VER = 1;
+const DB_VER = 2;
 
 function req(r) {
   return new Promise((res, rej) => {
@@ -30,6 +30,7 @@ export async function idbAdapter() {
       s.createIndex('pid', 'pid');
     }
     if (!db.objectStoreNames.contains('kv')) db.createObjectStore('kv');
+    if (!db.objectStoreNames.contains('blobs')) db.createObjectStore('blobs');
   };
   const db = await Promise.race([
     req(open),
@@ -70,6 +71,20 @@ export async function idbAdapter() {
       for (const k of keys) tx.objectStore('docs').delete([pid, k]);
       return txDone(tx);
     },
+    async putBlob(k, blob) {
+      const tx = db.transaction('blobs', 'readwrite');
+      tx.objectStore('blobs').put(blob, k);
+      return txDone(tx);
+    },
+    async getBlob(k) {
+      const tx = db.transaction('blobs', 'readonly');
+      return req(tx.objectStore('blobs').get(k));
+    },
+    async deleteBlob(k) {
+      const tx = db.transaction('blobs', 'readwrite');
+      tx.objectStore('blobs').delete(k);
+      return txDone(tx);
+    },
     async get(k) {
       const tx = db.transaction('kv', 'readonly');
       return req(tx.objectStore('kv').get(k));
@@ -86,6 +101,7 @@ export function memoryAdapter() {
   const projects = new Map();
   const docs = new Map();
   const kv = new Map();
+  const blobs = new Map();
   const clone = (x) => JSON.parse(JSON.stringify(x));
   return {
     kind: 'memory',
@@ -107,6 +123,15 @@ export function memoryAdapter() {
     },
     async deleteDocs(pid, keys) {
       for (const k of keys) docs.delete(pid + '\u0000' + k);
+    },
+    async putBlob(k, b) {
+      blobs.set(k, b);
+    },
+    async getBlob(k) {
+      return blobs.get(k);
+    },
+    async deleteBlob(k) {
+      blobs.delete(k);
     },
     async get(k) {
       return kv.get(k);

@@ -12,6 +12,7 @@ import { Icon } from '../icons.js';
 import { Grid } from '../grid.js';
 import { useStore, Button, IconButton, Pill, Tabs, Empty, openModal, confirmDialog, promptDialog, toast, navigate, injectCSS, usePref, Field, Select } from '../kit.js';
 import { track, doneToast } from '../undo.js';
+import { PhotoTab, PhotoStrip } from '../photos.js';
 
 injectCSS(
   'holeview',
@@ -46,7 +47,7 @@ injectCSS(
 `,
 );
 
-const TABS = ['header', 'survey', 'lith', 'geotech', 'struct', 'samples', 'assays', 'pxrf', 'phys', 'issues'];
+const TABS = ['header', 'survey', 'lith', 'geotech', 'struct', 'samples', 'assays', 'pxrf', 'phys', 'photos', 'issues'];
 
 function tabLabel(k) {
   if (k === 'header') return tr({ en: 'Header', mn: 'Толгой' });
@@ -293,7 +294,7 @@ export function HoleView({ params }) {
   const lockedByOther = c.locked && c.lockedBy && c.lockedBy !== S.user.id;
   const readOnly = !!S.readOnly || lockedByOther;
   const table = tab;
-  const isTable = !['header', 'issues'].includes(tab);
+  const isTable = !['header', 'issues', 'photos'].includes(tab);
   const def = TABLES[table];
   const list = isTable ? rows(table, holeId) : [];
   const fields = isTable ? gridFields(table, holeId, hiddenCols[table]) : [];
@@ -489,6 +490,8 @@ export function HoleView({ params }) {
     </div>
     ${tab === 'header'
       ? html`<${HeaderForm} c=${c} readOnly=${readOnly} />`
+      : tab === 'photos'
+        ? html`<${PhotoTab} holeId=${holeId} readOnly=${readOnly} />`
       : tab === 'issues'
         ? html`<${IssuesPanel}
             holeId=${holeId}
@@ -531,6 +534,7 @@ export function HoleView({ params }) {
                   onOpenRow=${(r) => openModal(() => html`<${RowHistory} table=${table} holeId=${holeId} row=${r} />`, { title: t('history'), wide: true })}
                 />
               </div>
+              ${active && table !== 'photos' ? html`<${PhotoStrip} holeId=${holeId} from=${active.from ?? active.depth} to=${active.to ?? active.depth} />` : null}
               ${footer}
             </div>
             ${showLog
