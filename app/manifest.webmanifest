@@ -1,0 +1,10 @@
+{
+  "name": "ORD Drillhole",
+  "short_name": "ORD",
+  "description": "Drillhole logging, sampling, QA/QC and 3D. Works offline.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f2f5f4",
+  "theme_color": "#0d7a74",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

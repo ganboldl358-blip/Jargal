@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="mn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ORD Drillhole</title>
+<meta name="description" content="ORD — drillhole logging, sampling, QA/QC and 3D for exploration geologists. Works offline.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Unbounded:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0d7a74">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='3' width='28' height='26' rx='4' fill='%230d7a74'/%3E%3Crect x='6' y='8' width='20' height='3.6' rx='1.8' fill='%23fff'/%3E%3Crect x='6' y='14.2' width='8' height='3.6' rx='1.8' fill='%23fff'/%3E%3Crect x='15' y='14.2' width='6' height='3.6' rx='1.8' fill='%23b3862a'/%3E%3Crect x='6' y='20.4' width='14' height='3.6' rx='1.8' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+<div id="ord-root"></div>
+<div id="ord-boot" style="position:fixed;inset:0;display:grid;place-items:center;font:15px system-ui;color:#62746f">ORD…</div>
+<script type="module" src="src/main.js"></script>
+<script>
+  if ('serviceWorker' in navigator && !window.claude && (location.protocol === 'https:' || location.hostname === 'localhost')) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+</body>
+</html>
