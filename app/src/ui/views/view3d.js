@@ -57,6 +57,17 @@ function webglAvailable() {
   }
 }
 
+// One WebGL renderer is kept between visits to the 3D view: creating and
+// tearing down a context is slow (seconds on software GL) and browsers cap
+// the number of live contexts.
+let spareRenderer = null;
+function takeRenderer(T) {
+  const r = spareRenderer;
+  spareRenderer = null;
+  if (r && !r.getContext().isContextLost()) return r;
+  return new T.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+}
+
 const D2R = Math.PI / 180;
 const easeInOut = (t) => (t < 0.5 ? 2 * t * t : 1 - (-2 * t + 2) ** 2 / 2);
 const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
@@ -123,7 +134,7 @@ class Scene3D {
     this.rgbCache = new Map();
     this.theme = null;
 
-    const renderer = new T.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+    const renderer = takeRenderer(T);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     this.renderer = renderer;
     const cv = renderer.domElement;
@@ -229,6 +240,7 @@ class Scene3D {
     };
     this.onLost = (e) => {
       e.preventDefault();
+      this.lost = true;
       this.cb.onLost?.();
     };
     cv.addEventListener('pointerdown', this.onDown);
@@ -945,9 +957,13 @@ class Scene3D {
       o.geometry?.dispose?.();
     });
     for (const m of [this.mat, this.matPlanned, this.matHalo, this.matMarker, this.matGrid, this.matGridMajor, this.matPlane]) m.dispose();
-    this.renderer.dispose();
-    this.renderer.forceContextLoss?.();
+    this.renderer.renderLists.dispose();
     cv.remove();
+    if (!spareRenderer && !this.lost) spareRenderer = this.renderer;
+    else {
+      this.renderer.dispose();
+      this.renderer.forceContextLoss?.();
+    }
     this.gridLayer.remove();
     this.labelLayer.remove();
     this.triad.remove();

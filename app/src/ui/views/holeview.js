@@ -40,6 +40,7 @@ injectCSS(
 .hv-form .form-grid { max-width: 1100px; }
 .hv-issues { padding: 16px 20px; overflow: auto; }
 @media (max-width: 1100px) { .hv-body { grid-template-columns: minmax(0, 1fr); } .hv-log, .hv-split { display: none; } }
+@media (max-width: 700px) { .hv-head { padding: 10px 16px 8px; gap: 8px; } .hv-facts { gap: 10px; font-size: 12px; } .hv-facts > span:nth-child(n+4) { display: none; } .hv-title h1 { font-size: 19px; } }
 .colpick { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 6px 12px; }
 .hist-row { display: grid; grid-template-columns: 130px 1fr; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
 .diff del { color: var(--err); text-decoration: line-through; }

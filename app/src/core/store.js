@@ -10,7 +10,7 @@
 // old -> new, under a batch id. Any batch (an import, a paste, a split) can be
 // undone as a whole — deletes are tombstones, so nothing is ever lost.
 
-import { uid, now, natCmp, isNum, debounce } from './util.js';
+import { uid, now, natCmp, isNum, debounce, safeColor } from './util.js';
 import { TABLES } from './schema.js';
 import { DEFAULT_LISTS, defaultSettings } from './codes.js';
 
@@ -130,7 +130,7 @@ export function meaning(list, code) {
 
 export function codeColor(list, code, fallback = '#b8c2c0') {
   const c = codeMap(list).get(String(code ?? ''));
-  return c?.color || fallback;
+  return c?.color ? safeColor(c.color, fallback) : fallback;
 }
 
 export function settings() {

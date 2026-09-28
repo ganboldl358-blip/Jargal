@@ -6,7 +6,7 @@
 import { html, useState, useEffect, useRef, useMemo, useCallback } from '../lib.js';
 import { S, mutate, codes as codeList, codeMap } from '../core/store.js';
 import { coerce, isValidRaw } from '../core/coerce.js';
-import { fmt, fix, isNum, round } from '../core/util.js';
+import { fmt, fix, isNum, round, safeColor } from '../core/util.js';
 import { toTSV } from '../core/csv.js';
 import { tr, label } from '../i18n.js';
 import { Icon } from './icons.js';
@@ -110,7 +110,7 @@ function CodeEditor({ field, initial, onCommit, onCancel, takePending }) {
             pick(o.code, 'down');
           }}
         >
-          ${o.color ? html`<span class="swatch" style=${`background:${o.color};width:12px;height:12px`}></span>` : html`<span style="width:12px"></span>`}
+          ${o.color ? html`<span class="swatch" style=${`background:${safeColor(o.color)};width:12px;height:12px`}></span>` : html`<span style="width:12px"></span>`}
           <b class="mono">${o.code}</b>
           <span class="g-opt-m">${S.lang === 'mn' ? o.meaningMn || o.meaning : o.meaning}</span>
           ${o.mxPending ? html`<span class="pill warn" title=${tr({ en: 'Not yet in the MX Deposit list', mn: 'MX Deposit жагсаалтад хараахан нэмэгдээгүй' })}>MX</span>` : null}
@@ -574,7 +574,7 @@ export function Grid({ table, holeId, rows, fields, readOnly = false, issues, ac
               let content = v;
               if (f.type === 'code' && v) {
                 const entry = codeMap(f.list).get(v);
-                content = html`${entry?.color ? html`<span class="swatch" style=${`background:${entry.color};width:10px;height:10px`}></span>` : null}<span>${v}</span>`;
+                content = html`${entry?.color ? html`<span class="swatch" style=${`background:${safeColor(entry.color)};width:10px;height:10px`}></span>` : null}<span>${v}</span>`;
               }
               return html`<td
                 class=${cls}

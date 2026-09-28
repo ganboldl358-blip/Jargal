@@ -638,7 +638,7 @@ export function newContext() {
 }
 
 /** Key fields a mapping must cover before a plan can run. */
-export function missingKeyFields(table, mapping, { certificate } = {}) {
+export function missingKeyFields(table, mapping) {
   const def = TABLES[table];
   const mapped = new Set(Object.values(mapping || {}));
   const out = [];
@@ -761,7 +761,6 @@ export function planImport({ table, rows = [], mapping = {}, options = {}, rowNo
   const touched = []; // {entry, kind, final} for depth validations
   const lonlatSwaps = [];
   const unknownKeep = new Map();
-  const valueFlagsBad = [];
   const certDefault = table === 'assays' ? opt.certificate || baseName(fileName) || null : null;
 
   // ---- rows
@@ -791,7 +790,6 @@ export function planImport({ table, rows = [], mapping = {}, options = {}, rowNo
         }
         const pv = parseLabValue(raw, { lor: toNum(st.elements?.[k]?.lor), mode: st.belowDetection });
         if (pv.flag === '?') {
-          valueFlagsBad.push(rowNo);
           fail('number', M(`${h}: “${raw}” is not a number`, `${h}: «${raw}» тоо биш байна`), { field: k, header: h });
           continue;
         }

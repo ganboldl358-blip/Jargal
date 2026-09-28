@@ -209,6 +209,15 @@ export async function startCloud() {
     );
   }
 
+  // probe first: if the store refuses this viewer, stay on device storage
+  let first;
+  try {
+    first = await adapter.listProjects();
+  } catch (e) {
+    console.warn('shared storage unavailable, using this device', e);
+    return null;
+  }
+
   db.collection('projects').onSnapshot(
     (snap) => {
       S.projects = snap.docs.filter((d) => d.exists).map((d) => d.data());
@@ -221,8 +230,7 @@ export async function startCloud() {
   S.adapter = adapter;
   S.status.cloud = 'live';
   S.status.storage = 'cloud';
-
-  S.projects = await adapter.listProjects();
+  S.projects = first;
   let last = null;
   try {
     last = localStorage.getItem('ord.lastProject');

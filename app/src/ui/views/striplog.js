@@ -10,7 +10,7 @@
 import { html, useState, useEffect, useLayoutEffect, useRef, useMemo } from '../../lib.js';
 import { S, rows, hole, holes, codes, codeColor, meaning, settings, assayValues, elementKeys } from '../../core/store.js';
 import { TABLES, SULPHIDES, elementLabel } from '../../core/schema.js';
-import { isNum, fix, natCmp, escapeHtml, todayISO } from '../../core/util.js';
+import { isNum, fix, natCmp, escapeHtml, todayISO, safeColor } from '../../core/util.js';
 import '../../core/structure.js'; // registers S.ctx.orient (true dip of structures)
 import * as L from '../../core/logscale.js';
 import { useStore, usePref, useSize, injectCSS, saveFile, toast, navigate, Select, Empty, Button } from '../kit.js';
@@ -817,6 +817,7 @@ function legendModel(d) {
 
 /** 16×10 legend symbol as SVG markup (shared by the page legend and the export). */
 function symMarkup(sym, color) {
+  color = safeColor(color, '#999');
   const fill = `fill:${color}`;
   switch (sym) {
     case 'hatch':

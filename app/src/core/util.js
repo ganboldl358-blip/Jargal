@@ -110,12 +110,18 @@ export function toISODate(v) {
   const s = String(v).trim();
   let m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
   if (m) return `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}`;
-  m = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/); // US m/d/yyyy (MX, Excel exports)
-  if (m) return `${m[3]}-${m[1].padStart(2, '0')}-${m[2].padStart(2, '0')}`;
+  m = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/); // US m/d/yyyy (MX, Excel exports); d/m/yyyy when the first part > 12
+  if (m) {
+    let [mo, da] = [m[1], m[2]];
+    if (Number(mo) > 12) [mo, da] = [da, mo];
+    return `${m[3]}-${mo.padStart(2, '0')}-${da.padStart(2, '0')}`;
+  }
   m = s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})/); // d.m.yyyy
   if (m) return `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}`;
   const d = new Date(s);
-  return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
+  if (Number.isNaN(d.getTime())) return null;
+  // local calendar date (toISOString would shift it a day in UTC+8)
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
 export function timeAgo(t, lang = 'en') {
@@ -191,4 +197,10 @@ export function quantile(sorted, q) {
   const lo = Math.floor(pos);
   const hi = Math.ceil(pos);
   return sorted[lo] + (sorted[hi] - sorted[lo]) * (pos - lo);
+}
+
+/** Accept only plain CSS colour tokens (hex, rgb/hsl, a named colour, a var()) — shared data is untrusted. */
+export function safeColor(c, fallback = '#b8c2c0') {
+  const s = String(c ?? '').trim();
+  return /^(#[0-9a-f]{3,8}|(rgb|hsl)a?\([\d\s.,%/]+\)|[a-z]{3,20}|var\(--[a-z0-9-]+\))$/i.test(s) ? s : fallback;
 }

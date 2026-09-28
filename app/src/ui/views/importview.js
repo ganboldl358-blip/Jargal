@@ -17,6 +17,7 @@ injectCSS(
 .imp-drop { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; padding: 28px 16px; border: 2px dashed var(--line-2); border-radius: var(--radius); background: var(--surface); color: var(--ink-2); cursor: pointer; }
 .imp-drop:hover, .imp-drop.over { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-2); }
 .imp-drop .ico { color: var(--accent); }
+.imp-drop.compact { flex-direction: row; padding: 12px 16px; border-width: 1px; }
 .imp-steps { display: flex; gap: 4px; flex-wrap: wrap; margin: 4px 0 14px; padding: 0; list-style: none; counter-reset: st; }
 .imp-steps li { display: flex; align-items: center; gap: 6px; padding: 5px 10px 5px 6px; border-radius: 999px; font-size: 13px; color: var(--muted); background: var(--surface-2); }
 .imp-steps li b { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; background: var(--surface-3); color: var(--ink-2); font-size: 11.5px; }
@@ -135,14 +136,14 @@ function fieldName(table, key) {
 
 // ------------------------------------------------------------ small parts
 
-function DropZone({ onFile, accept, title, hint }) {
+function DropZone({ onFile, accept, title, hint, compact }) {
   const [over, setOver] = useState(false);
   const choose = async () => {
     const f = await pickFile({ accept, binary: true });
     if (f) onFile({ name: f.name, buffer: f.buffer });
   };
   return html`<div
-    class=${'imp-drop' + (over ? ' over' : '')}
+    class=${'imp-drop' + (over ? ' over' : '') + (compact ? ' compact' : '')}
     role="button"
     tabindex="0"
     onClick=${choose}
@@ -159,9 +160,9 @@ function DropZone({ onFile, accept, title, hint }) {
       if (f) onFile(f);
     }}
   >
-    <${Icon} name="upload" size=${30} />
+    <${Icon} name="upload" size=${compact ? 20 : 30} />
     <strong>${title || tr({ en: 'Drop a file here, or click to choose one', mn: 'Файлаа энд чирж оруулах, эсвэл дарж сонгоно уу' })}</strong>
-    <span class="muted">${hint}</span>
+    ${compact ? null : html`<span class="muted">${hint}</span>`}
   </div>`;
 }
 
@@ -352,7 +353,7 @@ function DataImport({ onLabFile }) {
               : null}
             ${step === 'options' ? html`<${Button} kind="primary" icon="eye" onClick=${() => setStep('preview')}>${tr({ en: 'Preview (dry run — nothing is written)', mn: 'Урьдчилан харах (юу ч бичихгүй)' })}<//>` : null}
             ${step === 'preview' && totals
-              ? html`<${Button} kind="primary" icon="upload" disabled=${!totals.writes || totals.fatal || (totals.errorRows > 0 && !skipErrors)} onClick=${commit}>
+              ? html`<${Button} kind="primary" icon="upload" disabled=${!totals.writes || totals.fatal || (totals.errorRows > 0 && !skipErrors) || !!S.readOnly} onClick=${commit}>
                   ${tr({ en: 'Import {n} changes', mn: '{n} өөрчлөлт импортлох' }, { n: totals.writes })}
                 <//>`
               : null}
@@ -813,7 +814,8 @@ function LabImport({ handoff }) {
   return html`<div class="stack">
     <${DropZone}
       accept=".csv,.tsv,.txt,.xlsx,.xls"
-      title=${tr({ en: 'Drop a lab certificate here, or click to choose', mn: 'Лабораторийн сертификатыг энд чирж оруулах, эсвэл дарж сонгоно уу' })}
+      compact=${!!parsed}
+      title=${parsed ? tr({ en: 'Choose another certificate', mn: 'Өөр сертификат сонгох' }) : tr({ en: 'Drop a lab certificate here, or click to choose', mn: 'Лабораторийн сертификатыг энд чирж оруулах, эсвэл дарж сонгоно уу' })}
       hint=${tr({ en: 'ALS, SGS, Bureau Veritas and local lab CSV / Excel exports. Units, methods and detection limits are read from the header rows.', mn: 'ALS, SGS, Bureau Veritas, дотоодын лабораторийн CSV / Excel. Нэгж, арга, илрүүлэх хязгаарыг толгой мөрөөс уншина.' })}
       onFile=${(f) => load(f)}
     />
@@ -915,7 +917,7 @@ function LabImport({ handoff }) {
                     : null}
                   <div class="row">
                     <span class="spacer"></span>
-                    <${Button} kind="primary" icon="upload" disabled=${!plan.summary.writes || plan.errors.length > 0} onClick=${commit}>
+                    <${Button} kind="primary" icon="upload" disabled=${!plan.summary.writes || plan.errors.length > 0 || !!S.readOnly} onClick=${commit}>
                       ${tr({ en: 'Import {n} assay rows', mn: '{n} шинжилгээний мөр импортлох' }, { n: plan.summary.writes })}
                     <//>
                   </div>
@@ -970,6 +972,7 @@ export function ImportView({ params } = {}) {
       active=${tab}
       onChange=${setTab}
     />
+    ${S.readOnly ? html`<${Banner} kind="warn">${tr({ en: 'You have view-only access to this project: you can preview an import, but not write it.', mn: 'Та энэ төслийг зөвхөн харах эрхтэй: импортыг урьдчилан харж болно, бичих боломжгүй.' })}<//>` : null}
     <div style=${tab === 'data' ? '' : 'display:none'}>
       <${DataImport}
         onLabFile=${(input, name) => {

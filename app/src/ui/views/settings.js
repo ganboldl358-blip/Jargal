@@ -1,6 +1,7 @@
 // Project settings: coordinate system, limits, QC scheme, chemistry rules.
 import { html, useState } from '../../lib.js';
-import { S, settings, setSettings, renameProject } from '../../core/store.js';
+import { S, settings, setSettings, renameProject, elementKeys } from '../../core/store.js';
+import { elementLabel } from '../../core/schema.js';
 import { tr, t } from '../../i18n.js';
 import { useStore, Button, PageHead, Field, Select, toast, injectCSS, navigate } from '../kit.js';
 import { track } from '../undo.js';
@@ -95,6 +96,8 @@ export function SettingsView() {
       </div>
     </section>
 
+    <${ElementsSection} st=${st} save=${save} />
+
     <section class="card set-sec">
       <header><h2>${tr({ en: 'Storage', mn: 'Хадгалалт' })}</h2></header>
       <div class="body">
@@ -105,4 +108,33 @@ export function SettingsView() {
       </div>
     </section>
   </div>`;
+}
+
+function ElementsSection({ st, save }) {
+  const keys = [...new Set([...Object.keys(st.elements || {}), ...elementKeys('assays')])];
+  if (!keys.length) return null;
+  const upd = (k, field, raw) => {
+    const cur = { ...(st.elements?.[k] || {}) };
+    const v = raw === '' ? null : field === 'method' || field === 'unit' ? raw : Number(raw);
+    if (cur[field] === v) return;
+    cur[field] = v;
+    save({ elements: { [k]: cur } }, k);
+  };
+  const cell = (k, field, num = true) => html`<td>
+    <input class=${'inp' + (num ? ' num' : '')} style="width:100%" id=${`el-${k}-${field}`} defaultValue=${st.elements?.[k]?.[field] ?? ''} onBlur=${(e) => upd(k, field, e.target.value.trim())} />
+  </td>`;
+  return html`<section class="card set-sec">
+    <header><h2>${tr({ en: 'Assay elements', mn: 'Шинжилгээний элементүүд' })}</h2></header>
+    <div class="body">
+      <p class="muted">${tr({ en: 'Detection limit (LOR) drives below-detection values and the blank check; the strip-log threshold fills grades above it in brass; high grade flags blanks that follow a high-grade sample.', mn: 'Илрүүлэх хязгаар (LOR) нь илрүүлэхээс бага утга ба blank шалгалтад; баганан логийн босгоос дээш агуулгыг шараар будна; өндөр агуулгын босго нь түүний дараах blank-ийг тэмдэглэнэ.' })}</p>
+      <div class="tbl-wrap" style="max-height:420px">
+        <table class="tbl">
+          <thead><tr><th>${tr({ en: 'Element', mn: 'Элемент' })}</th><th>${tr({ en: 'Method', mn: 'Арга' })}</th><th class="num">LOR</th><th class="num">${tr({ en: 'Strip-log threshold', mn: 'Логийн босго' })}</th><th class="num">${tr({ en: 'High grade', mn: 'Өндөр агуулга' })}</th></tr></thead>
+          <tbody>
+            ${keys.map((k) => html`<tr><td><b class="mono">${elementLabel(k)}</b> <span class="muted mono" style="font-size:11px">${k}</span></td>${cell(k, 'method', false)}${cell(k, 'lor')}${cell(k, 'threshold')}${cell(k, 'highGrade')}</tr>`)}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>`;
 }

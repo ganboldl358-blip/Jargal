@@ -224,7 +224,7 @@ export function elementLOR(element) {
  */
 export function highGradeThreshold(element) {
   return memo(`qc|hg|${element}`, () => {
-    const cfg = toNum(qcSettings().highGrade?.[element]);
+    const cfg = toNum(qcSettings().highGrade?.[element] ?? settings().elements?.[element]?.highGrade);
     if (cfg > 0) return { value: cfg, source: 'settings' };
     const vals = sequence(element).items.filter((it) => it.type === 'PRIM').map((it) => it.v).sort((a, b) => a - b);
     const p95 = quantile(vals, 0.95);

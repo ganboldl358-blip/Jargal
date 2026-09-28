@@ -4,7 +4,7 @@ import { S, rows, mutate } from '../../core/store.js';
 import { TABLES } from '../../core/schema.js';
 import { LIST_NAMES } from '../../core/codes.js';
 import { parseCSVObjects, toCSV } from '../../core/csv.js';
-import { natCmp } from '../../core/util.js';
+import { natCmp, safeColor } from '../../core/util.js';
 import { tr, t } from '../../i18n.js';
 import { Icon } from '../icons.js';
 import { useStore, Button, Pill, PageHead, toast, pickFile, saveFile, injectCSS, promptDialog, confirmDialog } from '../kit.js';
@@ -76,7 +76,11 @@ export function CodesView() {
       const row = { id: `${list}:${code}`, list, code };
       if (hMean && r[hMean]) row.meaning = r[hMean];
       if (hMn && r[hMn]) row.meaningMn = r[hMn];
-      if (hCol && r[hCol]) row.color = /^#?[0-9a-f]{6}$/i.test(r[hCol].trim()) ? '#' + r[hCol].trim().replace('#', '') : r[hCol];
+      if (hCol && r[hCol]) {
+        const c = r[hCol].trim();
+        const hex = /^#?[0-9a-f]{6}$/i.test(c) ? '#' + c.replace('#', '') : null;
+        if (hex || safeColor(c, '') === c) row.color = hex || c;
+      }
       if (hGrp && r[hGrp]) row.group = r[hGrp];
       ops.push({ type: 'upsert', table: 'codes', row });
     }

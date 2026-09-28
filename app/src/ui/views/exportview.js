@@ -228,7 +228,7 @@ export function ExportView() {
         <div class="body">
           <p style="font-size:13px">${tr({ en: 'Rows are merged one by one and the newer edit wins, so restoring never wipes work done since the backup. You can also restore it as a separate copy to compare.', mn: 'Мөрүүдийг нэг бүрчлэн нэгтгэж, шинэ засвар давуу тул сэргээлт нь нөөцөөс хойш хийсэн ажлыг устгахгүй. Харьцуулах бол тусдаа хуулбараар сэргээж болно.' })}</p>
           <div class="exp-go">
-            <${Button} icon="upload" onClick=${restore}>${tr({ en: 'Choose backup file…', mn: 'Нөөц файл сонгох…' })}<//>
+            <${Button} icon="upload" disabled=${!!S.readOnly} onClick=${restore}>${tr({ en: 'Choose backup file…', mn: 'Нөөц файл сонгох…' })}<//>
           </div>
         </div>
       </div>

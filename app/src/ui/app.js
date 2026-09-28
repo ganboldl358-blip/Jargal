@@ -26,6 +26,7 @@ const ROUTES = [
   ['sampling', () => import('./views/sampling.js'), 'SamplingView'],
   ['intercepts', () => import('./views/sampling.js'), 'InterceptsView'],
   ['import', () => import('./views/importview.js'), 'ImportView'],
+  ['import/:tab', () => import('./views/importview.js'), 'ImportView'],
   ['export', () => import('./views/exportview.js'), 'ExportView'],
   ['validation', () => import('./views/validation.js'), 'ValidationView'],
   ['codes', () => import('./views/codes.js'), 'CodesView'],
