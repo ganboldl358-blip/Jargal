@@ -19,6 +19,7 @@ L2 (нормчилсон монгол, `(тайлан, х.N)` иштэй) тек
 | `<тайлан>_pAAA-BBB_numbers.csv` | 04_Structured_Data `1iAVCH4RxrWtQDpUNTgptPLaHx57Udx7j` | text/csv |
 
 - `mcp__Google_Drive__create_file`: `parentId`, `textContent`, `contentMimeType`, **`disableConversionToGoogleType: true`**.
+- Файл бүрийг **нэг л удаа, бүрэн агуулгатай нь** үүсгэнэ (placeholder/туршилтын файл үүсгэхгүй).
 - Үүсгэхээс өмнө `search_files`-ээр `title = '<нэр>' and parentId = '<хавтас>'` гэж шалгана. Нэр давхцвал `_v2` болгоно. **Байгаа файлыг хэзээ ч засахгүй, устгахгүй, зөөхгүй.**
 - `<тайлан>` = 4 оронтой дугаар (`1853`, `0057`, `0645`, `1889`, `1663`, `5000`). `AAA-BBB` = 3 оронтой хуудас.
 
